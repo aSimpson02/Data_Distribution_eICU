@@ -1,1 +1,5 @@
 eicu-collaborative-research-database-2.0/
+cohorts/train.csv
+cohorts/test.csv
+cohorts/train_temporal.csv
+cohorts/test_temporal.csv

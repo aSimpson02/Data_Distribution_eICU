@@ -1,0 +1,501 @@
+diagnosisid,patientunitstayid,activeupondischarge,diagnosisoffset,diagnosisstring,icd9code,diagnosispriority,pseudo_time,diagnosispriority_encoded
+29765095,2589593,False,592,endocrine|glucose metabolism|diabetes mellitus,,Other,late,0
+29881505,2595032,True,10123,gastrointestinal|pancreatic disease|pancreatitis|with pseudocyst formation,"577.2, K86.3",Major,late,2
+33318382,2680102,False,23281,cardiovascular|arrhythmias|atrial fibrillation,"427.31, I48.0",Major,late,2
+37068003,3036200,False,6071,endocrine|glucose metabolism|hyperglycemia|suspected,,Other,late,0
+21916148,1579732,False,18,cardiovascular|shock / hypotension|hypotension / pressor dependent,,Other,late,0
+37054094,3107559,False,1611,neurologic|altered mental status / pain|change in mental status,"780.09, R41.82",Major,late,2
+37808693,3099315,True,3195,hematology|bleeding and red blood cell disorders|hemorrhage|traumatic,,Major,late,2
+42778017,3073928,False,9680,infectious diseases|systemic/other infections|fever,"780.6, R50.9",Other,late,0
+35062864,3125112,False,6748,cardiovascular|arrhythmias|ventricular tachycardia|sustained,"427.1, I47.2",Other,late,0
+25359713,1794310,True,422,cardiovascular|chest pain / ASHD|acute coronary syndrome|unstable angina,"411.1, I20.0",Primary,late,1
+31999924,2810949,False,11326,renal|electrolyte imbalance|hypokalemia,"276.8, E87.6",Other,late,0
+44259186,3155377,False,781,neurologic|altered mental status / pain|encephalopathy,"348.30, G93.40",Major,late,2
+35223235,3069116,True,2886,endocrine|glucose metabolism|hyperglycemia|suspected,,Other,late,0
+31907746,2675256,False,7393,pulmonary|pulmonary infections|pneumonia|aspiration,"507.0, J69.0",Major,late,2
+38683416,3111397,False,25715,gastrointestinal|malnutrition|nutritional deficiency,"263.9, E46",Major,late,2
+32124882,2826856,True,51,neurologic|seizures|seizures,"345.90, R56.9",Primary,late,1
+34464052,3015324,True,32322,renal|disorder of acid base|metabolic acidosis|lactic acidosis,"276.2, E87.2",Major,late,2
+41773056,3081635,False,18489,cardiovascular|shock / hypotension|hypotension / pressor dependent,,Major,late,2
+42251611,3067259,False,8792,neurologic|altered mental status / pain|pain,,Other,late,0
+24897794,1735220,True,3595,pulmonary|respiratory failure|acute respiratory distress,518.82,Primary,late,1
+35953853,3060101,False,4344,gastrointestinal|post-GI surgery|s/p surgery for GI bleeding|LGI,,Major,late,2
+36767854,3047460,False,2460,neurologic|altered mental status / pain|pain|moderate,,Other,late,0
+33883437,2817274,False,76,oncology|GU tumors|uterine CA,"179, C55",Major,late,2
+43768978,3119626,False,14544,burns/trauma|trauma - chest|chest wall trauma,807.4,Primary,late,1
+32105179,2828740,False,81,cardiovascular|vascular disorders|DVT,,Other,late,0
+40595650,3104653,False,14431,neurologic|altered mental status / pain|change in mental status,"780.09, R41.82",Other,late,0
+37202418,3094523,False,5079,neurologic|altered mental status / pain|delirium,"293.0, F05",Other,late,0
+32569371,2852416,False,22660,neurologic|disorders of vasculature|stroke|hemorrhagic stroke|from amyloid angiopathy,I68.0,Major,late,2
+40455189,3096124,False,28980,renal|disorder of kidney|acute renal failure,"584.9, N17.9",Major,late,2
+39668030,3074177,False,14103,cardiovascular|shock / hypotension|septic shock|organism identified|gram negative organism,"785.59, 038.9, 995.92",Primary,late,1
+28172522,1980379,True,28,neurologic|disorders of vasculature|stroke,"436, I67.8",Primary,late,1
+36052299,3095472,False,249,gastrointestinal|hepatic disease|toxic hepatitis|alcohol related,"571.1, K70.1",Other,late,0
+40159425,3057307,False,3659,infectious diseases|systemic/other infections|septic shock,"785.59, R65.21",Major,late,2
+34817863,3020079,False,7077,cardiovascular|shock / hypotension|cardiogenic shock,"785.51, R57.0",Major,late,2
+31957503,2866910,False,115,renal|disorder of kidney|chronic renal insufficiency,"585.9, N18.9",Other,late,0
+27845462,2185933,True,24,gastrointestinal|GI bleeding / PUD|lower GI bleeding|rectal,"578.9, K92.2",Primary,late,1
+31674432,2749845,True,45,neurologic|altered mental status / pain|change in mental status,"780.09, R41.82",Other,late,0
+40937001,3125720,False,20343,pulmonary|respiratory failure|ARDS,"518.81, J80",Major,late,2
+38364210,3113692,False,32896,burns/trauma|trauma- head and neck|facial bone fracture,,Major,late,2
+43635758,3067889,False,9394,cardiovascular|vascular disorders|hypertension,"401.9, I10",Other,late,0
+28716732,2374678,False,59,cardiovascular|chest pain / ASHD|acute coronary syndrome|acute myocardial infarction (with ST elevation)|inferolateral wall,"410.21, I21.19",Other,late,0
+37972647,3100103,False,17074,neurologic|altered mental status / pain|change in mental status,"780.09, R41.82",Other,late,0
+42778083,3038638,False,7357,endocrine|glucose metabolism|hyperglycemia|suspected,,Other,late,0
+36503486,3111318,False,28671,gastrointestinal|malnutrition|nutritional deficiency,"263.9, E46",Other,late,0
+30969437,2709729,False,11060,cardiovascular|chest pain / ASHD|chest pain,"786.50, R07.9",Major,late,2
+37023660,3082207,False,2620,neurologic|trauma - CNS|depressed level of consciousness,"780.09, R40.1",Other,late,0
+42537595,3120643,False,638,neurologic|altered mental status / pain|pain|moderate,,Other,late,0
+35506075,3034689,False,4317,"burns/trauma|trauma - skeletal|swollen extremity, etiology unknown|right lower extremity",,Other,late,0
+42548247,3103600,True,416,cardiovascular|arrhythmias|ventricular tachycardia|with hemodynamic compromise,"427.1, I47.2",Other,late,0
+26142245,1856787,True,979,hematology|platelet disorders|thrombocytopenia,"287.5, D69.6",Other,late,0
+42534605,3104651,False,14499,renal|electrolyte imbalance|hypernatremia|suspected,,Major,late,2
+38314156,3096360,False,1194,renal|disorder of acid base|metabolic acidosis,"276.2, E87.2",Major,late,2
+44510660,3169088,True,17,gastrointestinal|abdominal/ general|peritonitis,"567.9, K65.0",Other,late,0
+34352130,2999532,True,965,cardiovascular|infection|endocarditis - native valve,"421.0, I33.0",Major,late,2
+46330006,3349548,False,1546,renal|disorder of urinary tract / renal system infection|urinary tract infection,"599.0, N39.0",Other,late,0
+39473391,3100103,False,17074,infectious diseases|chest/pulmonary infections|pneumonia|community-acquired|bacterial,"486, 486, 486, 486, 486, J18.9",Other,late,0
+46185844,3353116,False,3646,pulmonary|respiratory failure|acute respiratory failure,"518.81, J96.00",Primary,late,1
+30156735,2593326,False,7157,hematology|platelet disorders|thrombocytopenia,"287.5, D69.6",Other,late,0
+32137309,2875836,False,1582,gastrointestinal|post-GI surgery|s/p cholecystectomy,,Major,late,2
+31231934,2818673,True,108,cardiovascular|cardiac surgery|s/p Maze procedure,,Primary,late,1
+43832324,3098134,False,69,endocrine|glucose metabolism|diabetes mellitus,,Major,late,2
+41239586,3085750,False,722,neurologic|altered mental status / pain|anxiety,"300.00, F41.9",Other,late,0
+27702126,2286579,False,28,burns/trauma|burns|burn injury|< 10 % of body surface,946.0,Primary,late,1
+42793519,3046628,False,2241,renal|fluid imbalance|hypovolemia,"276.52, E86.1",Other,late,0
+39720556,3107486,False,2175,endocrine|glucose metabolism|hyperglycemia,"790.6, R73.9",Other,late,0
+43716751,3100062,False,25146,burns/trauma|trauma - CNS|intracranial injury|with cerebral contusion,"851.00, S06.9",Primary,late,1
+34686929,3003490,False,3452,surgery|obstetrics|vaginal hemorrhage|abruption,"641.20, O45.8X9",Major,late,2
+40680945,3065185,False,8548,neurologic|altered mental status / pain|delirium,"293.0, F05",Other,late,0
+34225114,2988760,True,17,cardiovascular|post vascular surgery|s/p cartoid endarterectomy,,Primary,late,1
+44402937,3151831,True,1316,neurologic|neuromuscular disorders|sensory neuropathy|with pain,"357.9, G61.9",Major,late,2
+39997357,3062925,False,11192,cardiovascular|arrhythmias|atrial fibrillation,"427.31, I48.0",Major,late,2
+24410670,1798342,True,17866,cardiovascular|ventricular disorders|congestive heart failure|left-sided|EF 25-40%,,Major,late,2
+29535130,2591404,True,55,neurologic|altered mental status / pain|dementia,"294.9, F03",Other,late,0
+35811633,3086882,False,9419,gastrointestinal|abdominal/ general|transaminase elevation,"790.4, R74.0",Other,late,0
+39154640,3128394,True,5994,neurologic|altered mental status / pain|pain|mild,,Major,late,2
+43521697,3098798,False,30009,neurologic|altered mental status / pain|pain,,Other,late,0
+35049579,3038930,False,17067,pulmonary|pulmonary infections|pneumonia|hospital acquired (not ventilator-associated),"486, J18.9",Major,late,2
+40949526,3099315,False,1470,gastrointestinal|malnutrition|protein-calorie malnutrition,"263.9, E46",Major,late,2
+39769933,3116772,False,1639,pulmonary|pulmonary infections|pneumonia,"486, J18.9",Other,late,0
+34284729,3005819,False,10222,cardiovascular|shock / hypotension|septic shock,"785.52, R65.21",Major,late,2
+33903516,2761737,False,867,cardiovascular|ventricular disorders|cardiomyopathy,,Major,late,2
+36753954,3034098,False,19898,infectious diseases|systemic/other infections|fever,"780.6, R50.9",Other,late,0
+25708466,1846323,False,-65,renal|disorder of urinary tract / renal system infection|urinary tract infection,"599.0, N39.0",Other,late,0
+29643153,2582240,True,92,renal|disorder of acid base|metabolic acidosis|increased anion gap,"276.2, E87.2",Major,late,2
+40419425,3064546,False,3975,cardiovascular|arrhythmias|sinus tachycardia,"785.0, R00.0",Other,late,0
+35103764,3065155,False,1096,neurologic|altered mental status / pain|pain|mild,,Other,late,0
+31676113,2786974,False,42,hematology|coagulation disorders|hypercoagulable state,"286.9, D68.69",Major,late,2
+32784301,2690911,True,6458,pulmonary|respiratory failure|acute respiratory failure,"518.81, J96.00",Major,late,2
+29961566,2627238,False,6680,pulmonary|pulmonary infections|pneumonia|community-acquired|bacterial,"486, 486, 486, 486, 486, J18.9",Primary,late,1
+22732261,1625771,True,14,cardiovascular|arrhythmias|bradycardia,,Other,late,0
+43890468,3143785,True,183,neurologic|altered mental status / pain|agitation|mild,"308.2, F43.0",Major,late,2
+26451310,1835356,False,13888,cardiovascular|chest pain / ASHD|coronary artery disease,,Other,late,0
+37607690,3107073,False,2939,renal|fluid imbalance|dehydration,"276.51, E86.0",Major,late,2
+40890224,3121227,False,7281,pulmonary|respiratory failure|acute respiratory failure,"518.81, J96.00",Major,late,2
+43880268,3132800,False,2721,gastrointestinal|intestinal disease|diarrhea,"787.91, R19.7",Other,late,0
+46277112,3346031,False,3740,cardiovascular|chest pain / ASHD|acute coronary syndrome|acute myocardial infarction (no ST elevation),"410.71, I21.4",Major,late,2
+34289368,3002163,False,15604,cardiovascular|ventricular disorders|cardiomyopathy,,Primary,late,1
+39011084,3073683,False,89,hematology|bleeding and red blood cell disorders|anemia|anemia of critical illness,"285.9, D64.9",Other,late,0
+37194322,3103505,False,42922,renal|disorder of kidney|acute renal failure|due to hepatorenal syndrome,"572.4, K76.7",Major,late,2
+36106695,3034312,False,14137,cardiovascular|arrhythmias|bradycardia|asymptomatic,"427.89, R00.1",Other,late,0
+40045152,3078144,False,1864,oncology|hematologic malignancy|lymphoproliferative disease|Hodgkin's disease,"201.90, C81.90",Other,late,0
+33289029,2866122,False,4163,cardiovascular|chest pain / ASHD|chest pain,"786.50, R07.9",Major,late,2
+33024045,2671761,False,163,pulmonary|pulmonary infections|pneumonia,"486, J18.9",Major,late,2
+46075106,3348568,True,2125,cardiovascular|vascular disorders|hypertension|uncontrolled,"401.9, I10",Major,late,2
+32327046,2822760,False,18,neurologic|altered mental status / pain|obtundation,"780.09, R40.0",Other,late,0
+42300912,3088788,False,6785,neurologic|altered mental status / pain|sedated,,Major,late,2
+36564299,3053013,False,1337,neurologic|altered mental status / pain|coma,"780.01, R40.20",Other,late,0
+34550273,3016691,False,1326,gastrointestinal|abdominal/ general|nausea|with vomiting,"787.01, R11.2",Major,late,2
+32194187,2709823,False,1092,cardiovascular|shock / hypotension|sepsis|severe,"995.92, R65.2",Major,late,2
+36162204,3054044,False,8003,cardiovascular|vascular disorders|hypertension|controlled,"401.9, I10",Other,late,0
+42903094,3064464,False,11139,neurologic|altered mental status / pain|sedated,,Major,late,2
+34070005,2986618,True,6,burns/trauma|trauma - CNS|intracranial injury|with subdural hematoma,"852.20, S06.5",Primary,late,1
+32727006,2777059,False,8434,neurologic|post-neurosurgery|post craniotomy,,Major,late,2
+33905418,2734363,False,3,infectious diseases|systemic/other infections|signs and symptoms of sepsis (SIRS),995.90,Major,late,2
+34834378,3005114,True,374,cardiovascular|arrhythmias|syncope|likely non-cardiac origin,"780.2, R55",Major,late,2
+32709397,2824289,False,146,renal|disorder of kidney|ESRD (end stage renal disease),"585.6, N18.6",Major,late,2
+29648552,2627607,False,14573,gastrointestinal|post-GI surgery|s/p exploratory laparotomy,,Primary,late,1
+41893226,3112989,False,8701,infectious diseases|chest/pulmonary infections|pneumonia|hospital acquired (not ventilator-associated),"486, J18.9",Major,late,2
+41937690,3046578,False,14518,pulmonary|pulmonary infections|pneumonia|aspiration,"507.0, J69.0",Other,late,0
+34038081,2672815,True,849,renal|fluid imbalance|dehydration,"276.51, E86.0",Major,late,2
+40023154,3060536,False,6181,cardiovascular|arrhythmias|ventricular premature beats,"427.69, I49.3",Other,late,0
+37177921,3070103,False,2826,endocrine|glucose metabolism|diabetes mellitus,,Other,late,0
+21927297,1588019,False,342,pulmonary|respiratory failure|acute respiratory failure,"518.81, J96.00",Other,late,0
+36225108,3046290,False,534,pulmonary|pleural disorders|pleural effusion,"511.9, J91.8",Other,late,0
+42186705,3045692,False,4252,pulmonary|disorders of lung parenchyma|atelectasis/collapse,"518.0, J98.11",Other,late,0
+43932291,3146941,False,22505,hematology|platelet disorders|thrombocytopenia|DIC-related,"287.5, D69.6",Major,late,2
+37229263,3053155,False,8419,neurologic|altered mental status / pain|change in mental status,"780.09, R41.82",Major,late,2
+38486996,3093108,False,225,hematology|white blood cell disorders|neutropenia|from chemotherapy,"288.0, D70.9",Other,late,0
+36280704,3109000,False,6052,neurologic|altered mental status / pain|pain,,Other,late,0
+35704808,3097305,False,192,pulmonary|respiratory failure|acute respiratory failure,"518.81, J96.00",Major,late,2
+21843307,1593958,False,11474,gastrointestinal|post-GI surgery|s/p surgery for cancer|gastric,,Primary,late,1
+37161476,3070771,False,1288,hematology|bleeding and red blood cell disorders|anemia,,Other,late,0
+46267334,3330639,True,2213,infectious diseases|GI infections|pelvic abscess,"567.22, K65.1",Major,late,2
+36914325,3100103,False,34049,pulmonary|pleural disorders|pleural effusion,"511.9, J91.8",Major,late,2
+44806439,3192263,False,445,pulmonary|respiratory failure|acute respiratory distress,518.82,Primary,late,1
+24425792,1815368,True,-16,endocrine|glucose metabolism|hypoglycemia,"251.1, E16.2",Major,late,2
+31974829,2783786,False,79660,cardiovascular|vascular disorders|DVT|left upper extremity,"451.84, I80.8",Major,late,2
+32724397,2722138,True,313,oncology|GU tumors|bladder CA,"188.9, C67.9",Other,late,0
+37391117,3116913,False,7106,pulmonary|respiratory failure|acute respiratory failure,"518.81, J96.00",Major,late,2
+45232661,3208307,False,2192,pulmonary|disorders of lung parenchyma|interstitial lung disease,"516.9, J84.9",Major,late,2
+31721011,2811878,True,8904,cardiovascular|arrhythmias|atrial fibrillation,"427.31, I48.0",Major,late,2
+34587038,3014142,True,1018,oncology|GI tumors|liver CA|CA metastatic to liver,"197.7, C78.7",Major,late,2
+46264791,3345756,False,3527,gastrointestinal|post-GI surgery|s/p exploratory laparotomy,,Other,late,0
+38119835,3059626,False,89,cardiovascular|arrhythmias|sinus tachycardia,"785.0, R00.0",Other,late,0
+27618600,2171626,True,1836,renal|disorder of kidney|acute renal failure,"584.9, N17.9",Primary,late,1
+44025270,3142057,False,768,renal|disorder of kidney|chronic kidney disease,"585.9, N18.9",Other,late,0
+24520147,1771526,True,5981,cardiovascular|chest pain / ASHD|chest pain,"786.50, R07.9",Other,late,0
+41152547,3127538,True,2983,renal|fluid imbalance|hypovolemia,"276.52, E86.1",Other,late,0
+37117470,3086921,False,7093,renal|electrolyte imbalance|hypokalemia|moderate ( 2.8 - 3.5 meq/dl),"276.8, E87.6",Other,late,0
+24381955,1738955,True,5430,neurologic|altered mental status / pain|change in mental status,"780.09, R41.82",Other,late,0
+35718232,3061549,False,592,endocrine|glucose metabolism|hyperglycemia,"790.6, R73.9",Other,late,0
+38583051,3048266,False,1713,cardiovascular|valvular disease|valvular stenosis|aortic,"424.1, I35.0",Primary,late,1
+41360380,3083205,False,7238,infectious diseases|chest/pulmonary infections|pneumonia|community-acquired|bacterial|staph aureus,"482.41, J15.21",Primary,late,1
+31013803,2810972,False,12525,gastrointestinal|pancreatic disease|pancreatitis|hemorrhagic,"577.0, K85.9",Major,late,2
+39910585,3054937,False,16594,infectious diseases|chest/pulmonary infections|pneumonia|hospital acquired (not ventilator-associated),"486, J18.9",Major,late,2
+35986618,3071364,False,10963,endocrine|glucose metabolism|hyperglycemia,"790.6, R73.9",Other,late,0
+40237694,3083184,False,17226,neurologic|altered mental status / pain|change in mental status,"780.09, R41.82",Major,late,2
+38647983,3117637,False,2672,gastrointestinal|malnutrition|protein-calorie malnutrition,"263.9, E46",Other,late,0
+43416516,3106605,False,7676,endocrine|glucose metabolism|hyperglycemia|suspected,,Other,late,0
+39007259,3097609,False,11138,neurologic|altered mental status / pain|pain|moderate,,Other,late,0
+22072011,1590345,True,4647,endocrine|glucose metabolism|hyperglycemia,"790.6, R73.9",Other,late,0
+34551721,3004724,True,3346,pulmonary|disorders of the airways|COPD|severe,"491.20, J44.9",Major,late,2
+30211023,2573078,False,3192,cardiovascular|chest pain / ASHD|coronary artery disease,,Other,late,0
+45296054,3224300,False,45461,hematology|bleeding and red blood cell disorders|anemia|acute blood loss anemia,"285.1, D62",Other,late,0
+29529872,2596475,False,1726,pulmonary|pulmonary infections|pneumonia,"486, J18.9",Major,late,2
+40833877,3100629,True,4654,endocrine|thyroid|hypothyroidism,"244.9, E03.9",Major,late,2
+30212430,2604843,False,5381,pulmonary|respiratory failure|acute respiratory failure,"518.81, J96.00",Major,late,2
+36621992,3035632,False,1120,renal|electrolyte imbalance|hypokalemia,"276.8, E87.6",Other,late,0
+31587222,2677176,False,2818,cardiovascular|shock / hypotension|septic shock,"785.52, R65.21",Primary,late,1
+42791589,3106786,True,3567,neurologic|altered mental status / pain|pain|severe,,Major,late,2
+37319129,3095122,False,7042,gastrointestinal|malnutrition|nutritional deficiency,"263.9, E46",Other,late,0
+39740856,3036858,True,934,hematology|platelet disorders|thrombocytopenia,"287.5, D69.6",Other,late,0
+33673848,2683459,True,840,pulmonary|disorders of the airways|asthma / bronchospasm,"493.90, J45",Other,late,0
+40885624,3091071,True,4559,cardiovascular|chest pain / ASHD|hyperlipidemia,"272.4, E78.5",Other,late,0
+44259581,3149873,True,2244,pulmonary|respiratory failure|hypoxemia,"799.02, J96.91",Major,late,2
+43701049,3107720,False,7533,neurologic|CNS mass lesions|cerebral mass of unknown etiology|likely tumor,784.2,Other,late,0
+44283446,3152488,False,1835,pulmonary|respiratory failure|hypoxemia,"799.02, J96.91",Other,late,0
+23529416,1811212,True,1821,neurologic|disorders of vasculature|stroke,"436, I67.8",Primary,late,1
+44565836,3199069,True,9,cardiovascular|shock / hypotension|sepsis,"038.9, A41.9",Other,late,0
+39103306,3050337,False,7032,cardiovascular|chest pain / ASHD|hyperlipidemia,"272.4, E78.5",Other,late,0
+32720420,2825938,False,861,neurologic|altered mental status / pain|dementia,"294.9, F03",Other,late,0
+35726561,3055003,False,12524,renal|fluid imbalance|hypovolemia,"276.52, E86.1",Major,late,2
+26159286,1783435,False,86,cardiovascular|shock / hypotension|hypotension,"458.9, I95.9",Major,late,2
+31135832,2846312,False,266,infectious diseases|systemic/other infections|signs and symptoms of sepsis (SIRS),995.90,Major,late,2
+35015499,3127833,False,2417,gastrointestinal|post-GI surgery|s/p exploratory laparotomy,,Major,late,2
+22786888,1700271,True,24,pulmonary|respiratory failure|acute respiratory failure,"518.81, J96.00",Other,late,0
+42321380,3034287,False,-22,neurologic|altered mental status / pain|change in mental status,"780.09, R41.82",Other,late,0
+41370987,3099414,False,1502,renal|disorder of kidney|acute renal failure,"584.9, N17.9",Major,late,2
+38824954,3075566,False,2846,gastrointestinal|malnutrition|protein-calorie malnutrition,"263.9, E46",Other,late,0
+24413956,1750680,False,4357,gastrointestinal|abdominal/ general|abdominal pain / tenderness,"789.00, R10.9",Other,late,0
+33655051,2677676,True,10118,pulmonary|respiratory failure|acute respiratory failure,"518.81, J96.00",Major,late,2
+41333142,3094523,False,4003,renal|fluid imbalance|third spacing,"276.9, E87.8",Other,late,0
+37476479,3034312,False,18720,gastrointestinal|intestinal disease|diarrhea|C. difficile colitis|lab confirmed,"008.45, A04.7",Major,late,2
+35692783,3123358,True,1993,renal|disorder of kidney|acute renal failure,"584.9, N17.9",Other,late,0
+33593183,2866230,False,334,infectious diseases|systemic/other infections|sepsis|severe,"995.92, R65.20",Primary,late,1
+36626687,3046514,False,2353,pulmonary|respiratory failure|hypoxemia,"799.02, J96.91",Major,late,2
+44895635,3233896,True,7870,pulmonary|pulmonary infections|pneumonia|aspiration,"507.0, J69.0",Other,late,0
+32405940,2817512,False,1831,"cardiovascular|cardiac arrest|cardiac arrest|witnessed, < 15 minutes CPR","427.5, I46.9",Major,late,2
+36966249,3050952,True,2957,infectious diseases|systemic/other infections|sepsis,"038.9, A41.9",Other,late,0
+44252174,3148816,False,7675,infectious diseases|systemic/other infections|bacteremia|community acquired,"790.7, R78.81",Major,late,2
+31682651,2815149,True,8785,cardiovascular|arrhythmias|atrial fibrillation,"427.31, I48.0",Major,late,2
+44328774,3143671,True,3786,pulmonary|pulmonary infections|pneumonia|aspiration,"507.0, J69.0",Other,late,0
+32819488,2772822,False,177,renal|disorder of kidney|acute renal failure,"584.9, N17.9",Major,late,2
+43190639,3072489,False,209,pulmonary|respiratory failure|acute respiratory failure,"518.81, J96.00",Other,late,0
+36773945,3062587,False,9404,neurologic|post-neurosurgery|post craniotomy|for hemorrhage,,Other,late,0
+31417951,2729276,False,3381,pulmonary|pulmonary infections|pneumonia,"486, J18.9",Other,late,0
+33929670,2722307,True,7947,pulmonary|disorders of vasculature|pulmonary hypertension,,Major,late,2
+45374328,3225099,True,1288,cardiovascular|shock / hypotension|hypotension,"458.9, I95.9",Major,late,2
+36088691,3096917,True,2300,pulmonary|disorders of the airways|upper respiratory obstruction|due to obstructive sleep apnea,"780.57, G47.30",Other,late,0
+37935987,3040939,False,4669,renal|electrolyte imbalance|hypokalemia,"276.8, E87.6",Other,late,0
+31478439,2796850,False,5991,cardiovascular|vascular disorders|hypertension,"401.9, I10",Major,late,2
+34523782,3009978,False,4232,hematology|coagulation disorders|coagulopathy|coumadin administration,"286.9, D68.32",Major,late,2
+43412139,3077278,False,5899,renal|disorder of kidney|acute renal failure,"584.9, N17.9",Major,late,2
+40470155,3061517,False,914,neurologic|post-neurosurgery|post craniotomy|for hemorrhage,,Other,late,0
+40432556,3073168,False,9712,gastrointestinal|biliary disease|cholangitis,"576.1, K83.0",Other,late,0
+36459176,3108593,True,2931,hematology|white blood cell disorders|leukocytosis,"288.8, D72.829",Major,late,2
+36258245,3109947,False,117,cardiovascular|vascular disorders|hypertension|controlled,"401.9, I10",Other,late,0
+31595955,2713752,True,213,cardiovascular|vascular disorders|hypertension,"401.9, I10",Other,late,0
+30865142,2892998,False,5639,cardiovascular|post vascular surgery|s/p aneurysm resection/repair-thoracic aorta,,Primary,late,1
+35003077,3108411,False,46542,hematology|white blood cell disorders|leukocytosis,"288.8, D72.829",Other,late,0
+32287823,2747640,False,441728,renal|disorder of kidney|ESRD (end stage renal disease),"585.6, N18.6",Other,late,0
+43639620,3079389,False,19709,neurologic|altered mental status / pain|encephalopathy|metabolic,"348.31, G93.41",Major,late,2
+33629674,2692254,False,2219,infectious diseases|chest/pulmonary infections|pneumonia|aspiration,"507.0, J69.0",Other,late,0
+40820597,3076811,False,159,neurologic|seizures|seizures|focal,"345.50, G40.1",Major,late,2
+37215956,3057548,False,7866,gastrointestinal|transplant|recent liver transplant,"V42.7, Z94.4",Other,late,0
+31691822,2735105,False,47852,gastrointestinal|post-GI surgery|s/p exploratory laparotomy,,Major,late,2
+40128100,3055799,False,8239,neurologic|altered mental status / pain|change in mental status,"780.09, R41.82",Major,late,2
+44431982,3136458,False,182,cardiovascular|shock / hypotension|hypotension,"458.9, I95.9",Other,late,0
+28114163,2067376,True,126,pulmonary|disorders of vasculature|pulmonary embolism,"415.19, I26.99",Other,late,0
+37473434,3118761,False,36,neurologic|altered mental status / pain|pain,,Other,late,0
+43248074,3074177,False,51860,renal|electrolyte imbalance|hyperchloremia,"276.9, E87.8",Other,late,0
+38183616,3099474,False,26728,burns/trauma|trauma - skeletal|bone fracture(s)|right lower extremity|fibula,,Major,late,2
+42753828,3044261,False,1280,renal|disorder of kidney|acute renal failure|due to rhabdomyolysis,"584.9, N17.9",Other,late,0
+24662331,1725500,True,562,cardiovascular|shock / hypotension|hypotension / pressor dependent,,Major,late,2
+43166572,3048740,False,22745,cardiovascular|ventricular disorders|hypertension,"401.9, I10",Other,late,0
+35425262,3107835,False,4163,endocrine|glucose metabolism|hyperglycemia|stress related,"790.6, R73.9",Other,late,0
+30419030,2627230,False,5151,pulmonary|respiratory failure|acute respiratory failure,"518.81, J96.00",Primary,late,1
+36840093,3060797,True,3119,cardiovascular|chest pain / ASHD|hyperlipidemia,"272.4, E78.5",Other,late,0
+40012793,3059603,True,11168,pulmonary|respiratory failure|acute respiratory distress,518.82,Primary,late,1
+36646433,3100061,False,3501,burns/trauma|trauma - CNS|intracranial injury|with cerebral contusion,"851.00, S06.9",Primary,late,1
+24989177,1793612,False,1328,renal|disorder of urinary tract / renal system infection|urinary tract infection,"599.0, N39.0",Other,late,0
+38858957,3117637,False,5445,cardiovascular|ventricular disorders|cardiac mural thrombus,"429.79, I51.3",Other,late,0
+34973856,3094341,False,926,transplant|s/p liver transplant|s/p liver transplant,996.82,Other,late,0
+38943178,3061040,False,5934,endocrine|glucose metabolism|hyperosmolar nonketotic coma,,Major,late,2
+27803409,2023755,True,151,cardiovascular|ventricular disorders|acute pulmonary edema,"428.1, I50.1",Major,late,2
+40451262,3096377,False,17318,renal|electrolyte imbalance|hyperphosphatemia,"275.3, E83.30",Other,late,0
+46256001,3336842,False,1116,cardiovascular|vascular disorders|hypertension,"401.9, I10",Major,late,2
+24628317,1734611,False,114,pulmonary|respiratory failure|acute respiratory failure,"518.81, J96.00",Other,late,0
+43429736,3054995,False,7071,endocrine|glucose metabolism|diabetes mellitus|Type II,,Other,late,0
+30095741,2592709,False,2046,renal|fluid imbalance|dehydration,"276.51, E86.0",Other,late,0
+42883299,3039893,False,15301,pulmonary|respiratory failure|hypoxemia,"799.02, J96.91",Other,late,0
+35448128,3079947,True,2269,renal|disorder of kidney|acute renal failure|due to hypovolemia/decreased circulating volume,"584.9, N17.9",Major,late,2
+42285827,3034288,False,2177,cardiovascular|shock / hypotension|signs and symptoms of sepsis (SIRS),995.90,Other,late,0
+43103431,3035058,False,2176,neurologic|altered mental status / pain|pain,,Other,late,0
+39912877,3104653,False,25560,gastrointestinal|pancreatic disease|pancreatitis|with pseudocyst formation,"577.2, K86.3",Major,late,2
+45038857,3234975,False,1028,neurologic|CNS mass lesions|brain tumor,"191.9, C71.9",Other,late,0
+31161690,2794875,False,47291,renal|disorder of kidney|acute renal failure,"584.9, N17.9",Major,late,2
+30336035,2589593,False,354,pulmonary|disorders of the airways|upper respiratory obstruction|due to obstructive sleep apnea,"780.57, G47.30",Other,late,0
+40779381,3098934,False,920,pulmonary|pulmonary infections|pneumonia|aspiration,"507.0, J69.0",Other,late,0
+30445386,2592593,True,1524,pulmonary|pulmonary infections|pneumonia,"486, J18.9",Major,late,2
+30312720,2599809,True,2499,cardiovascular|chest pain / ASHD|acute coronary syndrome|inferior wall,"410.41, I21.19",Major,late,2
+33834234,2782335,False,3022,neurologic|altered mental status / pain|dementia,"294.9, F03",Other,late,0
+35157143,3117920,False,1457,endocrine|thyroid|hypothyroidism|primary,"244.9, E03.9",Other,late,0
+42371721,3048429,False,1280,renal|electrolyte imbalance|hyperkalemia|severe (> 6.1 meq/dl),"276.7, E87.5",Other,late,0
+39380272,3099670,True,15344,renal|fluid imbalance|hypervolemia,"276.6, E87.70",Other,late,0
+44536427,3163770,True,160,endocrine|glucose metabolism|diabetes mellitus,,Major,late,2
+37469830,3106605,False,3147,"cardiovascular|arrhythmias|bradycardia|pacemaker in place, pacing and capturing",,Primary,late,1
+31317317,2830567,True,1124,"infectious diseases|skin, bone and joint infections|cellulitis","682.9, L03.90",Major,late,2
+43976939,3149712,False,1964,cardiovascular|shock / hypotension|hypotension,"458.9, I95.9",Major,late,2
+44389231,3135233,True,-108,cardiovascular|chest pain / ASHD|hyperlipidemia,"272.4, E78.5",Other,late,0
+33346552,2725972,False,3388,endocrine|glucose metabolism|diabetes mellitus,,Other,late,0
+35303029,3051176,False,911,neurologic|altered mental status / pain|suicidal ideation,"V62.84, R45.851",Major,late,2
+34808685,3016097,True,2107,hematology|bleeding and red blood cell disorders|anemia,,Major,late,2
+43640518,3077582,True,15,toxicology|drug overdose|drug overdose- general|with decreased mental status,,Primary,late,1
+31920459,2780252,True,318,pulmonary|disorders of the airways|COPD,"491.20, J44.9",Other,late,0
+24091872,1751107,False,4917,pulmonary|respiratory failure|acute respiratory distress,518.82,Other,late,0
+42011363,3054923,False,6500,renal|electrolyte imbalance|hypophosphatemia,"275.3, E83.30",Other,late,0
+42170308,3088504,False,3386,renal|disorder of kidney|chronic renal insufficiency,"585.9, N18.9",Major,late,2
+35000210,3051350,True,356,hematology|bleeding and red blood cell disorders|anemia,,Other,late,0
+33625981,2736248,True,2433,pulmonary|pulmonary infections|pneumonia,"486, J18.9",Major,late,2
+45366824,3244635,False,368,pulmonary|disorders of the airways|COPD,"491.20, J44.9",Major,late,2
+40868454,3074762,False,6566,gastrointestinal|hepatic disease|hepatic encephalopathy,572.2,Other,late,0
+29020249,2445945,False,71,hematology|bleeding and red blood cell disorders|anemia|iron deficiency anemia secondary to chronic blood,"280.0, D50.0",Major,late,2
+46242447,3347168,False,61,cardiovascular|cardiac surgery|s/p CABG < 7 days,,Primary,late,1
+42688328,3041685,True,4997,cardiovascular|arrhythmias|sinus tachycardia,"785.0, R00.0",Other,late,0
+28491398,2293052,True,-512,"infectious diseases|skin, bone and joint infections|cellulitis","682.9, L03.90",Major,late,2
+40275319,3072683,False,1176,neurologic|altered mental status / pain|agitation,"308.2, F43.0",Other,late,0
+32370013,2759463,False,17,cardiovascular|arrhythmias|atrial fibrillation,"427.31, I48.0",Other,late,0
+36056431,3116017,False,6016,neurologic|altered mental status / pain|delirium,"293.0, F05",Primary,late,1
+34929871,3092206,False,675,endocrine|glucose metabolism|hyperglycemia,"790.6, R73.9",Other,late,0
+43930491,3154710,True,1035,hematology|white blood cell disorders|leukocytosis,"288.8, D72.829",Major,late,2
+36909883,3053471,False,454,infectious diseases|systemic/other infections|fever,"780.6, R50.9",Major,late,2
+35784408,3093503,False,11980,gastrointestinal|intestinal disease|diarrhea|C. difficile colitis|lab confirmed,"008.45, A04.7",Major,late,2
+33881615,2682435,False,4595,neurologic|post-neurosurgery|post craniotomy|for hemorrhage,,Primary,late,1
+36917808,3052511,False,787,pulmonary|disorders of the airways|upper respiratory obstruction|suspected,,Other,late,0
+42648176,3061492,False,133,endocrine|glucose metabolism|hyperglycemia,"790.6, R73.9",Other,late,0
+34504094,3003860,False,2814,pulmonary|disorders of the airways|acute COPD exacerbation,"491.21, J44.1",Primary,late,1
+35205787,3037970,False,22222,pulmonary|disorders of lung parenchyma|atelectasis/collapse,"518.0, J98.11",Other,late,0
+43749308,3104132,False,2495,gastrointestinal|abdominal/ general|dysphagia,"787.2, R13.10",Major,late,2
+38222751,3055611,False,910,gastrointestinal|hepatic disease|hepatic dysfunction|with cirrhosis,"571.5, K74.60",Major,late,2
+42974284,3096124,False,11736,cardiovascular|shock / hypotension|hypotension / pressor dependent,,Major,late,2
+24279269,1853841,False,1371,cardiovascular|shock / hypotension|septic shock,"785.52, R65.21",Other,late,0
+39475570,3097437,False,13186,gastrointestinal|abdominal/ general|dysphagia,"787.2, R13.10",Other,late,0
+33279799,2869891,False,565,pulmonary|respiratory failure|acute respiratory failure,"518.81, J96.00",Primary,late,1
+40475171,3078953,False,1387,oncology|GU tumors|prostate CA,"185, C61",Other,late,0
+35793198,3078516,False,3784,neurologic|altered mental status / pain|encephalopathy|metabolic,"348.31, G93.41",Other,late,0
+38122276,3093504,False,4106,neurologic|trauma - CNS|spinal cord injury|thoracic|T1-T6,"952.10, S24.1",Major,late,2
+37624257,3034833,True,4152,infectious diseases|systemic/other infections|signs and symptoms of sepsis (SIRS),995.90,Other,late,0
+26622433,1781284,False,2599,surgery|respiratory failure|acute respiratory distress,"518.82, J96.00",Primary,late,1
+36247905,3094983,False,1367,cardiovascular|shock / hypotension|hypotension / pressor dependent,,Primary,late,1
+34465879,3009675,False,10,renal|disorder of kidney|chronic kidney disease|Stage 4 (GFR 15-29),"585.4, N18.4",Other,late,0
+44264427,3145214,False,79,infectious diseases|systemic/other infections|AIDS|with MAC,"042, B20",Other,late,0
+44153545,3134516,False,49,endocrine|fluids and electrolytes|hypernatremia|due to volume depletion,"276.0, E87.0",Other,late,0
+26662297,1850596,True,1094,renal|electrolyte imbalance|hyperkalemia,"276.7, E87.5",Other,late,0
+33134458,2727477,False,277366,pulmonary|respiratory failure|chronic respiratory failure,"518.83, J96.10",Other,late,0
+37766798,3113691,False,41300,pulmonary|disorders of acid base|respiratory acidosis|acute,"276.2, E87.2",Major,late,2
+35625047,3071364,False,21012,infectious diseases|systemic/other infections|hematological effect of infection|leukocytosis,"288.8, D72.829",Other,late,0
+23847546,1817436,True,4457,pulmonary|pleural disorders|pleural effusion,"511.9, J91.8",Other,late,0
+40090474,3118778,False,5038,infectious diseases|chest/pulmonary infections|pneumonia|aspiration,"507.0, J69.0",Other,late,0
+31968134,2770039,False,303,gastrointestinal|abdominal/ general|abdominal compartment syndrome|hemorrhage related,M79.A3,Major,late,2
+42485305,3053382,False,11265,pulmonary|pulmonary infections|pneumonia|community-acquired|bacterial,"486, 486, 486, 486, 486, J18.9",Major,late,2
+34704654,3000003,False,1178,renal|disorder of kidney|chronic kidney disease|Stage 3 (GFR 30-59),"585.3, N18.3",Major,late,2
+43271271,3047318,False,28764,pulmonary|disorders of the airways|COPD,"491.20, J44.9",Primary,late,1
+46124090,3328180,True,1429,oncology|head and neck tumors|mouth and jaw tumor|oral cavity squamous cell CA,"145.9, C06.9",Other,late,0
+33551193,2698615,False,16337,pulmonary|respiratory failure|acute respiratory distress,518.82,Major,late,2
+41151876,3060902,False,5186,hematology|bleeding and red blood cell disorders|anemia,,Other,late,0
+40602058,3075604,False,850,cardiovascular|shock / hypotension|sepsis|severe,"995.92, R65.2",Primary,late,1
+26706108,1834130,False,38,infectious diseases|systemic/other infections|sepsis|severe,"995.92, R65.20",Major,late,2
+31089672,2785291,False,100269,pulmonary|pulmonary infections|bronchiectasis,"494.1, J47.1",Major,late,2
+34727307,2999859,False,32,cardiovascular|cardiac surgery|s/p LVAD,,Major,late,2
+33115498,2864959,False,156,endocrine|glucose metabolism|diabetes mellitus,,Other,late,0
+35872190,3034565,False,6776,neurologic|altered mental status / pain|pain,,Other,late,0
+33463684,2690903,False,630,cardiovascular|shock / hypotension|signs and symptoms of sepsis (SIRS)|due to infectious process with organ dysfunction,"995.92, R65.2",Primary,late,1
+41888902,3098798,False,63358,burns/trauma|dermatology|pressure sore,"707.00, L89.90",Other,late,0
+25171408,1754492,True,2185,pulmonary|respiratory failure|acute respiratory distress,518.82,Other,late,0
+24184695,1761874,False,76,pulmonary|respiratory failure|acute respiratory failure,"518.81, J96.00",Other,late,0
+24298067,1768885,False,2603,renal|disorder of kidney|ESRD (end stage renal disease),"585.6, N18.6",Other,late,0
+34064276,2928369,False,29,cardiovascular|cardiac surgery|valve repair < 7 days,,Other,late,0
+44160632,3149264,False,192,renal|disorder of urinary tract / renal system infection|urinary tract infection,"599.0, N39.0",Other,late,0
+40500660,3117118,False,16398,hematology|platelet disorders|thrombocytopenia,"287.5, D69.6",Major,late,2
+42375372,3058381,True,3579,cardiovascular|arrhythmias|atrial fibrillation,"427.31, I48.0",Other,late,0
+43527937,3058742,False,1676,cardiovascular|shock / hypotension|sepsis|severe,"995.92, R65.2",Primary,late,1
+26272937,1804642,True,17,cardiovascular|arrhythmias|atrial fibrillation|with rapid ventricular response,"427.31, I48.0",Primary,late,1
+33063433,2703235,False,25901,cardiovascular|chest pain / ASHD|hyperlipidemia,"272.4, E78.5",Major,late,2
+43933037,3150453,False,7958,renal|disorder of kidney|acute renal failure,"584.9, N17.9",Major,late,2
+30363091,2638241,False,3030,pulmonary|respiratory failure|acute respiratory distress|etiology unknown,518.82,Other,late,0
+35106453,3129962,False,20017,hematology|bleeding and red blood cell disorders|anemia|acute blood loss anemia,"285.1, D62",Major,late,2
+25326962,1768014,False,12353,renal|disorder of kidney|acute renal failure,"584.9, N17.9",Major,late,2
+44193543,3157282,True,3608,renal|electrolyte imbalance|hypocalcemia|severe,"275.41, E83.51",Other,late,0
+46249526,3342018,False,2807,gastrointestinal|pancreatic disease|pancreatitis,,Primary,late,1
+44332609,3148816,False,300,infectious diseases|systemic/other infections|signs and symptoms of sepsis (SIRS),995.90,Other,late,0
+44360220,3147040,False,515,cardiovascular|shock / hypotension|septic shock|cultures pending,"785.52, R65.21",Other,late,0
+25867944,1747970,False,9230,burns/trauma|trauma - CNS|intracranial injury|with herniation syndrome,"348.4, G93.6, S06.9",Primary,late,1
+33509832,2767053,False,12187,gastrointestinal|GI bleeding / PUD|upper GI bleeding|post-procedure,"578.9, K92.2",Primary,late,1
+39411894,3060512,False,3735,pulmonary|disorders of the airways|COPD,"491.20, J44.9",Other,late,0
+37214019,3125817,False,16847,pulmonary|respiratory failure|acute respiratory failure|due to pulmonary infiltrates,"518.81, J96.00",Major,late,2
+39815562,3045692,False,9482,renal|electrolyte imbalance|hyperchloremia|due to normal saline administration,"276.9, E87.8",Other,late,0
+32425075,2821391,False,33587,pulmonary|disorders of the airways|COPD,"491.20, J44.9",Major,late,2
+41054039,3129566,False,2621,neurologic|altered mental status / pain|pain,,Other,late,0
+27377854,2001313,True,20,infectious diseases|GU infections|lower urinary tract infection,"595.9, N30.9",Major,late,2
+45263854,3225150,False,977,gastrointestinal|post-GI surgery|s/p exploratory laparotomy,,Primary,late,1
+41905074,3064466,False,31447,neurologic|altered mental status / pain|delirium,"293.0, F05",Major,late,2
+31262508,2697137,False,3104,renal|disorder of acid base|metabolic acidosis|severe,"276.2, E87.2",Primary,late,1
+44867873,3229388,False,15905,pulmonary|disorders of lung parenchyma|atelectasis/collapse,"518.0, J98.11",Major,late,2
+33209108,2747055,False,51,renal|disorder of kidney|acute renal failure,"584.9, N17.9",Other,late,0
+34471990,3024690,False,9687,pulmonary|respiratory failure|hypercarbia,"786.09, J96.92",Major,late,2
+43640233,3047272,False,8333,neurologic|altered mental status / pain|encephalopathy|metabolic,"348.31, G93.41",Major,late,2
+28924388,2478170,True,369,pulmonary|disorders of vasculature|pulmonary hemorrhage,"786.3, R04.9",Primary,late,1
+32827190,2704139,False,21619,cardiovascular|infection|mediastinitis,"519.2, J98.5",Major,late,2
+35662872,3118577,False,27211,infectious diseases|GI infections|peritonitis|due to bowel perforation,"567.21, K65.0",Major,late,2
+30468804,2626233,False,100,renal|disorder of acid base|metabolic acidosis|severe,"276.2, E87.2",Major,late,2
+44152607,3150706,False,9283,pulmonary|respiratory failure|ARDS,"518.81, J80",Major,late,2
+34942456,3112264,False,4017,pulmonary|respiratory failure|hypoxemia,"799.02, J96.91",Other,late,0
+41117068,3116242,False,11422,renal|electrolyte imbalance|hypernatremia|due to volume depletion,"276.0, E87.0",Other,late,0
+28350982,2089920,False,165,cardiovascular|shock / hypotension|hypotension / pressor dependent,,Major,late,2
+46297621,3327968,False,10697,renal|disorder of kidney|acute renal failure,"584.9, N17.9",Other,late,0
+43532450,3064120,False,1174,infectious diseases|systemic/other infections|fever|postoperative,"780.6, R50.9",Major,late,2
+43963909,3135895,False,1121,cardiovascular|vascular disorders|hypertension,"401.9, I10",Major,late,2
+36393718,3077889,False,5439,neurologic|altered mental status / pain|pain,,Other,late,0
+34128000,2932815,False,49,pulmonary|respiratory failure|acute respiratory failure,"518.81, J96.00",Primary,late,1
+43470474,3052381,False,54646,pulmonary|respiratory failure|acute respiratory failure|due to inability to clear secretions,"518.81, J96.00",Primary,late,1
+41767086,3067860,True,10952,pulmonary|respiratory failure|acute respiratory failure,"518.81, J96.00",Primary,late,1
+35284269,3071025,False,3844,burns/trauma|trauma - chest|chest wall trauma,807.4,Major,late,2
+38771211,3104375,False,11003,renal|disorder of acid base|mixed acid base disorder|respiratory alkalosis-|acute,276.4,Other,late,0
+32885377,2868916,False,13948,pulmonary|respiratory failure|acute respiratory failure,"518.81, J96.00",Other,late,0
+39279562,3047315,False,4883,infectious diseases|systemic/other infections|sepsis,"038.9, A41.9",Major,late,2
+42181568,3056722,False,24302,gastrointestinal|hepatic disease|hepatic dysfunction|with cirrhosis|alcoholic,"571.2, K70.3",Other,late,0
+40338343,3089283,False,1200,gastrointestinal|hepatic disease|hepatic failure,"570, K72.9",Major,late,2
+27864043,2032699,True,161,cardiovascular|arrhythmias|AV block|complete heart block,"426.0, I44.2",Primary,late,1
+26333081,1751093,True,81,cardiovascular|vascular disorders|hypertension,"401.9, I10",Major,late,2
+31820357,2743820,True,60,neurologic|seizures|seizures,"345.90, R56.9",Primary,late,1
+41722812,3069114,False,6687,infectious diseases|systemic/other infections|hematological effect of infection|leukocytosis,"288.8, D72.829",Major,late,2
+31421598,2747027,False,20133,hematology|bleeding and red blood cell disorders|anemia,,Other,late,0
+26643852,1841012,True,729,cardiovascular|diseases of the aorta|aortic aneurysm|thoracic,"441.2, I71.2",Major,late,2
+38448272,3047317,False,8368,gastrointestinal|abdominal/ general|abdominal pain / tenderness|generalized,"789.07, R10.84",Major,late,2
+33672861,2797844,True,18,cardiovascular|ventricular disorders|hypertension,"401.9, I10",Major,late,2
+44996943,3215975,False,2598,burns/trauma|trauma - abdomen|penetrating abdominal trauma,863.90,Major,late,2
+41724500,3088897,False,2591,oncology|chest tumors|metastatic lung CA,"197.0, C78.00",Other,late,0
+38212608,3046958,False,496,neurologic|altered mental status / pain|agitation|severe,"308.2, F43.0",Primary,late,1
+33860412,2868378,False,430,pulmonary|respiratory failure|acute respiratory distress,518.82,Other,late,0
+44017232,3158666,False,4530,cardiovascular|shock / hypotension|septic shock|cultures pending,"785.52, R65.21",Major,late,2
+32837177,2839896,True,571,cardiovascular|chest pain / ASHD|coronary artery disease,,Primary,late,1
+39092223,3088759,False,5693,renal|electrolyte imbalance|hypochloremia,"276.9, E87.8",Other,late,0
+28456672,2178129,True,45,pulmonary|pulmonary infections|pneumonia,"486, J18.9",Primary,late,1
+35952377,3097437,False,13868,renal|disorder of kidney|chronic renal insufficiency,"585.9, N18.9",Other,late,0
+36491731,3050744,False,2369,infectious diseases|systemic/other infections|sepsis|sepsis with single organ dysfunction- acute respiratory failure,"038.9, 518.81, R65.20, J96.0",Major,late,2
+44236125,3138387,False,9135,infectious diseases|systemic/other infections|bacteremia,"038.9, R78.81",Other,late,0
+28166343,2267599,True,50,infectious diseases|GU infections|lower urinary tract infection,"595.9, N30.9",Other,late,0
+41406555,3053174,False,5207,gastrointestinal|malnutrition|nutritional deficiency|moderate,"263.0, E44.0",Major,late,2
+31652570,2782872,False,6867,cardiovascular|ventricular disorders|congestive heart failure,"428.0, I50.9",Other,late,0
+36780431,3069830,False,2677,cardiovascular|valvular disease|valvular insufficiency|mitral valve,"424.0, I34.8",Other,late,0
+25655224,1717999,True,2906,oncology|GU tumors|testicular CA,"186.9, C62.90",Major,late,2
+41813315,3120649,False,6925,gastrointestinal|malnutrition|protein-calorie malnutrition,"263.9, E46",Other,late,0
+42958652,3080009,False,3991,cardiovascular|vascular disorders|hypertension,"401.9, I10",Other,late,0
+39342137,3130750,False,11017,hematology|white blood cell disorders|leukocytosis,"288.8, D72.829",Other,late,0
+43874982,3135693,False,244,oncology|chest tumors|breast CA|female,"174.9, C50.919",Major,late,2
+34000937,2758344,False,55,renal|disorder of kidney|chronic kidney disease|Stage 5 (GFR <14),"585.5, N18.5",Major,late,2
+37514752,3050086,False,1133,hematology|coagulation disorders|DVT|left lower extremity,"451.2, I80.3",Other,late,0
+38337549,3089832,False,2241,cardiovascular|shock / hypotension|hypotension / pressor dependent,,Other,late,0
+46352120,3335106,True,6839,neurologic|disorders of vasculature|stroke|hemorrhagic stroke,"432.9, I62.9",Primary,late,1
+34012030,2785760,True,544,infectious diseases|GU infections|lower urinary tract infection,"595.9, N30.9",Major,late,2
+41459984,3038044,False,6550,cardiovascular|arrhythmias|bradycardia|sick sinus syndrome,"427.81, I49.5",Other,late,0
+43905162,3154694,True,1604,cardiovascular|valvular disease|valvular insufficiency|mitral valve,"424.0, I34.8",Primary,late,1
+43476048,3053382,False,1314,pulmonary|pulmonary infections|pneumonia|community-acquired|legionella,"482.84, A48.1",Major,late,2
+37459581,3084951,False,2264,gastrointestinal|abdominal/ general|ascites|tumor associated,"789.5, R18.8",Major,late,2
+38442202,3085424,False,5888,gastrointestinal|malnutrition|nutritional deficiency|moderate,"263.0, E44.0",Other,late,0
+38313850,3082222,False,2961,cardiovascular|shock / hypotension|septic shock,"785.52, R65.21",Major,late,2
+43872224,3152036,False,43,cardiovascular|arrhythmias|bradycardia,,Other,late,0
+41408628,3097938,False,1470,renal|disorder of kidney|acute renal failure,"584.9, N17.9",Major,late,2
+43964008,3150998,False,10027,gastrointestinal|intestinal disease|enteritis,,Other,late,0
+34313783,3031760,False,3035,gastrointestinal|hepatic disease|hepatic dysfunction|chronic,"573.9, K76.9",Major,late,2
+40651919,3054384,False,2658,infectious diseases|chest/pulmonary infections|pneumonia|community-acquired|viral,"480.9, J12.9",Major,late,2
+39423181,3129904,False,5855,cardiovascular|arrhythmias|atrial fibrillation|with rapid ventricular response,"427.31, I48.0",Major,late,2
+37245417,3064465,False,18865,renal|electrolyte imbalance|hyponatremia,"276.1, E87.0, E87.1",Other,late,0
+29843695,2575922,False,1031,gastrointestinal|hepatic disease|hepatic dysfunction,"573.9, K76.9",Major,late,2
+43415595,3099860,False,8669,renal|disorder of kidney|acute renal failure,"584.9, N17.9",Other,late,0
+36951081,3072682,False,8756,gastrointestinal|GI bleeding / PUD|upper GI bleeding,"578.9, K92.2",Major,late,2
+43149646,3088700,False,4183,hematology|bleeding and red blood cell disorders|anemia|acute blood loss anemia,"285.1, D62",Primary,late,1
+38278999,3100075,False,190,cardiovascular|shock / hypotension|sepsis,"038.9, A41.9",Other,late,0
+32470794,2817629,True,455,cardiovascular|cardiac surgery|valve replacement < 7days|aortic,,Primary,late,1
+34401760,3006950,True,2399,cardiovascular|vascular disorders|DVT,,Major,late,2
+43051693,3064466,False,66184,infectious diseases|systemic/other infections|septic shock|organism identified,"785.59, 038.9, 995.92, R65.21",Major,late,2
+45387889,3227461,False,1302,transplant|s/p kidney transplant|s/p kidney transplant,996.81,Other,late,0
+43736922,3079580,False,4989,hematology|coagulation disorders|coagulopathy|liver failure,"286.7, D68.4",Major,late,2
+36116693,3111767,True,1193,cardiovascular|ventricular disorders|cardiomyopathy|dilated,I42.0,Other,late,0
+44421472,3142194,False,402,cardiovascular|chest pain / ASHD|coronary artery disease|known,"414.00, I25.10",Other,late,0
+44404146,3146601,False,4797,gastrointestinal|GI bleeding / PUD|peptic ulcer disease|duodenal,"532.90, K26.9",Other,late,0
+38597001,3121088,False,20928,cardiovascular|vascular disorders|hypertension|uncontrolled,"401.9, I10",Major,late,2
+37890642,3098343,True,5202,endocrine|glucose metabolism|hyperglycemia|stress related,"790.6, R73.9",Major,late,2
+44841152,3245917,False,628,pulmonary|pulmonary infections|pneumonia,"486, J18.9",Other,late,0
+42885479,3086390,False,200,neurologic|altered mental status / pain|change in mental status,"780.09, R41.82",Other,late,0
+29530943,2642794,True,2502,pulmonary|respiratory failure|respiratory arrest,"799.1, R09.2",Other,late,0
+43899576,3156917,False,1042,renal|disorder of acid base|respiratory alkalosis,"276.3, E87.3",Other,late,0
+42712929,3115136,False,2516,neurologic|altered mental status / pain|encephalopathy|post-anoxic,"348.1, G93.1",Major,late,2
+38648705,3081635,False,33000,neurologic|disorders of vasculature|stroke|hemorrhagic stroke|transformation of ischemic stroke,"432.9, I62.9",Major,late,2
+35779955,3099860,False,3496,neurologic|altered mental status / pain|pain,,Major,late,2
+40224332,3054995,False,7071,cardiovascular|chest pain / ASHD|coronary artery disease,,Other,late,0
+37231124,3073168,True,12673,transplant|s/p liver transplant|hepatic dysfunction - liver transplant|hepatocellular injury,"996.82, T86.40",Major,late,2
+38549746,3041128,False,1327,gastrointestinal|abdominal/ general|obesity,"278.00, E66.9",Other,late,0
+43959717,3153113,False,5641,renal|disorder of acid base|metabolic acidosis|moderate,"276.2, E87.2",Other,late,0
+32415541,2723266,False,6020,gastrointestinal|hepatic disease|hepatic dysfunction,"573.9, K76.9",Major,late,2
+23007231,1654464,True,98,pulmonary|respiratory failure|acute respiratory failure,"518.81, J96.00",Other,late,0
+39221910,3069114,False,12239,infectious diseases|systemic/other infections|hematological effect of infection|leukocytosis,"288.8, D72.829",Major,late,2
+38325126,3046438,False,10541,renal|disorder of kidney|acute renal failure,"584.9, N17.9",Other,late,0
+37312327,3055844,False,7434,cardiovascular|vascular disorders|hypertension,"401.9, I10",Other,late,0
+31259123,2696948,False,12050,neurologic|disorders of vasculature|stroke|hemorrhagic stroke|subarachnoid hemorrhage,"430, 430, 430, 430, 430, 430, I60.9",Primary,late,1
+40713918,3125093,False,9206,hematology|bleeding and red blood cell disorders|anemia|multifactorial anemia,"285.9, D64.9",Major,late,2
+32019620,2860291,False,5759,cardiovascular|arrhythmias|atrial fibrillation|with rapid ventricular response,"427.31, I48.0",Major,late,2
+28601800,2425452,True,205,toxicology|drug overdose|benzodiazepine overdose,"969.4, E980.2, T42.4X",Primary,late,1
+41017796,3105034,True,14156,infectious diseases|systemic/other infections|hematological effect of infection|leukocytosis,"288.8, D72.829",Other,late,0
+44840682,3226455,False,4416,endocrine|glucose metabolism|diabetes mellitus|Type II|controlled,"250.00, E11.9",Major,late,2
+40176103,3091556,False,764,cardiovascular|diseases of the aorta|aortic aneurysm|thoracic|ascending,"441.2, I71.2",Other,late,0
+34777818,3024186,True,5320,renal|disorder of kidney|chronic kidney disease|Stage 3 (GFR 30-59),"585.3, N18.3",Major,late,2
+38168180,3059560,False,13711,hematology|coagulation disorders|DVT|left upper extremity,"451.84, I80.8",Major,late,2
+33797912,2679578,False,2933,hematology|bleeding and red blood cell disorders|anemia|anemia of critical illness,"285.9, D64.9",Other,late,0
+40805999,3063105,False,1148,gastrointestinal|malnutrition|protein-calorie malnutrition,"263.9, E46",Other,late,0
+31919145,2767920,True,3151,renal|disorder of kidney|chronic kidney disease,"585.9, N18.9",Other,late,0
+40238345,3089832,False,18166,pulmonary|disorders of the airways|COPD,"491.20, J44.9",Major,late,2
+31451123,2827758,False,6891,pulmonary|pulmonary infections|pneumonia,"486, J18.9",Major,late,2
+34335596,3029157,False,13488,gastrointestinal|hepatic disease|hepatic dysfunction,"573.9, K76.9",Major,late,2
+31045587,2717022,False,4882,infectious diseases|GU infections|acute pyelonephritis|with renal calculi,"590.10, N10",Major,late,2
+43389809,3063187,False,2846,renal|fluid imbalance|hypovolemia,"276.52, E86.1",Other,late,0
+46353058,3327245,False,59,neurologic|disorders of vasculature|stroke|hemorrhagic stroke,"432.9, I62.9",Primary,late,1
+32340851,2677963,False,16455,infectious diseases|chest/pulmonary infections|pneumonia|ventilator-associated,"486, J18.9",Other,late,0
+44915318,3233620,True,1393,gastrointestinal|intestinal disease|viscus perforation,,Primary,late,1
+34802886,3003965,False,63,cardiovascular|vascular disorders|arterial thromboembolism|left lower extremity,"444.22, I74.3",Primary,late,1
+44419246,3147180,True,1356,endocrine|glucose metabolism|DKA,"250.13, E10.1",Major,late,2
+33483525,2709226,False,393,infectious diseases|systemic/other infections|signs and symptoms of sepsis (SIRS),995.90,Other,late,0
+40126830,3058742,False,135,renal|electrolyte imbalance|hypokalemia|severe ( < 2.8 meq/dl),"276.8, E87.6",Major,late,2
+29835595,2608649,False,62,pulmonary|pulmonary infections|pneumonia|community-acquired,"486, J18.9",Primary,late,1
+31138842,2830042,True,177,cardiovascular|chest pain / ASHD|acute coronary syndrome|acute myocardial infarction (with ST elevation),"410.90, I21.3",Primary,late,1
+40498119,3119067,False,1237,endocrine|glucose metabolism|diabetes mellitus|Type II|controlled,"250.00, E11.9",Other,late,0
+37006529,3041925,False,1930,burns/trauma|trauma - abdomen|blunt abdominal trauma,"863.80, S36.9",Primary,late,1
+30409176,2625089,True,207,cardiovascular|arrhythmias|atrial fibrillation|with controlled ventricular response,"427.31, I48.0",Major,late,2
+41824483,3097609,False,22994,gastrointestinal|abdominal/ general|peritonitis,"567.9, K65.0",Other,late,0
+40352390,3040470,False,685,pulmonary|respiratory failure|acute respiratory failure,"518.81, J96.00",Major,late,2
+33937465,2832464,False,1131,cardiovascular|shock / hypotension|septic shock,"785.52, R65.21",Primary,late,1
+40710960,3074274,False,23297,renal|electrolyte imbalance|hyperchloremia,"276.9, E87.8",Other,late,0
+21778868,1592952,False,83,endocrine|fluids and electrolytes|hyperkalemia|severe (> 6.1 meq/dl),"276.7, E87.5",Other,late,0
+35427124,3034484,False,29207,renal|disorder of urinary tract / renal system infection|lower urinary tract infection|known fungal,"595.9, N30.9",Major,late,2

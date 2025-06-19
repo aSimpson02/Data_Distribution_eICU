@@ -1,0 +1,501 @@
+diagnosisid,patientunitstayid,activeupondischarge,diagnosisoffset,diagnosisstring,icd9code,diagnosispriority,hospitalid,unittype,diagnosispriority_encoded
+3396027,169395,False,1559,renal|electrolyte imbalance|hyponatremia,"276.1, E87.0, E87.1",Other,66,Med-Surg ICU,0
+3615099,161076,True,4134,renal|disorder of kidney|acute renal failure,"584.9, N17.9",Major,66,Med-Surg ICU,2
+3898338,165548,False,14266,neurologic|altered mental status / pain|change in mental status,"780.09, R41.82",Other,66,Med-Surg ICU,0
+3375457,141470,True,13,renal|disorder of urinary tract / renal system infection|obstructive uropathy,"586, N19",Major,66,Med-Surg ICU,2
+4215784,221086,False,2363,pulmonary|respiratory failure|acute respiratory failure,"518.81, J96.00",Primary,66,Med-Surg ICU,1
+3822425,174202,False,1629,gastrointestinal|hepatic disease|hepatic dysfunction,"573.9, K76.9",Primary,66,Med-Surg ICU,1
+3850358,165548,False,14263,pulmonary|disorders of vasculature|pulmonary hypertension,,Other,66,Med-Surg ICU,0
+4025799,189842,False,5,cardiovascular|shock / hypotension|hypotension,"458.9, I95.9",Other,66,Med-Surg ICU,0
+4087511,157538,False,46,renal|disorder of kidney|acute renal failure,"584.9, N17.9",Major,66,Med-Surg ICU,2
+4169945,197253,True,11145,hematology|platelet disorders|thrombocytopenia,"287.5, D69.6",Other,66,Med-Surg ICU,0
+3765960,164705,False,4074,pulmonary|respiratory failure|acute respiratory distress,518.82,Other,66,Med-Surg ICU,0
+3924404,186276,True,23,cardiovascular|shock / hypotension|sepsis,"038.9, A41.9",Primary,66,Med-Surg ICU,1
+3831608,228904,False,4009,endocrine|glucose metabolism|diabetes mellitus,,Other,66,Med-Surg ICU,0
+3575000,165548,False,5,pulmonary|respiratory failure|hypoxemia,"799.02, J96.91",Other,66,Med-Surg ICU,0
+3571456,179224,True,9,cardiovascular|arrhythmias|bradycardia,,Primary,66,Med-Surg ICU,1
+4234709,200837,False,1660,gastrointestinal|GI bleeding / PUD|GI bleeding,"578.9, K92.2",Primary,66,Med-Surg ICU,1
+3639397,204322,False,128,pulmonary|disorders of lung parenchyma|atelectasis/collapse,"518.0, J98.11",Other,66,Med-Surg ICU,0
+4037674,160347,True,51,cardiovascular|vascular disorders|hypertension,"401.9, I10",Other,66,Med-Surg ICU,0
+3747978,226762,False,28132,renal|disorder of urinary tract / renal system infection|urinary tract infection,"599.0, N39.0",Other,66,Med-Surg ICU,0
+3976243,221086,False,7162,pulmonary|respiratory failure|ARDS,"518.81, J80",Other,66,Med-Surg ICU,0
+4216034,223556,True,9131,pulmonary|respiratory failure|acute respiratory failure,"518.81, J96.00",Other,66,Med-Surg ICU,0
+4067243,186937,False,5145,pulmonary|respiratory failure|acute respiratory failure,"518.81, J96.00",Major,66,Med-Surg ICU,2
+3545815,184329,True,7020,cardiovascular|ventricular disorders|congestive heart failure,"428.0, I50.9",Other,66,Med-Surg ICU,0
+3667702,210768,True,26,cardiovascular|shock / hypotension|hypotension,"458.9, I95.9",Major,66,Med-Surg ICU,2
+4084245,169047,True,651,cardiovascular|arrhythmias|atrial fibrillation|with rapid ventricular response,"427.31, I48.0",Major,66,Med-Surg ICU,2
+3624416,196190,False,32,endocrine|glucose metabolism|hypoglycemia,"251.1, E16.2",Primary,66,Med-Surg ICU,1
+3674666,223556,False,1523,neurologic|altered mental status / pain|change in mental status,"780.09, R41.82",Other,66,Med-Surg ICU,0
+3742541,216788,True,4302,renal|disorder of kidney|acute renal failure,"584.9, N17.9",Major,66,Med-Surg ICU,2
+3374278,161076,False,2487,endocrine|glucose metabolism|diabetes mellitus,,Other,66,Med-Surg ICU,0
+4114422,150851,True,15,pulmonary|respiratory failure|acute respiratory failure,"518.81, J96.00",Major,66,Med-Surg ICU,2
+3685523,241758,True,419,surgery|infections|wound infection|traumatic wound,,Major,66,Med-Surg ICU,2
+3798066,221086,False,22844,cardiovascular|shock / hypotension|septic shock,"785.52, R65.21",Major,66,Med-Surg ICU,2
+3777914,161076,True,4134,hematology|coagulation disorders|coagulopathy,"286.9, D68.9",Other,66,Med-Surg ICU,0
+3897842,228627,False,1556,pulmonary|respiratory failure|acute respiratory failure,"518.81, J96.00",Major,66,Med-Surg ICU,2
+3753676,184210,True,449,endocrine|glucose metabolism|diabetes mellitus,,Other,66,Med-Surg ICU,0
+3383245,195444,False,22,cardiovascular|ventricular disorders|hypertension,"401.9, I10",Other,66,Med-Surg ICU,0
+3728946,233263,False,6,cardiovascular|shock / hypotension|sepsis,"038.9, A41.9",Other,66,Med-Surg ICU,0
+3787553,223556,False,102,renal|electrolyte imbalance|hyponatremia,"276.1, E87.0, E87.1",Other,66,Med-Surg ICU,0
+3533365,156161,False,48,pulmonary|pleural disorders|pleural effusion,"511.9, J91.8",Other,66,Med-Surg ICU,0
+4235534,193140,True,12787,pulmonary|disorders of the airways|COPD,"491.20, J44.9",Other,66,Med-Surg ICU,0
+4031229,170102,False,45,neurologic|neuromuscular disorders|motor neuropathy|amyotrophic lateral sclerosis,"335.20, G12.21",Other,66,Med-Surg ICU,0
+4210397,226349,False,23,endocrine|glucose metabolism|diabetes mellitus,,Other,66,Med-Surg ICU,0
+3962194,163541,False,526,cardiovascular|chest pain / ASHD|coronary artery disease|known,"414.00, I25.10",Major,66,Med-Surg ICU,2
+3959292,226551,True,847,neurologic|altered mental status / pain|encephalopathy,"348.30, G93.40",Major,66,Med-Surg ICU,2
+3497468,231250,False,30,neurologic|altered mental status / pain|depression,"311, F32.9",Other,66,Med-Surg ICU,0
+3441110,161938,False,572,neurologic|post-neurosurgery|post spinal surgery|lumbar,,Major,66,Med-Surg ICU,2
+4156561,218426,False,3,gastrointestinal|hepatic disease|hepatic dysfunction|with cirrhosis,"571.5, K74.60",Major,66,Med-Surg ICU,2
+4166362,207213,False,116,renal|disorder of kidney|acute renal failure,"584.9, N17.9",Primary,66,Med-Surg ICU,1
+4262618,235702,True,18,toxicology|drug overdose|drug overdose- general,,Other,66,Med-Surg ICU,0
+3692397,204889,False,-1,renal|disorder of urinary tract / renal system infection|urinary tract infection,"599.0, N39.0",Major,66,Med-Surg ICU,2
+3680279,163541,True,1749,endocrine|glucose metabolism|diabetes mellitus,,Other,66,Med-Surg ICU,0
+3906228,213920,True,3409,neurologic|infectious disease of nervous system|meningitis,,Major,66,Med-Surg ICU,2
+3797716,233263,True,222,pulmonary|pulmonary infections|pneumonia,"486, J18.9",Major,66,Med-Surg ICU,2
+4271894,228245,True,9008,pulmonary|respiratory failure|hypoxemia,"799.02, J96.91",Other,66,Med-Surg ICU,0
+3931983,163124,True,248,pulmonary|disorders of the airways|asthma / bronchospasm,"493.90, J45",Other,66,Med-Surg ICU,0
+3732178,148056,False,23,renal|electrolyte imbalance|hypokalemia,"276.8, E87.6",Other,66,Med-Surg ICU,0
+4195997,145645,True,1599,pulmonary|disorders of the airways|COPD,"491.20, J44.9",Major,66,Med-Surg ICU,2
+3855088,231250,True,3665,toxicology|drug overdose|drug overdose- general,,Primary,66,Med-Surg ICU,1
+3420109,221086,False,30979,infectious diseases|systemic/other infections|bacteremia,"038.9, R78.81",Other,66,Med-Surg ICU,0
+4025316,178437,False,246,pulmonary|disorders of the airways|asthma / bronchospasm,"493.90, J45",Other,66,Med-Surg ICU,0
+4097840,203775,True,49,cardiovascular|ventricular disorders|hypertension,"401.9, I10",Major,66,Med-Surg ICU,2
+4153860,219594,True,18464,cardiovascular|arrhythmias|atrial fibrillation,"427.31, I48.0",Other,66,Med-Surg ICU,0
+3541867,154329,True,56,endocrine|glucose metabolism|diabetes mellitus,,Other,66,Med-Surg ICU,0
+3860004,208179,False,1763,cardiovascular|vascular disorders|hypertension,"401.9, I10",Other,66,Med-Surg ICU,0
+3622412,204889,True,273,hematology|bleeding and red blood cell disorders|anemia,,Other,66,Med-Surg ICU,0
+3619899,200741,False,58,cardiovascular|shock / hypotension|hypotension,"458.9, I95.9",Major,66,Med-Surg ICU,2
+4007118,163124,True,248,endocrine|glucose metabolism|diabetes mellitus,,Other,66,Med-Surg ICU,0
+4190673,180360,False,9097,cardiovascular|ventricular disorders|hypertension,"401.9, I10",Other,66,Med-Surg ICU,0
+3824534,157538,True,1915,cardiovascular|chest pain / ASHD|coronary artery disease|known,"414.00, I25.10",Other,66,Med-Surg ICU,0
+3771335,213437,False,17,surgery|altered mental status / pain|pain,,Primary,66,Med-Surg ICU,1
+3547831,206032,False,1882,endocrine|glucose metabolism|diabetes mellitus,,Other,66,Med-Surg ICU,0
+3448080,197253,False,10095,hematology|bleeding and red blood cell disorders|anemia,,Other,66,Med-Surg ICU,0
+3756404,230424,True,18,neurologic|altered mental status / pain|change in mental status,"780.09, R41.82",Primary,66,Med-Surg ICU,1
+3659045,239577,True,30,renal|disorder of kidney|acute renal failure,"584.9, N17.9",Major,66,Med-Surg ICU,2
+3657927,240700,False,1361,renal|abnormality of urine quantity or quality|hematuria,"599.7, R31.9",Other,66,Med-Surg ICU,0
+3576242,208869,False,102,pulmonary|disorders of the airways|COPD,"491.20, J44.9",Major,66,Med-Surg ICU,2
+3732057,167774,False,72,cardiovascular|ventricular disorders|hypertension,"401.9, I10",Other,66,Med-Surg ICU,0
+3479848,236820,False,3169,gastrointestinal|GI bleeding / PUD|upper GI bleeding|esophageal,"530.82, K22.8",Other,66,Med-Surg ICU,0
+4009730,156161,True,553,gastrointestinal|GI bleeding / PUD|GI bleeding,"578.9, K92.2",Major,66,Med-Surg ICU,2
+3682462,197275,True,2162,neurologic|neuromuscular disorders|motor neuropathy|multiple sclerosis,"340, G35",Other,66,Med-Surg ICU,0
+4236641,213500,False,2757,pulmonary|pleural disorders|pleural effusion,"511.9, J91.8",Other,66,Med-Surg ICU,0
+4213594,221532,False,731,cardiovascular|shock / hypotension|sepsis,"038.9, A41.9",Primary,66,Med-Surg ICU,1
+4237537,221776,False,12,cardiovascular|chest pain / ASHD|coronary artery disease,,Other,66,Med-Surg ICU,0
+3786468,223556,False,7516,hematology|coagulation disorders|coagulopathy,"286.9, D68.9",Other,66,Med-Surg ICU,0
+3883017,200741,False,58,gastrointestinal|abdominal/ general|ascites,"789.5, R18.8",Other,66,Med-Surg ICU,0
+3809800,235502,False,43,pulmonary|disorders of the airways|COPD,"491.20, J44.9",Other,66,Med-Surg ICU,0
+3821969,221086,False,7893,pulmonary|respiratory failure|hypoxemia,"799.02, J96.91",Other,66,Med-Surg ICU,0
+3831421,221086,False,7893,pulmonary|pulmonary infections|pneumonia,"486, J18.9",Other,66,Med-Surg ICU,0
+4114994,236849,True,2110,cardiovascular|shock / hypotension|hypotension,"458.9, I95.9",Other,66,Med-Surg ICU,0
+3691093,169395,False,7115,pulmonary|disorders of the airways|COPD,"491.20, J44.9",Other,66,Med-Surg ICU,0
+4255509,180317,False,2066,gastrointestinal|hepatic disease|hepatic dysfunction|with cirrhosis,"571.5, K74.60",Major,66,Med-Surg ICU,2
+3948472,235502,True,895,cardiovascular|vascular disorders|DVT|left lower extremity,"451.2, I80.3",Major,66,Med-Surg ICU,2
+4007877,190660,False,658,hematology|white blood cell disorders|neutropenia,"288.0, D70.9",Other,66,Med-Surg ICU,0
+3521780,212014,True,1338,cardiovascular|arrhythmias|SVT,"427.0, I47.1",Primary,66,Med-Surg ICU,1
+3395876,193218,True,1082,pulmonary|respiratory failure|hypercarbia,"786.09, J96.92",Other,66,Med-Surg ICU,0
+4025629,177655,False,83,pulmonary|disorders of the airways|acute COPD exacerbation,"491.21, J44.1",Primary,66,Med-Surg ICU,1
+4014626,221167,True,420,pulmonary|disorders of acid base|respiratory alkalosis,"276.2, E87.2",Other,66,Med-Surg ICU,0
+3558769,180317,False,2066,hematology|platelet disorders|thrombocytopenia,"287.5, D69.6",Other,66,Med-Surg ICU,0
+3447875,184329,False,6671,cardiovascular|chest pain / ASHD|acute coronary syndrome,,Other,66,Med-Surg ICU,0
+3616505,158432,True,6,neurologic|altered mental status / pain|change in mental status,"780.09, R41.82",Other,66,Med-Surg ICU,0
+3680154,221086,False,7162,infectious diseases|GU infections|acute pyelonephritis,"590.10, N10",Other,66,Med-Surg ICU,0
+3621800,228627,True,2720,cardiovascular|shock / hypotension|hypotension / pressor dependent,,Other,66,Med-Surg ICU,0
+3910190,228076,False,4,neurologic|altered mental status / pain|change in mental status,"780.09, R41.82",Major,66,Med-Surg ICU,2
+3557747,178437,True,2516,endocrine|glucose metabolism|diabetes mellitus,,Other,66,Med-Surg ICU,0
+4021847,197253,False,10095,pulmonary|pulmonary infections|pneumonia|aspiration,"507.0, J69.0",Major,66,Med-Surg ICU,2
+3780877,227162,False,121,neurologic|altered mental status / pain|change in mental status,"780.09, R41.82",Primary,66,Med-Surg ICU,1
+4003976,221086,False,20716,pulmonary|pulmonary infections|pneumonia,"486, J18.9",Other,66,Med-Surg ICU,0
+3504817,218671,True,485,neurologic|seizures|seizures,"345.90, R56.9",Other,66,Med-Surg ICU,0
+4132450,236820,False,3908,endocrine|glucose metabolism|diabetes mellitus,,Other,66,Med-Surg ICU,0
+3758460,206032,False,1708,gastrointestinal|post-GI surgery|s/p surgery for GI bleeding,,Other,66,Med-Surg ICU,0
+4098378,197253,False,2663,cardiovascular|shock / hypotension|hypotension / pressor dependent,,Major,66,Med-Surg ICU,2
+3432842,235502,True,895,pulmonary|disorders of vasculature|pulmonary hypertension,,Other,66,Med-Surg ICU,0
+3858128,153993,False,4984,cardiovascular|vascular disorders|traumatic injury to major vessels,,Major,66,Med-Surg ICU,2
+3549808,232752,False,40,renal|disorder of kidney|acute renal failure,"584.9, N17.9",Other,66,Med-Surg ICU,0
+4053230,196239,True,4113,neurologic|disorders of vasculature|stroke|ischemic stroke,"434.91, I63.50",Major,66,Med-Surg ICU,2
+3471000,236820,True,12193,pulmonary|disorders of the airways|obstructive sleep apnea,"780.57, G47.33",Other,66,Med-Surg ICU,0
+3475610,236849,False,586,oncology|GU tumors|prostate CA,"185, C61",Other,66,Med-Surg ICU,0
+3616912,216788,False,2437,oncology|chest tumors|primary lung cancer,"162.9, C34.90",Other,66,Med-Surg ICU,0
+4247406,221086,False,20716,pulmonary|respiratory failure|ARDS,"518.81, J80",Other,66,Med-Surg ICU,0
+3532845,189842,False,5,gastrointestinal|abdominal/ general|hyperbilirubinemia,,Other,66,Med-Surg ICU,0
+3491239,165548,False,26371,cardiovascular|arrhythmias|SVT,"427.0, I47.1",Other,66,Med-Surg ICU,0
+3501959,221086,True,32472,pulmonary|respiratory failure|Tracheostomy performed during this admission for ventilatory support,31.1,Major,66,Med-Surg ICU,2
+3559650,203970,True,10,neurologic|disorders of vasculature|stroke,"436, I67.8",Primary,66,Med-Surg ICU,1
+3752072,194037,False,2826,pulmonary|respiratory failure|acute respiratory failure,"518.81, J96.00",Major,66,Med-Surg ICU,2
+4192757,164705,False,52,cardiovascular|shock / hypotension|sepsis,"038.9, A41.9",Primary,66,Med-Surg ICU,1
+3792719,174202,False,4875,cardiovascular|shock / hypotension|hypotension,"458.9, I95.9",Other,66,Med-Surg ICU,0
+4088162,221086,False,7893,renal|disorder of urinary tract / renal system infection|urinary tract infection,"599.0, N39.0",Major,66,Med-Surg ICU,2
+3519789,184329,False,11,pulmonary|pulmonary infections|pneumonia,"486, J18.9",Major,66,Med-Surg ICU,2
+3618848,187016,False,491,gastrointestinal|abdominal/ general|abdominal pain / tenderness,"789.00, R10.9",Major,66,Med-Surg ICU,2
+3815642,181334,False,32,cardiovascular|chest pain / ASHD|chest pain,"786.50, R07.9",Other,66,Med-Surg ICU,0
+4038998,173294,True,24,cardiovascular|chest pain / ASHD|acute coronary syndrome,,Other,66,Med-Surg ICU,0
+3998170,215631,True,143,hematology|platelet disorders|thrombocytopenia,"287.5, D69.6",Other,66,Med-Surg ICU,0
+3367187,188044,False,2417,pulmonary|disorders of vasculature|pulmonary hypertension,,Other,66,Med-Surg ICU,0
+3662026,197253,False,1382,pulmonary|respiratory failure|hypercarbia,"786.09, J96.92",Other,66,Med-Surg ICU,0
+3750085,226762,False,25655,cardiovascular|shock / hypotension|hypotension / pressor dependent,,Major,66,Med-Surg ICU,2
+3573726,231181,True,3673,hematology|coagulation disorders|coagulopathy|coumadin administration,"286.9, D68.32",Other,66,Med-Surg ICU,0
+4198898,184329,False,798,cardiovascular|chest pain / ASHD|acute coronary syndrome,,Other,66,Med-Surg ICU,0
+3564603,206032,False,52,hematology|bleeding and red blood cell disorders|anemia,,Major,66,Med-Surg ICU,2
+3591798,143636,True,12,pulmonary|respiratory failure|hypoxemia,"799.02, J96.91",Major,66,Med-Surg ICU,2
+3595786,212237,False,-7,cardiovascular|vascular disorders|DVT,,Other,66,Med-Surg ICU,0
+3649634,148927,True,-56,neurologic|altered mental status / pain|change in mental status,"780.09, R41.82",Other,66,Med-Surg ICU,0
+4074144,195543,False,1921,cardiovascular|valvular disease|valvular insufficiency|with CHF,,Primary,66,Med-Surg ICU,1
+3809628,145183,False,8,neurologic|altered mental status / pain|change in mental status,"780.09, R41.82",Primary,66,Med-Surg ICU,1
+3803907,206033,False,96,gastrointestinal|GI bleeding / PUD|GI bleeding,"578.9, K92.2",Primary,66,Med-Surg ICU,1
+3858312,221694,True,95,infectious diseases|systemic/other infections|bacteremia,"038.9, R78.81",Other,66,Med-Surg ICU,0
+4172256,223556,False,888,neurologic|altered mental status / pain|drug withdrawal syndrome|alcohol,"291.81, F10.239",Primary,66,Med-Surg ICU,1
+3792163,200837,True,4050,cardiovascular|arrhythmias|bradycardia,,Other,66,Med-Surg ICU,0
+4041177,156161,False,48,endocrine|glucose metabolism|diabetes mellitus,,Other,66,Med-Surg ICU,0
+3622222,165548,False,6572,pulmonary|respiratory failure|hypoxemia,"799.02, J96.91",Other,66,Med-Surg ICU,0
+3876889,172381,False,12,neurologic|altered mental status / pain|change in mental status,"780.09, R41.82",Primary,66,Med-Surg ICU,1
+3683516,195954,True,70,pulmonary|respiratory failure|acute respiratory distress,518.82,Primary,66,Med-Surg ICU,1
+3398312,199899,True,412,cardiovascular|vascular disorders|hypertension,"401.9, I10",Major,66,Med-Surg ICU,2
+3993522,176760,False,6,hematology|bleeding and red blood cell disorders|anemia,,Other,66,Med-Surg ICU,0
+3549669,170102,False,45,"infectious diseases|skin, bone and joint infections|cellulitis|extremity","682.9, L03.119",Major,66,Med-Surg ICU,2
+4084298,174202,True,6398,neurologic|altered mental status / pain|encephalopathy,"348.30, G93.40",Other,66,Med-Surg ICU,0
+3746121,146912,False,754,pulmonary|respiratory failure|acute respiratory failure,"518.81, J96.00",Other,66,Med-Surg ICU,0
+3702785,170102,True,7851,pulmonary|disorders of the airways|COPD,"491.20, J44.9",Other,66,Med-Surg ICU,0
+4258420,176438,True,3777,pulmonary|disorders of the airways|mechanical airway problem,,Other,66,Med-Surg ICU,0
+3945706,184012,True,54,cardiovascular|shock / hypotension|sepsis,"038.9, A41.9",Other,66,Med-Surg ICU,0
+3767178,228904,False,4008,neurologic|altered mental status / pain|drug withdrawal syndrome|alcohol,"291.81, F10.239",Major,66,Med-Surg ICU,2
+3667345,161076,False,1184,hematology|platelet disorders|thrombocytopenia,"287.5, D69.6",Other,66,Med-Surg ICU,0
+3943745,145183,True,50,neurologic|altered mental status / pain|encephalopathy|metabolic,"348.31, G93.41",Other,66,Med-Surg ICU,0
+3458220,154456,True,24,cardiovascular|chest pain / ASHD|acute coronary syndrome|acute myocardial infarction (no ST elevation),"410.71, I21.4",Other,66,Med-Surg ICU,0
+3709368,145967,False,14,renal|disorder of kidney|acute renal failure,"584.9, N17.9",Major,66,Med-Surg ICU,2
+3949012,228245,False,42,endocrine|glucose metabolism|diabetes mellitus,,Other,66,Med-Surg ICU,0
+3683239,146912,False,754,cardiovascular|ventricular disorders|congestive heart failure,"428.0, I50.9",Other,66,Med-Surg ICU,0
+4050540,228627,False,2686,infectious diseases|GU infections|acute pyelonephritis,"590.10, N10",Major,66,Med-Surg ICU,2
+3901979,165548,False,14372,cardiovascular|ventricular disorders|congestive heart failure,"428.0, I50.9",Other,66,Med-Surg ICU,0
+3387634,221086,False,1530,cardiovascular|chest pain / ASHD|acute coronary syndrome,,Other,66,Med-Surg ICU,0
+3452636,196190,True,1293,cardiovascular|chest pain / ASHD|coronary artery disease|s/p CABG,"414.00, I25.10",Other,66,Med-Surg ICU,0
+3584580,211263,True,11390,renal|disorder of kidney|chronic kidney disease,"585.9, N18.9",Other,66,Med-Surg ICU,0
+3675902,181334,False,97,cardiovascular|shock / hypotension|sepsis,"038.9, A41.9",Other,66,Med-Surg ICU,0
+3490778,190473,False,8930,neurologic|altered mental status / pain|drug withdrawal syndrome|alcohol,"291.81, F10.239",Major,66,Med-Surg ICU,2
+3955788,200837,True,4050,gastrointestinal|GI bleeding / PUD|GI bleeding,"578.9, K92.2",Primary,66,Med-Surg ICU,1
+4162361,226802,True,803,renal|disorder of kidney|acute renal failure,"584.9, N17.9",Other,66,Med-Surg ICU,0
+3821974,221531,True,4577,pulmonary|respiratory failure|acute respiratory failure,"518.81, J96.00",Major,66,Med-Surg ICU,2
+4056058,145092,True,17,cardiovascular|vascular disorders|hypertension,"401.9, I10",Major,66,Med-Surg ICU,2
+3579712,241531,True,2908,renal|disorder of kidney|acute renal failure,"584.9, N17.9",Other,66,Med-Surg ICU,0
+3858406,211263,False,9991,oncology|GU tumors|prostate CA,"185, C61",Other,66,Med-Surg ICU,0
+4202207,145304,True,17,cardiovascular|arrhythmias|bradycardia,,Major,66,Med-Surg ICU,2
+3509582,217424,True,25,neurologic|altered mental status / pain|change in mental status,"780.09, R41.82",Primary,66,Med-Surg ICU,1
+4182796,149941,False,58,neurologic|altered mental status / pain|obtundation,"780.09, R40.0",Other,66,Med-Surg ICU,0
+3917107,187016,False,863,gastrointestinal|hepatic disease|viral hepatitis|hepatitis C,"573.1, 070.51, B17.1",Other,66,Med-Surg ICU,0
+3993473,233263,False,6,cardiovascular|vascular disorders|hypertension,"401.9, I10",Other,66,Med-Surg ICU,0
+3572337,151179,True,3929,renal|electrolyte imbalance|hypocalcemia,"275.41, E83.51",Other,66,Med-Surg ICU,0
+3823080,208869,True,696,neurologic|altered mental status / pain|drug withdrawal syndrome|alcohol,"291.81, F10.239",Other,66,Med-Surg ICU,0
+4072133,221531,False,1288,infectious diseases|systemic/other infections|signs and symptoms of sepsis (SIRS),995.90,Other,66,Med-Surg ICU,0
+4084627,233263,False,6,pulmonary|respiratory failure|acute respiratory failure,"518.81, J96.00",Primary,66,Med-Surg ICU,1
+3642853,163541,True,1749,renal|disorder of kidney|acute renal failure,"584.9, N17.9",Other,66,Med-Surg ICU,0
+3880058,151409,True,77,cardiovascular|ventricular disorders|congestive heart failure,"428.0, I50.9",Other,66,Med-Surg ICU,0
+4132431,238944,True,10,oncology|GI tumors|pancreatic tumor|pancreatic CA,"157.9, C25.9",Other,66,Med-Surg ICU,0
+3920845,176760,True,825,renal|disorder of kidney|chronic kidney disease,"585.9, N18.9",Other,66,Med-Surg ICU,0
+3504282,165548,False,14266,renal|electrolyte imbalance|hypernatremia|severe (> 155 meq/dl),"276.0, E87.0",Major,66,Med-Surg ICU,2
+3561912,221532,False,54,"infectious diseases|skin, bone and joint infections|infected pressure ulcer",,Other,66,Med-Surg ICU,0
+3950303,150824,False,11,renal|disorder of kidney|acute renal failure,"584.9, N17.9",Other,66,Med-Surg ICU,0
+3712499,184114,True,21,pulmonary|respiratory failure|acute respiratory failure,"518.81, J96.00",Primary,66,Med-Surg ICU,1
+4218183,181959,True,35,pulmonary|respiratory failure|acute respiratory failure,"518.81, J96.00",Primary,66,Med-Surg ICU,1
+3976383,176782,False,70,gastrointestinal|GI bleeding / PUD|upper GI bleeding,"578.9, K92.2",Primary,66,Med-Surg ICU,1
+4007005,156779,False,1,gastrointestinal|pancreatic disease|pancreatitis|with pseudocyst formation,"577.2, K86.3",Major,66,Med-Surg ICU,2
+3475446,231250,True,3665,pulmonary|respiratory failure|acute respiratory failure,"518.81, J96.00",Major,66,Med-Surg ICU,2
+4119303,145304,True,17,neurologic|altered mental status / pain|pain,,Major,66,Med-Surg ICU,2
+4013726,226551,True,847,cardiovascular|chest pain / ASHD|coronary artery disease|known,"414.00, I25.10",Other,66,Med-Surg ICU,0
+3968465,230696,False,856,renal|disorder of kidney|chronic kidney disease,"585.9, N18.9",Other,66,Med-Surg ICU,0
+4097693,193140,False,7047,pulmonary|respiratory failure|hypoxemia,"799.02, J96.91",Major,66,Med-Surg ICU,2
+3731369,200741,True,179,oncology|unknown primary|metastatic adenocarcinoma,"199.0, C80.0",Other,66,Med-Surg ICU,0
+3400007,181334,False,4112,pulmonary|respiratory failure|acute respiratory distress,518.82,Major,66,Med-Surg ICU,2
+3430639,172489,True,4597,hematology|coagulation disorders|coagulopathy,"286.9, D68.9",Other,66,Med-Surg ICU,0
+3931035,172489,False,548,cardiovascular|shock / hypotension|dehydration,"276.51, E86.0",Other,66,Med-Surg ICU,0
+3886255,219594,True,18464,pulmonary|respiratory failure|chronic respiratory failure,"518.83, J96.10",Other,66,Med-Surg ICU,0
+3723294,188044,False,18,pulmonary|respiratory failure|acute respiratory distress,518.82,Major,66,Med-Surg ICU,2
+3936889,143366,True,22,endocrine|glucose metabolism|diabetes mellitus,,Other,66,Med-Surg ICU,0
+3527930,146912,False,546,cardiovascular|chest pain / ASHD|acute coronary syndrome,,Major,66,Med-Surg ICU,2
+3673606,193140,True,12787,pulmonary|disorders of the airways|asthma / bronchospasm,"493.90, J45",Other,66,Med-Surg ICU,0
+4089967,168546,True,13,oncology|chest tumors|metastatic lung CA,"197.0, C78.00",Major,66,Med-Surg ICU,2
+3429892,177689,True,59,pulmonary|disorders of the airways|upper respiratory obstruction|due to angioedema,"478.8, J39.3",Primary,66,Med-Surg ICU,1
+3785247,202319,True,16,cardiovascular|post vascular surgery|s/p cartoid endarterectomy,,Primary,66,Med-Surg ICU,1
+4258337,197253,True,11145,pulmonary|pulmonary infections|pneumonia|aspiration,"507.0, J69.0",Major,66,Med-Surg ICU,2
+4023945,222498,True,11644,pulmonary|disorders of the airways|COPD,"491.20, J44.9",Other,66,Med-Surg ICU,0
+3564223,176438,False,1106,pulmonary|disorders of the airways|mechanical airway problem,,Other,66,Med-Surg ICU,0
+3939977,184088,True,1065,pulmonary|respiratory failure|hypercarbia,"786.09, J96.92",Major,66,Med-Surg ICU,2
+4113258,177655,True,2432,pulmonary|disorders of vasculature|pulmonary hypertension,,Other,66,Med-Surg ICU,0
+3647889,208198,False,203,pulmonary|respiratory failure|hypercarbia,"786.09, J96.92",Other,66,Med-Surg ICU,0
+4242607,228904,False,5514,neurologic|altered mental status / pain|drug withdrawal syndrome|alcohol,"291.81, F10.239",Major,66,Med-Surg ICU,2
+4114565,165548,False,14266,cardiovascular|ventricular disorders|cardiomyopathy,,Other,66,Med-Surg ICU,0
+4016197,236820,True,12193,gastrointestinal|GI bleeding / PUD|upper GI bleeding|ulcer,"578.9, K92.2",Major,66,Med-Surg ICU,2
+3764611,213500,False,333,pulmonary|respiratory failure|hypoxemia,"799.02, J96.91",Other,66,Med-Surg ICU,0
+3659686,180360,False,12302,cardiovascular|shock / hypotension|sepsis,"038.9, A41.9",Primary,66,Med-Surg ICU,1
+4046846,160615,False,1456,renal|disorder of kidney|ESRD (end stage renal disease),"585.6, N18.6",Other,66,Med-Surg ICU,0
+4268604,221280,False,18,pulmonary|pulmonary infections|pneumonia|community-acquired,"486, J18.9",Primary,66,Med-Surg ICU,1
+3472169,232063,True,23,gastrointestinal|abdominal/ general|peritonitis,"567.9, K65.0",Major,66,Med-Surg ICU,2
+3755941,226762,False,21966,cardiovascular|chest pain / ASHD|coronary artery disease,,Other,66,Med-Surg ICU,0
+3546123,177937,True,479,renal|electrolyte imbalance|hypomagnesemia,"275.2, E83.42",Major,66,Med-Surg ICU,2
+3785639,193140,False,6578,pulmonary|respiratory failure|hypoxemia,"799.02, J96.91",Major,66,Med-Surg ICU,2
+3519287,226762,False,24408,pulmonary|respiratory failure|acute respiratory failure,"518.81, J96.00",Major,66,Med-Surg ICU,2
+4215504,156191,False,540,pulmonary|respiratory failure|acute respiratory distress,518.82,Major,66,Med-Surg ICU,2
+3581781,160615,False,18,renal|disorder of kidney|ESRD (end stage renal disease),"585.6, N18.6",Major,66,Med-Surg ICU,2
+3776214,174755,True,23,pulmonary|disorders of acid base|respiratory acidosis,"276.2, E87.2",Other,66,Med-Surg ICU,0
+4106876,187016,False,491,cardiovascular|shock / hypotension|dehydration,"276.51, E86.0",Other,66,Med-Surg ICU,0
+3373060,143366,True,22,gastrointestinal|GI bleeding / PUD|GI bleeding,"578.9, K92.2",Major,66,Med-Surg ICU,2
+4217566,228076,True,933,cardiovascular|chest pain / ASHD|coronary artery disease,,Other,66,Med-Surg ICU,0
+4183299,239559,True,986,renal|disorder of acid base|metabolic acidosis|lactic acidosis,"276.2, E87.2",Major,66,Med-Surg ICU,2
+3743696,165548,False,17257,pulmonary|disorders of the airways|obstructive sleep apnea,"780.57, G47.33",Other,66,Med-Surg ICU,0
+3526307,221531,False,1289,infectious diseases|systemic/other infections|fever,"780.6, R50.9",Other,66,Med-Surg ICU,0
+4068018,180360,False,12302,pulmonary|respiratory failure|acute respiratory failure|due to pulmonary infiltrates,"518.81, J96.00",Major,66,Med-Surg ICU,2
+3536316,223951,True,9,gastrointestinal|GI bleeding / PUD|upper GI bleeding,"578.9, K92.2",Major,66,Med-Surg ICU,2
+4167436,185351,True,21,oncology|chest tumors|breast CA,,Primary,66,Med-Surg ICU,1
+3822347,184329,False,6671,pulmonary|pulmonary infections|pneumonia,"486, J18.9",Major,66,Med-Surg ICU,2
+3795014,193140,True,12787,renal|disorder of kidney|chronic kidney disease,"585.9, N18.9",Other,66,Med-Surg ICU,0
+4098967,176438,True,3777,gastrointestinal|hepatic disease|hepatic dysfunction|with cirrhosis,"571.5, K74.60",Other,66,Med-Surg ICU,0
+3481604,155325,True,41,gastrointestinal|GI bleeding / PUD|lower GI bleeding,"578.9, K92.2",Major,66,Med-Surg ICU,2
+3793397,176760,True,825,neurologic|altered mental status / pain|change in mental status,"780.09, R41.82",Major,66,Med-Surg ICU,2
+4135139,216788,True,4302,infectious diseases|systemic/other infections|sepsis,"038.9, A41.9",Primary,66,Med-Surg ICU,1
+3746289,215631,False,143,hematology|platelet disorders|thrombocytopenia,"287.5, D69.6",Other,66,Med-Surg ICU,0
+4075859,173624,True,3156,infectious diseases|systemic/other infections|hematological effect of infection|leukocytosis,"288.8, D72.829",Major,66,Med-Surg ICU,2
+3380425,148442,True,20,oncology|GU tumors|ovarian CA,"183.0, C56.9",Other,66,Med-Surg ICU,0
+3845009,146912,True,1010,renal|disorder of kidney|chronic kidney disease,"585.9, N18.9",Other,66,Med-Surg ICU,0
+3984660,235921,False,39,renal|disorder of kidney|chronic kidney disease|Stage 4 (GFR 15-29),"585.4, N18.4",Other,66,Med-Surg ICU,0
+3747024,228627,False,659,renal|disorder of kidney|acute renal failure,"584.9, N17.9",Major,66,Med-Surg ICU,2
+3944777,228904,True,10058,pulmonary|respiratory failure|ARDS,"518.81, J80",Other,66,Med-Surg ICU,0
+3440435,190473,False,12209,toxicology|drug withdrawal|alcohol withdrawal,"291.81, F10.239",Major,66,Med-Surg ICU,2
+3778481,149941,False,58,toxicology|drug overdose|overdose of unknown agent(s),"E980.5, 977.9, T50.90",Major,66,Med-Surg ICU,2
+3679502,141203,True,1141,infectious diseases|GI infections|diarrhea due to infection,,Other,66,Med-Surg ICU,0
+4220165,177258,True,19124,neurologic|seizures|seizures,"345.90, R56.9",Major,66,Med-Surg ICU,2
+3716041,221086,False,7162,infectious diseases|GU infections|acute pyelonephritis,"590.10, N10",Other,66,Med-Surg ICU,0
+3400119,174463,True,8483,renal|disorder of kidney|acute renal failure,"584.9, N17.9",Other,66,Med-Surg ICU,0
+3863683,165548,False,11260,renal|disorder of kidney|chronic kidney disease|Stage 3 (GFR 30-59),"585.3, N18.3",Other,66,Med-Surg ICU,0
+4118427,221086,False,7893,infectious diseases|GU infections|acute pyelonephritis,"590.10, N10",Other,66,Med-Surg ICU,0
+3853525,171294,False,1237,hematology|bleeding and red blood cell disorders|anemia,,Other,66,Med-Surg ICU,0
+3544566,143344,False,157,renal|disorder of urinary tract / renal system infection|obstructive uropathy,"586, N19",Other,66,Med-Surg ICU,0
+3653120,190473,False,834,burns/trauma|trauma - skeletal|rhabdomyolysis,728.89,Other,66,Med-Surg ICU,0
+3612664,223100,True,9,neurologic|altered mental status / pain|delirium,"293.0, F05",Other,66,Med-Surg ICU,0
+3901663,225164,True,79,endocrine|glucose metabolism|DKA,"250.13, E10.1",Primary,66,Med-Surg ICU,1
+3419837,216788,False,30,infectious diseases|systemic/other infections|sepsis,"038.9, A41.9",Major,66,Med-Surg ICU,2
+3544514,186937,True,6537,cardiovascular|vascular disorders|hypertension,"401.9, I10",Other,66,Med-Surg ICU,0
+3917068,181334,False,4112,cardiovascular|chest pain / ASHD|chest pain,"786.50, R07.9",Other,66,Med-Surg ICU,0
+4159495,200837,False,52,gastrointestinal|GI bleeding / PUD|GI bleeding,"578.9, K92.2",Primary,66,Med-Surg ICU,1
+4022417,184329,True,7020,cardiovascular|chest pain / ASHD|acute coronary syndrome,,Other,66,Med-Surg ICU,0
+4241752,231250,False,1409,gastrointestinal|hepatic disease|hepatic dysfunction,"573.9, K76.9",Other,66,Med-Surg ICU,0
+3646840,143389,True,328,toxicology|drug overdose|drug overdose- general|previous suicide attempts,,Primary,66,Med-Surg ICU,1
+3867030,227031,True,2150,infectious diseases|vascular infections|vascular catheter infection,"996.62, T85.7",Other,66,Med-Surg ICU,0
+4134681,190473,True,13779,neurologic|altered mental status / pain|drug withdrawal syndrome|alcohol,"291.81, F10.239",Major,66,Med-Surg ICU,2
+3939751,194037,False,4785,cardiovascular|diseases of the aorta|aortic aneurysm|abdominal,"441.4, I71.4",Major,66,Med-Surg ICU,2
+3779364,157124,False,11,toxicology|drug withdrawal|alcohol withdrawal,"291.81, F10.239",Primary,66,Med-Surg ICU,1
+4087926,231250,False,30,pulmonary|pulmonary infections|pneumonia|aspiration,"507.0, J69.0",Major,66,Med-Surg ICU,2
+3482696,197253,False,2663,cardiovascular|cardiac arrest|cardiac arrest|initial rhythm: pulseless electrical activity,"427.5, I46.9",Major,66,Med-Surg ICU,2
+3474739,216788,False,30,hematology|bleeding and red blood cell disorders|pancytopenia,"284.8, D61.9",Other,66,Med-Surg ICU,0
+4080022,221086,False,7162,pulmonary|respiratory failure|ARDS,"518.81, J80",Other,66,Med-Surg ICU,0
+4235352,238089,True,22,pulmonary|respiratory failure|acute respiratory distress,518.82,Major,66,Med-Surg ICU,2
+4248219,172489,False,31,pulmonary|disorders of the airways|acute COPD exacerbation,"491.21, J44.1",Other,66,Med-Surg ICU,0
+3812985,174202,False,160,toxicology|drug overdose|ethanol overdose,"980.0, E980.2, T51.0",Major,66,Med-Surg ICU,2
+3459357,153993,True,10749,cardiovascular|shock / hypotension|sepsis,"038.9, A41.9",Other,66,Med-Surg ICU,0
+4035836,153993,False,4983,pulmonary|pulmonary infections|pneumonia,"486, J18.9",Other,66,Med-Surg ICU,0
+3478301,208198,True,4086,renal|electrolyte imbalance|hypernatremia,"276.0, E87.0",Other,66,Med-Surg ICU,0
+3840688,235502,True,895,pulmonary|disorders of the airways|COPD,"491.20, J44.9",Other,66,Med-Surg ICU,0
+4241413,233630,True,8,cardiovascular|arrhythmias|atrial fibrillation|with rapid ventricular response,"427.31, I48.0",Major,66,Med-Surg ICU,2
+3843424,180360,False,335,pulmonary|respiratory failure|acute respiratory failure|suspected,,Other,66,Med-Surg ICU,0
+3758312,180162,True,13,cardiovascular|vascular disorders|peripheral vascular ischemia,,Major,66,Med-Surg ICU,2
+3861181,221531,False,1289,infectious diseases|systemic/other infections|signs and symptoms of sepsis (SIRS),995.90,Other,66,Med-Surg ICU,0
+3735620,193838,False,14,pulmonary|disorders of the airways|COPD,"491.20, J44.9",Major,66,Med-Surg ICU,2
+3542884,145645,True,1599,renal|fluid imbalance|hypervolemia,"276.6, E87.70",Other,66,Med-Surg ICU,0
+3564241,202446,False,0,renal|disorder of kidney|ESRD (end stage renal disease),"585.6, N18.6",Other,66,Med-Surg ICU,0
+3901284,231250,False,618,cardiovascular|shock / hypotension|hypotension,"458.9, I95.9",Major,66,Med-Surg ICU,2
+3964992,221531,False,1289,pulmonary|disorders of the airways|COPD,"491.20, J44.9",Major,66,Med-Surg ICU,2
+3503946,150851,False,8,cardiovascular|cardiac arrest|cardiac arrest,"427.5, I46.9",Primary,66,Med-Surg ICU,1
+3773436,226762,False,319,cardiovascular|vascular disorders|hypertension,"401.9, I10",Other,66,Med-Surg ICU,0
+4178338,165548,False,14266,hematology|platelet disorders|thrombocytopenia,"287.5, D69.6",Major,66,Med-Surg ICU,2
+4113878,162573,True,3223,renal|electrolyte imbalance|hypomagnesemia,"275.2, E83.42",Other,66,Med-Surg ICU,0
+3963881,177655,True,2432,"infectious diseases|skin, bone and joint infections|cellulitis","682.9, L03.90",Other,66,Med-Surg ICU,0
+3575497,146912,True,1010,pulmonary|pleural disorders|pleural effusion|left,"511.9, J91.8",Major,66,Med-Surg ICU,2
+3419929,147509,True,59,neurologic|seizures|seizures,"345.90, R56.9",Other,66,Med-Surg ICU,0
+3436442,174463,True,8483,pulmonary|respiratory failure|hypercarbia,"786.09, J96.92",Other,66,Med-Surg ICU,0
+4241060,203507,True,3281,cardiovascular|shock / hypotension|sepsis,"038.9, A41.9",Primary,66,Med-Surg ICU,1
+4089959,239411,True,25,renal|electrolyte imbalance|hyponatremia,"276.1, E87.0, E87.1",Other,66,Med-Surg ICU,0
+3495593,241758,False,74,gastrointestinal|abdominal/ general|vomiting,"787.03, R11.10",Major,66,Med-Surg ICU,2
+3424134,171294,False,1589,neurologic|altered mental status / pain|dementia,"294.9, F03",Other,66,Med-Surg ICU,0
+3929321,184303,True,269,pulmonary|pulmonary infections|pneumonia,"486, J18.9",Major,66,Med-Surg ICU,2
+3546551,208869,True,696,pulmonary|respiratory failure|acute respiratory failure,"518.81, J96.00",Primary,66,Med-Surg ICU,1
+3789840,224385,True,4,neurologic|post-neurosurgery|post spinal surgery|thoracic,,Primary,66,Med-Surg ICU,1
+3913450,221086,False,20716,pulmonary|respiratory failure|failure to wean,,Other,66,Med-Surg ICU,0
+4213576,153993,False,3186,cardiovascular|vascular disorders|traumatic injury to major vessels,,Other,66,Med-Surg ICU,0
+3638821,232752,False,1489,cardiovascular|shock / hypotension|sepsis,"038.9, A41.9",Primary,66,Med-Surg ICU,1
+4220434,195444,False,70,endocrine|glucose metabolism|diabetes mellitus,,Other,66,Med-Surg ICU,0
+3462822,197253,False,4468,cardiovascular|cardiac arrest|cardiac arrest|initial rhythm: pulseless electrical activity,"427.5, I46.9",Major,66,Med-Surg ICU,2
+4218311,232752,True,4833,cardiovascular|shock / hypotension|sepsis,"038.9, A41.9",Primary,66,Med-Surg ICU,1
+3948766,221531,False,43,neurologic|altered mental status / pain|encephalopathy|post-anoxic,"348.1, G93.1",Major,66,Med-Surg ICU,2
+3872558,141203,False,74,endocrine|glucose metabolism|diabetes mellitus,,Other,66,Med-Surg ICU,0
+4079879,153993,False,4983,pulmonary|disorders of vasculature|pulmonary embolism,"415.19, I26.99",Other,66,Med-Surg ICU,0
+3855400,174202,True,6398,gastrointestinal|abdominal/ general|hyperbilirubinemia,,Other,66,Med-Surg ICU,0
+3616851,181334,False,32,pulmonary|respiratory failure|acute respiratory failure,"518.81, J96.00",Other,66,Med-Surg ICU,0
+3800970,161076,True,4134,gastrointestinal|hepatic disease|hepatorenal syndrome,"572.4, K76.7",Primary,66,Med-Surg ICU,1
+3908108,213500,False,3875,hematology|coagulation disorders|hypercoagulable state,"286.9, D68.69",Other,66,Med-Surg ICU,0
+3716470,221086,False,28989,renal|disorder of urinary tract / renal system infection|urinary tract infection,"599.0, N39.0",Major,66,Med-Surg ICU,2
+3520286,165548,False,17257,pulmonary|disorders of vasculature|pulmonary hypertension,,Other,66,Med-Surg ICU,0
+3559665,196190,True,1293,neurologic|trauma - CNS|intracranial injury|with subdural hematoma,"852.20, S06.5",Major,66,Med-Surg ICU,2
+3435300,194037,False,3335,cardiovascular|vascular disorders|arterial thromboembolism|right lower extremity,"444.22, I74.3",Major,66,Med-Surg ICU,2
+3664855,212813,True,11,pulmonary|disorders of the airways|asthma / bronchospasm|severe,"493.90, J45",Primary,66,Med-Surg ICU,1
+3742652,197253,False,8943,cardiovascular|cardiac arrest|cardiac arrest|initial rhythm: pulseless electrical activity,"427.5, I46.9",Major,66,Med-Surg ICU,2
+3512847,165548,False,14372,renal|disorder of acid base|metabolic alkalosis,"276.3, E87.3",Other,66,Med-Surg ICU,0
+3383328,162342,True,206,neurologic|post-neurosurgery|post spinal surgery,,Primary,66,Med-Surg ICU,1
+3895164,165339,True,18,pulmonary|trauma|pneumothorax,860.0,Primary,66,Med-Surg ICU,1
+3818452,221167,True,420,cardiovascular|vascular disorders|peripheral vascular ischemia,,Major,66,Med-Surg ICU,2
+3860342,176760,True,825,renal|abnormality of urine quantity or quality|hematuria,"599.7, R31.9",Major,66,Med-Surg ICU,2
+3541557,241211,True,737,cardiovascular|shock / hypotension|sepsis,"038.9, A41.9",Primary,66,Med-Surg ICU,1
+3625677,226762,False,11836,infectious diseases|systemic/other infections|bacteremia|gram postive coccus,"038.9, R78.81",Other,66,Med-Surg ICU,0
+3400586,204602,True,63,cardiovascular|shock / hypotension|signs and symptoms of sepsis (SIRS),995.90,Other,66,Med-Surg ICU,0
+3487209,221086,False,7162,pulmonary|pulmonary infections|pneumonia,"486, J18.9",Other,66,Med-Surg ICU,0
+4175272,230605,True,101,oncology|chest tumors|primary lung cancer,"162.9, C34.90",Primary,66,Med-Surg ICU,1
+4273916,180317,True,3356,gastrointestinal|GI bleeding / PUD|upper GI bleeding|varices,"456.0, I85.01",Other,66,Med-Surg ICU,0
+3667478,199899,True,412,toxicology|drug overdose|drug overdose- general|suicide attempt,,Primary,66,Med-Surg ICU,1
+4139313,228904,True,10058,pulmonary|respiratory failure|hypoxemia,"799.02, J96.91",Other,66,Med-Surg ICU,0
+4191558,216788,True,4302,oncology|chest tumors|primary lung cancer,"162.9, C34.90",Major,66,Med-Surg ICU,2
+3432376,206032,False,1882,hematology|bleeding and red blood cell disorders|anemia,,Major,66,Med-Surg ICU,2
+4088297,166352,True,70,renal|fluid imbalance|hypervolemia,"276.6, E87.70",Other,66,Med-Surg ICU,0
+3407146,231250,False,536,toxicology|drug overdose|narcotic overdose,"E980.2, 965.00, T40.60",Major,66,Med-Surg ICU,2
+3581787,187789,True,6,cardiovascular|arrhythmias|atrial fibrillation|with rapid ventricular response,"427.31, I48.0",Major,66,Med-Surg ICU,2
+3837127,219266,True,109,pulmonary|respiratory failure|acute respiratory failure,"518.81, J96.00",Other,66,Med-Surg ICU,0
+3727441,191596,True,30,neurologic|altered mental status / pain|change in mental status,"780.09, R41.82",Other,66,Med-Surg ICU,0
+3964036,177875,True,309,cardiovascular|vascular disorders|hypertension,"401.9, I10",Other,66,Med-Surg ICU,0
+4010835,190473,False,139,hematology|platelet disorders|thrombocytopenia,"287.5, D69.6",Other,66,Med-Surg ICU,0
+3569843,228627,False,1194,cardiovascular|shock / hypotension|sepsis,"038.9, A41.9",Primary,66,Med-Surg ICU,1
+3890140,141203,True,1141,cardiovascular|chest pain / ASHD|coronary artery disease,,Major,66,Med-Surg ICU,2
+3760621,226762,False,25655,infectious diseases|systemic/other infections|bacteremia|gram postive coccus,"038.9, R78.81",Other,66,Med-Surg ICU,0
+3533978,236820,False,5508,pulmonary|disorders of the airways|obstructive sleep apnea,"780.57, G47.33",Other,66,Med-Surg ICU,0
+3824040,228904,False,5514,endocrine|glucose metabolism|diabetes mellitus,,Other,66,Med-Surg ICU,0
+3733556,239991,True,58,cardiovascular|ventricular disorders|hypertension,"401.9, I10",Other,66,Med-Surg ICU,0
+3936078,191897,True,125,pulmonary|respiratory failure|acute respiratory distress,518.82,Primary,66,Med-Surg ICU,1
+3766496,228076,False,4,"infectious diseases|skin, bone and joint infections|wound infection",,Other,66,Med-Surg ICU,0
+3439179,146912,False,754,pulmonary|pulmonary infections|pneumonia,"486, J18.9",Major,66,Med-Surg ICU,2
+3598650,184329,True,7020,pulmonary|disorders of the airways|COPD,"491.20, J44.9",Major,66,Med-Surg ICU,2
+3388964,177937,True,479,renal|electrolyte imbalance|hyponatremia,"276.1, E87.0, E87.1",Major,66,Med-Surg ICU,2
+4082734,172489,False,17,renal|disorder of kidney|chronic kidney disease,"585.9, N18.9",Other,66,Med-Surg ICU,0
+4172665,234819,True,15,cardiovascular|arrhythmias|atrial fibrillation,"427.31, I48.0",Primary,66,Med-Surg ICU,1
+3940807,226762,False,11836,cardiovascular|chest pain / ASHD|coronary artery disease,,Other,66,Med-Surg ICU,0
+4174555,212237,True,25,cardiovascular|ventricular disorders|cardiomyopathy,,Other,66,Med-Surg ICU,0
+3764216,150805,True,9,cardiovascular|chest pain / ASHD|coronary artery disease,,Other,66,Med-Surg ICU,0
+4154793,232361,False,2650,neurologic|disorders of vasculature|stroke,"436, I67.8",Other,66,Med-Surg ICU,0
+3969603,222290,True,12,endocrine|glucose metabolism|DKA,"250.13, E10.1",Major,66,Med-Surg ICU,2
+3842366,141920,False,2383,cardiovascular|vascular disorders|hypertension,"401.9, I10",Other,66,Med-Surg ICU,0
+4098516,165548,False,14372,hematology|platelet disorders|thrombocytopenia,"287.5, D69.6",Major,66,Med-Surg ICU,2
+3499979,141920,False,2133,cardiovascular|vascular disorders|hypertension,"401.9, I10",Other,66,Med-Surg ICU,0
+3452368,223556,False,1523,renal|disorder of acid base|metabolic acidosis|lactic acidosis,"276.2, E87.2",Other,66,Med-Surg ICU,0
+4270775,188935,True,59,oncology|GI tumors|liver CA,,Other,66,Med-Surg ICU,0
+3701851,196190,True,1293,pulmonary|disorders of vasculature|pulmonary hypertension,,Other,66,Med-Surg ICU,0
+3798193,233263,False,50,cardiovascular|chest pain / ASHD|coronary artery disease|known,"414.00, I25.10",Other,66,Med-Surg ICU,0
+3652665,230605,False,12,pulmonary|respiratory failure|acute respiratory distress,518.82,Major,66,Med-Surg ICU,2
+3910797,235502,False,43,pulmonary|respiratory failure|acute respiratory failure,"518.81, J96.00",Major,66,Med-Surg ICU,2
+3689797,238944,True,10,cardiovascular|shock / hypotension|hypotension,"458.9, I95.9",Other,66,Med-Surg ICU,0
+4260324,174202,False,2026,renal|electrolyte imbalance|hypochloremia,"276.9, E87.8",Other,66,Med-Surg ICU,0
+3656793,148968,True,2184,hematology|bleeding and red blood cell disorders|anemia,,Other,66,Med-Surg ICU,0
+3606968,208869,False,93,gastrointestinal|hepatic disease|hepatic dysfunction,"573.9, K76.9",Other,66,Med-Surg ICU,0
+3866278,208198,False,402,infectious diseases|GU infections|lower urinary tract infection,"595.9, N30.9",Major,66,Med-Surg ICU,2
+3447050,226551,False,9,cardiovascular|chest pain / ASHD|coronary artery disease|known,"414.00, I25.10",Other,66,Med-Surg ICU,0
+4161272,172489,False,17,cardiovascular|shock / hypotension|dehydration,"276.51, E86.0",Other,66,Med-Surg ICU,0
+3594551,165548,False,25746,cardiovascular|arrhythmias|SVT,"427.0, I47.1",Other,66,Med-Surg ICU,0
+3780832,226762,True,29825,neurologic|disorders of vasculature|cerebral subdural hematoma,"432.9, I62.9",Other,66,Med-Surg ICU,0
+3424938,216788,False,22,cardiovascular|vascular disorders|hypertension,"401.9, I10",Other,66,Med-Surg ICU,0
+4264036,172489,True,4597,pulmonary|disorders of the airways|acute COPD exacerbation,"491.21, J44.1",Other,66,Med-Surg ICU,0
+3980219,221086,False,22186,renal|disorder of acid base|metabolic acidosis,"276.2, E87.2",Other,66,Med-Surg ICU,0
+3633025,177258,False,6082,pulmonary|disorders of the airways|obstruction of trachea / bronchus,"786.00, R06.1",Major,66,Med-Surg ICU,2
+3590971,184303,False,3,pulmonary|respiratory failure|acute respiratory distress,518.82,Major,66,Med-Surg ICU,2
+3993142,184329,False,4694,pulmonary|disorders of the airways|asthma / bronchospasm,"493.90, J45",Major,66,Med-Surg ICU,2
+3548822,235921,False,39,infectious diseases|systemic/other infections|sepsis,"038.9, A41.9",Primary,66,Med-Surg ICU,1
+4201568,221531,False,1288,infectious diseases|systemic/other infections|hematological effect of infection|leukocytosis,"288.8, D72.829",Other,66,Med-Surg ICU,0
+3620502,194813,True,18,neurologic|misc|Parkinson's disease,"332.0, G20",Other,66,Med-Surg ICU,0
+3481561,176438,False,86,pulmonary|disorders of the airways|upper respiratory obstruction|due to vocal cord paralysis,"478.30, J38.00",Major,66,Med-Surg ICU,2
+3400111,226762,False,25392,pulmonary|respiratory failure|failure to wean,,Other,66,Med-Surg ICU,0
+3986936,197126,True,2329,cardiovascular|ventricular disorders|hypertension,"401.9, I10",Other,66,Med-Surg ICU,0
+3997826,232361,True,3043,cardiovascular|ventricular disorders|congestive heart failure,"428.0, I50.9",Major,66,Med-Surg ICU,2
+4244521,169395,False,6785,gastrointestinal|abdominal/ general|abdominal pain / tenderness,"789.00, R10.9",Major,66,Med-Surg ICU,2
+3765492,226762,False,9697,pulmonary|respiratory failure|acute respiratory failure,"518.81, J96.00",Major,66,Med-Surg ICU,2
+3667753,221086,False,28989,infectious diseases|systemic/other infections|bacteremia,"038.9, R78.81",Other,66,Med-Surg ICU,0
+3671686,164705,True,6472,pulmonary|respiratory failure|hypoxemia,"799.02, J96.91",Other,66,Med-Surg ICU,0
+4041225,176762,False,45,gastrointestinal|biliary disease|cholecystitis,,Other,66,Med-Surg ICU,0
+3966144,233581,False,116,endocrine|glucose metabolism|diabetes mellitus,,Other,66,Med-Surg ICU,0
+3670058,162573,False,1724,cardiovascular|ventricular disorders|hypertension,"401.9, I10",Other,66,Med-Surg ICU,0
+4116360,226551,False,847,renal|disorder of kidney|chronic kidney disease,"585.9, N18.9",Other,66,Med-Surg ICU,0
+3889775,161076,False,2486,renal|disorder of kidney|acute renal failure,"584.9, N17.9",Major,66,Med-Surg ICU,2
+3598555,220834,True,654,endocrine|glucose metabolism|DKA,"250.13, E10.1",Primary,66,Med-Surg ICU,1
+3864535,171294,False,125,cardiovascular|chest pain / ASHD|acute coronary syndrome,,Other,66,Med-Surg ICU,0
+3874045,177655,True,2432,gastrointestinal|abdominal/ general|obesity|morbid,"278.01, E66.01",Other,66,Med-Surg ICU,0
+3866542,148968,False,13,pulmonary|disorders of the airways|epistaxis,"784.7, R04.0",Primary,66,Med-Surg ICU,1
+3494633,206032,False,3586,hematology|bleeding and red blood cell disorders|anemia,,Major,66,Med-Surg ICU,2
+4114034,180360,False,335,pulmonary|respiratory failure|hypoxemia,"799.02, J96.91",Other,66,Med-Surg ICU,0
+3764886,153993,False,4983,cardiovascular|vascular disorders|DVT,,Other,66,Med-Surg ICU,0
+3779277,165548,False,17257,cardiovascular|arrhythmias|SVT,"427.0, I47.1",Other,66,Med-Surg ICU,0
+3453021,211263,True,11390,oncology|GU tumors|prostate CA,"185, C61",Other,66,Med-Surg ICU,0
+3870976,219946,True,21,endocrine|glucose metabolism|diabetes mellitus,,Other,66,Med-Surg ICU,0
+4001618,208869,False,93,pulmonary|pulmonary infections|pneumonia|aspiration,"507.0, J69.0",Major,66,Med-Surg ICU,2
+3553242,231181,True,3673,renal|disorder of kidney|chronic renal insufficiency,"585.9, N18.9",Other,66,Med-Surg ICU,0
+3767648,200226,True,1718,pulmonary|respiratory failure|acute respiratory distress,518.82,Major,66,Med-Surg ICU,2
+3597073,229057,False,1698,neurologic|altered mental status / pain|encephalopathy,"348.30, G93.40",Primary,66,Med-Surg ICU,1
+3458330,165548,True,27871,cardiovascular|ventricular disorders|congestive heart failure,"428.0, I50.9",Other,66,Med-Surg ICU,0
+3939879,181609,True,177,pulmonary|pulmonary infections|pneumonia|community-acquired|bacterial,"486, 486, 486, 486, 486, J18.9",Other,66,Med-Surg ICU,0
+4132283,208869,True,696,oncology|head and neck tumors|neck tumor|laryngeal CA,"161.9, C32.9",Other,66,Med-Surg ICU,0
+4072806,221532,False,54,neurologic|altered mental status / pain|encephalopathy|post-anoxic,"348.1, G93.1",Other,66,Med-Surg ICU,0
+3739530,177875,True,309,cardiovascular|post vascular surgery|s/p thrombectomy,,Primary,66,Med-Surg ICU,1
+3831296,223556,False,1523,renal|disorder of kidney|acute renal failure,"584.9, N17.9",Other,66,Med-Surg ICU,0
+3888035,213500,False,3875,cardiovascular|vascular disorders|DVT,,Primary,66,Med-Surg ICU,1
+3959108,177258,False,2729,cardiovascular|shock / hypotension|hypotension,"458.9, I95.9",Major,66,Med-Surg ICU,2
+4144687,208179,False,1756,cardiovascular|ventricular disorders|cardiomyopathy,,Other,66,Med-Surg ICU,0
+3952197,197275,False,1593,cardiovascular|chest pain / ASHD|acute coronary syndrome,,Other,66,Med-Surg ICU,0
+3440855,150851,True,15,renal|disorder of kidney|chronic kidney disease,"585.9, N18.9",Other,66,Med-Surg ICU,0
+4268569,184329,False,4694,renal|disorder of kidney|chronic kidney disease,"585.9, N18.9",Other,66,Med-Surg ICU,0
+4215277,210343,True,86,pulmonary|disorders of the airways|COPD,"491.20, J44.9",Other,66,Med-Surg ICU,0
+4001584,223556,True,9131,neurologic|altered mental status / pain|change in mental status,"780.09, R41.82",Other,66,Med-Surg ICU,0
+3790659,241211,True,737,pulmonary|disorders of the airways|COPD,"491.20, J44.9",Other,66,Med-Surg ICU,0
+3937837,211041,False,3588,pulmonary|disorders of the airways|COPD,"491.20, J44.9",Major,66,Med-Surg ICU,2
+4088547,165548,False,9878,pulmonary|respiratory failure|failure to wean,,Other,66,Med-Surg ICU,0
+3449451,176762,False,1234,pulmonary|disorders of vasculature|pulmonary hypertension,,Other,66,Med-Surg ICU,0
+3858361,153993,False,4983,gastrointestinal|abdominal/ general|transaminase elevation,"790.4, R74.0",Other,66,Med-Surg ICU,0
+4267030,216788,False,3931,endocrine|glucose metabolism|hypoglycemia,"251.1, E16.2",Major,66,Med-Surg ICU,2
+4069030,156191,False,671,renal|disorder of kidney|chronic kidney disease,"585.9, N18.9",Other,66,Med-Surg ICU,0
+4252335,219266,False,13,pulmonary|disorders of the airways|COPD,"491.20, J44.9",Other,66,Med-Surg ICU,0
+3699297,187016,False,491,cardiovascular|shock / hypotension|septic shock,"785.52, R65.21",Primary,66,Med-Surg ICU,1
+3961726,193424,True,8057,pulmonary|disorders of the airways|COPD,"491.20, J44.9",Other,66,Med-Surg ICU,0
+3399123,174202,False,4460,pulmonary|respiratory failure|acute respiratory failure,"518.81, J96.00",Major,66,Med-Surg ICU,2
+3597547,233058,True,16,cardiovascular|vascular disorders|DVT|right lower extremity,"451.2, I80.3",Primary,66,Med-Surg ICU,1
+3835924,226802,True,803,cardiovascular|vascular disorders|hypertension,"401.9, I10",Other,66,Med-Surg ICU,0
+4244486,176438,False,1105,pulmonary|disorders of the airways|mechanical airway problem,,Other,66,Med-Surg ICU,0
+4067903,221280,False,18,cardiovascular|shock / hypotension|sepsis,"038.9, A41.9",Major,66,Med-Surg ICU,2
+4144384,228627,False,1556,infectious diseases|systemic/other infections|bacteremia,"038.9, R78.81",Other,66,Med-Surg ICU,0
+4228249,146912,False,883,pulmonary|respiratory failure|acute respiratory failure,"518.81, J96.00",Other,66,Med-Surg ICU,0
+3537392,161938,False,572,cardiovascular|shock / hypotension|hypotension,"458.9, I95.9",Major,66,Med-Surg ICU,2
+3415415,193140,False,26,pulmonary|respiratory failure|hypoxemia,"799.02, J96.91",Major,66,Med-Surg ICU,2
+3660401,233581,True,1034,neurologic|altered mental status / pain|change in mental status,"780.09, R41.82",Major,66,Med-Surg ICU,2
+3677634,148056,True,130,cardiovascular|ventricular disorders|hypertension,"401.9, I10",Other,66,Med-Surg ICU,0
+3820516,197253,False,8943,cardiovascular|ventricular disorders|hypertension,"401.9, I10",Other,66,Med-Surg ICU,0
+4253681,230696,False,2453,cardiovascular|shock / hypotension|sepsis,"038.9, A41.9",Primary,66,Med-Surg ICU,1
+3666499,176438,False,1106,pulmonary|disorders of the airways|upper respiratory obstruction|suspected,,Major,66,Med-Surg ICU,2
+3864933,143344,True,857,renal|disorder of kidney|chronic kidney disease,"585.9, N18.9",Other,66,Med-Surg ICU,0
+3679493,208198,False,402,endocrine|glucose metabolism|diabetes mellitus,,Other,66,Med-Surg ICU,0
+3809361,156191,True,672,hematology|coagulation disorders|DIC syndrome,"286.6, D65",Major,66,Med-Surg ICU,2
+3672717,164705,False,4074,renal|disorder of kidney|acute renal failure,"584.9, N17.9",Other,66,Med-Surg ICU,0
+4006321,176760,False,6,renal|disorder of kidney|chronic kidney disease,"585.9, N18.9",Other,66,Med-Surg ICU,0
+3598877,177258,False,2729,cardiovascular|shock / hypotension|sepsis,"038.9, A41.9",Major,66,Med-Surg ICU,2
+3865001,221086,False,582,cardiovascular|shock / hypotension|hypotension,"458.9, I95.9",Other,66,Med-Surg ICU,0
+3423785,163541,False,526,cardiovascular|ventricular disorders|congestive heart failure,"428.0, I50.9",Major,66,Med-Surg ICU,2
+3421832,143389,True,328,toxicology|drug overdose|drug overdose- general|with respiratory depression,,Primary,66,Med-Surg ICU,1
+3848051,164705,True,6472,cardiovascular|shock / hypotension|sepsis,"038.9, A41.9",Primary,66,Med-Surg ICU,1
+3498675,218426,False,1994,gastrointestinal|hepatic disease|hepatic dysfunction|with cirrhosis,"571.5, K74.60",Major,66,Med-Surg ICU,2
+4142566,228627,False,175,cardiovascular|shock / hypotension|sepsis,"038.9, A41.9",Primary,66,Med-Surg ICU,1
+3954890,226762,False,21966,infectious diseases|systemic/other infections|bacteremia|gram postive coccus,"038.9, R78.81",Other,66,Med-Surg ICU,0
+3816121,228627,False,659,renal|disorder of urinary tract / renal system infection|urinary tract infection,"599.0, N39.0",Major,66,Med-Surg ICU,2
+4000516,239559,False,39,pulmonary|respiratory failure|acute respiratory distress,518.82,Major,66,Med-Surg ICU,2
+4129773,221694,False,94,neurologic|post-neurosurgery|post spinal surgery|lumbar,,Primary,66,Med-Surg ICU,1
+3441272,161076,True,4134,gastrointestinal|hepatic disease|viral hepatitis|hepatitis C,"573.1, 070.51, B17.1",Other,66,Med-Surg ICU,0
+3792048,149075,True,20,cardiovascular|vascular disorders|hypertension,"401.9, I10",Other,66,Med-Surg ICU,0
+4083714,196239,False,19,neurologic|seizures|seizures|status epilepticus,"345.3, G40.901",Primary,66,Med-Surg ICU,1
+3912717,209916,True,13,endocrine|glucose metabolism|diabetes mellitus,,Major,66,Med-Surg ICU,2
+4246286,238717,True,12,renal|disorder of kidney|acute renal failure,"584.9, N17.9",Primary,66,Med-Surg ICU,1
+4068222,160347,True,51,renal|disorder of kidney|acute renal failure,"584.9, N17.9",Other,66,Med-Surg ICU,0
+4136141,197116,True,528,gastrointestinal|intestinal disease|diarrhea,"787.91, R19.7",Other,66,Med-Surg ICU,0
+3733653,221694,True,95,neurologic|post-neurosurgery|post spinal surgery|lumbar,,Primary,66,Med-Surg ICU,1
+3465345,200741,True,179,gastrointestinal|abdominal/ general|vomiting,"787.03, R11.10",Other,66,Med-Surg ICU,0
+4210814,241758,True,419,cardiovascular|ventricular disorders|cardiomyopathy,,Other,66,Med-Surg ICU,0
+3683392,174262,True,12,toxicology|drug overdose|drug overdose- general|with decreased mental status,,Primary,66,Med-Surg ICU,1
+4220636,165783,True,363,renal|disorder of kidney|chronic kidney disease,"585.9, N18.9",Other,66,Med-Surg ICU,0
+3545215,208179,False,2086,cardiovascular|ventricular disorders|congestive heart failure,"428.0, I50.9",Other,66,Med-Surg ICU,0
+3834735,184663,True,56,neurologic|seizures|seizures,"345.90, R56.9",Other,66,Med-Surg ICU,0
+3608773,146912,False,883,endocrine|glucose metabolism|diabetes mellitus,,Other,66,Med-Surg ICU,0
