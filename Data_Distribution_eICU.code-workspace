@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "Data_Distribution_eICU",
+			"path": "."
+		},
+		{
+			"name": "annabel_data",
+			"path": "../yaib-annie/annabel_data"
+		}
+	],
+	"settings": {}
+}
