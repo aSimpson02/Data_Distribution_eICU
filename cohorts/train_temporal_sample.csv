@@ -1,501 +1,501 @@
-diagnosisid,patientunitstayid,activeupondischarge,diagnosisoffset,diagnosisstring,icd9code,diagnosispriority,pseudo_time,diagnosispriority_encoded
-7468096,327875,False,1147,renal|disorder of urinary tract / renal system infection|obstructive uropathy,"586, N19",Major,early,2
-9042257,476466,False,5084,neurologic|disorders of vasculature|stroke|hemorrhagic stroke,"432.9, I62.9",Primary,early,1
-14552113,1007165,True,5,infectious diseases|GI infections|cholangitis|suppurative,"576.1, K83.0",Primary,early,1
-13532237,1029470,True,2820,endocrine|glucose metabolism|diabetes mellitus|Type II,,Other,early,0
-8109633,475922,False,26109,infectious diseases|systemic/other infections|bacteremia|hospital acquired,"038.9, R78.81",Major,early,2
-4379675,306256,False,2180,infectious diseases|systemic/other infections|sepsis,"038.9, A41.9",Primary,early,1
-18081538,1363755,False,16257,endocrine|fluids and electrolytes|hypomagnesemia,"275.2, E83.42",Major,early,2
-12497074,949924,True,7293,gastrointestinal|GI bleeding / PUD|upper GI bleeding,"578.9, K92.2",Primary,early,1
-18569301,1327460,False,1026,cardiovascular|shock / hypotension|hypotension / pressor dependent,,Other,early,0
-14510842,1034111,False,3232,pulmonary|disorders of the airways|COPD|severe,"491.20, J44.9",Other,early,0
-13546712,1020149,False,18277,neurologic|altered mental status / pain|encephalopathy,"348.30, G93.40",Other,early,0
-15754642,1105256,False,7374,neurologic|disorders of vasculature|stroke|hemorrhagic stroke,"432.9, I62.9",Primary,early,1
-15319806,1097151,False,3679,pulmonary|pulmonary infections|pneumonia|ventilator-associated,"486, J18.9",Major,early,2
-21652380,1437081,False,20966,cardiovascular|shock / hypotension|septic shock,"785.52, R65.21",Primary,early,1
-21641683,1527520,False,11730,infectious diseases|systemic/other infections|sepsis|sepsis with multi-organ dysfunction syndrome,"995.92, R65.20",Primary,early,1
-15900575,1164067,True,2655,pulmonary|respiratory failure|acute respiratory failure,"518.81, J96.00",Major,early,2
-13020122,1051167,False,21540,neurologic|seizures|seizures|partial complex,"345.40, G40.2",Primary,early,1
-18553414,1353155,False,1467,neurologic|altered mental status / pain|coma,"780.01, R40.20",Other,early,0
-15077698,1006251,False,7785,pulmonary|pulmonary infections|pneumonia,"486, J18.9",Other,early,0
-4038557,192236,True,36852,pulmonary|respiratory failure|hypoxemia,"799.02, J96.91",Other,early,0
-8561106,432018,True,4025,neurologic|CNS mass lesions|brain herniation syndrome,"348.4, G93.5",Major,early,2
-11076113,635762,True,817,cardiovascular|shock / hypotension|sepsis,"038.9, A41.9",Major,early,2
-6158180,335866,False,209,gastrointestinal|esophageal disease|esophagitis|regurgitant,"530.11, K21.0",Major,early,2
-21980843,1573020,False,9360,cardiovascular|chest pain / ASHD|acute coronary syndrome,,Other,early,0
-6120629,313922,True,2277,pulmonary|pulmonary infections|pneumonia,"486, J18.9",Major,early,2
-17317140,1349403,False,36,cardiovascular|ventricular disorders|congestive heart failure,"428.0, I50.9",Other,early,0
-14817345,1048654,False,3959,pulmonary|respiratory failure|acute respiratory failure,"518.81, J96.00",Major,early,2
-15187682,1112941,False,26,cardiovascular|cardiac surgery|valve replacement < 7days,,Primary,early,1
-12387439,842594,False,149,neurologic|altered mental status / pain|encephalopathy,"348.30, G93.40",Other,early,0
-17881827,1346885,False,544,cardiovascular|chest pain / ASHD|coronary artery disease,,Major,early,2
-12190192,930253,True,1211,pulmonary|respiratory failure|acute respiratory failure,"518.81, J96.00",Primary,early,1
-7951565,451207,False,848,cardiovascular|ventricular disorders|hypertension|malignant,"401.0, I10",Major,early,2
-3818884,198433,True,326,"infectious diseases|skin, bone and joint infections|necrotizing fasciitis|abdomen/pelvis","728.86, M72.6",Major,early,2
-7279663,424633,True,5009,cardiovascular|chest pain / ASHD|coronary artery disease,,Other,early,0
-17246273,1352332,True,20175,gastrointestinal|malnutrition|nutritional deficiency,"263.9, E46",Other,early,0
-12317829,619544,False,851,pulmonary|disorders of acid base|respiratory acidosis|acute,"276.2, E87.2",Major,early,2
-4951004,302963,False,13196,cardiovascular|arrhythmias|atrial fibrillation|with rapid ventricular response,"427.31, I48.0",Other,early,0
-17669488,1361476,False,6519,endocrine|glucose metabolism|DKA|with altered mental status,"250.33, E10.11",Primary,early,1
-4479685,292643,False,820,neurologic|post-neurosurgery|post craniotomy,,Primary,early,1
-5989014,326537,True,5666,pulmonary|respiratory failure|acute respiratory failure|due to pulmonary infiltrates,"518.81, J96.00",Major,early,2
-12796709,975925,False,41,renal|electrolyte imbalance|hyperkalemia,"276.7, E87.5",Other,early,0
-18909089,1363440,False,11545,neurologic|altered mental status / pain|change in mental status,"780.09, R41.82",Other,early,0
-13000788,1017684,False,24229,pulmonary|pleural disorders|pleural effusion|large,"511.9, J91.8",Other,early,0
-21549264,1512485,False,40,cardiovascular|valvular disease|valvular stenosis|aortic,"424.1, I35.0",Other,early,0
-19015328,1344972,True,366,cardiovascular|shock / hypotension|hypotension / pressor dependent,,Major,early,2
-15028131,1013553,True,3705,pulmonary|disorders of lung parenchyma|malignancy,,Other,early,0
-6764055,422587,False,294,cardiovascular|vascular disorders|DVT|left lower extremity,"451.2, I80.3",Primary,early,1
-4737470,275796,False,3855,renal|disorder of kidney|chronic kidney disease|Stage 3 (GFR 30-59),"585.3, N18.3",Other,early,0
-10631109,695679,False,4516,cardiovascular|shock / hypotension|sepsis,"038.9, A41.9",Primary,early,1
-4342721,287361,False,1574,infectious diseases|systemic/other infections|sepsis,"038.9, A41.9",Other,early,0
-13023679,999739,False,2601,renal|disorder of kidney|acute renal failure,"584.9, N17.9",Other,early,0
-15140464,1056330,True,116,pulmonary|pulmonary infections|pneumonia,"486, J18.9",Other,early,0
-9038380,531068,False,224,endocrine|glucose metabolism|diabetes mellitus,,Major,early,2
-9241180,505398,False,14909,cardiovascular|diseases of the aorta|aortic aneurysm|abdominal,"441.4, I71.4",Major,early,2
-16988166,1354524,False,1391,cardiovascular|shock / hypotension|hypotension,"458.9, I95.9",Other,early,0
-9060889,473076,False,5415,cardiovascular|vascular disorders|hypertension,"401.9, I10",Major,early,2
-15910835,1157944,False,524,cardiovascular|ventricular disorders|congestive heart failure,"428.0, I50.9",Major,early,2
-14741878,1043902,True,1046,hematology|coagulation disorders|coagulopathy|liver failure,"286.7, D68.4",Other,early,0
-8655992,451240,False,1667,pulmonary|pleural disorders|empyema,"510.9, J86.9",Major,early,2
-7107385,386877,False,725,pulmonary|respiratory failure|acute respiratory failure,"518.81, J96.00",Major,early,2
-4279458,187150,True,5673,cardiovascular|shock / hypotension|sepsis,"038.9, A41.9",Major,early,2
-9088743,481160,False,533,renal|disorder of kidney|acute renal failure,"584.9, N17.9",Major,early,2
-8866275,457115,False,15301,pulmonary|respiratory failure|acute respiratory failure,"518.81, J96.00",Major,early,2
-11979174,850651,False,4156,gastrointestinal|GI bleeding / PUD|upper GI bleeding,"578.9, K92.2",Other,early,0
-13877897,1036407,False,85,renal|disorder of kidney|acute renal failure,"584.9, N17.9",Major,early,2
-7091119,324737,False,779,gastrointestinal|abdominal/ general|obesity|morbid,"278.01, E66.01",Major,early,2
-10285982,724925,False,259,cardiovascular|shock / hypotension|hypotension,"458.9, I95.9",Major,early,2
-12341164,929400,False,161,pulmonary|respiratory failure|acute respiratory failure,"518.81, J96.00",Major,early,2
-10847187,710019,True,875,surgery|infections|wound infection|surgical wound,998.59,Primary,early,1
-13543078,992626,False,9678,endocrine|glucose metabolism|diabetes mellitus|Type II,,Other,early,0
-18298891,1316774,False,3915,hematology|coagulation disorders|coagulopathy,"286.9, D68.9",Major,early,2
-13014857,1033914,False,4461,renal|disorder of acid base|metabolic acidosis|normal anion gap,"276.2, E87.2",Other,early,0
-6464358,349722,False,2966,toxicology|drug overdose|digoxin overdose/toxicity,"972.1, T46.0X",Major,early,2
-4120192,172497,True,6565,cardiovascular|shock / hypotension|sepsis,"038.9, A41.9",Major,early,2
-14582265,1001183,False,182,neurologic|altered mental status / pain|encephalopathy,"348.30, G93.40",Other,early,0
-12793254,980063,False,784,infectious diseases|systemic/other infections|signs and symptoms of sepsis (SIRS),995.90,Other,early,0
-21677364,1550049,False,25,renal|disorder of kidney|ESRD (end stage renal disease),"585.6, N18.6",Primary,early,1
-10527969,622910,True,3108,cardiovascular|cardiac arrest|cardiac arrest,"427.5, I46.9",Primary,early,1
-10316044,783595,False,493,burns/trauma|trauma - CNS|intracranial injury|with subdural hematoma,"852.20, S06.5",Primary,early,1
-12200219,812345,True,32096,cardiovascular|shock / hypotension|septic shock,"785.52, R65.21",Primary,early,1
-5136653,295397,True,5668,pulmonary|respiratory failure|acute respiratory failure|due to neurological process,"518.81, J96.00",Major,early,2
-11052539,892247,True,1440,pulmonary|disorders of the airways|acute COPD exacerbation,"491.21, J44.1",Major,early,2
-12849504,1045763,False,28056,oncology|chest tumors|metastatic lung CA,"197.0, C78.00",Other,early,0
-8741373,425669,True,171,neurologic|altered mental status / pain|drug withdrawal syndrome|alcohol,"291.81, F10.239",Major,early,2
-12832040,963633,True,12,pulmonary|disorders of lung parenchyma|malignancy|primary lung cancer,"162.9, C34.90",Other,early,0
-22185613,1576350,False,1697,infectious diseases|systemic/other infections|sepsis,"038.9, A41.9",Other,early,0
-8047221,482315,False,115,gastrointestinal|abdominal/ general|ascites,"789.5, R18.8",Major,early,2
-18826830,1357027,True,4835,gastrointestinal|GI bleeding / PUD|GI bleeding,"578.9, K92.2",Major,early,2
-13468604,987695,False,2947,gastrointestinal|hepatic disease|hepatic encephalopathy,572.2,Other,early,0
-12116116,825743,False,4474,cardiovascular|cardiac surgery|valve replacement < 7days,,Primary,early,1
-7829860,380667,False,3105,pulmonary|disorders of the airways|asthma / bronchospasm,"493.90, J45",Major,early,2
-4247377,156080,True,4232,neurologic|disorders of vasculature|stroke,"436, I67.8",Other,early,0
-8098080,450831,False,10752,pulmonary|disorders of the airways|upper respiratory obstruction|due to tumor,"786.00, R06.1",Primary,early,1
-6079307,366773,False,705,gastrointestinal|abdominal/ general|obesity|morbid,"278.01, E66.01",Major,early,2
-4194636,153993,False,6328,renal|disorder of urinary tract / renal system infection|urinary tract infection,"599.0, N39.0",Other,early,0
-12157064,954151,False,3853,cardiovascular|arrhythmias|atrial fibrillation,"427.31, I48.0",Major,early,2
-9712887,448819,True,168,pulmonary|disorders of the airways|epistaxis,"784.7, R04.0",Primary,early,1
-13992145,1019499,False,1049,cardiovascular|chest pain / ASHD|hyperlipidemia,"272.4, E78.5",Other,early,0
-14158357,1054105,False,2163,cardiovascular|vascular disorders|hypertension,"401.9, I10",Other,early,0
-13403799,1003354,False,11270,cardiovascular|arrhythmias|atrial fibrillation|without hemodynamic compromise,"427.31, I48.0",Major,early,2
-6610907,341543,False,2170,cardiovascular|chest pain / ASHD|chest pain|r/o aortic dissection,,Major,early,2
-16023276,1211498,False,8571,renal|disorder of kidney|acute renal failure,"584.9, N17.9",Major,early,2
-4099171,173294,True,24,cardiovascular|ventricular disorders|hypertension|uncontrolled,"401.9, I10",Primary,early,1
-5988808,316433,False,4782,renal|disorder of acid base|metabolic acidosis,"276.2, E87.2",Major,early,2
-15123520,1064676,False,60,cardiovascular|cardiac arrest|cardiac arrest,"427.5, I46.9",Other,early,0
-5036699,294701,False,3545,gastrointestinal|post-GI surgery|s/p exploratory laparotomy,,Primary,early,1
-18380940,1362444,False,50243,hematology|platelet disorders|thrombocytopenia,"287.5, D69.6",Major,early,2
-13616901,989550,True,51,cardiovascular|ventricular disorders|hypertension,"401.9, I10",Other,early,0
-17438811,1314763,False,7899,cardiovascular|vascular disorders|hypertension,"401.9, I10",Major,early,2
-15925788,1183987,False,281,gastrointestinal|GI bleeding / PUD|lower GI bleeding,"578.9, K92.2",Primary,early,1
-21975539,1573881,False,269,cardiovascular|chest pain / ASHD|acute coronary syndrome,,Primary,early,1
-5953706,346380,False,5028,general|other syndromes|syncope,"780.2, R55",Major,early,2
-6406924,362005,False,5622,cardiovascular|ventricular disorders|cardiomyopathy,,Major,early,2
-15308521,1098222,False,47,cardiovascular|shock / hypotension|hypotension,"458.9, I95.9",Major,early,2
-15273255,1115250,False,1540,gastrointestinal|hepatic disease|hepatic failure,"570, K72.9",Major,early,2
-16734221,1353211,False,2543,cardiovascular|shock / hypotension|hypotension / pressor dependent,,Other,early,0
-12990510,1000497,False,403,renal|electrolyte imbalance|hypokalemia,"276.8, E87.6",Other,early,0
-5569136,342062,False,1757,pulmonary|pulmonary infections|pneumonia,"486, J18.9",Major,early,2
-8429742,463241,False,215,gastrointestinal|abdominal/ general|obesity,"278.00, E66.9",Major,early,2
-12839601,964123,False,4211,toxicology|drug overdose|drug overdose- general|with decreased mental status,,Other,early,0
-5664580,340905,False,1344,cardiovascular|ventricular disorders|cardiomyopathy,,Major,early,2
-12805582,968970,True,3221,gastrointestinal|hepatic disease|hepatic dysfunction|with cirrhosis,"571.5, K74.60",Other,early,0
-17572183,1334318,False,8833,burns/trauma|trauma - skeletal|bone fracture(s)|thoracic spine,S22.00,Primary,early,1
-4587782,291579,False,135,pulmonary|pleural disorders|empyema,"510.9, J86.9",Other,early,0
-22149681,1570253,True,1113,renal|disorder of kidney|chronic kidney disease,"585.9, N18.9",Other,early,0
-15773267,1175899,False,2,gastrointestinal|intestinal disease|viscus perforation|gastric,"537.9, K31.9",Primary,early,1
-4356711,280954,False,10959,oncology|chest tumors|primary lung cancer,"162.9, C34.90",Other,early,0
-8532925,511622,False,8800,infectious diseases|GU infections|lower urinary tract infection,"595.9, N30.9",Other,early,0
-10583115,891111,False,66,cardiovascular|ventricular disorders|congestive heart failure,"428.0, I50.9",Major,early,2
-11250496,597833,False,1622,cardiovascular|shock / hypotension|septic shock,"785.52, R65.21",Primary,early,1
-12841772,977218,False,52,pulmonary|respiratory failure|acute respiratory distress,518.82,Other,early,0
-20973413,1481885,False,1314,"cardiovascular|cardiac arrest|cardiac arrest|witnessed, < 15 minutes CPR","427.5, I46.9",Primary,early,1
-10332470,579732,False,24476,pulmonary|respiratory failure|acute respiratory failure,"518.81, J96.00",Major,early,2
-10260396,928875,False,1455,cardiovascular|arrhythmias|SVT|with hemodynamic compromise,"427.0, I47.1",Primary,early,1
-18281159,1333285,False,1824,endocrine|fluids and electrolytes|hypomagnesemia,"275.2, E83.42",Other,early,0
-15647997,1117185,False,811,renal|disorder of kidney|acute renal failure,"584.9, N17.9",Major,early,2
-11680417,862581,False,2404,gastrointestinal|hepatic disease|fulminant hepatic failure,"570, K72.0",Major,early,2
-5132514,293882,False,630,oncology|chest tumors|metastatic lung CA,"197.0, C78.00",Other,early,0
-17645276,1316527,True,3828,cardiovascular|shock / hypotension|cardiogenic shock|due to myocardial ischemia,"785.51, R57.0",Major,early,2
-13954757,1051167,False,31791,renal|electrolyte imbalance|hyponatremia|moderate (125 - 135 meq/dl),E87.1,Other,early,0
-17640066,1324954,False,2552,cardiovascular|valvular disease|valvular insufficiency|mitral valve,"424.0, I34.8",Major,early,2
-3778764,201456,True,12977,cardiovascular|ventricular disorders|hypertension,"401.9, I10",Major,early,2
-15400045,1131342,False,7672,burns/trauma|trauma- head and neck|eye injury,"870.9, S05",Major,early,2
-9180547,455317,False,1459,pulmonary|respiratory failure|acute respiratory failure|due to neurological process,"518.81, J96.00",Major,early,2
-13592670,1013508,True,1074,gastrointestinal|GI bleeding / PUD|upper GI bleeding|post-procedure,"578.9, K92.2",Primary,early,1
-22168663,1579018,False,35,cardiovascular|post vascular surgery|s/p cartoid endarterectomy,,Other,early,0
-6807013,355787,True,140,cardiovascular|chest pain / ASHD|acute coronary syndrome|s/p PTCA|with stent placement,,Primary,early,1
-16846203,1322558,False,7262,pulmonary|respiratory failure|acute respiratory failure,"518.81, J96.00",Other,early,0
-7973162,461634,True,80,infectious diseases|systemic/other infections|fever,"780.6, R50.9",Major,early,2
-16811352,1362444,False,68380,cardiovascular|ventricular disorders|cardiomyopathy,,Other,early,0
-10142188,473844,True,5031,hematology|bleeding and red blood cell disorders|anemia|anemia of critical illness,"285.9, D64.9",Major,early,2
-7961119,510805,False,2256,cardiovascular|arrhythmias|atrial fibrillation|with controlled ventricular response,"427.31, I48.0",Other,early,0
-15602799,1093294,False,469,"cardiovascular|cardiac arrest|cardiac arrest|witnessed, < 15 minutes CPR","427.5, I46.9",Major,early,2
-7937746,505461,False,2134,cardiovascular|shock / hypotension|septic shock|cultures pending,"785.52, R65.21",Primary,early,1
-9163091,524190,False,425,cardiovascular|chest pain / ASHD|coronary artery disease|significant risk factors,,Major,early,2
-9007712,461520,False,7689,neurologic|seizures|seizures|from drug withdrawal (other than Etoh),"345.90, R56.9",Other,early,0
-8702470,440055,True,5030,neurologic|altered mental status / pain|pain|moderate,,Major,early,2
-10608069,790946,False,1365,pulmonary|pleural disorders|pleural effusion|left,"511.9, J91.8",Major,early,2
-9768543,505608,False,25650,renal|disorder of kidney|acute renal failure,"584.9, N17.9",Major,early,2
-4291787,301516,False,48288,renal|electrolyte imbalance|hyperkalemia,"276.7, E87.5",Other,early,0
-7005634,340203,False,13045,hematology|bleeding and red blood cell disorders|anemia|sickle cell anemia,"282.60, D57.1",Major,early,2
-12165519,607385,True,1190,neurologic|seizures|seizures,"345.90, R56.9",Major,early,2
-17266874,1318288,False,2421,cardiovascular|vascular disorders|hypertension,"401.9, I10",Other,early,0
-10106883,475922,False,23334,pulmonary|pulmonary infections|pneumonia|hospital acquired (not ventilator-associated)|bacterial|staph aureus,"482.41, J15.21",Major,early,2
-8277224,453163,False,665,cardiovascular|shock / hypotension|hypotension / pressor dependent,,Major,early,2
-5420663,289081,False,10825,cardiovascular|shock / hypotension|septic shock,"785.52, R65.21",Primary,early,1
-9874186,437273,True,2087,neurologic|misc|Parkinson's disease,"332.0, G20",Major,early,2
-21901613,1575237,True,13,toxicology|drug overdose|narcotic overdose,"E980.2, 965.00, T40.60",Other,early,0
-11685959,689162,False,848,toxicology|drug overdose|benzodiazepine overdose|with decreased mental status,"E980.2, 969.4, 780.09, T42.4X",Primary,early,1
-21373250,1552732,False,48,pulmonary|disorders of the airways|COPD,"491.20, J44.9",Other,early,0
-21591449,1503241,True,2836,endocrine|fluids and electrolytes|hypokalemia,"276.8, E87.8",Major,early,2
-13316749,1035187,False,18202,pulmonary|pulmonary infections|pneumonia,"486, J18.9",Major,early,2
-18412387,1351773,False,7548,hematology|bleeding and red blood cell disorders|anemia,,Other,early,0
-13329084,1004858,False,-1869,pulmonary|respiratory failure|hypercarbia,"786.09, J96.92",Other,early,0
-8781143,506396,False,3111,infectious diseases|systemic/other infections|hematological effect of infection|leukocytosis,"288.8, D72.829",Major,early,2
-13650814,1035187,True,23942,neurologic|altered mental status / pain|encephalopathy|toxic,"349.82, G92",Other,early,0
-12315791,870551,False,3977,pulmonary|respiratory failure|acute respiratory failure,"518.81, J96.00",Primary,early,1
-21883533,1559420,False,420,cardiovascular|shock / hypotension|sepsis,"038.9, A41.9",Other,early,0
-7738074,413983,False,244,endocrine|pituitary and temperature regulation|hypothermia,,Major,early,2
-3831384,165856,False,1,neurologic|altered mental status / pain|dementia,"294.9, F03",Other,early,0
-21378033,1503109,False,76,neurologic|post-neurosurgery|post neurointerventional procedure|embolization,,Primary,early,1
-16064564,1170909,True,1267,cardiovascular|ventricular disorders|acute pulmonary edema,"428.1, I50.1",Major,early,2
-11953421,622736,True,5871,gastrointestinal|GI bleeding / PUD|upper GI bleeding,"578.9, K92.2",Primary,early,1
-15857783,1181357,True,3212,cardiovascular|shock / hypotension|sepsis,"038.9, A41.9",Primary,early,1
-10200041,529115,False,664,pulmonary|respiratory failure|acute respiratory failure|drug related|residual neuromuscular blockade,"518.5, J96.00",Major,early,2
-15401698,1129529,False,17,pulmonary|respiratory failure|acute respiratory failure,"518.81, J96.00",Primary,early,1
-3917407,191284,True,4907,hematology|coagulation disorders|DIC syndrome,"286.6, D65",Major,early,2
-6687661,373399,False,1546,infectious diseases|systemic/other infections|fever,"780.6, R50.9",Major,early,2
-9937759,440030,False,145,pulmonary|respiratory failure|acute respiratory failure|drug related|residual general anesthesia,"518.5, J96.00",Major,early,2
-18288447,1349403,False,558,renal|electrolyte imbalance|hyperkalemia|severe (> 6.1 meq/dl),"276.7, E87.5",Primary,early,1
-16786220,1316795,False,23344,neurologic|altered mental status / pain|encephalopathy|post-anoxic,"348.1, G93.1",Other,early,0
-6887622,380316,True,1026,neurologic|seizures|seizures,"345.90, R56.9",Major,early,2
-18006861,1336774,False,2694,pulmonary|respiratory failure|acute respiratory failure,"518.81, J96.00",Other,early,0
-15435013,1096551,False,88,cardiovascular|ventricular disorders|congestive heart failure,"428.0, I50.9",Major,early,2
-22080195,1562806,True,2736,cardiovascular|chest pain / ASHD|acute coronary syndrome|s/p PTCA|with stent placement,,Other,early,0
-11636161,902743,False,10528,renal|disorder of kidney|acute renal failure,"584.9, N17.9",Major,early,2
-12802600,961530,False,19395,neurologic|seizures|seizures,"345.90, R56.9",Other,early,0
-10933578,582765,True,53,cardiovascular|shock / hypotension|sepsis|severe,"995.92, R65.2",Primary,early,1
-5075598,277354,False,1470,pulmonary|respiratory failure|acute respiratory failure,"518.81, J96.00",Other,early,0
-15578182,1104063,True,1479,renal|disorder of kidney|acute renal failure|due to hypovolemia/decreased circulating volume,"584.9, N17.9",Primary,early,1
-18193468,1337008,False,3352,"infectious diseases|skin, bone and joint infections|infectious dermatitis","686.9, L08.9",Other,early,0
-15956808,1137864,True,420,oncology|GI tumors|gastric CA,"151.9, C16.9",Major,early,2
-14089581,1046494,False,2410,renal|electrolyte imbalance|hypomagnesemia,"275.2, E83.42",Other,early,0
-4263363,207404,False,6615,pulmonary|respiratory failure|hypoxemia,"799.02, J96.91",Other,early,0
-11967595,640008,False,450,pulmonary|pulmonary infections|pneumonia,"486, J18.9",Major,early,2
-15061361,1037987,False,12292,neurologic|altered mental status / pain|sedated,,Other,early,0
-8878690,509209,False,336,oncology|hematologic malignancy|leukemia|chronic lymphocytic,"204.10, C91.10",Major,early,2
-9184778,500314,False,1099,neurologic|disorders of vasculature|increased intracranial pressure,"781.99, G93.5",Major,early,2
-9160928,463168,False,115,renal|electrolyte imbalance|hyperkalemia,"276.7, E87.5",Major,early,2
-13023338,1030550,True,43469,cardiovascular|arrhythmias|atrial fibrillation|with controlled ventricular response,"427.31, I48.0",Other,early,0
-17514942,1330173,False,49,gastrointestinal|hepatic disease|viral hepatitis|hepatitis C,"573.1, 070.51, B17.1",Major,early,2
-3610267,149049,False,40,pulmonary|post thoracic surgery|s/p thoracoscopic procedure|lung tissue biopsy,,Primary,early,1
-8068246,463763,False,795,cardiovascular|arrhythmias|sinus tachycardia,"785.0, R00.0",Major,early,2
-13462334,991206,False,54154,infectious diseases|systemic/other infections|fever,"780.6, R50.9",Other,early,0
-21582313,1450466,False,37,renal|disorder of urinary tract / renal system infection|urinary tract infection,"599.0, N39.0",Major,early,2
-10376031,680948,False,2104,cardiovascular|chest pain / ASHD|acute coronary syndrome|acute myocardial infarction (no ST elevation),"410.71, I21.4",Primary,early,1
-20872128,1454451,False,16,cardiovascular|ventricular disorders|congestive heart failure,"428.0, I50.9",Other,early,0
-10019067,517773,False,453,cardiovascular|chest pain / ASHD|hyperlipidemia,"272.4, E78.5",Major,early,2
-8480580,462092,False,17131,hematology|bleeding and red blood cell disorders|anemia|anemia of critical illness,"285.9, D64.9",Major,early,2
-13005358,1024047,False,-1,cardiovascular|ventricular disorders|cardiomyopathy,,Other,early,0
-9865316,460182,False,2840,cardiovascular|vascular disorders|hypertension,"401.9, I10",Major,early,2
-6484222,334475,True,195,pulmonary|respiratory failure|acute respiratory distress,518.82,Major,early,2
-10346341,724732,False,35,cardiovascular|shock / hypotension|sepsis|severe,"995.92, R65.2",Major,early,2
-9027410,520885,True,274,neurologic|altered mental status / pain|pain,,Major,early,2
-4760398,273370,False,7538,renal|disorder of kidney|chronic kidney disease|Stage 3 (GFR 30-59),"585.3, N18.3",Other,early,0
-14823146,1037242,False,7775,endocrine|glucose metabolism|diabetes mellitus|Type II,,Other,early,0
-10544077,737397,False,3175,neurologic|altered mental status / pain|encephalopathy,"348.30, G93.40",Major,early,2
-6968774,370482,False,7455,hematology|platelet disorders|thrombocytopenia,"287.5, D69.6",Major,early,2
-15336135,1135116,True,801,neurologic|post-neurosurgery|post spinal surgery|lumbar,,Primary,early,1
-21699598,1456305,True,1921,neurologic|altered mental status / pain|drug withdrawal syndrome,F19.939,Major,early,2
-16923390,1337724,False,189,cardiovascular|vascular disorders|peripheral vascular ischemia,,Primary,early,1
-12190948,734515,False,28863,cardiovascular|chest pain / ASHD|acute coronary syndrome|acute myocardial infarction (no ST elevation),"410.71, I21.4",Major,early,2
-6333312,382438,False,2911,cardiovascular|arrhythmias|bradycardia|symptomatic,"427.81, R00.1",Major,early,2
-8449179,432176,False,5308,neurologic|altered mental status / pain|agitation,"308.2, F43.0",Other,early,0
-7827647,372372,False,17943,infectious diseases|systemic/other infections|fever,"780.6, R50.9",Major,early,2
-8165920,511763,True,26837,neurologic|disorders of vasculature|stroke|ischemic stroke|cardioembolic,"434.11, I63.40",Primary,early,1
-8042133,441673,False,5444,cardiovascular|shock / hypotension|hypotension / pressor dependent,,Major,early,2
-9149820,479108,False,132,renal|electrolyte imbalance|hyponatremia,"276.1, E87.0, E87.1",Major,early,2
-11213467,809207,False,1588,cardiovascular|ventricular disorders|congestive heart failure,"428.0, I50.9",Major,early,2
-3918373,188051,False,58946,neurologic|post-neurosurgery|post craniotomy|for hemorrhage,,Major,early,2
-10974264,854555,False,1813,cardiovascular|arrhythmias|atrial fibrillation,"427.31, I48.0",Major,early,2
-3707376,143086,True,105,cardiovascular|post vascular surgery|s/p interventional vascular procedure,,Other,early,0
-15845359,1157692,False,12,cardiovascular|chest pain / ASHD|coronary artery disease,,Primary,early,1
-10527402,649243,False,4368,neurologic|altered mental status / pain|encephalopathy|toxic,"349.82, G92",Major,early,2
-13472418,1010047,False,1353,pulmonary|respiratory failure|acute on chronic respiratory failure not due to CHF,"518.84, J96.20",Major,early,2
-3539820,233353,True,164,endocrine|glucose metabolism|diabetes mellitus,,Other,early,0
-9575427,498022,False,54,cardiovascular|ventricular disorders|hypertension,"401.9, I10",Major,early,2
-14828920,1047830,True,5245,renal|electrolyte imbalance|hypomagnesemia,"275.2, E83.42",Other,early,0
-13976645,995730,False,10346,cardiovascular|vascular disorders|hypertension,"401.9, I10",Other,early,0
-22107522,1570189,False,9031,renal|disorder of kidney|acute renal failure,"584.9, N17.9",Other,early,0
-14213102,1044703,False,870,gastrointestinal|GI bleeding / PUD|peptic ulcer disease,"533.90, K27.9",Other,early,0
-21624449,1492637,False,133,gastrointestinal|abdominal/ general|nausea,"787.02, R11.0",Other,early,0
-18018302,1332355,False,15851,pulmonary|pulmonary infections|pneumonia,"486, J18.9",Major,early,2
-20567566,1444866,False,45,pulmonary|respiratory failure|chronic respiratory failure,"518.83, J96.10",Major,early,2
-12412850,720736,False,768,cardiovascular|shock / hypotension|sepsis|severe,"995.92, R65.2",Primary,early,1
-18199610,1352174,True,18717,cardiovascular|vascular disorders|arterial thromboembolism,,Other,early,0
-15281698,1112076,False,987,cardiovascular|arrhythmias|atrial fibrillation,"427.31, I48.0",Major,early,2
-5642330,414654,False,770,cardiovascular|ventricular disorders|hypertension,"401.9, I10",Major,early,2
-6802393,366194,False,124,cardiovascular|vascular disorders|hypertension,"401.9, I10",Major,early,2
-8983955,435219,False,3442,hematology|bleeding and red blood cell disorders|hemorrhage,,Major,early,2
-15305953,1078027,True,-4,burns/trauma|trauma - chest|lung trauma,"861.20, S27.30",Primary,early,1
-7250442,405994,False,2288,cardiovascular|cardiac arrest|cardiac arrest,"427.5, I46.9",Major,early,2
-17509481,1349841,True,2007,endocrine|fluids and electrolytes|hypomagnesemia,"275.2, E83.42",Other,early,0
-21185212,1455777,False,128,burns/trauma|burns|chemical burn,,Major,early,2
-11668855,651393,False,4502,gastrointestinal|post-GI surgery|s/p exploratory laparotomy,,Major,early,2
-17686846,1335522,False,35883,renal|abnormality of urine quantity or quality|oliguria,"788.5, R34",Major,early,2
-9549664,509593,True,105,pulmonary|disorders of the airways|COPD,"491.20, J44.9",Major,early,2
-15686283,1079588,False,30417,general|immunological diseases|systemic lupus erythematosus,"710.0, M32.10",Major,early,2
-12835877,961892,False,3425,renal|disorder of urinary tract / renal system infection|urinary tract infection,"599.0, N39.0",Other,early,0
-8500456,428002,False,11142,hematology|white blood cell disorders|leukocytosis,"288.8, D72.829",Major,early,2
-7025806,374600,True,35,oncology|GI tumors|colon CA,"153.9, C18.9",Other,early,0
-13804545,983578,False,2172,neurologic|altered mental status / pain|coma,"780.01, R40.20",Other,early,0
-11009455,730802,False,70,cardiovascular|shock / hypotension|sepsis,"038.9, A41.9",Primary,early,1
-18637700,1360476,False,36500,gastrointestinal|malnutrition|protein-calorie malnutrition,"263.9, E46",Major,early,2
-8951494,431152,True,5308,burns/trauma|dermatology|pressure sore|stage 1,"707.00, L89.891",Major,early,2
-7553998,414146,False,4451,cardiovascular|chest pain / ASHD|hyperlipidemia,"272.4, E78.5",Other,early,0
-9375875,469556,False,1052,gastrointestinal|abdominal/ general|nausea|with vomiting,"787.01, R11.2",Major,early,2
-21603471,1515248,False,10180,cardiovascular|valvular disease|valvular insufficiency|mitral valve,"424.0, I34.8",Major,early,2
-10887360,645678,False,15150,hematology|bleeding and red blood cell disorders|pancytopenia,"284.8, D61.9",Major,early,2
-8061094,430027,False,1494,pulmonary|respiratory failure|acute respiratory failure|drug related|residual general anesthesia,"518.5, J96.00",Major,early,2
-3978128,232884,False,121,cardiovascular|shock / hypotension|sepsis,"038.9, A41.9",Primary,early,1
-9483327,472858,False,125,pulmonary|respiratory failure|acute respiratory failure,"518.81, J96.00",Major,early,2
-17129278,1317456,False,12152,pulmonary|respiratory failure|acute respiratory failure,"518.81, J96.00",Other,early,0
-8318766,486298,False,3044,burns/trauma|trauma - skeletal|bone fracture(s)|ribs|closed,"807.00, S22.4",Major,early,2
-11164267,773553,False,3135,pulmonary|respiratory failure|acute respiratory failure,"518.81, J96.00",Primary,early,1
-12798808,976128,False,57,pulmonary|pleural disorders|pleural effusion|right,"511.9, J91.8",Other,early,0
-4365749,261998,False,8197,neurologic|altered mental status / pain|delirium,"293.0, F05",Other,early,0
-15804216,1158137,False,988,cardiovascular|arrhythmias|ventricular fibrillation|torsade de pointes,"427.41, I49.01",Primary,early,1
-3775102,211724,False,18,cardiovascular|ventricular disorders|acute pulmonary edema,"428.1, I50.1",Other,early,0
-6528368,395345,False,103,cardiovascular|ventricular disorders|congestive heart failure,"428.0, I50.9",Primary,early,1
-15283299,1133699,False,5126,cardiovascular|arrhythmias|atrial fibrillation,"427.31, I48.0",Major,early,2
-17043678,1325293,False,13898,endocrine|glucose metabolism|diabetes mellitus,,Major,early,2
-8180041,429502,False,3348,cardiovascular|shock / hypotension|hypotension / pressor dependent,,Major,early,2
-12803939,977319,True,1276,neurologic|altered mental status / pain|obtundation,"780.09, R40.0",Other,early,0
-12126689,653237,False,16504,pulmonary|respiratory failure|acute respiratory failure,"518.81, J96.00",Major,early,2
-15717328,1106222,False,7429,pulmonary|disorders of vasculature|pulmonary embolism,"415.19, I26.99",Primary,early,1
-22102690,1563783,False,127,renal|disorder of kidney|acute renal failure,"584.9, N17.9",Other,early,0
-7347600,350148,False,7338,cardiovascular|arrhythmias|atrial fibrillation|with rapid ventricular response,"427.31, I48.0",Major,early,2
-18419920,1325080,False,4310,cardiovascular|shock / hypotension|hypotension / pressor dependent,,Other,early,0
-6447350,323499,False,2083,renal|electrolyte imbalance|hypomagnesemia,"275.2, E83.42",Major,early,2
-3720698,184329,False,6671,cardiovascular|shock / hypotension|sepsis,"038.9, A41.9",Primary,early,1
-21833276,1555250,True,8655,burns/trauma|trauma - chest|pneumothorax,860.0,Other,early,0
-3810731,148906,True,2027,cardiovascular|cardiac surgery|valve replacement < 7days|aortic,,Primary,early,1
-12212859,574574,True,751,cardiovascular|shock / hypotension|signs and symptoms of sepsis (SIRS),995.90,Major,early,2
-12211115,884841,False,22186,cardiovascular|cardiac arrest|cardiac arrest,"427.5, I46.9",Primary,early,1
-6069579,316379,False,1801,pulmonary|disorders of the airways|COPD,"491.20, J44.9",Major,early,2
-6889429,345943,False,132,transplant|s/p kidney transplant|s/p kidney transplant,996.81,Other,early,0
-18357216,1330434,False,14177,endocrine|thyroid|hypothyroidism,"244.9, E03.9",Other,early,0
-16894674,1332355,False,46,pulmonary|disorders of the airways|COPD,"491.20, J44.9",Other,early,0
-21599926,1544163,True,3326,cardiovascular|arrhythmias|atrial fibrillation,"427.31, I48.0",Major,early,2
-13737217,1050025,True,6437,hematology|oncology and leukemia|carcinomatosis,"199.0, C80.0",Other,early,0
-18251645,1326529,False,2770,cardiovascular|vascular disorders|hypertension,"401.9, I10",Other,early,0
-4469399,268294,False,2940,infectious diseases|systemic/other infections|hematological effect of infection|leukocytosis,"288.8, D72.829",Major,early,2
-5536890,328178,False,28,pulmonary|respiratory failure|acute respiratory failure,"518.81, J96.00",Major,early,2
-15745335,1135672,False,540,neurologic|disorders of vasculature|stroke|ischemic stroke,"434.91, I63.50",Primary,early,1
-12828620,980182,True,59,neurologic|altered mental status / pain|change in mental status,"780.09, R41.82",Other,early,0
-21980682,1561077,False,2600,cardiovascular|chest pain / ASHD|acute coronary syndrome,,Other,early,0
-12437100,887646,False,12749,burns/trauma|trauma - skeletal|bone fracture(s)|cervical spine,S12,Major,early,2
-3622317,197253,True,11145,pulmonary|respiratory failure|respiratory arrest,"799.1, R09.2",Primary,early,1
-12267841,943847,False,72684,gastrointestinal|GI bleeding / PUD|GI bleeding,"578.9, K92.2",Major,early,2
-8289563,520245,False,184,cardiovascular|ventricular disorders|cardiomyopathy,,Primary,early,1
-12319946,784093,True,24,burns/trauma|trauma - skeletal|bone fracture(s)|ribs,S22.4,Primary,early,1
-5591914,403612,False,154,hematology|bleeding and red blood cell disorders|anemia,,Major,early,2
-8558832,488206,False,132,cardiovascular|shock / hypotension|hypovolemia,"276.52, E86.1",Other,early,0
-4768290,302810,False,2847,hematology|bleeding and red blood cell disorders|anemia,,Other,early,0
-9655554,466708,False,17013,hematology|bleeding and red blood cell disorders|anemia,,Major,early,2
-6369699,342493,False,1035,endocrine|glucose metabolism|diabetes mellitus|Type II,,Major,early,2
-11060374,564415,False,379,toxicology|drug overdose|drug overdose- general|suicide attempt,,Primary,early,1
-7198956,407872,False,12322,pulmonary|disorders of the airways|COPD,"491.20, J44.9",Major,early,2
-9931605,530688,False,57595,pulmonary|respiratory failure|ARDS|pulmonary etiology|pneumonia,"518.81, J80",Major,early,2
-17711450,1330437,False,10106,neurologic|altered mental status / pain|sedated,,Major,early,2
-6901051,354794,False,882,cardiovascular|chest pain / ASHD|hyperlipidemia,"272.4, E78.5",Other,early,0
-12845498,978360,True,26,infectious diseases|systemic/other infections|fever,"780.6, R50.9",Other,early,0
-21742478,1479762,False,5238,endocrine|glucose metabolism|hyperglycemia,"790.6, R73.9",Major,early,2
-12066099,790396,False,27,renal|disorder of kidney|acute renal failure,"584.9, N17.9",Major,early,2
-19073004,1326309,False,68,cardiovascular|post vascular surgery|s/p vascular bypass,,Other,early,0
-21870487,1564686,False,167,renal|disorder of kidney|chronic renal insufficiency,"585.9, N18.9",Other,early,0
-17336485,1338196,True,1651,cardiovascular|pericardial diseases|pericardial effusion,"423.9, I31.9",Primary,early,1
-15044712,1013193,True,2018,gastrointestinal|hepatic disease|hepatic dysfunction,"573.9, K76.9",Other,early,0
-11819700,884841,False,33314,cardiovascular|cardiac arrest|cardiac arrest,"427.5, I46.9",Primary,early,1
-3941172,235720,False,359,burns/trauma|trauma - CNS|increased intracranial pressure,"781.99, G93.5",Major,early,2
-10199171,515590,False,2315,pulmonary|respiratory failure|hypoxemia,"799.02, J96.91",Major,early,2
-7874740,447715,False,273,neurologic|post-neurosurgery|post craniotomy|for hemorrhage,,Primary,early,1
-15280016,1080444,False,18653,cardiovascular|arrhythmias|atrial fibrillation,"427.31, I48.0",Major,early,2
-13778850,1029707,True,13790,gastrointestinal|abdominal/ general|constipation,"564.00, K59.00",Other,early,0
-15181001,1111993,False,1667,"infectious diseases|skin, bone and joint infections|cellulitis","682.9, L03.90",Primary,early,1
-3999676,223427,False,5632,pulmonary|respiratory failure|hypoxemia,"799.02, J96.91",Other,early,0
-12322645,894289,False,4655,surgery|infections|pneumonia|aspiration pneumonia,"507.0, J69.0",Major,early,2
-22103202,1571636,True,544,renal|disorder of kidney|acute renal failure,"584.9, N17.9",Other,early,0
-14750895,1021047,True,5437,pulmonary|disorders of the airways|obstructive sleep apnea,"780.57, G47.33",Other,early,0
-15142131,1068251,False,448,pulmonary|respiratory failure|acute respiratory failure,"518.81, J96.00",Other,early,0
-4114803,169297,True,2612,cardiovascular|shock / hypotension|hypotension / pressor dependent,,Other,early,0
-11431138,697902,False,6278,renal|disorder of kidney|acute renal failure,"584.9, N17.9",Primary,early,1
-21867834,1553504,False,1860,pulmonary|disorders of the airways|COPD,"491.20, J44.9",Other,early,0
-20444858,1461148,False,44,cardiovascular|vascular disorders|DVT,,Major,early,2
-10650420,904999,True,102,gastrointestinal|post-GI surgery|s/p surgery for undiagnosed mass,,Other,early,0
-9933441,475344,False,2962,cardiovascular|valvular disease|valvular insufficiency,,Other,early,0
-16985240,1316137,False,2354,pulmonary|pleural disorders|pleural effusion|left,"511.9, J91.8",Primary,early,1
-5472763,365189,True,171,endocrine|glucose metabolism|hyperglycemia,"790.6, R73.9",Major,early,2
-10859502,924084,False,1546,cardiovascular|shock / hypotension|cardiogenic shock,"785.51, R57.0",Major,early,2
-5232525,291134,False,20,cardiovascular|ventricular disorders|hypertension|controlled,"401.9, I10",Other,early,0
-17726553,1335522,False,35487,gastrointestinal|GI bleeding / PUD|upper GI bleeding|gastritis,"535.01, K92.2",Other,early,0
-15548204,1117992,False,162,neurologic|infectious disease of nervous system|meningitis|acute|fungal,"117.9, 321.1, B49, G05",Major,early,2
-3417394,194750,True,1235,pulmonary|disorders of the airways|COPD,"491.20, J44.9",Other,early,0
-12286231,675375,False,25,neurologic|disorders of vasculature|stroke|ischemic stroke,"434.91, I63.50",Other,early,0
-12822501,978259,False,8891,renal|disorder of kidney|acute renal failure,"584.9, N17.9",Other,early,0
-15129282,1069003,True,7,cardiovascular|diseases of the aorta|aortic aneurysm|abdominal|stable,"441.4, I71.4",Primary,early,1
-14334565,1047861,False,2874,gastrointestinal|GI bleeding / PUD|GI bleeding,"578.9, K92.2",Other,early,0
-13722891,1045359,True,5426,neurologic|disorders of vasculature|stroke|hemorrhagic stroke|left sided,"432.9, I62.9",Primary,early,1
-16078999,1159027,False,10,neurologic|disorders of vasculature|stroke|ischemic stroke,"434.91, I63.50",Major,early,2
-15875133,1197111,False,947,gastrointestinal|intestinal disease|GI obstruction / ileus,,Primary,early,1
-8546926,514037,False,5853,endocrine|thyroid|hypothyroidism,"244.9, E03.9",Major,early,2
-3560346,182929,True,19,gastrointestinal|hepatic disease|hepatic dysfunction|moderate,"573.9, K76.9",Other,early,0
-16038726,1140153,False,605,neurologic|altered mental status / pain|change in mental status,"780.09, R41.82",Major,early,2
-14014765,1012150,False,14469,"cardiovascular|cardiac arrest|cardiac arrest|witnessed, < 15 minutes CPR","427.5, I46.9",Primary,early,1
-8464439,505608,False,22795,renal|disorder of kidney|acute renal failure,"584.9, N17.9",Major,early,2
-11109392,843568,False,52,cardiovascular|shock / hypotension|hypotension,"458.9, I95.9",Other,early,0
-5840368,337999,True,3757,cardiovascular|chest pain / ASHD|coronary artery disease|known,"414.00, I25.10",Major,early,2
-5840278,356510,False,1544,cardiovascular|vascular disorders|hypertension,"401.9, I10",Major,early,2
-4193254,163191,False,401,cardiovascular|shock / hypotension|sepsis,"038.9, A41.9",Primary,early,1
-4561409,294762,False,6127,infectious diseases|systemic/other infections|fever,"780.6, R50.9",Other,early,0
-8415780,473667,False,1068,pulmonary|disorders of the airways|asthma / bronchospasm|severe,"493.90, J45",Other,early,0
-4042393,170050,False,240,cardiovascular|chest pain / ASHD|chest pain,"786.50, R07.9",Major,early,2
-3614156,206488,True,2558,cardiovascular|ventricular disorders|low cardiac output state|with lactic acidosis,"428.9, I50.9",Major,early,2
-12822798,979955,False,12999,renal|disorder of kidney|acute renal failure,"584.9, N17.9",Other,early,0
-8552853,518240,False,239,gastrointestinal|biliary disease|biliary obstruction,"575.2, K82.0",Major,early,2
-4056597,206442,False,24037,pulmonary|respiratory failure|acute respiratory failure,"518.81, J96.00",Other,early,0
-8076906,483304,False,796,renal|disorder of urinary tract / renal system infection|urinary tract infection,"599.0, N39.0",Major,early,2
-4887163,245900,False,773,cardiovascular|ventricular disorders|hypertension,"401.9, I10",Other,early,0
-3589740,215593,True,223,cardiovascular|ventricular disorders|congestive heart failure,"428.0, I50.9",Major,early,2
-17409336,1361611,False,448,gastrointestinal|abdominal/ general|constipation,"564.00, K59.00",Major,early,2
-8404113,462747,False,138,endocrine|glucose metabolism|hyperglycemia,"790.6, R73.9",Major,early,2
-13722507,1021264,False,7125,pulmonary|respiratory failure|acute respiratory failure,"518.81, J96.00",Major,early,2
-6210023,407784,False,1280,cardiovascular|valvular disease|valvular insufficiency|mitral valve,"424.0, I34.8",Major,early,2
-3973732,192675,False,11,cardiovascular|shock / hypotension|hypotension,"458.9, I95.9",Other,early,0
-8535670,508908,False,1149,hematology|bleeding and red blood cell disorders|anemia,,Major,early,2
-16718227,1335218,False,1089,renal|disorder of kidney|ESRD (end stage renal disease),"585.6, N18.6",Major,early,2
-15957883,1182006,False,34,endocrine|glucose metabolism|hypoglycemia,"251.1, E16.2",Primary,early,1
-5435685,244926,False,168,pulmonary|pulmonary infections|pneumonia|aspiration,"507.0, J69.0",Other,early,0
-12881061,1042253,False,1442,neurologic|disorders of vasculature|cerebral subdural hematoma|secondary to anticoagulation,"432.1, I62.1",Primary,early,1
-20802404,1464505,True,1938,cardiovascular|chest pain / ASHD|acute coronary syndrome|anterior wall,"410.11, I21.09",Primary,early,1
-14537296,981024,False,-10,infectious diseases|systemic/other infections|septic shock|cultures pending,"785.59, 038.9, 995.92, R65.21",Other,early,0
-20286950,1438588,False,1171,cardiovascular|shock / hypotension|hypotension / pressor dependent,,Major,early,2
-5558532,319590,True,8925,cardiovascular|shock / hypotension|sepsis,"038.9, A41.9",Major,early,2
-9715782,458828,True,86,gastrointestinal|abdominal/ general|nausea|with vomiting,"787.01, R11.2",Major,early,2
-11544442,664154,False,1451,cardiovascular|cardiac surgery|valve replacement < 7days|aortic,,Other,early,0
-20479696,1528624,False,5824,pulmonary|respiratory failure|acute respiratory failure,"518.81, J96.00",Major,early,2
-9302671,487723,False,14927,cardiovascular|ventricular disorders|acute pulmonary edema,"428.1, I50.1",Major,early,2
-21157751,1461805,False,68,burns/trauma|trauma - CNS|intracranial injury|with cerebral contusion,"851.00, S06.9",Primary,early,1
-13479448,995007,False,890,cardiovascular|cardiac arrest|cardiac arrest|initial rhythm: pulseless electrical activity,"427.5, I46.9",Other,early,0
-16767685,1360607,False,1481,cardiovascular|ventricular disorders|hypertension|controlled,"401.9, I10",Other,early,0
-18913822,1348769,False,13188,neurologic|altered mental status / pain|agitation,"308.2, F43.0",Other,early,0
-4086375,156843,False,5737,pulmonary|respiratory failure|acute respiratory failure,"518.81, J96.00",Major,early,2
-9688441,444472,False,193,cardiovascular|ventricular disorders|hypertension,"401.9, I10",Major,early,2
-11993479,875413,False,944,infectious diseases|GI infections|peritonitis,"567.21, K65.0",Major,early,2
-10291501,594168,False,15334,cardiovascular|post vascular surgery|s/p aneurysm resection/repair,,Major,early,2
-12906940,1000557,False,576,neurologic|seizures|seizures,"345.90, R56.9",Other,early,0
-3819954,241257,True,18089,pulmonary|pulmonary infections|pneumonia,"486, J18.9",Major,early,2
-6437308,315939,False,4845,cardiovascular|chest pain / ASHD|coronary artery disease,,Major,early,2
-15137731,1065529,True,33,cardiovascular|vascular disorders|peripheral vascular ischemia,,Other,early,0
-17741257,1332355,False,62304,cardiovascular|shock / hypotension|sepsis|sepsis with single organ dysfunction- acute respiratory failure,"038.9, 518.81, R65.20, J96.0",Primary,early,1
-17869588,1329096,False,10,renal|electrolyte imbalance|hypomagnesemia,"275.2, E83.42",Major,early,2
-11604922,783126,False,1343,pulmonary|respiratory failure|hypoxemia,"799.02, J96.91",Major,early,2
-15171247,1064204,True,190,cardiovascular|cardiac surgery|valve repair < 7 days|aortic,,Primary,early,1
-18039942,1316083,False,2240,cardiovascular|vascular disorders|hypertension,"401.9, I10",Other,early,0
-8829212,520665,False,1053,gastrointestinal|abdominal/ general|nausea,"787.02, R11.0",Other,early,0
-8080128,439028,True,43,hematology|white blood cell disorders|leukocytosis,"288.8, D72.829",Major,early,2
-11628691,705425,False,29,cardiovascular|shock / hypotension|septic shock,"785.52, R65.21",Primary,early,1
-4109037,227162,False,121,endocrine|glucose metabolism|diabetes mellitus,,Other,early,0
-12177369,561135,True,21,cardiovascular|chest pain / ASHD|acute coronary syndrome|unstable angina|due to progression of CAD with stent in place,"411.1, 414.01, I20.0",Primary,early,1
-22101690,1563920,False,1725,renal|disorder of kidney|acute renal failure,"584.9, N17.9",Other,early,0
-9850204,486291,False,14746,hematology|bleeding and red blood cell disorders|anemia|anemia of critical illness,"285.9, D64.9",Major,early,2
-5503526,326481,False,4043,renal|disorder of kidney|ESRD (end stage renal disease),"585.6, N18.6",Major,early,2
-15429430,1082332,False,7259,burns/trauma|trauma - chest|widened mediastinum|with aortic rupture,"861.00, 423.0, I31.2",Major,early,2
-15293145,1081827,False,32,neurologic|disorders of vasculature|stroke|ischemic stroke|right sided,"434.91, I63.50",Primary,early,1
-8082745,486874,True,123,cardiovascular|arrhythmias|atrial fibrillation,"427.31, I48.0",Other,early,0
-5217185,294762,False,3514,cardiovascular|shock / hypotension|septic shock,"785.52, R65.21",Major,early,2
-3932670,159878,False,2959,transplant|s/p kidney transplant|hypertension - kidney transplant,"996.81, T86.10",Other,early,0
-10846700,713812,False,3986,cardiovascular|shock / hypotension|sepsis,"038.9, A41.9",Major,early,2
-11266622,754971,False,1761,renal|disorder of kidney|acute renal failure,"584.9, N17.9",Major,early,2
-11436881,778978,False,482,gastrointestinal|biliary disease|cholecystitis,,Primary,early,1
-14400628,1004484,False,9753,pulmonary|pulmonary infections|pneumonia,"486, J18.9",Other,early,0
-15809266,1163504,False,4,cardiovascular|cardiac surgery|valve replacement < 7days|aortic,,Primary,early,1
-21878550,1578218,False,5355,cardiovascular|shock / hypotension|sepsis,"038.9, A41.9",Primary,early,1
-9224971,486190,False,750,cardiovascular|chest pain / ASHD|coronary artery disease|known|asymptomatic,"414.00, I25.10",Other,early,0
-4415257,264276,False,189,gastrointestinal|GI bleeding / PUD|lower GI bleeding,"578.9, K92.2",Other,early,0
-17782673,1335522,False,2451,renal|abnormality of urine quantity or quality|oliguria,"788.5, R34",Other,early,0
-6991252,400965,False,251,cardiovascular|ventricular disorders|hypertension,"401.9, I10",Other,early,0
-18355737,1322425,True,2469,neurologic|trauma - CNS|intracranial injury|with subdural hematoma,"852.20, S06.5",Other,early,0
-9057961,533425,True,1597,pulmonary|disorders of the airways|obstructive sleep apnea,"780.57, G47.33",Major,early,2
-5139302,300678,False,4841,burns/trauma|trauma - chest|pneumomediastinum,"518.1, J98.2",Other,early,0
-18742496,1364656,False,138,cardiovascular|shock / hypotension|sepsis|severe,"995.92, R65.2",Major,early,2
-11801183,806955,False,9194,cardiovascular|cardiac surgery|valve replacement < 7days|mitral,,Major,early,2
-4280727,226894,False,832,"cardiovascular|cardiac arrest|cardiac arrest|witnessed, > 15 minutes CPR","427.5, I46.9",Primary,early,1
-18552647,1361582,False,4194,pulmonary|respiratory failure|acute respiratory failure,"518.81, J96.00",Major,early,2
-9532444,439602,False,1792,pulmonary|respiratory failure|acute respiratory failure,"518.81, J96.00",Primary,early,1
-20398606,1458254,False,935,pulmonary|disorders of the airways|COPD,"491.20, J44.9",Major,early,2
-9013269,465065,False,2539,cardiovascular|vascular disorders|hypertension|controlled,"401.9, I10",Major,early,2
-17516002,1324135,False,661,endocrine|glucose metabolism|hyperglycemia,"790.6, R73.9",Other,early,0
-12247748,750362,False,7611,pulmonary|respiratory failure|acute respiratory failure,"518.81, J96.00",Primary,early,1
-15618981,1078909,False,10056,cardiovascular|chest pain / ASHD|acute coronary syndrome|acute myocardial infarction (no ST elevation),"410.71, I21.4",Major,early,2
-11865176,535839,False,16994,cardiovascular|cardiac surgery|valve replacement < 7days|mitral,,Primary,early,1
-8516717,498644,False,4178,renal|disorder of kidney|chronic kidney disease,"585.9, N18.9",Major,early,2
-18070580,1355793,False,6501,renal|disorder of kidney|ESRD (end stage renal disease),"585.6, N18.6",Major,early,2
-4065142,207557,False,3474,cardiovascular|cardiac arrest|cardiac arrest,"427.5, I46.9",Primary,early,1
-5500791,376144,False,24059,cardiovascular|ventricular disorders|hypertension,"401.9, I10",Major,early,2
-4288171,266675,False,343,gastrointestinal|abdominal/ general|abdominal pain / tenderness,"789.00, R10.9",Other,early,0
-5655942,330038,False,7349,cardiovascular|cardiac surgery|valve replacement >= 7 days|mitral,,Major,early,2
-4807732,244745,False,91,"infectious diseases|skin, bone and joint infections|infected pressure ulcer",,Other,early,0
-13410141,1042775,True,101,general|immunological diseases|systemic lupus erythematosus,"710.0, M32.10",Other,early,0
-5700271,391639,True,3822,cardiovascular|shock / hypotension|sepsis|sepsis with single organ dysfunction- acute renal failure,"038.9, 584.9, R65.20, N17",Primary,early,1
-11953223,780261,False,2138,endocrine|glucose metabolism|hypoglycemia,"251.1, E16.2",Major,early,2
-6103834,359430,False,136,oncology|GU tumors|ovarian CA,"183.0, C56.9",Major,early,2
-3780138,212096,False,8130,cardiovascular|ventricular disorders|congestive heart failure,"428.0, I50.9",Other,early,0
-6511727,326087,False,48,cardiovascular|cardiac arrest|cardiac arrest,"427.5, I46.9",Primary,early,1
-7516660,351515,False,1234,surgery|infections|necrotizing fasciitis|wound-associated,"728.86, M72.6",Major,early,2
-16794130,1339978,True,2938,pulmonary|respiratory failure|acute respiratory distress,518.82,Major,early,2
-10961249,544490,False,6067,pulmonary|disorders of vasculature|pulmonary embolism,"415.19, I26.99",Major,early,2
-4687813,271061,True,1711,cardiovascular|shock / hypotension|dehydration,"276.51, E86.0",Other,early,0
-17295835,1344009,False,5958,toxicology|drug overdose|benzodiazepine overdose,"969.4, E980.2, T42.4X",Other,early,0
-3491147,152718,False,1044,pulmonary|respiratory failure|acute respiratory failure,"518.81, J96.00",Major,early,2
-4076488,230182,True,5453,oncology|GI tumors|esophageal CA,"192.9, C15.9",Other,early,0
-10181843,442375,False,12124,pulmonary|pulmonary infections|pneumonia|aspiration,"507.0, J69.0",Major,early,2
-12872959,1052296,True,804,endocrine|thyroid|hypothyroidism,"244.9, E03.9",Other,early,0
-16777709,1320077,False,15395,neurologic|trauma - CNS|intracranial injury|with depressed mental status,"854.06, S06.9",Primary,early,1
-4345873,294263,False,7369,pulmonary|disorders of acid base|respiratory acidosis|acute,"276.2, E87.2",Major,early,2
-15340153,1134300,False,810,pulmonary|disorders of the airways|COPD,"491.20, J44.9",Major,early,2
-6334798,365839,False,23,gastrointestinal|GI bleeding / PUD|peptic ulcer disease,"533.90, K27.9",Major,early,2
-6785130,418496,False,117,endocrine|glucose metabolism|diabetes mellitus|Type II,,Major,early,2
-15835680,1161489,False,197,pulmonary|pulmonary infections|pneumonia|community-acquired,"486, J18.9",Major,early,2
-5826015,391084,True,1971,cardiovascular|vascular disorders|hypertension,"401.9, I10",Major,early,2
-11690149,725105,True,12,cardiovascular|chest pain / ASHD|acute coronary syndrome|acute myocardial infarction (with ST elevation),"410.90, I21.3",Primary,early,1
-22016834,1569362,False,352,cardiovascular|arrhythmias|atrial fibrillation|with rapid ventricular response,"427.31, I48.0",Other,early,0
-5803456,321707,False,23850,neurologic|disorders of vasculature|stroke,"436, I67.8",Major,early,2
-9967409,468316,False,80,hematology|bleeding and red blood cell disorders|anemia,,Major,early,2
-19071823,1357700,False,22697,cardiovascular|valvular disease|valvular stenosis|aortic,"424.1, I35.0",Primary,early,1
-18650535,1327778,False,12931,pulmonary|respiratory failure|chronic respiratory failure,"518.83, J96.10",Other,early,0
-11170819,671937,False,6353,cardiovascular|shock / hypotension|septic shock,"785.52, R65.21",Primary,early,1
-10702227,789921,True,1767,cardiovascular|arrhythmias|bradycardia|symptomatic,"427.81, R00.1",Primary,early,1
-8659282,503296,False,3574,endocrine|glucose metabolism|diabetes mellitus,,Major,early,2
+diagnosisid,patientunitstayid,activeupondischarge,diagnosisoffset,diagnosisstring,icd9code,diagnosispriority,time_bucket,mortality,diagnosispriority_encoded
+34292805,3009602,False,1980,neurologic|post-neurosurgery|post spinal surgery|lumbar,,Primary,early,0,1
+38028498,3094004,False,10899,cardiovascular|cardiac arrest|cardiac arrest|initial rhythm: pulseless electrical activity,"427.5, I46.9",Other,early,0,0
+43222490,3074864,False,669,cardiovascular|vascular disorders|hypertension,"401.9, I10",Primary,early,0,1
+44363471,3151763,False,93,neurologic|seizures|seizures|generalized,"345.10, R56.9",Major,early,1,2
+3779570,160592,False,909,pulmonary|respiratory failure|acute respiratory failure,"518.81, J96.00",Other,early,0,0
+33158297,2693266,True,657,pulmonary|respiratory failure|chronic respiratory failure,"518.83, J96.10",Other,early,1,0
+15526681,1129237,False,169,neurologic|seizures|seizures,"345.90, R56.9",Major,early,0,2
+27548092,2105385,True,1514,cardiovascular|cardiac arrest|cardiac arrest,"427.5, I46.9",Primary,early,0,1
+18153624,1361818,False,58,cardiovascular|chest pain / ASHD|hyperlipidemia,"272.4, E78.5",Major,early,0,2
+38163774,3050756,False,1477,gastrointestinal|esophageal disease|esophageal tear,"530.4, K22.3",Other,early,1,0
+8813125,511437,False,826,endocrine|glucose metabolism|diabetes mellitus|Type II,,Major,early,0,2
+33647064,2886826,False,139,renal|disorder of urinary tract / renal system infection|urinary tract infection,"599.0, N39.0",Major,early,0,2
+7264090,317630,False,4772,cardiovascular|arrhythmias|ventricular tachycardia,"427.1, I47.2",Major,early,0,2
+34436646,3029618,False,4159,pulmonary|disorders of the airways|COPD|severe,"491.20, J44.9",Major,early,0,2
+33970838,2858833,False,15689,gastrointestinal|abdominal/ general|transaminase elevation,"790.4, R74.0",Major,early,1,2
+44412690,3146941,False,19935,infectious diseases|systemic/other infections|septic shock|gram negative organism,"785.59, 038.9, 995.92, R65.21",Major,early,1,2
+38745172,3081492,False,1013,pulmonary|disorders of lung parenchyma|atelectasis/collapse,"518.0, J98.11",Other,early,0,0
+36066721,3081734,False,1184,renal|disorder of kidney|acute renal failure|due to nephrotoxic agents,"584.9, N17.9",Other,early,0,0
+21282696,1480252,True,27,cardiovascular|chest pain / ASHD|acute coronary syndrome|unstable angina,"411.1, I20.0",Primary,early,0,1
+30083316,2592206,False,11602,pulmonary|disorders of the airways|COPD,"491.20, J44.9",Other,early,0,0
+34833897,3019008,True,1558,pulmonary|respiratory failure|acute respiratory failure,"518.81, J96.00",Major,early,0,2
+41658625,3049174,False,2989,renal|disorder of kidney|acute renal failure|due to hypovolemia/decreased circulating volume,"584.9, N17.9",Other,early,0,0
+10619345,804721,False,55,pulmonary|disorders of the airways|acute COPD exacerbation,"491.21, J44.1",Major,early,0,2
+31511132,2760288,True,141,cardiovascular|shock / hypotension|septic shock,"785.52, R65.21",Major,early,0,2
+37750937,3090914,False,2610,pulmonary|respiratory failure|hypoxemia,"799.02, J96.91",Other,early,0,0
+27502653,2186609,True,95,renal|disorder of kidney|acute renal failure,"584.9, N17.9",Major,early,0,2
+45401814,3227147,False,6443,renal|disorder of kidney|acute renal failure,"584.9, N17.9",Major,early,0,2
+14470147,986662,False,92,pulmonary|disorders of the airways|COPD,"491.20, J44.9",Other,early,0,0
+17406494,1342356,False,472,cardiovascular|ventricular disorders|hypertension|controlled,"401.9, I10",Major,early,0,2
+41179061,3070102,False,1146,renal|disorder of kidney|ESRD (end stage renal disease),"585.6, N18.6",Other,early,0,0
+29575631,2639816,False,830,neurologic|seizures|seizures,"345.90, R56.9",Other,early,0,0
+35211942,3094990,False,12518,cardiovascular|arrhythmias|sinus tachycardia,"785.0, R00.0",Other,early,0,0
+41731379,3125071,False,4015,gastrointestinal|abdominal/ general|constipation,"564.00, K59.00",Other,early,0,0
+37354911,3087751,False,11310,gastrointestinal|malnutrition|protein-calorie malnutrition,"263.9, E46",Other,early,0,0
+31203949,2765807,True,16267,endocrine|glucose metabolism|diabetes mellitus,,Other,early,0,0
+25618662,1833230,False,761,cardiovascular|shock / hypotension|sepsis|severe,"995.92, R65.2",Primary,early,1,1
+8420935,456449,True,2098,pulmonary|respiratory failure|acute respiratory failure|drug related|benzodiazepine,"518.81, J96.00",Major,early,0,2
+38793005,3081132,False,12613,infectious diseases|systemic/other infections|signs and symptoms of sepsis (SIRS),995.90,Major,early,0,2
+44935211,3208774,True,1755,neurologic|altered mental status / pain|bipolar disorder,"296.80, F31.9",Other,early,0,0
+4701727,271372,True,471,cardiovascular|ventricular disorders|hypertension,"401.9, I10",Other,early,0,0
+25302864,1813598,True,61,renal|disorder of kidney|chronic kidney disease,"585.9, N18.9",Other,early,0,0
+37303154,3082207,False,14069,hematology|white blood cell disorders|leukocytosis|leukemoid reaction,"288.8, D72.823",Other,early,0,0
+14507592,1035187,False,1105,endocrine|glucose metabolism|diabetes mellitus|Type II,,Other,early,0,0
+44063044,3146941,False,18501,gastrointestinal|intestinal disease|viscus perforation|colonic|due to diverticulitis,"569.83, K63.1",Major,early,1,2
+38991066,3124225,True,3881,endocrine|glucose metabolism|hyperglycemia|suspected,,Other,early,0,0
+46339411,3328866,True,1607,oncology|GI tumors|intestinal CA|lymphoma,"152.9, C17.9",Other,early,1,0
+44025117,3145321,False,87,hematology|bleeding and red blood cell disorders|anemia|multifactorial anemia,"285.9, D64.9",Other,early,0,0
+45059136,3240177,False,6246,cardiovascular|chest pain / ASHD|coronary artery disease,,Other,early,0,0
+35772011,3105034,False,64,endocrine|glucose metabolism|hyperglycemia|suspected,,Other,early,0,0
+44095195,3154934,False,832,infectious diseases|chest/pulmonary infections|pneumonia|hospital acquired (not ventilator-associated),"486, J18.9",Major,early,1,2
+44126657,3140761,False,517,pulmonary|pulmonary infections|pneumonia|community-acquired,"486, J18.9",Other,early,0,0
+15197334,1126359,False,295,pulmonary|disorders of lung parenchyma|interstitial lung disease|hypersensitivity pneumonitis,"495.9, J67.9",Primary,early,0,1
+32309411,2724076,True,16566,gastrointestinal|GI bleeding / PUD|upper GI bleeding|gastric,"533.00, K92.2",Major,early,1,2
+10745166,781272,False,21,neurologic|altered mental status / pain|encephalopathy|hepatic,572.2,Major,early,1,2
+25214926,1808786,True,3398,endocrine|glucose metabolism|DKA,"250.13, E10.1",Primary,early,0,1
+31758094,2727320,False,212,cardiovascular|arrhythmias|AV block|complete heart block,"426.0, I44.2",Primary,early,0,1
+9395272,432866,False,434,surgery|altered mental status / pain|pain,,Other,early,0,0
+11946436,823561,False,6035,cardiovascular|chest pain / ASHD|coronary artery disease|no previous CABG,"414.01, I25.10",Major,early,0,2
+33135625,2893692,True,72,neurologic|misc|headache,R51,Primary,early,0,1
+39405774,3065105,False,3452,cardiovascular|chest pain / ASHD|acute coronary syndrome|acute myocardial infarction (no ST elevation),"410.71, I21.4",Major,early,1,2
+9850641,429564,False,10356,hematology|bleeding and red blood cell disorders|anemia|acute blood loss anemia,"285.1, D62",Major,early,0,2
+42148131,3066345,True,716,gastrointestinal|abdominal/ general|obesity|morbid,"278.01, E66.01",Other,early,0,0
+12865228,982703,False,3444,renal|electrolyte imbalance|hypochloremia,"276.9, E87.8",Other,early,0,0
+31077151,2736067,False,1692,burns/trauma|trauma - skeletal|extremity ischemia|left upper extremity,"443.9, I73.9",Primary,early,0,1
+39511808,3038834,False,3392,gastrointestinal|malnutrition|nutritional deficiency,"263.9, E46",Other,early,0,0
+36405006,3118107,False,11096,neurologic|altered mental status / pain|depression,"311, F32.9",Major,early,0,2
+39976680,3054044,False,2631,renal|disorder of kidney|acute renal failure|due to sepsis,"584.9, N17.9",Other,early,1,0
+21876528,1589493,False,85,cardiovascular|shock / hypotension|sepsis,"038.9, A41.9",Other,early,0,0
+22033763,1591439,False,176,neurologic|trauma - CNS|fracture of skull|vault|closed|with subarachnoid hemorrhage,800.20,Other,early,0,0
+44133231,3149749,True,6580,pulmonary|respiratory failure|ARDS|pulmonary etiology|pneumonia,"518.81, J80",Major,early,0,2
+41687067,3122024,False,560,cardiovascular|ventricular disorders|cardiomyopathy,,Other,early,0,0
+35222705,3099473,False,15422,infectious diseases|systemic/other infections|fever|etiology unknown,"780.6, R50.9",Major,early,0,2
+33829250,2897321,True,4732,"oncology|skin, muscle and skeletal tumors|basal cell CA","173.9, C44.9",Other,early,0,0
+14176307,1029893,True,3693,cardiovascular|ventricular disorders|congestive heart failure|cor pulmonale|chronic,"416.9, I27.9",Other,early,0,0
+4002395,153728,True,1212,renal|disorder of kidney|acute renal failure,"584.9, N17.9",Major,early,0,2
+36131793,3088616,False,716,neurologic|altered mental status / pain|encephalopathy|metabolic,"348.31, G93.41",Major,early,0,2
+33439764,2886472,False,2351,pulmonary|respiratory failure|acute respiratory failure,"518.81, J96.00",Major,early,0,2
+43943153,3140609,False,3865,cardiovascular|vascular disorders|hypertension|malignant,"401.0, I10",Other,early,1,0
+33314569,2697082,True,568,cardiovascular|ventricular disorders|congestive heart failure,"428.0, I50.9",Other,early,0,0
+28549069,2345890,False,30,infectious diseases|systemic/other infections|fever|infection related,"780.6, R50.9",Major,early,0,2
+38765240,3125806,False,965,hematology|bleeding and red blood cell disorders|anemia|multifactorial anemia,"285.9, D64.9",Other,early,0,0
+7427521,410477,True,9510,renal|disorder of kidney|ESRD (end stage renal disease),"585.6, N18.6",Major,early,0,2
+41838835,3067889,False,1021,pulmonary|respiratory failure|hypoxemia,"799.02, J96.91",Major,early,0,2
+36195989,3108780,False,4548,cardiovascular|arrhythmias|sinus tachycardia,"785.0, R00.0",Major,early,0,2
+33862599,2786418,True,2455,gastrointestinal|biliary disease|cholecystitis|acute,"575.0, K81.0",Other,early,0,0
+35147154,3084524,False,1021,infectious diseases|systemic/other infections|sepsis|severe,"995.92, R65.20",Other,early,0,0
+11229935,738554,False,1447,cardiovascular|chest pain / ASHD|acute coronary syndrome|acute myocardial infarction (with ST elevation)|anterior wall,"410.11, I21.09",Major,early,0,2
+20560939,1548314,False,13426,pulmonary|disorders of the airways|upper respiratory obstruction|due to obstructive sleep apnea,"780.57, G47.30",Major,early,1,2
+8791973,493062,False,1813,gastrointestinal|hepatic disease|hepatic dysfunction,"573.9, K76.9",Major,early,0,2
+32340038,2696948,False,20804,infectious diseases|systemic/other infections|bacteremia,"038.9, R78.81",Other,early,0,0
+37931164,3063674,False,25280,renal|disorder of kidney|acute renal failure|due to hypovolemia/decreased circulating volume,"584.9, N17.9",Other,early,0,0
+25283509,1761960,True,111,pulmonary|respiratory failure|acute respiratory failure|due to obstructive lung disease,"518.84, J96.00",Major,early,0,2
+34527927,3023128,False,43,transplant|s/p lung transplant|respiratory failure - lung transplant,"996.84, T86.819",Major,early,0,2
+45303217,3202528,False,35139,pulmonary|pleural disorders|pleural effusion|large,"511.9, J91.8",Major,early,1,2
+36714878,3038189,False,1043,renal|electrolyte imbalance|hypomagnesemia,"275.2, E83.42",Other,early,0,0
+32265309,2839084,True,7142,burns/trauma|trauma - abdomen|blunt abdominal trauma,"863.80, S36.9",Primary,early,0,1
+30334586,2600349,False,265,endocrine|glucose metabolism|diabetes mellitus,,Other,early,0,0
+34568980,3006171,False,3470,endocrine|thyroid|myxedema coma,"421.0, 996.61, E03.5",Major,early,0,2
+15687099,1085837,True,10890,pulmonary|disorders of lung parenchyma|malignancy|primary lung cancer,"162.9, C34.90",Major,early,0,2
+24263587,1816483,False,18009,infectious diseases|systemic/other infections|fever,"780.6, R50.9",Other,early,0,0
+18435682,1318587,False,9741,neurologic|altered mental status / pain|agitation|moderate,"308.2, F43.0",Major,early,0,2
+33597306,2825734,False,9960,cardiovascular|vascular disorders|hypertension,"401.9, I10",Major,early,0,2
+18736277,1353635,False,18,cardiovascular|shock / hypotension|sepsis,"038.9, A41.9",Other,early,0,0
+36382687,3080033,False,12633,pulmonary|disorders of lung parenchyma|atelectasis/collapse,"518.0, J98.11",Major,early,0,2
+42820458,3087002,False,10876,infectious diseases|systemic/other infections|bacteremia|unclear source,"038.9, R78.81",Major,early,0,2
+28460353,2043295,True,89,obstetrics/gynecology|obstetrics complication|complication of/in pregnancy|infective disease in pregnancy,,Major,early,0,2
+10423797,938217,False,1740,cardiovascular|shock / hypotension|sepsis|severe,"995.92, R65.2",Primary,early,0,1
+42799083,3102418,False,1132,hematology|coagulation disorders|hypercoagulable state|factor V leiden mutation,"286.9, D68.51",Other,early,1,0
+31353013,2883127,True,1134,burns/trauma|trauma - skeletal|bone fracture(s)|thoracic spine,S22.00,Major,early,0,2
+9865845,487464,False,1523,renal|disorder of kidney|chronic kidney disease,"585.9, N18.9",Major,early,0,2
+12029780,711841,False,7415,pulmonary|respiratory failure|acute respiratory failure,"518.81, J96.00",Major,early,0,2
+20343102,1522898,False,2055,cardiovascular|cardiac arrest|cardiac arrest,"427.5, I46.9",Major,early,0,2
+40455524,3085929,True,487,pulmonary|respiratory failure|acute respiratory failure|due to inability to clear secretions,"518.81, J96.00",Other,early,0,0
+39918850,3097437,False,8454,neurologic|neuromuscular disorders|neuropathy,,Other,early,1,0
+16789303,1322994,False,1901,cardiovascular|arrhythmias|atrial fibrillation,"427.31, I48.0",Other,early,0,0
+4684904,271063,False,757,gastrointestinal|intestinal disease|enteritis|diverticulitis of colon,"562.11, K57",Other,early,0,0
+11924195,898140,False,21,pulmonary|pleural disorders|pleural effusion|left,"511.9, J91.8",Other,early,0,0
+36298963,3071364,False,23475,gastrointestinal|abdominal/ general|dysphagia,"787.2, R13.10",Other,early,0,0
+46259179,3327192,False,28013,cardiovascular|arrhythmias|atrial fibrillation|with hemodynamic compromise,"427.31, I48.0",Primary,early,0,1
+34634050,3031579,True,121,cardiovascular|arrhythmias|atrial fibrillation,"427.31, I48.0",Major,early,1,2
+7795886,342951,False,2948,cardiovascular|chest pain / ASHD|hyperlipidemia,"272.4, E78.5",Other,early,0,0
+40968882,3058171,False,12401,hematology|bleeding and red blood cell disorders|anemia|multifactorial anemia,"285.9, D64.9",Major,early,0,2
+37379224,3113691,False,3982,pulmonary|respiratory failure|hypoxemia|paO2 / FIO2 = 200 - 300,"799.02, J96.91",Other,early,0,0
+39492237,3075556,False,5113,renal|disorder of kidney|chronic kidney disease|Stage 3 (GFR 30-59),"585.3, N18.3",Other,early,0,0
+16060223,1175595,False,89,pulmonary|disorders of vasculature|pulmonary embolism,"415.19, I26.99",Primary,early,0,1
+44971060,3206551,False,847,oncology|head and neck tumors|neck tumor|oro/hypopharyngeal CA,"148.9, C13.9",Primary,early,0,1
+34677140,3019338,True,47196,neurologic|altered mental status / pain|agitation|severe,"308.2, F43.0",Major,early,0,2
+33765994,2678764,True,241,pulmonary|pulmonary infections|pneumonia,"486, J18.9",Other,early,0,0
+10881452,841894,True,4472,oncology|chest tumors|primary lung cancer,"162.9, C34.90",Major,early,0,2
+8645154,484322,True,165,cardiovascular|ventricular disorders|hypertension,"401.9, I10",Major,early,0,2
+12717270,831083,True,2429,pulmonary|respiratory failure|acute respiratory failure,"518.81, J96.00",Major,early,1,2
+41475582,3058376,False,2638,cardiovascular|ventricular disorders|congestive heart failure|left-sided,"428.1, I50.1",Other,early,0,0
+5113907,267977,False,9049,burns/trauma|trauma - chest|chest wall trauma,807.4,Other,early,0,0
+33231561,2736332,True,247,pulmonary|respiratory failure|acute respiratory failure,"518.81, J96.00",Other,early,0,0
+5556535,335947,False,1815,pulmonary|respiratory failure|acute respiratory distress,518.82,Major,early,1,2
+32394068,2829943,False,64,pulmonary|disorders of the airways|COPD,"491.20, J44.9",Other,early,0,0
+32530249,2844682,False,3444,endocrine|glucose metabolism|diabetes mellitus|Type II,,Major,early,0,2
+36452137,3124101,False,9244,cardiovascular|shock / hypotension|septic shock,"785.52, R65.21",Primary,early,0,1
+36766385,3057179,False,12047,neurologic|seizures|seizures|partial with secondary generalization,G40.1,Major,early,1,2
+6158278,373453,False,11258,cardiovascular|ventricular disorders|congestive heart failure,"428.0, I50.9",Primary,early,1,1
+9251212,457221,True,207,toxicology|drug overdose|acetaminophen overdose|dosage unknown,"965.4, E980.0, T39.1X",Primary,early,0,1
+9990759,521433,False,757,cardiovascular|shock / hypotension|cardiogenic shock,"785.51, R57.0",Primary,early,1,1
+37735825,3040729,False,9143,cardiovascular|shock / hypotension|septic shock|organism identified|gram negative organism,"785.59, 038.9, 995.92",Primary,early,0,1
+41200297,3113620,True,7209,cardiovascular|ventricular disorders|acute pulmonary edema,"428.1, I50.1",Major,early,0,2
+44915879,3242012,True,3707,infectious diseases|head and neck infections|abscess - head and neck|parapharyngeal|with airway compromise,"478.22, J39.0",Major,early,0,2
+26413550,1787002,False,277,"cardiovascular|cardiac arrest|cardiac arrest|witnessed, < 15 minutes CPR","427.5, I46.9",Other,early,1,0
+41215493,3076418,False,437,gastrointestinal|malnutrition|protein-calorie malnutrition,"263.9, E46",Other,early,0,0
+7687282,407727,True,43,cardiovascular|shock / hypotension|sepsis,"038.9, A41.9",Primary,early,0,1
+44269881,3138681,False,2236,renal|disorder of urinary tract / renal system infection|lower urinary tract infection|likely bacterial,"595.9, N30.9",Major,early,0,2
+4992444,251494,False,5329,cardiovascular|arrhythmias|atrial fibrillation,"427.31, I48.0",Other,early,0,0
+9693479,527270,True,6742,cardiovascular|ventricular disorders|cardiomyopathy,,Major,early,0,2
+35461623,3064465,False,24239,hematology|bleeding and red blood cell disorders|anemia|multifactorial anemia,"285.9, D64.9",Major,early,1,2
+32412903,2898353,False,314,endocrine|glucose metabolism|diabetes mellitus,,Other,early,0,0
+16952436,1329536,False,2090,neurologic|altered mental status / pain|agitation,"308.2, F43.0",Major,early,0,2
+28403564,2079184,True,93,infectious diseases|systemic/other infections|AIDS,"042, B20",Other,early,0,0
+44280946,3149085,True,665,hematology|oncology and leukemia|leukemia|chronic lymphocytic,"204.10, C91.10",Major,early,1,2
+43750609,3093543,False,19691,endocrine|glucose metabolism|diabetes mellitus|Type II|uncontrolled,"250.02, E11.65",Other,early,0,0
+22103991,1562607,False,4206,renal|disorder of kidney|acute renal failure,"584.9, N17.9",Other,early,0,0
+34715374,3027515,False,837,gastrointestinal|GI bleeding / PUD|lower GI bleeding|diverticular,"578.9, K92.2",Primary,early,0,1
+45184681,3233652,False,44,cardiovascular|shock / hypotension|sepsis|sepsis with single organ dysfunction- acute renal failure,"038.9, 584.9, R65.20, N17",Primary,early,0,1
+31862651,2787830,True,2775,hematology|bleeding and red blood cell disorders|anemia,,Other,early,0,0
+20742046,1477369,False,29021,infectious diseases|GI infections|intra-abdominal abscess,"567.22, K65.1",Major,early,0,2
+41570448,3034289,False,1039,cardiovascular|arrhythmias|atrial fibrillation|with controlled ventricular response,"427.31, I48.0",Other,early,0,0
+32290396,2774551,True,2404,neurologic|CNS mass lesions|brain tumor|suspected,,Major,early,0,2
+44376485,3156569,True,4806,hematology|white blood cell disorders|leukocytosis,"288.8, D72.829",Other,early,0,0
+30314482,2616237,False,491,cardiovascular|shock / hypotension|cardiogenic shock,"785.51, R57.0",Primary,early,0,1
+22122425,1574724,True,3994,cardiovascular|vascular disorders|arterial thromboembolism|right lower extremity,"444.22, I74.3",Other,early,0,0
+4780774,287910,False,570,infectious diseases|systemic/other infections|hematological effect of infection|leukocytosis,"288.8, D72.829",Major,early,0,2
+16787815,1350430,False,4868,cardiovascular|shock / hypotension|sepsis|sepsis with multi-organ dysfunction,"995.92, R65.20",Primary,early,0,1
+37868370,3067090,False,11057,pulmonary|pleural disorders|pleural effusion|etiology unknown,"511.9, J91.8",Other,early,0,0
+44419082,3157151,False,2280,neurologic|trauma - CNS|intracranial injury|with subarachnoid hemorrhage,"852.00, S06.6",Primary,early,0,1
+7726969,313400,False,8,renal|disorder of kidney|chronic renal insufficiency,"585.9, N18.9",Major,early,0,2
+38980271,3051144,False,3923,cardiovascular|chest pain / ASHD|acute coronary syndrome,,Other,early,0,0
+45336512,3219492,False,886,pulmonary|pulmonary infections|pneumonia|community-acquired,"486, J18.9",Primary,early,0,1
+33771085,2792287,False,698,burns/trauma|trauma - CNS|fracture of skull,,Major,early,0,2
+38658903,3120213,False,4058,infectious diseases|systemic/other infections|signs and symptoms of sepsis (SIRS),995.90,Other,early,0,0
+35891741,3094341,False,926,cardiovascular|arrhythmias|AV block,"426.10, I44.30",Other,early,0,0
+43606463,3076082,False,9488,infectious diseases|chest/pulmonary infections|pneumonia|aspiration,"507.0, J69.0",Major,early,0,2
+14955380,1046081,False,-860,hematology|coagulation disorders|DVT|left lower extremity,"451.2, I80.3",Other,early,1,0
+14914426,1028725,False,24,endocrine|glucose metabolism|diabetes mellitus|Type II,,Other,early,0,0
+8474917,446712,True,1961,cardiovascular|ventricular disorders|cardiomyopathy|dilated,I42.0,Major,early,0,2
+10382946,568924,False,81,cardiovascular|shock / hypotension|sepsis,"038.9, A41.9",Primary,early,0,1
+41510803,3049490,False,3848,gastrointestinal|pancreatic disease|pancreatitis|acute,"577.0, K85.9",Major,early,0,2
+5812762,351749,True,1594,cardiovascular|vascular disorders|hypertension|uncontrolled,"401.9, I10",Major,early,0,2
+26032448,1725779,False,777,neurologic|altered mental status / pain|encephalopathy|toxic,"349.82, G92",Major,early,0,2
+21828664,1577869,False,778,pulmonary|disorders of lung parenchyma|atelectasis/collapse,"518.0, J98.11",Other,early,0,0
+34402746,3018139,False,196,pulmonary|pulmonary infections|pneumonia|aspiration,"507.0, J69.0",Primary,early,0,1
+5095538,265352,False,403,infectious diseases|systemic/other infections|sepsis,"038.9, A41.9",Other,early,0,0
+34481060,3019931,True,14001,hematology|coagulation disorders|DIC syndrome|associated with sepsis/septic shock,"286.6, D65",Major,early,0,2
+17486164,1350449,True,7314,cardiovascular|shock / hypotension|sepsis,"038.9, A41.9",Other,early,0,0
+36986749,3104375,False,15419,renal|disorder of acid base|mixed acid base disorder|respiratory alkalosis-|acute,276.4,Other,early,0,0
+4439340,289301,True,2804,surgery|orthopedic surgery|s/p surgical repair of fracture,,Other,early,0,0
+46310451,3352711,False,6548,neurologic|altered mental status / pain|change in mental status,"780.09, R41.82",Major,early,0,2
+15219937,1077710,False,296,pulmonary|respiratory failure|acute respiratory failure|due to muscle weakness,"518.81, J96.00",Major,early,1,2
+37716924,3093724,False,19092,gastrointestinal|malnutrition|protein-calorie malnutrition,"263.9, E46",Major,early,0,2
+41302808,3045156,False,15584,burns/trauma|trauma - CNS|spinal cord injury,,Major,early,0,2
+36767564,3119780,True,3997,gastrointestinal|malnutrition|protein-calorie malnutrition,"263.9, E46",Other,early,0,0
+34569942,3014484,False,5086,neurologic|post-neurosurgery|post spinal surgery|cervical,,Major,early,0,2
+9981384,444187,True,113,endocrine|glucose metabolism|diabetes mellitus,,Major,early,0,2
+40210919,3108950,False,1367,neurologic|altered mental status / pain|encephalopathy|metabolic,"348.31, G93.41",Major,early,0,2
+40701013,3075480,False,9462,cardiovascular|shock / hypotension|septic shock,"785.52, R65.21",Major,early,0,2
+36740907,3127833,False,934,transplant|s/p liver transplant|s/p liver transplant,996.82,Other,early,0,0
+30211449,2640547,True,4824,pulmonary|respiratory failure|acute respiratory failure,"518.81, J96.00",Primary,early,0,1
+18442435,1346635,False,10640,renal|disorder of kidney|chronic renal insufficiency,"585.9, N18.9",Major,early,0,2
+6703991,332664,False,669,cardiovascular|arrhythmias|bradycardia,,Major,early,0,2
+33475335,2700137,False,1537,renal|disorder of kidney|ESRD (end stage renal disease),"585.6, N18.6",Other,early,0,0
+42743617,3095309,True,5165,cardiovascular|chest pain / ASHD|coronary artery disease|s/p CABG,"414.00, I25.10",Other,early,0,0
+14209259,1000217,False,2395,oncology|GI tumors|cholangiocarcinoma,"156.9, C24.9",Other,early,0,0
+24287575,1805476,True,22942,"infectious diseases|skin, bone and joint infections|cellulitis","682.9, L03.90",Other,early,0,0
+41841617,3108950,False,2721,renal|disorder of acid base|metabolic acidosis|lactic acidosis,"276.2, E87.2",Major,early,0,2
+32465870,2814875,False,2194,hematology|bleeding and red blood cell disorders|anemia,,Other,early,0,0
+15229944,1132741,False,6718,gastrointestinal|hepatic disease|hepatic encephalopathy,572.2,Primary,early,1,1
+22119092,1591620,False,820,renal|disorder of kidney|acute renal failure,"584.9, N17.9",Other,early,0,0
+40941403,3073683,False,973,cardiovascular|shock / hypotension|hypovolemia,"276.52, E86.1",Major,early,0,2
+39342736,3085552,False,2454,neurologic|altered mental status / pain|encephalopathy|hepatic,572.2,Primary,early,0,1
+21712737,1530824,False,7115,cardiovascular|arrhythmias|atrial fibrillation|with rapid ventricular response,"427.31, I48.0",Major,early,0,2
+14926002,1052345,False,10652,renal|electrolyte imbalance|hyperchloremia,"276.9, E87.8",Other,early,0,0
+42486868,3128157,False,28021,cardiovascular|ventricular disorders|congestive heart failure,"428.0, I50.9",Other,early,0,0
+15457637,1091993,False,664,renal|disorder of kidney|chronic kidney disease|Stage 1 (GFR >90),"585.1, N18.1",Major,early,0,2
+37088443,3054652,False,7763,renal|disorder of kidney|acute renal failure|acute tubular necrosis,"584.5, N17.0",Other,early,0,0
+31888181,2769462,False,3931,pulmonary|respiratory failure|acute respiratory failure,"518.81, J96.00",Major,early,0,2
+41513562,3088900,False,28621,hematology|coagulation disorders|coagulopathy|heparin administration,"286.9, D68.32",Major,early,0,2
+13014940,1050464,False,12278,cardiovascular|shock / hypotension|hypotension / pressor dependent,,Other,early,1,0
+11904608,919401,False,2475,pulmonary|respiratory failure|acute respiratory failure,"518.81, J96.00",Primary,early,0,1
+20912076,1488342,False,344,cardiovascular|shock / hypotension|hypotension / pressor dependent,,Major,early,0,2
+10617563,770819,True,21,pulmonary|pleural disorders|pneumothorax,,Primary,early,0,1
+31782581,2746184,True,2610,cardiovascular|chest pain / ASHD|acute coronary syndrome|acute myocardial infarction (no ST elevation),"410.71, I21.4",Primary,early,0,1
+15452582,1108588,True,4767,neurologic|disorders of vasculature|stroke,"436, I67.8",Primary,early,0,1
+40532236,3075416,False,1898,cardiovascular|arrhythmias|atrial fibrillation,"427.31, I48.0",Major,early,1,2
+39964337,3066957,False,2303,neurologic|altered mental status / pain|encephalopathy|metabolic,"348.31, G93.41",Primary,early,0,1
+43039069,3117959,False,1251,gastrointestinal|abdominal/ general|abdominal pain / tenderness,"789.00, R10.9",Major,early,0,2
+11125717,596163,False,18905,pulmonary|respiratory failure|failure to wean,,Other,early,0,0
+13147065,1034230,False,2278,gastrointestinal|abdominal/ general|transaminase elevation,"790.4, R74.0",Other,early,1,0
+21771054,1553747,False,2284,gastrointestinal|post-GI surgery|s/p cholecystectomy,,Other,early,1,0
+21907153,1560775,False,406,cardiovascular|shock / hypotension|septic shock,"785.52, R65.21",Other,early,0,0
+40804186,3082408,False,10726,renal|disorder of kidney|ESRD (end stage renal disease),"585.6, N18.6",Major,early,0,2
+9013674,443327,True,155,neurologic|seizures|seizures,"345.90, R56.9",Primary,early,0,1
+41779088,3118119,True,784,general|other syndromes|syncope,"780.2, R55",Other,early,0,0
+16801706,1346113,False,2477,renal|disorder of kidney|chronic renal insufficiency,"585.9, N18.9",Major,early,1,2
+33381497,2842317,True,46,gastrointestinal|hepatic disease|hepatic dysfunction|acute,"573.9, K76.9",Other,early,0,0
+39597364,3053412,False,962,cardiovascular|valvular disease|valvular stenosis|aortic,"424.1, I35.0",Major,early,1,2
+35907815,3099171,False,6314,pulmonary|trauma|chest wall trauma,959.11,Other,early,0,0
+32599895,2711422,False,83,oncology|unknown primary|metastatic adenocarcinoma,"199.0, C80.0",Major,early,1,2
+8976477,521433,False,142,endocrine|fluids and electrolytes|hyponatremia|severe (< 125 meq/dl),"276.1, E87.1",Major,early,1,2
+15309000,1118789,False,2272,cardiovascular|shock / hypotension|hypotension,"458.9, I95.9",Major,early,1,2
+3414468,177708,False,3056,pulmonary|respiratory failure|hypoxemia,"799.02, J96.91",Other,early,0,0
+10097937,483320,True,822,cardiovascular|ventricular disorders|hypertension,"401.9, I10",Major,early,0,2
+7332165,401182,False,795,gastrointestinal|abdominal/ general|abdominal pain / tenderness,"789.00, R10.9",Major,early,0,2
+31458265,2696399,False,8384,renal|disorder of urinary tract / renal system infection|urinary tract infection,"599.0, N39.0",Major,early,0,2
+41845837,3099474,False,134,cardiovascular|arrhythmias|sinus tachycardia,"785.0, R00.0",Major,early,0,2
+25258163,1809611,False,25489,pulmonary|respiratory failure|hypercarbia,"786.09, J96.92",Major,early,0,2
+45119524,3222725,False,10,hematology|bleeding and red blood cell disorders|pancytopenia,"284.8, D61.9",Other,early,0,0
+18687702,1332903,False,18970,cardiovascular|chest pain / ASHD|acute coronary syndrome,,Major,early,0,2
+28491415,2429663,True,195,renal|electrolyte imbalance|hyperkalemia|moderate ( 5.5 -6.1 meq/dl),"276.7, E87.5",Other,early,0,0
+41314222,3056819,False,7182,endocrine|glucose metabolism|hyperglycemia|suspected,,Other,early,0,0
+38265548,3099171,False,5045,burns/trauma|trauma - chest|lung trauma|left,"861.20, S27.30",Major,early,0,2
+11856546,577791,False,222,neurologic|altered mental status / pain|encephalopathy,"348.30, G93.40",Other,early,0,0
+33985732,2856129,False,9989,infectious diseases|GI infections|diarrhea due to infection|C. difficile colitis,"008.45, A04.7",Major,early,0,2
+32757583,2727477,False,256962,neurologic|altered mental status / pain|persistent vegetative state,"780.03, R40.3",Other,early,0,0
+38568942,3058210,False,1240,neurologic|altered mental status / pain|sedated|unresponsive,,Other,early,0,0
+14775002,1049922,False,2277,gastrointestinal|abdominal/ general|abdominal pain / tenderness|generalized,"789.07, R10.84",Other,early,0,0
+23955868,1811766,False,74,pulmonary|respiratory failure|acute respiratory failure,"518.81, J96.00",Other,early,0,0
+15372235,1083379,True,19239,pulmonary|pulmonary infections|pneumonia,"486, J18.9",Major,early,0,2
+31821064,2800647,False,5240,gastrointestinal|abdominal/ general|ascites|with liver disease,"789.5, R18.8",Major,early,0,2
+12552000,783686,True,15266,pulmonary|pulmonary infections|pneumonia|community-acquired|bacterial,"486, 486, 486, 486, 486, J18.9",Major,early,0,2
+28933919,2400109,False,5525,pulmonary|pulmonary infections|pneumonia|community-acquired,"486, J18.9",Primary,early,0,1
+12753354,971981,False,71,endocrine|glucose metabolism|DKA,"250.13, E10.1",Other,early,0,0
+37268363,3104365,False,121,endocrine|glucose metabolism|diabetes mellitus|Type II,,Major,early,0,2
+4989018,273047,True,2385,gastrointestinal|post-GI surgery|s/p surgery for intestinal obstruction,,Primary,early,0,1
+31758514,2694495,False,13426,pulmonary|respiratory failure|ARDS,"518.81, J80",Major,early,1,2
+22100203,1580561,False,35320,renal|disorder of kidney|acute renal failure,"584.9, N17.9",Other,early,0,0
+44829017,3173980,False,20897,pulmonary|respiratory failure|ARDS,"518.81, J80",Major,early,0,2
+33638083,2840378,False,2295,infectious diseases|chest/pulmonary infections|pneumonia|aspiration,"507.0, J69.0",Major,early,0,2
+15131139,1066275,True,291,oncology|head and neck tumors|mouth and jaw tumor|oral cavity squamous cell CA,"145.9, C06.9",Primary,early,0,1
+7160606,397793,True,375,cardiovascular|shock / hypotension|cardiogenic shock|due to myocardial infarction,"785.51, R57.0",Major,early,1,2
+33286721,2896431,False,9673,cardiovascular|ventricular disorders|congestive heart failure,"428.0, I50.9",Other,early,0,0
+8170865,488744,False,158,endocrine|glucose metabolism|diabetes mellitus,,Other,early,0,0
+18831586,1335251,False,1375,neurologic|altered mental status / pain|change in mental status,"780.09, R41.82",Other,early,0,0
+35406649,3039148,False,536,renal|electrolyte imbalance|hypokalemia,"276.8, E87.6",Other,early,0,0
+17006534,1335631,False,35,neurologic|CNS mass lesions|spinal tumor,"192.2, C72.0",Primary,early,0,1
+13231457,1028610,False,4997,"cardiovascular|vascular disorders|swollen extremity, etiology unknown|left lower extremity","729.81, M79.89",Other,early,0,0
+13816336,996333,False,1790,renal|disorder of acid base|metabolic acidosis,"276.2, E87.2",Other,early,0,0
+12285193,571423,False,2615,renal|disorder of kidney|acute renal failure|due to sepsis,"584.9, N17.9",Other,early,0,0
+31485271,2818875,False,3866,hematology|bleeding and red blood cell disorders|anemia|acute blood loss anemia,"285.1, D62",Major,early,0,2
+10794603,617217,False,3879,cardiovascular|shock / hypotension|sepsis,"038.9, A41.9",Major,early,1,2
+16760937,1332903,False,8640,neurologic|altered mental status / pain|pain,,Other,early,0,0
+12738867,977449,True,679,cardiovascular|arrhythmias|sinus tachycardia,"785.0, R00.0",Other,early,0,0
+11496809,627188,False,803,pulmonary|respiratory failure|acute respiratory distress,518.82,Primary,early,0,1
+6157228,350282,False,1998,cardiovascular|ventricular disorders|congestive heart failure,"428.0, I50.9",Primary,early,0,1
+7485773,375028,False,747,cardiovascular|vascular disorders|hypertension,"401.9, I10",Major,early,0,2
+26258491,1787210,True,3027,hematology|coagulation disorders|coagulopathy|coumadin administration,"286.9, D68.32",Other,early,0,0
+13457547,1035187,False,5370,gastrointestinal|abdominal/ general|transaminase elevation,"790.4, R74.0",Other,early,0,0
+17336910,1348463,False,5427,renal|electrolyte imbalance|hypomagnesemia,"275.2, E83.42",Other,early,0,0
+43003802,3097930,False,8085,pulmonary|respiratory failure|acute respiratory failure due to volume overload without CHF,"518.81, J96.00",Major,early,0,2
+9865741,511220,False,179,pulmonary|respiratory failure|acute respiratory failure,"518.81, J96.00",Other,early,0,0
+18477289,1327845,False,263,endocrine|glucose metabolism|diabetes mellitus|Type I|uncontrolled,"250.03, E10.65",Major,early,0,2
+42853648,3121820,True,960,"burns/trauma|trauma - skeletal|swollen extremity, etiology unknown",,Other,early,0,0
+35390270,3121852,False,1877,neurologic|altered mental status / pain|pain|severe,,Major,early,0,2
+17417076,1365747,True,918,infectious diseases|chest/pulmonary infections|pneumonia,"486, J18.9",Other,early,0,0
+5692636,422678,False,499,pulmonary|respiratory failure|acute respiratory distress,518.82,Major,early,0,2
+31231546,2693097,True,268,endocrine|thyroid|hypothyroidism,"244.9, E03.9",Other,early,0,0
+37931390,3102647,False,5468,gastrointestinal|hepatic disease|hepatic dysfunction,"573.9, K76.9",Other,early,1,0
+11533312,850752,False,632,renal|disorder of urinary tract / renal system infection|lower urinary tract infection,"595.9, N30.9",Major,early,0,2
+9874497,484048,False,3063,pulmonary|pulmonary infections|pneumonia,"486, J18.9",Major,early,0,2
+7163059,331991,True,3782,cardiovascular|ventricular disorders|congestive heart failure,"428.0, I50.9",Major,early,1,2
+18221351,1331814,False,5196,neurologic|neuromuscular disorders|motor neuropathy|Guillain-Barre syndrome,"357.0, G61.0",Primary,early,0,1
+11116403,553144,False,23,pulmonary|respiratory failure|acute respiratory failure,"518.81, J96.00",Primary,early,0,1
+15591083,1107957,False,346,gastrointestinal|post-GI surgery|s/p exploratory laparotomy,,Primary,early,1,1
+10772885,754433,False,3329,cardiovascular|chest pain / ASHD|acute coronary syndrome|acute myocardial infarction (no ST elevation),"410.71, I21.4",Major,early,0,2
+39050257,3078983,False,6842,renal|disorder of kidney|acute renal failure,"584.9, N17.9",Major,early,0,2
+11491132,750660,False,6342,gastrointestinal|post-GI surgery|s/p Whipple,,Primary,early,0,1
+4624931,290126,False,871,cardiovascular|chest pain / ASHD|hyperlipidemia,"272.4, E78.5",Other,early,0,0
+10186830,442593,False,3640,cardiovascular|ventricular disorders|congestive heart failure,"428.0, I50.9",Major,early,0,2
+8327361,495524,False,2287,hematology|bleeding and red blood cell disorders|anemia,,Major,early,0,2
+41326306,3063327,False,19790,pulmonary|respiratory failure|hypoxemia,"799.02, J96.91",Major,early,1,2
+18260190,1335522,False,7707,endocrine|glucose metabolism|hyperglycemia,"790.6, R73.9",Other,early,0,0
+44084425,3135050,False,6262,cardiovascular|shock / hypotension|hypotension / pressor dependent,,Other,early,0,0
+3419556,143897,True,2054,pulmonary|disorders of the airways|asthma / bronchospasm,"493.90, J45",Other,early,0,0
+21870307,1572523,False,63,renal|disorder of kidney|chronic renal insufficiency,"585.9, N18.9",Other,early,0,0
+12884508,1048086,False,18314,neurologic|altered mental status / pain|encephalopathy,"348.30, G93.40",Other,early,0,0
+15509236,1129112,False,4509,endocrine|glucose metabolism|hypoglycemia,"251.1, E16.2",Major,early,0,2
+17637178,1323479,True,7043,neurologic|disorders of the spinal cord and peripheral nervous system|paraplegia-partial,"344.1, G82.22",Major,early,0,2
+36273098,3046183,False,4697,infectious diseases|GU infections|lower urinary tract infection|with foley catheter,"595.9, N30.9",Major,early,0,2
+35083075,3097421,False,2580,infectious diseases|chest/pulmonary infections|pneumonia|ventilator-associated,"486, J18.9",Major,early,1,2
+8651755,470684,True,3934,cardiovascular|ventricular disorders|acute pulmonary edema|due to left ventricular dysfunction,"428.1, I50.1",Other,early,0,0
+39640008,3081526,False,12493,neurologic|altered mental status / pain|sedated,,Other,early,0,0
+14093040,1003325,False,1007,renal|disorder of acid base|metabolic acidosis|lactic acidosis,"276.2, E87.2",Other,early,0,0
+35899777,3108358,False,8267,renal|disorder of kidney|acute renal failure,"584.9, N17.9",Other,early,0,0
+46152342,3330826,False,4606,pulmonary|respiratory failure|acute respiratory failure|due to inability to clear secretions,"518.81, J96.00",Other,early,0,0
+38463868,3034357,False,2140,pulmonary|disorders of the airways|COPD,"491.20, J44.9",Major,early,0,2
+40726247,3058376,False,14972,cardiovascular|cardiac surgery|valve replacement < 7days|aortic,,Primary,early,0,1
+32544180,2774644,False,5152,renal|disorder of kidney|acute renal failure,"584.9, N17.9",Major,early,1,2
+37821642,3056527,False,18537,cardiovascular|ventricular disorders|congestive heart failure|cor pulmonale,I50.9,Major,early,0,2
+25906234,1824231,False,16,neurologic|disorders of vasculature|TIA,"435.9, G45.9",Other,early,0,0
+34060884,2938085,True,95,pulmonary|respiratory failure|acute respiratory distress|etiology unknown,518.82,Other,early,0,0
+14508539,1046081,False,-13999,neurologic|altered mental status / pain|sedated,,Other,early,1,0
+15308075,1080444,True,36192,cardiovascular|shock / hypotension|hypotension,"458.9, I95.9",Major,early,1,2
+38410501,3088900,False,25989,gastrointestinal|malnutrition|nutritional deficiency|moderate,"263.0, E44.0",Major,early,0,2
+20506339,1460323,False,247,cardiovascular|chest pain / ASHD|acute coronary syndrome|acute myocardial infarction (no ST elevation),"410.71, I21.4",Major,early,0,2
+15147625,1056047,True,152,renal|disorder of kidney|ESRD (end stage renal disease),"585.6, N18.6",Major,early,0,2
+9932532,468717,True,3211,infectious diseases|systemic/other infections|hematological effect of infection|leukocytosis,"288.8, D72.829",Major,early,0,2
+42223676,3043701,False,9015,pulmonary|respiratory failure|hypoxemia,"799.02, J96.91",Other,early,1,0
+33340453,2677147,False,195,neurologic|altered mental status / pain|encephalopathy|hepatic,572.2,Other,early,0,0
+22778809,1660201,True,104,oncology|GI tumors|esophageal CA,"192.9, C15.9",Other,early,0,0
+6491504,374831,True,184,neurologic|altered mental status / pain|encephalopathy,"348.30, G93.40",Major,early,0,2
+39221509,3096259,True,780,hematology|white blood cell disorders|neutropenia|from chemotherapy,"288.0, D70.9",Other,early,0,0
+16913120,1317971,False,17456,endocrine|fluids and electrolytes|hyponatremia,"276.1, E87.1",Major,early,0,2
+14549267,1037580,False,12298,neurologic|disorders of vasculature|stroke|hemorrhagic stroke|subarachnoid hemorrhage,"430, 430, 430, 430, 430, 430, I60.9",Primary,early,0,1
+32686105,2870519,False,10617,endocrine|glucose metabolism|diabetes mellitus,,Other,early,1,0
+38715736,3110410,False,21111,hematology|white blood cell disorders|leukocytosis,"288.8, D72.829",Other,early,0,0
+6660568,400965,False,251,cardiovascular|shock / hypotension|hypotension,"458.9, I95.9",Major,early,0,2
+12464639,889563,True,22,cardiovascular|vascular disorders|DVT|right lower extremity,"451.2, I80.3",Primary,early,0,1
+6419856,328859,False,124,renal|electrolyte imbalance|hyperkalemia|due to renal disease,"276.7, E87.5",Major,early,0,2
+43176984,3125552,True,3817,neurologic|seizures|seizures,"345.90, R56.9",Other,early,0,0
+7382821,404502,False,2556,cardiovascular|shock / hypotension|hypotension,"458.9, I95.9",Major,early,0,2
+42601828,3080033,False,13885,renal|electrolyte imbalance|hypernatremia,"276.0, E87.0",Other,early,0,0
+42320019,3121088,False,137,endocrine|glucose metabolism|hyperglycemia|suspected,,Other,early,0,0
+5266130,304828,False,3193,endocrine|glucose metabolism|hyperglycemia|due to hepatic failure,"790.6, R73.9",Other,early,0,0
+38159778,3073350,False,6320,cardiovascular|arrhythmias|sinus tachycardia,"785.0, R00.0",Other,early,0,0
+30143230,2594464,False,42,gastrointestinal|GI bleeding / PUD|upper GI bleeding,"578.9, K92.2",Primary,early,0,1
+3968600,188603,True,16,infectious diseases|chest/pulmonary infections|pneumonia,"486, J18.9",Other,early,0,0
+12356340,591751,False,7146,pulmonary|respiratory failure|hypoxemia,"799.02, J96.91",Major,early,0,2
+44034420,3141386,True,3562,"infectious diseases|skin, bone and joint infections|wound infection",,Primary,early,0,1
+32379780,2767298,False,2259,cardiovascular|ventricular disorders|cardiomyopathy,,Major,early,0,2
+44324666,3136682,False,10637,neurologic|altered mental status / pain|encephalopathy|post-anoxic,"348.1, G93.1",Other,early,0,0
+36399009,3086128,False,2175,pulmonary|respiratory failure|acute respiratory failure|due to pain,"518.81, J96.00",Primary,early,0,1
+45153829,3243239,False,1521,oncology|GI tumors|liver CA|CA metastatic to liver,"197.7, C78.7",Other,early,0,0
+44881666,3220220,False,22701,endocrine|glucose metabolism|hypoglycemia,"251.1, E16.2",Major,early,0,2
+39966868,3117118,False,9343,neurologic|altered mental status / pain|encephalopathy|metabolic,"348.31, G93.41",Major,early,0,2
+46313046,3340415,False,87,neurologic|altered mental status / pain|change in mental status,"780.09, R41.82",Other,early,0,0
+6396426,310836,True,50,burns/trauma|trauma - abdomen|blunt abdominal trauma,"863.80, S36.9",Major,early,0,2
+15311262,1119454,False,4587,cardiovascular|shock / hypotension|hypotension,"458.9, I95.9",Major,early,0,2
+24234451,1787446,True,2,cardiovascular|arrhythmias|atrial fibrillation|with rapid ventricular response,"427.31, I48.0",Other,early,0,0
+21229838,1458230,False,431,pulmonary|respiratory failure|acute respiratory failure,"518.81, J96.00",Major,early,0,2
+17363685,1318471,True,1805,pulmonary|post thoracic surgery|s/p thoracotomy,,Other,early,0,0
+43882063,3132584,False,494,hematology|bleeding and red blood cell disorders|anemia|anemia of chronic disease,"285.29, D63.8",Other,early,0,0
+18118987,1340545,True,92,renal|disorder of kidney|ESRD (end stage renal disease),"585.6, N18.6",Other,early,1,0
+40642724,3070769,False,1068,toxicology|drug withdrawal|alcohol withdrawal,"291.81, F10.239",Other,early,0,0
+33668680,2811886,False,228,cardiovascular|ventricular disorders|hypertension|hypertensive emergency/urgency,"401.0, I10",Primary,early,0,1
+44862205,3229445,True,683,cardiovascular|cardiac arrest|cardiac arrest|un-witnessed,"427.5, I46.9",Primary,early,1,1
+17091813,1316887,False,436,pulmonary|respiratory failure|acute respiratory distress,518.82,Major,early,0,2
+15858716,1160625,True,17,cardiovascular|shock / hypotension|sepsis,"038.9, A41.9",Primary,early,0,1
+17643174,1334405,False,4611,hematology|bleeding and red blood cell disorders|hemorrhage,,Other,early,0,0
+30281561,2616562,False,215,cardiovascular|shock / hypotension|hypovolemia,"276.52, E86.1",Major,early,0,2
+33881514,2705425,False,878,cardiovascular|arrhythmias|atrial fibrillation,"427.31, I48.0",Other,early,1,0
+11304890,883562,False,50,oncology|GI tumors|liver CA|CA metastatic to liver,"197.7, C78.7",Major,early,0,2
+37116490,3106684,False,1074,infectious diseases|systemic/other infections|signs and symptoms of sepsis (SIRS),995.90,Other,early,0,0
+3658179,190896,True,84,renal|disorder of kidney|chronic kidney disease|Stage 4 (GFR 15-29),"585.4, N18.4",Other,early,0,0
+12981886,1011288,False,4685,oncology|GU tumors|prostate CA,"185, C61",Other,early,0,0
+44223364,3149345,False,172,cardiovascular|ventricular disorders|hypertension|hypertensive emergency/urgency,"401.0, I10",Major,early,0,2
+40202456,3080893,True,2104,gastrointestinal|hepatic disease|hepatic dysfunction,"573.9, K76.9",Major,early,0,2
+3757514,167870,False,286,pulmonary|respiratory failure|hypoxemia,"799.02, J96.91",Other,early,1,0
+44199323,3139854,False,19599,gastrointestinal|intestinal disease|diarrhea,"787.91, R19.7",Other,early,1,0
+41966298,3055799,False,12741,infectious diseases|systemic/other infections|septic shock|cultures pending,"785.59, 038.9, 995.92, R65.21",Major,early,0,2
+22083446,1590738,True,818,hematology|bleeding and red blood cell disorders|anemia|acute blood loss anemia,"285.1, D62",Other,early,0,0
+28622279,2505387,False,5276,pulmonary|respiratory failure|acute respiratory failure,"518.81, J96.00",Major,early,0,2
+9276475,510212,False,6439,toxicology|drug withdrawal|alcohol withdrawal,"291.81, F10.239",Major,early,0,2
+6041898,389167,False,2724,neurologic|seizures|seizures,"345.90, R56.9",Major,early,0,2
+18462576,1342426,False,47,cardiovascular|vascular disorders|hypertension,"401.9, I10",Major,early,0,2
+33708136,2688942,False,6435,pulmonary|respiratory failure|hypoxemia,"799.02, J96.91",Other,early,0,0
+12798948,965795,False,9217,cardiovascular|shock / hypotension|sepsis|severe,"995.92, R65.2",Other,early,0,0
+29953220,2578940,False,101,pulmonary|pulmonary infections|pneumonia,"486, J18.9",Primary,early,0,1
+15901263,1165157,True,1717,pulmonary|respiratory failure|acute respiratory failure,"518.81, J96.00",Major,early,0,2
+33186564,2696945,False,54,burns/trauma|trauma - skeletal|bone fracture(s)|ribs,S22.4,Primary,early,0,1
+22134117,1564595,False,23,neurologic|altered mental status / pain|change in mental status,"780.09, R41.82",Other,early,0,0
+43622712,3088788,False,24365,cardiovascular|chest pain / ASHD|acute coronary syndrome|myocardial ischemia,"411.89, I24.8",Other,early,0,0
+8881495,485908,False,4776,cardiovascular|vascular disorders|hypertension,"401.9, I10",Major,early,0,2
+5750959,411870,True,3634,cardiovascular|shock / hypotension|sepsis|sepsis with multi-organ dysfunction,"995.92, R65.20",Primary,early,0,1
+21920042,1574630,False,6588,pulmonary|respiratory failure|acute respiratory failure,"518.81, J96.00",Other,early,0,0
+37892623,3116770,False,16718,cardiovascular|shock / hypotension|hypotension,"458.9, I95.9",Major,early,0,2
+35431719,3055345,False,16620,gastrointestinal|intestinal disease|GI obstruction / ileus|small bowel obstruction|incarcerated hernia,"560.9, K56.60",Primary,early,1,1
+3824704,184003,False,33,cardiovascular|ventricular disorders|congestive heart failure,"428.0, I50.9",Primary,early,0,1
+34007760,2692130,True,18,pulmonary|disorders of the airways|obstructive sleep apnea,"780.57, G47.33",Other,early,1,0
+43651297,3117939,False,3311,endocrine|glucose metabolism|hyperglycemia|suspected,,Major,early,0,2
+40683717,3125715,False,-1,hematology|bleeding and red blood cell disorders|anemia,,Other,early,0,0
+38763668,3081132,False,5420,infectious diseases|systemic/other infections|hematological effect of infection|leukocytosis,"288.8, D72.829",Major,early,0,2
+41577953,3071517,False,1000,cardiovascular|ventricular disorders|hypertension|controlled,"401.9, I10",Other,early,0,0
+37731373,3041019,False,7558,renal|disorder of kidney|acute renal failure|due to nephrotoxic agents,"584.9, N17.9",Primary,early,0,1
+38035364,3130507,False,845,cardiovascular|ventricular disorders|congestive heart failure,"428.0, I50.9",Major,early,1,2
+43434382,3055344,True,2073,endocrine|glucose metabolism|hyperglycemia,"790.6, R73.9",Major,early,0,2
+38600775,3110838,False,2408,cardiovascular|shock / hypotension|hypovolemic shock|hemorrhagic,"785.59, R57.1, R58",Primary,early,0,1
+12898058,1053811,False,1045,infectious diseases|systemic/other infections|sepsis,"038.9, A41.9",Major,early,0,2
+8945798,528225,False,82,pulmonary|respiratory failure|acute respiratory failure,"518.81, J96.00",Major,early,0,2
+42224617,3111588,False,226,hematology|coagulation disorders|coagulopathy|coumadin administration,"286.9, D68.32",Major,early,0,2
+7076654,349964,False,3655,neurologic|altered mental status / pain|encephalopathy,"348.30, G93.40",Major,early,0,2
+43014454,3113691,False,14074,renal|electrolyte imbalance|hypernatremia|severe (> 155 meq/dl),"276.0, E87.0",Major,early,0,2
+6248468,318322,True,2828,neurologic|altered mental status / pain|agitation,"308.2, F43.0",Other,early,0,0
+44103509,3147621,True,1672,endocrine|glucose metabolism|hyperglycemia|corticosteroid related,"790.6, R73.9",Other,early,0,0
+18460878,1333429,True,174,cardiovascular|chest pain / ASHD|chest pain,"786.50, R07.9",Other,early,0,0
+39500729,3079389,False,13738,renal|electrolyte imbalance|hypokalemia,"276.8, E87.6",Other,early,0,0
+16615581,1285399,True,518,pulmonary|respiratory failure|acute respiratory failure,"518.81, J96.00",Primary,early,1,1
+13431910,1008563,False,1807,pulmonary|disorders of the airways|obstructive sleep apnea,"780.57, G47.33",Other,early,0,0
+38081704,3051564,False,6297,gastrointestinal|malnutrition|protein-calorie malnutrition,"263.9, E46",Other,early,0,0
+17586040,1317972,False,813,cardiovascular|arrhythmias|atrial fibrillation,"427.31, I48.0",Major,early,0,2
+33102183,2898677,False,41,cardiovascular|chest pain / ASHD|acute coronary syndrome|acute myocardial infarction (with ST elevation),"410.90, I21.3",Primary,early,0,1
+7992634,492631,False,264,infectious diseases|GU infections|lower urinary tract infection|without foley catheter,"595.9, N30.9",Major,early,0,2
+23364424,1638644,True,286,infectious diseases|systemic/other infections|sepsis,"038.9, A41.9",Other,early,0,0
+33517858,2805709,True,6796,hematology|coagulation disorders|coagulopathy,"286.9, D68.9",Other,early,0,0
+30903208,2713297,True,21,gastrointestinal|abdominal/ general|vomiting,"787.03, R11.10",Other,early,0,0
+17575693,1335407,False,8352,renal|electrolyte imbalance|hypokalemia,"276.8, E87.6",Other,early,0,0
+31845701,2761463,False,2336,neurologic|trauma - CNS|intracranial injury|with loss of consciousness of unknown duration,"854.06, S06.9",Primary,early,0,1
+35480444,3042700,False,12436,pulmonary|disorders of lung parenchyma|atelectasis/collapse,"518.0, J98.11",Other,early,0,0
+14440187,1021076,False,910,endocrine|glucose metabolism|DKA,"250.13, E10.1",Primary,early,0,1
+6078709,407753,False,2165,pulmonary|disorders of the airways|COPD,"491.20, J44.9",Other,early,0,0
+35650642,3080700,False,4043,gastrointestinal|abdominal/ general|nausea,"787.02, R11.0",Other,early,0,0
+43597983,3097022,True,6854,endocrine|adrenal disorders|adrenal insufficiency|due to chronic steroid administration,"255.4, E27.40",Other,early,0,0
+17031303,1335937,False,13169,neurologic|seizures|seizures,"345.90, R56.9",Major,early,0,2
+40138575,3082353,False,12973,hematology|bleeding and red blood cell disorders|hemorrhage,,Major,early,1,2
+38122716,3062448,True,2167,cardiovascular|ventricular disorders|congestive heart failure,"428.0, I50.9",Major,early,0,2
+36694735,3094942,False,924,pulmonary|respiratory failure|acute respiratory distress,518.82,Other,early,0,0
+6285444,311780,True,7764,endocrine|thyroid|hypothyroidism,"244.9, E03.9",Major,early,0,2
+12772245,978854,True,14468,pulmonary|pulmonary infections|pneumonia,"486, J18.9",Primary,early,1,1
+11048424,850414,False,83,pulmonary|pulmonary infections|pneumonia,"486, J18.9",Major,early,0,2
+26046794,1754026,True,354,burns/trauma|trauma - skeletal|bone fracture(s)|left upper extremity|humerus|closed,812.00,Major,early,0,2
+33304530,2826100,False,184,endocrine|glucose metabolism|diabetes mellitus,,Other,early,0,0
+37199943,3114014,False,2195,neurologic|infectious disease of nervous system|meningitis,,Other,early,0,0
+38098423,3125807,False,9447,gastrointestinal|abdominal/ general|peritonitis,"567.9, K65.0",Other,early,0,0
+5504690,326461,False,4039,neurologic|altered mental status / pain|schizophrenia,"295.90, F20.9",Major,early,0,2
+32024867,2704228,False,1521,endocrine|pituitary and temperature regulation|pituitary hypothyroidism,"253.4, E23.0",Other,early,0,0
+35042465,3106965,False,15352,pulmonary|disorders of vasculature|pulmonary embolism|suspected,,Other,early,1,0
+12408938,591113,False,12,neurologic|disorders of vasculature|stroke|ischemic stroke,"434.91, I63.50",Primary,early,0,1
+38546042,3117829,False,48178,hematology|bleeding and red blood cell disorders|anemia,,Other,early,0,0
+4224174,231209,False,58,cardiovascular|shock / hypotension|hypotension,"458.9, I95.9",Other,early,0,0
+40086928,3074744,False,2375,pulmonary|respiratory failure|acute respiratory failure|drug related|residual general anesthesia,"518.5, J96.00",Major,early,0,2
+15291215,1081047,False,527,burns/trauma|trauma - chest|pneumothorax,860.0,Primary,early,0,1
+40963590,3120213,True,8250,renal|electrolyte imbalance|hyperkalemia|moderate ( 5.5 -6.1 meq/dl),"276.7, E87.5",Other,early,0,0
+36037395,3050369,False,1079,gastrointestinal|abdominal/ general|transaminase elevation,"790.4, R74.0",Other,early,1,0
+38523894,3070368,False,1244,gastrointestinal|malnutrition|nutritional deficiency|moderate,"263.0, E44.0",Other,early,0,0
+21156991,1505141,False,1892,hematology|bleeding and red blood cell disorders|anemia|acute blood loss anemia,"285.1, D62",Major,early,0,2
+46355484,3343372,False,2775,pulmonary|respiratory failure|acute respiratory failure|due to atelectasis,"518.81, J96.00",Major,early,0,2
+31078143,2857120,False,4001,cardiovascular|shock / hypotension|sepsis,"038.9, A41.9",Primary,early,0,1
+33647991,2688008,False,49,infectious diseases|systemic/other infections|signs and symptoms of sepsis (SIRS),995.90,Primary,early,0,1
+31930514,2875290,False,13266,pulmonary|pulmonary infections|pneumonia,"486, J18.9",Major,early,0,2
+17281053,1316911,False,149,neurologic|altered mental status / pain|agitation,"308.2, F43.0",Other,early,0,0
+36334179,3074510,False,1253,hematology|bleeding and red blood cell disorders|anemia,,Other,early,0,0
+20642958,1477697,False,2280,cardiovascular|vascular disorders|peripheral vascular ischemia|with cyanosis,"443.9, I73.9",Major,early,0,2
+8620372,485039,False,103,cardiovascular|shock / hypotension|hypotension / pressor dependent,,Major,early,0,2
+39985604,3053603,False,131,renal|abnormality of urine quantity or quality|anuria|etiology unknown,"788.5, R34",Other,early,0,0
+46315721,3347139,True,411,pulmonary|pleural disorders|pleural effusion,"511.9, J91.8",Other,early,0,0
+40209562,3036259,False,850,infectious diseases|systemic/other infections|sepsis|sepsis with multi-organ dysfunction syndrome,"995.92, R65.20",Major,early,0,2
+34218993,2963519,False,1322,cardiovascular|chest pain / ASHD|coronary artery disease|known|symptomatic,"414.00, I25.10",Primary,early,0,1
+36501472,3091312,False,37,cardiovascular|arrhythmias|sinus tachycardia,"785.0, R00.0",Other,early,0,0
+35247040,3104751,False,310,cardiovascular|shock / hypotension|hypotension,"458.9, I95.9",Other,early,0,0
+39872949,3039105,True,1352,infectious diseases|chest/pulmonary infections|pneumonia,"486, J18.9",Major,early,0,2
+39157538,3034289,False,1039,neurologic|disorders of vasculature|stroke|hemorrhagic stroke|transformation of ischemic stroke,"432.9, I62.9",Other,early,0,0
+18469955,1359208,False,30,cardiovascular|post vascular surgery|s/p cartoid endarterectomy,,Other,early,0,0
+20225657,1489198,False,810,endocrine|glucose metabolism|DKA,"250.13, E10.1",Major,early,0,2
+41364946,3094887,False,2640,hematology|white blood cell disorders|leukocytosis,"288.8, D72.829",Other,early,0,0
+22003010,1575690,True,1043,renal|electrolyte imbalance|hyperkalemia,"276.7, E87.5",Other,early,0,0
+44052681,3140327,False,6735,pulmonary|pulmonary infections|pneumonia|aspiration pneumonitis,"507.0, J69.0",Other,early,1,0
+10990594,598852,False,24,neurologic|disorders of vasculature|stroke|hemorrhagic stroke|hypertensive,"431, 431, 431, 431, I61.9",Other,early,0,0
+8826719,531691,False,8682,endocrine|glucose metabolism|diabetes mellitus,,Major,early,1,2
+43798980,3081109,False,4151,gastrointestinal|abdominal/ general|obesity,"278.00, E66.9",Other,early,0,0
+35976447,3090932,False,3980,surgery|infections|lower urinary tract infection|with foley catheter,"595.9, N30.9",Other,early,0,0
+29770016,2613362,False,50,neurologic|altered mental status / pain|stupor,"780.09, R40.1",Other,early,0,0
+11269236,711460,False,14418,cardiovascular|infection|endocarditis - native valve,"421.0, I33.0",Major,early,0,2
+30524282,2636485,True,390,cardiovascular|arrhythmias|bradycardia,,Other,early,0,0
+34322832,3025315,True,2958,renal|disorder of kidney|acute renal failure,"584.9, N17.9",Major,early,0,2
+38587094,3049884,False,3751,cardiovascular|arrhythmias|atrial fibrillation,"427.31, I48.0",Major,early,0,2
+6188609,383358,False,1178,pulmonary|respiratory failure|failure to wean,,Primary,early,1,1

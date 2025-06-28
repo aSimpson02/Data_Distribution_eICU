@@ -1,501 +1,501 @@
-diagnosisid,patientunitstayid,activeupondischarge,diagnosisoffset,diagnosisstring,icd9code,diagnosispriority,hospitalid,unittype,diagnosispriority_encoded
-3396027,169395,False,1559,renal|electrolyte imbalance|hyponatremia,"276.1, E87.0, E87.1",Other,66,Med-Surg ICU,0
-3615099,161076,True,4134,renal|disorder of kidney|acute renal failure,"584.9, N17.9",Major,66,Med-Surg ICU,2
-3898338,165548,False,14266,neurologic|altered mental status / pain|change in mental status,"780.09, R41.82",Other,66,Med-Surg ICU,0
-3375457,141470,True,13,renal|disorder of urinary tract / renal system infection|obstructive uropathy,"586, N19",Major,66,Med-Surg ICU,2
-4215784,221086,False,2363,pulmonary|respiratory failure|acute respiratory failure,"518.81, J96.00",Primary,66,Med-Surg ICU,1
-3822425,174202,False,1629,gastrointestinal|hepatic disease|hepatic dysfunction,"573.9, K76.9",Primary,66,Med-Surg ICU,1
-3850358,165548,False,14263,pulmonary|disorders of vasculature|pulmonary hypertension,,Other,66,Med-Surg ICU,0
-4025799,189842,False,5,cardiovascular|shock / hypotension|hypotension,"458.9, I95.9",Other,66,Med-Surg ICU,0
-4087511,157538,False,46,renal|disorder of kidney|acute renal failure,"584.9, N17.9",Major,66,Med-Surg ICU,2
-4169945,197253,True,11145,hematology|platelet disorders|thrombocytopenia,"287.5, D69.6",Other,66,Med-Surg ICU,0
-3765960,164705,False,4074,pulmonary|respiratory failure|acute respiratory distress,518.82,Other,66,Med-Surg ICU,0
-3924404,186276,True,23,cardiovascular|shock / hypotension|sepsis,"038.9, A41.9",Primary,66,Med-Surg ICU,1
-3831608,228904,False,4009,endocrine|glucose metabolism|diabetes mellitus,,Other,66,Med-Surg ICU,0
-3575000,165548,False,5,pulmonary|respiratory failure|hypoxemia,"799.02, J96.91",Other,66,Med-Surg ICU,0
-3571456,179224,True,9,cardiovascular|arrhythmias|bradycardia,,Primary,66,Med-Surg ICU,1
-4234709,200837,False,1660,gastrointestinal|GI bleeding / PUD|GI bleeding,"578.9, K92.2",Primary,66,Med-Surg ICU,1
-3639397,204322,False,128,pulmonary|disorders of lung parenchyma|atelectasis/collapse,"518.0, J98.11",Other,66,Med-Surg ICU,0
-4037674,160347,True,51,cardiovascular|vascular disorders|hypertension,"401.9, I10",Other,66,Med-Surg ICU,0
-3747978,226762,False,28132,renal|disorder of urinary tract / renal system infection|urinary tract infection,"599.0, N39.0",Other,66,Med-Surg ICU,0
-3976243,221086,False,7162,pulmonary|respiratory failure|ARDS,"518.81, J80",Other,66,Med-Surg ICU,0
-4216034,223556,True,9131,pulmonary|respiratory failure|acute respiratory failure,"518.81, J96.00",Other,66,Med-Surg ICU,0
-4067243,186937,False,5145,pulmonary|respiratory failure|acute respiratory failure,"518.81, J96.00",Major,66,Med-Surg ICU,2
-3545815,184329,True,7020,cardiovascular|ventricular disorders|congestive heart failure,"428.0, I50.9",Other,66,Med-Surg ICU,0
-3667702,210768,True,26,cardiovascular|shock / hypotension|hypotension,"458.9, I95.9",Major,66,Med-Surg ICU,2
-4084245,169047,True,651,cardiovascular|arrhythmias|atrial fibrillation|with rapid ventricular response,"427.31, I48.0",Major,66,Med-Surg ICU,2
-3624416,196190,False,32,endocrine|glucose metabolism|hypoglycemia,"251.1, E16.2",Primary,66,Med-Surg ICU,1
-3674666,223556,False,1523,neurologic|altered mental status / pain|change in mental status,"780.09, R41.82",Other,66,Med-Surg ICU,0
-3742541,216788,True,4302,renal|disorder of kidney|acute renal failure,"584.9, N17.9",Major,66,Med-Surg ICU,2
-3374278,161076,False,2487,endocrine|glucose metabolism|diabetes mellitus,,Other,66,Med-Surg ICU,0
-4114422,150851,True,15,pulmonary|respiratory failure|acute respiratory failure,"518.81, J96.00",Major,66,Med-Surg ICU,2
-3685523,241758,True,419,surgery|infections|wound infection|traumatic wound,,Major,66,Med-Surg ICU,2
-3798066,221086,False,22844,cardiovascular|shock / hypotension|septic shock,"785.52, R65.21",Major,66,Med-Surg ICU,2
-3777914,161076,True,4134,hematology|coagulation disorders|coagulopathy,"286.9, D68.9",Other,66,Med-Surg ICU,0
-3897842,228627,False,1556,pulmonary|respiratory failure|acute respiratory failure,"518.81, J96.00",Major,66,Med-Surg ICU,2
-3753676,184210,True,449,endocrine|glucose metabolism|diabetes mellitus,,Other,66,Med-Surg ICU,0
-3383245,195444,False,22,cardiovascular|ventricular disorders|hypertension,"401.9, I10",Other,66,Med-Surg ICU,0
-3728946,233263,False,6,cardiovascular|shock / hypotension|sepsis,"038.9, A41.9",Other,66,Med-Surg ICU,0
-3787553,223556,False,102,renal|electrolyte imbalance|hyponatremia,"276.1, E87.0, E87.1",Other,66,Med-Surg ICU,0
-3533365,156161,False,48,pulmonary|pleural disorders|pleural effusion,"511.9, J91.8",Other,66,Med-Surg ICU,0
-4235534,193140,True,12787,pulmonary|disorders of the airways|COPD,"491.20, J44.9",Other,66,Med-Surg ICU,0
-4031229,170102,False,45,neurologic|neuromuscular disorders|motor neuropathy|amyotrophic lateral sclerosis,"335.20, G12.21",Other,66,Med-Surg ICU,0
-4210397,226349,False,23,endocrine|glucose metabolism|diabetes mellitus,,Other,66,Med-Surg ICU,0
-3962194,163541,False,526,cardiovascular|chest pain / ASHD|coronary artery disease|known,"414.00, I25.10",Major,66,Med-Surg ICU,2
-3959292,226551,True,847,neurologic|altered mental status / pain|encephalopathy,"348.30, G93.40",Major,66,Med-Surg ICU,2
-3497468,231250,False,30,neurologic|altered mental status / pain|depression,"311, F32.9",Other,66,Med-Surg ICU,0
-3441110,161938,False,572,neurologic|post-neurosurgery|post spinal surgery|lumbar,,Major,66,Med-Surg ICU,2
-4156561,218426,False,3,gastrointestinal|hepatic disease|hepatic dysfunction|with cirrhosis,"571.5, K74.60",Major,66,Med-Surg ICU,2
-4166362,207213,False,116,renal|disorder of kidney|acute renal failure,"584.9, N17.9",Primary,66,Med-Surg ICU,1
-4262618,235702,True,18,toxicology|drug overdose|drug overdose- general,,Other,66,Med-Surg ICU,0
-3692397,204889,False,-1,renal|disorder of urinary tract / renal system infection|urinary tract infection,"599.0, N39.0",Major,66,Med-Surg ICU,2
-3680279,163541,True,1749,endocrine|glucose metabolism|diabetes mellitus,,Other,66,Med-Surg ICU,0
-3906228,213920,True,3409,neurologic|infectious disease of nervous system|meningitis,,Major,66,Med-Surg ICU,2
-3797716,233263,True,222,pulmonary|pulmonary infections|pneumonia,"486, J18.9",Major,66,Med-Surg ICU,2
-4271894,228245,True,9008,pulmonary|respiratory failure|hypoxemia,"799.02, J96.91",Other,66,Med-Surg ICU,0
-3931983,163124,True,248,pulmonary|disorders of the airways|asthma / bronchospasm,"493.90, J45",Other,66,Med-Surg ICU,0
-3732178,148056,False,23,renal|electrolyte imbalance|hypokalemia,"276.8, E87.6",Other,66,Med-Surg ICU,0
-4195997,145645,True,1599,pulmonary|disorders of the airways|COPD,"491.20, J44.9",Major,66,Med-Surg ICU,2
-3855088,231250,True,3665,toxicology|drug overdose|drug overdose- general,,Primary,66,Med-Surg ICU,1
-3420109,221086,False,30979,infectious diseases|systemic/other infections|bacteremia,"038.9, R78.81",Other,66,Med-Surg ICU,0
-4025316,178437,False,246,pulmonary|disorders of the airways|asthma / bronchospasm,"493.90, J45",Other,66,Med-Surg ICU,0
-4097840,203775,True,49,cardiovascular|ventricular disorders|hypertension,"401.9, I10",Major,66,Med-Surg ICU,2
-4153860,219594,True,18464,cardiovascular|arrhythmias|atrial fibrillation,"427.31, I48.0",Other,66,Med-Surg ICU,0
-3541867,154329,True,56,endocrine|glucose metabolism|diabetes mellitus,,Other,66,Med-Surg ICU,0
-3860004,208179,False,1763,cardiovascular|vascular disorders|hypertension,"401.9, I10",Other,66,Med-Surg ICU,0
-3622412,204889,True,273,hematology|bleeding and red blood cell disorders|anemia,,Other,66,Med-Surg ICU,0
-3619899,200741,False,58,cardiovascular|shock / hypotension|hypotension,"458.9, I95.9",Major,66,Med-Surg ICU,2
-4007118,163124,True,248,endocrine|glucose metabolism|diabetes mellitus,,Other,66,Med-Surg ICU,0
-4190673,180360,False,9097,cardiovascular|ventricular disorders|hypertension,"401.9, I10",Other,66,Med-Surg ICU,0
-3824534,157538,True,1915,cardiovascular|chest pain / ASHD|coronary artery disease|known,"414.00, I25.10",Other,66,Med-Surg ICU,0
-3771335,213437,False,17,surgery|altered mental status / pain|pain,,Primary,66,Med-Surg ICU,1
-3547831,206032,False,1882,endocrine|glucose metabolism|diabetes mellitus,,Other,66,Med-Surg ICU,0
-3448080,197253,False,10095,hematology|bleeding and red blood cell disorders|anemia,,Other,66,Med-Surg ICU,0
-3756404,230424,True,18,neurologic|altered mental status / pain|change in mental status,"780.09, R41.82",Primary,66,Med-Surg ICU,1
-3659045,239577,True,30,renal|disorder of kidney|acute renal failure,"584.9, N17.9",Major,66,Med-Surg ICU,2
-3657927,240700,False,1361,renal|abnormality of urine quantity or quality|hematuria,"599.7, R31.9",Other,66,Med-Surg ICU,0
-3576242,208869,False,102,pulmonary|disorders of the airways|COPD,"491.20, J44.9",Major,66,Med-Surg ICU,2
-3732057,167774,False,72,cardiovascular|ventricular disorders|hypertension,"401.9, I10",Other,66,Med-Surg ICU,0
-3479848,236820,False,3169,gastrointestinal|GI bleeding / PUD|upper GI bleeding|esophageal,"530.82, K22.8",Other,66,Med-Surg ICU,0
-4009730,156161,True,553,gastrointestinal|GI bleeding / PUD|GI bleeding,"578.9, K92.2",Major,66,Med-Surg ICU,2
-3682462,197275,True,2162,neurologic|neuromuscular disorders|motor neuropathy|multiple sclerosis,"340, G35",Other,66,Med-Surg ICU,0
-4236641,213500,False,2757,pulmonary|pleural disorders|pleural effusion,"511.9, J91.8",Other,66,Med-Surg ICU,0
-4213594,221532,False,731,cardiovascular|shock / hypotension|sepsis,"038.9, A41.9",Primary,66,Med-Surg ICU,1
-4237537,221776,False,12,cardiovascular|chest pain / ASHD|coronary artery disease,,Other,66,Med-Surg ICU,0
-3786468,223556,False,7516,hematology|coagulation disorders|coagulopathy,"286.9, D68.9",Other,66,Med-Surg ICU,0
-3883017,200741,False,58,gastrointestinal|abdominal/ general|ascites,"789.5, R18.8",Other,66,Med-Surg ICU,0
-3809800,235502,False,43,pulmonary|disorders of the airways|COPD,"491.20, J44.9",Other,66,Med-Surg ICU,0
-3821969,221086,False,7893,pulmonary|respiratory failure|hypoxemia,"799.02, J96.91",Other,66,Med-Surg ICU,0
-3831421,221086,False,7893,pulmonary|pulmonary infections|pneumonia,"486, J18.9",Other,66,Med-Surg ICU,0
-4114994,236849,True,2110,cardiovascular|shock / hypotension|hypotension,"458.9, I95.9",Other,66,Med-Surg ICU,0
-3691093,169395,False,7115,pulmonary|disorders of the airways|COPD,"491.20, J44.9",Other,66,Med-Surg ICU,0
-4255509,180317,False,2066,gastrointestinal|hepatic disease|hepatic dysfunction|with cirrhosis,"571.5, K74.60",Major,66,Med-Surg ICU,2
-3948472,235502,True,895,cardiovascular|vascular disorders|DVT|left lower extremity,"451.2, I80.3",Major,66,Med-Surg ICU,2
-4007877,190660,False,658,hematology|white blood cell disorders|neutropenia,"288.0, D70.9",Other,66,Med-Surg ICU,0
-3521780,212014,True,1338,cardiovascular|arrhythmias|SVT,"427.0, I47.1",Primary,66,Med-Surg ICU,1
-3395876,193218,True,1082,pulmonary|respiratory failure|hypercarbia,"786.09, J96.92",Other,66,Med-Surg ICU,0
-4025629,177655,False,83,pulmonary|disorders of the airways|acute COPD exacerbation,"491.21, J44.1",Primary,66,Med-Surg ICU,1
-4014626,221167,True,420,pulmonary|disorders of acid base|respiratory alkalosis,"276.2, E87.2",Other,66,Med-Surg ICU,0
-3558769,180317,False,2066,hematology|platelet disorders|thrombocytopenia,"287.5, D69.6",Other,66,Med-Surg ICU,0
-3447875,184329,False,6671,cardiovascular|chest pain / ASHD|acute coronary syndrome,,Other,66,Med-Surg ICU,0
-3616505,158432,True,6,neurologic|altered mental status / pain|change in mental status,"780.09, R41.82",Other,66,Med-Surg ICU,0
-3680154,221086,False,7162,infectious diseases|GU infections|acute pyelonephritis,"590.10, N10",Other,66,Med-Surg ICU,0
-3621800,228627,True,2720,cardiovascular|shock / hypotension|hypotension / pressor dependent,,Other,66,Med-Surg ICU,0
-3910190,228076,False,4,neurologic|altered mental status / pain|change in mental status,"780.09, R41.82",Major,66,Med-Surg ICU,2
-3557747,178437,True,2516,endocrine|glucose metabolism|diabetes mellitus,,Other,66,Med-Surg ICU,0
-4021847,197253,False,10095,pulmonary|pulmonary infections|pneumonia|aspiration,"507.0, J69.0",Major,66,Med-Surg ICU,2
-3780877,227162,False,121,neurologic|altered mental status / pain|change in mental status,"780.09, R41.82",Primary,66,Med-Surg ICU,1
-4003976,221086,False,20716,pulmonary|pulmonary infections|pneumonia,"486, J18.9",Other,66,Med-Surg ICU,0
-3504817,218671,True,485,neurologic|seizures|seizures,"345.90, R56.9",Other,66,Med-Surg ICU,0
-4132450,236820,False,3908,endocrine|glucose metabolism|diabetes mellitus,,Other,66,Med-Surg ICU,0
-3758460,206032,False,1708,gastrointestinal|post-GI surgery|s/p surgery for GI bleeding,,Other,66,Med-Surg ICU,0
-4098378,197253,False,2663,cardiovascular|shock / hypotension|hypotension / pressor dependent,,Major,66,Med-Surg ICU,2
-3432842,235502,True,895,pulmonary|disorders of vasculature|pulmonary hypertension,,Other,66,Med-Surg ICU,0
-3858128,153993,False,4984,cardiovascular|vascular disorders|traumatic injury to major vessels,,Major,66,Med-Surg ICU,2
-3549808,232752,False,40,renal|disorder of kidney|acute renal failure,"584.9, N17.9",Other,66,Med-Surg ICU,0
-4053230,196239,True,4113,neurologic|disorders of vasculature|stroke|ischemic stroke,"434.91, I63.50",Major,66,Med-Surg ICU,2
-3471000,236820,True,12193,pulmonary|disorders of the airways|obstructive sleep apnea,"780.57, G47.33",Other,66,Med-Surg ICU,0
-3475610,236849,False,586,oncology|GU tumors|prostate CA,"185, C61",Other,66,Med-Surg ICU,0
-3616912,216788,False,2437,oncology|chest tumors|primary lung cancer,"162.9, C34.90",Other,66,Med-Surg ICU,0
-4247406,221086,False,20716,pulmonary|respiratory failure|ARDS,"518.81, J80",Other,66,Med-Surg ICU,0
-3532845,189842,False,5,gastrointestinal|abdominal/ general|hyperbilirubinemia,,Other,66,Med-Surg ICU,0
-3491239,165548,False,26371,cardiovascular|arrhythmias|SVT,"427.0, I47.1",Other,66,Med-Surg ICU,0
-3501959,221086,True,32472,pulmonary|respiratory failure|Tracheostomy performed during this admission for ventilatory support,31.1,Major,66,Med-Surg ICU,2
-3559650,203970,True,10,neurologic|disorders of vasculature|stroke,"436, I67.8",Primary,66,Med-Surg ICU,1
-3752072,194037,False,2826,pulmonary|respiratory failure|acute respiratory failure,"518.81, J96.00",Major,66,Med-Surg ICU,2
-4192757,164705,False,52,cardiovascular|shock / hypotension|sepsis,"038.9, A41.9",Primary,66,Med-Surg ICU,1
-3792719,174202,False,4875,cardiovascular|shock / hypotension|hypotension,"458.9, I95.9",Other,66,Med-Surg ICU,0
-4088162,221086,False,7893,renal|disorder of urinary tract / renal system infection|urinary tract infection,"599.0, N39.0",Major,66,Med-Surg ICU,2
-3519789,184329,False,11,pulmonary|pulmonary infections|pneumonia,"486, J18.9",Major,66,Med-Surg ICU,2
-3618848,187016,False,491,gastrointestinal|abdominal/ general|abdominal pain / tenderness,"789.00, R10.9",Major,66,Med-Surg ICU,2
-3815642,181334,False,32,cardiovascular|chest pain / ASHD|chest pain,"786.50, R07.9",Other,66,Med-Surg ICU,0
-4038998,173294,True,24,cardiovascular|chest pain / ASHD|acute coronary syndrome,,Other,66,Med-Surg ICU,0
-3998170,215631,True,143,hematology|platelet disorders|thrombocytopenia,"287.5, D69.6",Other,66,Med-Surg ICU,0
-3367187,188044,False,2417,pulmonary|disorders of vasculature|pulmonary hypertension,,Other,66,Med-Surg ICU,0
-3662026,197253,False,1382,pulmonary|respiratory failure|hypercarbia,"786.09, J96.92",Other,66,Med-Surg ICU,0
-3750085,226762,False,25655,cardiovascular|shock / hypotension|hypotension / pressor dependent,,Major,66,Med-Surg ICU,2
-3573726,231181,True,3673,hematology|coagulation disorders|coagulopathy|coumadin administration,"286.9, D68.32",Other,66,Med-Surg ICU,0
-4198898,184329,False,798,cardiovascular|chest pain / ASHD|acute coronary syndrome,,Other,66,Med-Surg ICU,0
-3564603,206032,False,52,hematology|bleeding and red blood cell disorders|anemia,,Major,66,Med-Surg ICU,2
-3591798,143636,True,12,pulmonary|respiratory failure|hypoxemia,"799.02, J96.91",Major,66,Med-Surg ICU,2
-3595786,212237,False,-7,cardiovascular|vascular disorders|DVT,,Other,66,Med-Surg ICU,0
-3649634,148927,True,-56,neurologic|altered mental status / pain|change in mental status,"780.09, R41.82",Other,66,Med-Surg ICU,0
-4074144,195543,False,1921,cardiovascular|valvular disease|valvular insufficiency|with CHF,,Primary,66,Med-Surg ICU,1
-3809628,145183,False,8,neurologic|altered mental status / pain|change in mental status,"780.09, R41.82",Primary,66,Med-Surg ICU,1
-3803907,206033,False,96,gastrointestinal|GI bleeding / PUD|GI bleeding,"578.9, K92.2",Primary,66,Med-Surg ICU,1
-3858312,221694,True,95,infectious diseases|systemic/other infections|bacteremia,"038.9, R78.81",Other,66,Med-Surg ICU,0
-4172256,223556,False,888,neurologic|altered mental status / pain|drug withdrawal syndrome|alcohol,"291.81, F10.239",Primary,66,Med-Surg ICU,1
-3792163,200837,True,4050,cardiovascular|arrhythmias|bradycardia,,Other,66,Med-Surg ICU,0
-4041177,156161,False,48,endocrine|glucose metabolism|diabetes mellitus,,Other,66,Med-Surg ICU,0
-3622222,165548,False,6572,pulmonary|respiratory failure|hypoxemia,"799.02, J96.91",Other,66,Med-Surg ICU,0
-3876889,172381,False,12,neurologic|altered mental status / pain|change in mental status,"780.09, R41.82",Primary,66,Med-Surg ICU,1
-3683516,195954,True,70,pulmonary|respiratory failure|acute respiratory distress,518.82,Primary,66,Med-Surg ICU,1
-3398312,199899,True,412,cardiovascular|vascular disorders|hypertension,"401.9, I10",Major,66,Med-Surg ICU,2
-3993522,176760,False,6,hematology|bleeding and red blood cell disorders|anemia,,Other,66,Med-Surg ICU,0
-3549669,170102,False,45,"infectious diseases|skin, bone and joint infections|cellulitis|extremity","682.9, L03.119",Major,66,Med-Surg ICU,2
-4084298,174202,True,6398,neurologic|altered mental status / pain|encephalopathy,"348.30, G93.40",Other,66,Med-Surg ICU,0
-3746121,146912,False,754,pulmonary|respiratory failure|acute respiratory failure,"518.81, J96.00",Other,66,Med-Surg ICU,0
-3702785,170102,True,7851,pulmonary|disorders of the airways|COPD,"491.20, J44.9",Other,66,Med-Surg ICU,0
-4258420,176438,True,3777,pulmonary|disorders of the airways|mechanical airway problem,,Other,66,Med-Surg ICU,0
-3945706,184012,True,54,cardiovascular|shock / hypotension|sepsis,"038.9, A41.9",Other,66,Med-Surg ICU,0
-3767178,228904,False,4008,neurologic|altered mental status / pain|drug withdrawal syndrome|alcohol,"291.81, F10.239",Major,66,Med-Surg ICU,2
-3667345,161076,False,1184,hematology|platelet disorders|thrombocytopenia,"287.5, D69.6",Other,66,Med-Surg ICU,0
-3943745,145183,True,50,neurologic|altered mental status / pain|encephalopathy|metabolic,"348.31, G93.41",Other,66,Med-Surg ICU,0
-3458220,154456,True,24,cardiovascular|chest pain / ASHD|acute coronary syndrome|acute myocardial infarction (no ST elevation),"410.71, I21.4",Other,66,Med-Surg ICU,0
-3709368,145967,False,14,renal|disorder of kidney|acute renal failure,"584.9, N17.9",Major,66,Med-Surg ICU,2
-3949012,228245,False,42,endocrine|glucose metabolism|diabetes mellitus,,Other,66,Med-Surg ICU,0
-3683239,146912,False,754,cardiovascular|ventricular disorders|congestive heart failure,"428.0, I50.9",Other,66,Med-Surg ICU,0
-4050540,228627,False,2686,infectious diseases|GU infections|acute pyelonephritis,"590.10, N10",Major,66,Med-Surg ICU,2
-3901979,165548,False,14372,cardiovascular|ventricular disorders|congestive heart failure,"428.0, I50.9",Other,66,Med-Surg ICU,0
-3387634,221086,False,1530,cardiovascular|chest pain / ASHD|acute coronary syndrome,,Other,66,Med-Surg ICU,0
-3452636,196190,True,1293,cardiovascular|chest pain / ASHD|coronary artery disease|s/p CABG,"414.00, I25.10",Other,66,Med-Surg ICU,0
-3584580,211263,True,11390,renal|disorder of kidney|chronic kidney disease,"585.9, N18.9",Other,66,Med-Surg ICU,0
-3675902,181334,False,97,cardiovascular|shock / hypotension|sepsis,"038.9, A41.9",Other,66,Med-Surg ICU,0
-3490778,190473,False,8930,neurologic|altered mental status / pain|drug withdrawal syndrome|alcohol,"291.81, F10.239",Major,66,Med-Surg ICU,2
-3955788,200837,True,4050,gastrointestinal|GI bleeding / PUD|GI bleeding,"578.9, K92.2",Primary,66,Med-Surg ICU,1
-4162361,226802,True,803,renal|disorder of kidney|acute renal failure,"584.9, N17.9",Other,66,Med-Surg ICU,0
-3821974,221531,True,4577,pulmonary|respiratory failure|acute respiratory failure,"518.81, J96.00",Major,66,Med-Surg ICU,2
-4056058,145092,True,17,cardiovascular|vascular disorders|hypertension,"401.9, I10",Major,66,Med-Surg ICU,2
-3579712,241531,True,2908,renal|disorder of kidney|acute renal failure,"584.9, N17.9",Other,66,Med-Surg ICU,0
-3858406,211263,False,9991,oncology|GU tumors|prostate CA,"185, C61",Other,66,Med-Surg ICU,0
-4202207,145304,True,17,cardiovascular|arrhythmias|bradycardia,,Major,66,Med-Surg ICU,2
-3509582,217424,True,25,neurologic|altered mental status / pain|change in mental status,"780.09, R41.82",Primary,66,Med-Surg ICU,1
-4182796,149941,False,58,neurologic|altered mental status / pain|obtundation,"780.09, R40.0",Other,66,Med-Surg ICU,0
-3917107,187016,False,863,gastrointestinal|hepatic disease|viral hepatitis|hepatitis C,"573.1, 070.51, B17.1",Other,66,Med-Surg ICU,0
-3993473,233263,False,6,cardiovascular|vascular disorders|hypertension,"401.9, I10",Other,66,Med-Surg ICU,0
-3572337,151179,True,3929,renal|electrolyte imbalance|hypocalcemia,"275.41, E83.51",Other,66,Med-Surg ICU,0
-3823080,208869,True,696,neurologic|altered mental status / pain|drug withdrawal syndrome|alcohol,"291.81, F10.239",Other,66,Med-Surg ICU,0
-4072133,221531,False,1288,infectious diseases|systemic/other infections|signs and symptoms of sepsis (SIRS),995.90,Other,66,Med-Surg ICU,0
-4084627,233263,False,6,pulmonary|respiratory failure|acute respiratory failure,"518.81, J96.00",Primary,66,Med-Surg ICU,1
-3642853,163541,True,1749,renal|disorder of kidney|acute renal failure,"584.9, N17.9",Other,66,Med-Surg ICU,0
-3880058,151409,True,77,cardiovascular|ventricular disorders|congestive heart failure,"428.0, I50.9",Other,66,Med-Surg ICU,0
-4132431,238944,True,10,oncology|GI tumors|pancreatic tumor|pancreatic CA,"157.9, C25.9",Other,66,Med-Surg ICU,0
-3920845,176760,True,825,renal|disorder of kidney|chronic kidney disease,"585.9, N18.9",Other,66,Med-Surg ICU,0
-3504282,165548,False,14266,renal|electrolyte imbalance|hypernatremia|severe (> 155 meq/dl),"276.0, E87.0",Major,66,Med-Surg ICU,2
-3561912,221532,False,54,"infectious diseases|skin, bone and joint infections|infected pressure ulcer",,Other,66,Med-Surg ICU,0
-3950303,150824,False,11,renal|disorder of kidney|acute renal failure,"584.9, N17.9",Other,66,Med-Surg ICU,0
-3712499,184114,True,21,pulmonary|respiratory failure|acute respiratory failure,"518.81, J96.00",Primary,66,Med-Surg ICU,1
-4218183,181959,True,35,pulmonary|respiratory failure|acute respiratory failure,"518.81, J96.00",Primary,66,Med-Surg ICU,1
-3976383,176782,False,70,gastrointestinal|GI bleeding / PUD|upper GI bleeding,"578.9, K92.2",Primary,66,Med-Surg ICU,1
-4007005,156779,False,1,gastrointestinal|pancreatic disease|pancreatitis|with pseudocyst formation,"577.2, K86.3",Major,66,Med-Surg ICU,2
-3475446,231250,True,3665,pulmonary|respiratory failure|acute respiratory failure,"518.81, J96.00",Major,66,Med-Surg ICU,2
-4119303,145304,True,17,neurologic|altered mental status / pain|pain,,Major,66,Med-Surg ICU,2
-4013726,226551,True,847,cardiovascular|chest pain / ASHD|coronary artery disease|known,"414.00, I25.10",Other,66,Med-Surg ICU,0
-3968465,230696,False,856,renal|disorder of kidney|chronic kidney disease,"585.9, N18.9",Other,66,Med-Surg ICU,0
-4097693,193140,False,7047,pulmonary|respiratory failure|hypoxemia,"799.02, J96.91",Major,66,Med-Surg ICU,2
-3731369,200741,True,179,oncology|unknown primary|metastatic adenocarcinoma,"199.0, C80.0",Other,66,Med-Surg ICU,0
-3400007,181334,False,4112,pulmonary|respiratory failure|acute respiratory distress,518.82,Major,66,Med-Surg ICU,2
-3430639,172489,True,4597,hematology|coagulation disorders|coagulopathy,"286.9, D68.9",Other,66,Med-Surg ICU,0
-3931035,172489,False,548,cardiovascular|shock / hypotension|dehydration,"276.51, E86.0",Other,66,Med-Surg ICU,0
-3886255,219594,True,18464,pulmonary|respiratory failure|chronic respiratory failure,"518.83, J96.10",Other,66,Med-Surg ICU,0
-3723294,188044,False,18,pulmonary|respiratory failure|acute respiratory distress,518.82,Major,66,Med-Surg ICU,2
-3936889,143366,True,22,endocrine|glucose metabolism|diabetes mellitus,,Other,66,Med-Surg ICU,0
-3527930,146912,False,546,cardiovascular|chest pain / ASHD|acute coronary syndrome,,Major,66,Med-Surg ICU,2
-3673606,193140,True,12787,pulmonary|disorders of the airways|asthma / bronchospasm,"493.90, J45",Other,66,Med-Surg ICU,0
-4089967,168546,True,13,oncology|chest tumors|metastatic lung CA,"197.0, C78.00",Major,66,Med-Surg ICU,2
-3429892,177689,True,59,pulmonary|disorders of the airways|upper respiratory obstruction|due to angioedema,"478.8, J39.3",Primary,66,Med-Surg ICU,1
-3785247,202319,True,16,cardiovascular|post vascular surgery|s/p cartoid endarterectomy,,Primary,66,Med-Surg ICU,1
-4258337,197253,True,11145,pulmonary|pulmonary infections|pneumonia|aspiration,"507.0, J69.0",Major,66,Med-Surg ICU,2
-4023945,222498,True,11644,pulmonary|disorders of the airways|COPD,"491.20, J44.9",Other,66,Med-Surg ICU,0
-3564223,176438,False,1106,pulmonary|disorders of the airways|mechanical airway problem,,Other,66,Med-Surg ICU,0
-3939977,184088,True,1065,pulmonary|respiratory failure|hypercarbia,"786.09, J96.92",Major,66,Med-Surg ICU,2
-4113258,177655,True,2432,pulmonary|disorders of vasculature|pulmonary hypertension,,Other,66,Med-Surg ICU,0
-3647889,208198,False,203,pulmonary|respiratory failure|hypercarbia,"786.09, J96.92",Other,66,Med-Surg ICU,0
-4242607,228904,False,5514,neurologic|altered mental status / pain|drug withdrawal syndrome|alcohol,"291.81, F10.239",Major,66,Med-Surg ICU,2
-4114565,165548,False,14266,cardiovascular|ventricular disorders|cardiomyopathy,,Other,66,Med-Surg ICU,0
-4016197,236820,True,12193,gastrointestinal|GI bleeding / PUD|upper GI bleeding|ulcer,"578.9, K92.2",Major,66,Med-Surg ICU,2
-3764611,213500,False,333,pulmonary|respiratory failure|hypoxemia,"799.02, J96.91",Other,66,Med-Surg ICU,0
-3659686,180360,False,12302,cardiovascular|shock / hypotension|sepsis,"038.9, A41.9",Primary,66,Med-Surg ICU,1
-4046846,160615,False,1456,renal|disorder of kidney|ESRD (end stage renal disease),"585.6, N18.6",Other,66,Med-Surg ICU,0
-4268604,221280,False,18,pulmonary|pulmonary infections|pneumonia|community-acquired,"486, J18.9",Primary,66,Med-Surg ICU,1
-3472169,232063,True,23,gastrointestinal|abdominal/ general|peritonitis,"567.9, K65.0",Major,66,Med-Surg ICU,2
-3755941,226762,False,21966,cardiovascular|chest pain / ASHD|coronary artery disease,,Other,66,Med-Surg ICU,0
-3546123,177937,True,479,renal|electrolyte imbalance|hypomagnesemia,"275.2, E83.42",Major,66,Med-Surg ICU,2
-3785639,193140,False,6578,pulmonary|respiratory failure|hypoxemia,"799.02, J96.91",Major,66,Med-Surg ICU,2
-3519287,226762,False,24408,pulmonary|respiratory failure|acute respiratory failure,"518.81, J96.00",Major,66,Med-Surg ICU,2
-4215504,156191,False,540,pulmonary|respiratory failure|acute respiratory distress,518.82,Major,66,Med-Surg ICU,2
-3581781,160615,False,18,renal|disorder of kidney|ESRD (end stage renal disease),"585.6, N18.6",Major,66,Med-Surg ICU,2
-3776214,174755,True,23,pulmonary|disorders of acid base|respiratory acidosis,"276.2, E87.2",Other,66,Med-Surg ICU,0
-4106876,187016,False,491,cardiovascular|shock / hypotension|dehydration,"276.51, E86.0",Other,66,Med-Surg ICU,0
-3373060,143366,True,22,gastrointestinal|GI bleeding / PUD|GI bleeding,"578.9, K92.2",Major,66,Med-Surg ICU,2
-4217566,228076,True,933,cardiovascular|chest pain / ASHD|coronary artery disease,,Other,66,Med-Surg ICU,0
-4183299,239559,True,986,renal|disorder of acid base|metabolic acidosis|lactic acidosis,"276.2, E87.2",Major,66,Med-Surg ICU,2
-3743696,165548,False,17257,pulmonary|disorders of the airways|obstructive sleep apnea,"780.57, G47.33",Other,66,Med-Surg ICU,0
-3526307,221531,False,1289,infectious diseases|systemic/other infections|fever,"780.6, R50.9",Other,66,Med-Surg ICU,0
-4068018,180360,False,12302,pulmonary|respiratory failure|acute respiratory failure|due to pulmonary infiltrates,"518.81, J96.00",Major,66,Med-Surg ICU,2
-3536316,223951,True,9,gastrointestinal|GI bleeding / PUD|upper GI bleeding,"578.9, K92.2",Major,66,Med-Surg ICU,2
-4167436,185351,True,21,oncology|chest tumors|breast CA,,Primary,66,Med-Surg ICU,1
-3822347,184329,False,6671,pulmonary|pulmonary infections|pneumonia,"486, J18.9",Major,66,Med-Surg ICU,2
-3795014,193140,True,12787,renal|disorder of kidney|chronic kidney disease,"585.9, N18.9",Other,66,Med-Surg ICU,0
-4098967,176438,True,3777,gastrointestinal|hepatic disease|hepatic dysfunction|with cirrhosis,"571.5, K74.60",Other,66,Med-Surg ICU,0
-3481604,155325,True,41,gastrointestinal|GI bleeding / PUD|lower GI bleeding,"578.9, K92.2",Major,66,Med-Surg ICU,2
-3793397,176760,True,825,neurologic|altered mental status / pain|change in mental status,"780.09, R41.82",Major,66,Med-Surg ICU,2
-4135139,216788,True,4302,infectious diseases|systemic/other infections|sepsis,"038.9, A41.9",Primary,66,Med-Surg ICU,1
-3746289,215631,False,143,hematology|platelet disorders|thrombocytopenia,"287.5, D69.6",Other,66,Med-Surg ICU,0
-4075859,173624,True,3156,infectious diseases|systemic/other infections|hematological effect of infection|leukocytosis,"288.8, D72.829",Major,66,Med-Surg ICU,2
-3380425,148442,True,20,oncology|GU tumors|ovarian CA,"183.0, C56.9",Other,66,Med-Surg ICU,0
-3845009,146912,True,1010,renal|disorder of kidney|chronic kidney disease,"585.9, N18.9",Other,66,Med-Surg ICU,0
-3984660,235921,False,39,renal|disorder of kidney|chronic kidney disease|Stage 4 (GFR 15-29),"585.4, N18.4",Other,66,Med-Surg ICU,0
-3747024,228627,False,659,renal|disorder of kidney|acute renal failure,"584.9, N17.9",Major,66,Med-Surg ICU,2
-3944777,228904,True,10058,pulmonary|respiratory failure|ARDS,"518.81, J80",Other,66,Med-Surg ICU,0
-3440435,190473,False,12209,toxicology|drug withdrawal|alcohol withdrawal,"291.81, F10.239",Major,66,Med-Surg ICU,2
-3778481,149941,False,58,toxicology|drug overdose|overdose of unknown agent(s),"E980.5, 977.9, T50.90",Major,66,Med-Surg ICU,2
-3679502,141203,True,1141,infectious diseases|GI infections|diarrhea due to infection,,Other,66,Med-Surg ICU,0
-4220165,177258,True,19124,neurologic|seizures|seizures,"345.90, R56.9",Major,66,Med-Surg ICU,2
-3716041,221086,False,7162,infectious diseases|GU infections|acute pyelonephritis,"590.10, N10",Other,66,Med-Surg ICU,0
-3400119,174463,True,8483,renal|disorder of kidney|acute renal failure,"584.9, N17.9",Other,66,Med-Surg ICU,0
-3863683,165548,False,11260,renal|disorder of kidney|chronic kidney disease|Stage 3 (GFR 30-59),"585.3, N18.3",Other,66,Med-Surg ICU,0
-4118427,221086,False,7893,infectious diseases|GU infections|acute pyelonephritis,"590.10, N10",Other,66,Med-Surg ICU,0
-3853525,171294,False,1237,hematology|bleeding and red blood cell disorders|anemia,,Other,66,Med-Surg ICU,0
-3544566,143344,False,157,renal|disorder of urinary tract / renal system infection|obstructive uropathy,"586, N19",Other,66,Med-Surg ICU,0
-3653120,190473,False,834,burns/trauma|trauma - skeletal|rhabdomyolysis,728.89,Other,66,Med-Surg ICU,0
-3612664,223100,True,9,neurologic|altered mental status / pain|delirium,"293.0, F05",Other,66,Med-Surg ICU,0
-3901663,225164,True,79,endocrine|glucose metabolism|DKA,"250.13, E10.1",Primary,66,Med-Surg ICU,1
-3419837,216788,False,30,infectious diseases|systemic/other infections|sepsis,"038.9, A41.9",Major,66,Med-Surg ICU,2
-3544514,186937,True,6537,cardiovascular|vascular disorders|hypertension,"401.9, I10",Other,66,Med-Surg ICU,0
-3917068,181334,False,4112,cardiovascular|chest pain / ASHD|chest pain,"786.50, R07.9",Other,66,Med-Surg ICU,0
-4159495,200837,False,52,gastrointestinal|GI bleeding / PUD|GI bleeding,"578.9, K92.2",Primary,66,Med-Surg ICU,1
-4022417,184329,True,7020,cardiovascular|chest pain / ASHD|acute coronary syndrome,,Other,66,Med-Surg ICU,0
-4241752,231250,False,1409,gastrointestinal|hepatic disease|hepatic dysfunction,"573.9, K76.9",Other,66,Med-Surg ICU,0
-3646840,143389,True,328,toxicology|drug overdose|drug overdose- general|previous suicide attempts,,Primary,66,Med-Surg ICU,1
-3867030,227031,True,2150,infectious diseases|vascular infections|vascular catheter infection,"996.62, T85.7",Other,66,Med-Surg ICU,0
-4134681,190473,True,13779,neurologic|altered mental status / pain|drug withdrawal syndrome|alcohol,"291.81, F10.239",Major,66,Med-Surg ICU,2
-3939751,194037,False,4785,cardiovascular|diseases of the aorta|aortic aneurysm|abdominal,"441.4, I71.4",Major,66,Med-Surg ICU,2
-3779364,157124,False,11,toxicology|drug withdrawal|alcohol withdrawal,"291.81, F10.239",Primary,66,Med-Surg ICU,1
-4087926,231250,False,30,pulmonary|pulmonary infections|pneumonia|aspiration,"507.0, J69.0",Major,66,Med-Surg ICU,2
-3482696,197253,False,2663,cardiovascular|cardiac arrest|cardiac arrest|initial rhythm: pulseless electrical activity,"427.5, I46.9",Major,66,Med-Surg ICU,2
-3474739,216788,False,30,hematology|bleeding and red blood cell disorders|pancytopenia,"284.8, D61.9",Other,66,Med-Surg ICU,0
-4080022,221086,False,7162,pulmonary|respiratory failure|ARDS,"518.81, J80",Other,66,Med-Surg ICU,0
-4235352,238089,True,22,pulmonary|respiratory failure|acute respiratory distress,518.82,Major,66,Med-Surg ICU,2
-4248219,172489,False,31,pulmonary|disorders of the airways|acute COPD exacerbation,"491.21, J44.1",Other,66,Med-Surg ICU,0
-3812985,174202,False,160,toxicology|drug overdose|ethanol overdose,"980.0, E980.2, T51.0",Major,66,Med-Surg ICU,2
-3459357,153993,True,10749,cardiovascular|shock / hypotension|sepsis,"038.9, A41.9",Other,66,Med-Surg ICU,0
-4035836,153993,False,4983,pulmonary|pulmonary infections|pneumonia,"486, J18.9",Other,66,Med-Surg ICU,0
-3478301,208198,True,4086,renal|electrolyte imbalance|hypernatremia,"276.0, E87.0",Other,66,Med-Surg ICU,0
-3840688,235502,True,895,pulmonary|disorders of the airways|COPD,"491.20, J44.9",Other,66,Med-Surg ICU,0
-4241413,233630,True,8,cardiovascular|arrhythmias|atrial fibrillation|with rapid ventricular response,"427.31, I48.0",Major,66,Med-Surg ICU,2
-3843424,180360,False,335,pulmonary|respiratory failure|acute respiratory failure|suspected,,Other,66,Med-Surg ICU,0
-3758312,180162,True,13,cardiovascular|vascular disorders|peripheral vascular ischemia,,Major,66,Med-Surg ICU,2
-3861181,221531,False,1289,infectious diseases|systemic/other infections|signs and symptoms of sepsis (SIRS),995.90,Other,66,Med-Surg ICU,0
-3735620,193838,False,14,pulmonary|disorders of the airways|COPD,"491.20, J44.9",Major,66,Med-Surg ICU,2
-3542884,145645,True,1599,renal|fluid imbalance|hypervolemia,"276.6, E87.70",Other,66,Med-Surg ICU,0
-3564241,202446,False,0,renal|disorder of kidney|ESRD (end stage renal disease),"585.6, N18.6",Other,66,Med-Surg ICU,0
-3901284,231250,False,618,cardiovascular|shock / hypotension|hypotension,"458.9, I95.9",Major,66,Med-Surg ICU,2
-3964992,221531,False,1289,pulmonary|disorders of the airways|COPD,"491.20, J44.9",Major,66,Med-Surg ICU,2
-3503946,150851,False,8,cardiovascular|cardiac arrest|cardiac arrest,"427.5, I46.9",Primary,66,Med-Surg ICU,1
-3773436,226762,False,319,cardiovascular|vascular disorders|hypertension,"401.9, I10",Other,66,Med-Surg ICU,0
-4178338,165548,False,14266,hematology|platelet disorders|thrombocytopenia,"287.5, D69.6",Major,66,Med-Surg ICU,2
-4113878,162573,True,3223,renal|electrolyte imbalance|hypomagnesemia,"275.2, E83.42",Other,66,Med-Surg ICU,0
-3963881,177655,True,2432,"infectious diseases|skin, bone and joint infections|cellulitis","682.9, L03.90",Other,66,Med-Surg ICU,0
-3575497,146912,True,1010,pulmonary|pleural disorders|pleural effusion|left,"511.9, J91.8",Major,66,Med-Surg ICU,2
-3419929,147509,True,59,neurologic|seizures|seizures,"345.90, R56.9",Other,66,Med-Surg ICU,0
-3436442,174463,True,8483,pulmonary|respiratory failure|hypercarbia,"786.09, J96.92",Other,66,Med-Surg ICU,0
-4241060,203507,True,3281,cardiovascular|shock / hypotension|sepsis,"038.9, A41.9",Primary,66,Med-Surg ICU,1
-4089959,239411,True,25,renal|electrolyte imbalance|hyponatremia,"276.1, E87.0, E87.1",Other,66,Med-Surg ICU,0
-3495593,241758,False,74,gastrointestinal|abdominal/ general|vomiting,"787.03, R11.10",Major,66,Med-Surg ICU,2
-3424134,171294,False,1589,neurologic|altered mental status / pain|dementia,"294.9, F03",Other,66,Med-Surg ICU,0
-3929321,184303,True,269,pulmonary|pulmonary infections|pneumonia,"486, J18.9",Major,66,Med-Surg ICU,2
-3546551,208869,True,696,pulmonary|respiratory failure|acute respiratory failure,"518.81, J96.00",Primary,66,Med-Surg ICU,1
-3789840,224385,True,4,neurologic|post-neurosurgery|post spinal surgery|thoracic,,Primary,66,Med-Surg ICU,1
-3913450,221086,False,20716,pulmonary|respiratory failure|failure to wean,,Other,66,Med-Surg ICU,0
-4213576,153993,False,3186,cardiovascular|vascular disorders|traumatic injury to major vessels,,Other,66,Med-Surg ICU,0
-3638821,232752,False,1489,cardiovascular|shock / hypotension|sepsis,"038.9, A41.9",Primary,66,Med-Surg ICU,1
-4220434,195444,False,70,endocrine|glucose metabolism|diabetes mellitus,,Other,66,Med-Surg ICU,0
-3462822,197253,False,4468,cardiovascular|cardiac arrest|cardiac arrest|initial rhythm: pulseless electrical activity,"427.5, I46.9",Major,66,Med-Surg ICU,2
-4218311,232752,True,4833,cardiovascular|shock / hypotension|sepsis,"038.9, A41.9",Primary,66,Med-Surg ICU,1
-3948766,221531,False,43,neurologic|altered mental status / pain|encephalopathy|post-anoxic,"348.1, G93.1",Major,66,Med-Surg ICU,2
-3872558,141203,False,74,endocrine|glucose metabolism|diabetes mellitus,,Other,66,Med-Surg ICU,0
-4079879,153993,False,4983,pulmonary|disorders of vasculature|pulmonary embolism,"415.19, I26.99",Other,66,Med-Surg ICU,0
-3855400,174202,True,6398,gastrointestinal|abdominal/ general|hyperbilirubinemia,,Other,66,Med-Surg ICU,0
-3616851,181334,False,32,pulmonary|respiratory failure|acute respiratory failure,"518.81, J96.00",Other,66,Med-Surg ICU,0
-3800970,161076,True,4134,gastrointestinal|hepatic disease|hepatorenal syndrome,"572.4, K76.7",Primary,66,Med-Surg ICU,1
-3908108,213500,False,3875,hematology|coagulation disorders|hypercoagulable state,"286.9, D68.69",Other,66,Med-Surg ICU,0
-3716470,221086,False,28989,renal|disorder of urinary tract / renal system infection|urinary tract infection,"599.0, N39.0",Major,66,Med-Surg ICU,2
-3520286,165548,False,17257,pulmonary|disorders of vasculature|pulmonary hypertension,,Other,66,Med-Surg ICU,0
-3559665,196190,True,1293,neurologic|trauma - CNS|intracranial injury|with subdural hematoma,"852.20, S06.5",Major,66,Med-Surg ICU,2
-3435300,194037,False,3335,cardiovascular|vascular disorders|arterial thromboembolism|right lower extremity,"444.22, I74.3",Major,66,Med-Surg ICU,2
-3664855,212813,True,11,pulmonary|disorders of the airways|asthma / bronchospasm|severe,"493.90, J45",Primary,66,Med-Surg ICU,1
-3742652,197253,False,8943,cardiovascular|cardiac arrest|cardiac arrest|initial rhythm: pulseless electrical activity,"427.5, I46.9",Major,66,Med-Surg ICU,2
-3512847,165548,False,14372,renal|disorder of acid base|metabolic alkalosis,"276.3, E87.3",Other,66,Med-Surg ICU,0
-3383328,162342,True,206,neurologic|post-neurosurgery|post spinal surgery,,Primary,66,Med-Surg ICU,1
-3895164,165339,True,18,pulmonary|trauma|pneumothorax,860.0,Primary,66,Med-Surg ICU,1
-3818452,221167,True,420,cardiovascular|vascular disorders|peripheral vascular ischemia,,Major,66,Med-Surg ICU,2
-3860342,176760,True,825,renal|abnormality of urine quantity or quality|hematuria,"599.7, R31.9",Major,66,Med-Surg ICU,2
-3541557,241211,True,737,cardiovascular|shock / hypotension|sepsis,"038.9, A41.9",Primary,66,Med-Surg ICU,1
-3625677,226762,False,11836,infectious diseases|systemic/other infections|bacteremia|gram postive coccus,"038.9, R78.81",Other,66,Med-Surg ICU,0
-3400586,204602,True,63,cardiovascular|shock / hypotension|signs and symptoms of sepsis (SIRS),995.90,Other,66,Med-Surg ICU,0
-3487209,221086,False,7162,pulmonary|pulmonary infections|pneumonia,"486, J18.9",Other,66,Med-Surg ICU,0
-4175272,230605,True,101,oncology|chest tumors|primary lung cancer,"162.9, C34.90",Primary,66,Med-Surg ICU,1
-4273916,180317,True,3356,gastrointestinal|GI bleeding / PUD|upper GI bleeding|varices,"456.0, I85.01",Other,66,Med-Surg ICU,0
-3667478,199899,True,412,toxicology|drug overdose|drug overdose- general|suicide attempt,,Primary,66,Med-Surg ICU,1
-4139313,228904,True,10058,pulmonary|respiratory failure|hypoxemia,"799.02, J96.91",Other,66,Med-Surg ICU,0
-4191558,216788,True,4302,oncology|chest tumors|primary lung cancer,"162.9, C34.90",Major,66,Med-Surg ICU,2
-3432376,206032,False,1882,hematology|bleeding and red blood cell disorders|anemia,,Major,66,Med-Surg ICU,2
-4088297,166352,True,70,renal|fluid imbalance|hypervolemia,"276.6, E87.70",Other,66,Med-Surg ICU,0
-3407146,231250,False,536,toxicology|drug overdose|narcotic overdose,"E980.2, 965.00, T40.60",Major,66,Med-Surg ICU,2
-3581787,187789,True,6,cardiovascular|arrhythmias|atrial fibrillation|with rapid ventricular response,"427.31, I48.0",Major,66,Med-Surg ICU,2
-3837127,219266,True,109,pulmonary|respiratory failure|acute respiratory failure,"518.81, J96.00",Other,66,Med-Surg ICU,0
-3727441,191596,True,30,neurologic|altered mental status / pain|change in mental status,"780.09, R41.82",Other,66,Med-Surg ICU,0
-3964036,177875,True,309,cardiovascular|vascular disorders|hypertension,"401.9, I10",Other,66,Med-Surg ICU,0
-4010835,190473,False,139,hematology|platelet disorders|thrombocytopenia,"287.5, D69.6",Other,66,Med-Surg ICU,0
-3569843,228627,False,1194,cardiovascular|shock / hypotension|sepsis,"038.9, A41.9",Primary,66,Med-Surg ICU,1
-3890140,141203,True,1141,cardiovascular|chest pain / ASHD|coronary artery disease,,Major,66,Med-Surg ICU,2
-3760621,226762,False,25655,infectious diseases|systemic/other infections|bacteremia|gram postive coccus,"038.9, R78.81",Other,66,Med-Surg ICU,0
-3533978,236820,False,5508,pulmonary|disorders of the airways|obstructive sleep apnea,"780.57, G47.33",Other,66,Med-Surg ICU,0
-3824040,228904,False,5514,endocrine|glucose metabolism|diabetes mellitus,,Other,66,Med-Surg ICU,0
-3733556,239991,True,58,cardiovascular|ventricular disorders|hypertension,"401.9, I10",Other,66,Med-Surg ICU,0
-3936078,191897,True,125,pulmonary|respiratory failure|acute respiratory distress,518.82,Primary,66,Med-Surg ICU,1
-3766496,228076,False,4,"infectious diseases|skin, bone and joint infections|wound infection",,Other,66,Med-Surg ICU,0
-3439179,146912,False,754,pulmonary|pulmonary infections|pneumonia,"486, J18.9",Major,66,Med-Surg ICU,2
-3598650,184329,True,7020,pulmonary|disorders of the airways|COPD,"491.20, J44.9",Major,66,Med-Surg ICU,2
-3388964,177937,True,479,renal|electrolyte imbalance|hyponatremia,"276.1, E87.0, E87.1",Major,66,Med-Surg ICU,2
-4082734,172489,False,17,renal|disorder of kidney|chronic kidney disease,"585.9, N18.9",Other,66,Med-Surg ICU,0
-4172665,234819,True,15,cardiovascular|arrhythmias|atrial fibrillation,"427.31, I48.0",Primary,66,Med-Surg ICU,1
-3940807,226762,False,11836,cardiovascular|chest pain / ASHD|coronary artery disease,,Other,66,Med-Surg ICU,0
-4174555,212237,True,25,cardiovascular|ventricular disorders|cardiomyopathy,,Other,66,Med-Surg ICU,0
-3764216,150805,True,9,cardiovascular|chest pain / ASHD|coronary artery disease,,Other,66,Med-Surg ICU,0
-4154793,232361,False,2650,neurologic|disorders of vasculature|stroke,"436, I67.8",Other,66,Med-Surg ICU,0
-3969603,222290,True,12,endocrine|glucose metabolism|DKA,"250.13, E10.1",Major,66,Med-Surg ICU,2
-3842366,141920,False,2383,cardiovascular|vascular disorders|hypertension,"401.9, I10",Other,66,Med-Surg ICU,0
-4098516,165548,False,14372,hematology|platelet disorders|thrombocytopenia,"287.5, D69.6",Major,66,Med-Surg ICU,2
-3499979,141920,False,2133,cardiovascular|vascular disorders|hypertension,"401.9, I10",Other,66,Med-Surg ICU,0
-3452368,223556,False,1523,renal|disorder of acid base|metabolic acidosis|lactic acidosis,"276.2, E87.2",Other,66,Med-Surg ICU,0
-4270775,188935,True,59,oncology|GI tumors|liver CA,,Other,66,Med-Surg ICU,0
-3701851,196190,True,1293,pulmonary|disorders of vasculature|pulmonary hypertension,,Other,66,Med-Surg ICU,0
-3798193,233263,False,50,cardiovascular|chest pain / ASHD|coronary artery disease|known,"414.00, I25.10",Other,66,Med-Surg ICU,0
-3652665,230605,False,12,pulmonary|respiratory failure|acute respiratory distress,518.82,Major,66,Med-Surg ICU,2
-3910797,235502,False,43,pulmonary|respiratory failure|acute respiratory failure,"518.81, J96.00",Major,66,Med-Surg ICU,2
-3689797,238944,True,10,cardiovascular|shock / hypotension|hypotension,"458.9, I95.9",Other,66,Med-Surg ICU,0
-4260324,174202,False,2026,renal|electrolyte imbalance|hypochloremia,"276.9, E87.8",Other,66,Med-Surg ICU,0
-3656793,148968,True,2184,hematology|bleeding and red blood cell disorders|anemia,,Other,66,Med-Surg ICU,0
-3606968,208869,False,93,gastrointestinal|hepatic disease|hepatic dysfunction,"573.9, K76.9",Other,66,Med-Surg ICU,0
-3866278,208198,False,402,infectious diseases|GU infections|lower urinary tract infection,"595.9, N30.9",Major,66,Med-Surg ICU,2
-3447050,226551,False,9,cardiovascular|chest pain / ASHD|coronary artery disease|known,"414.00, I25.10",Other,66,Med-Surg ICU,0
-4161272,172489,False,17,cardiovascular|shock / hypotension|dehydration,"276.51, E86.0",Other,66,Med-Surg ICU,0
-3594551,165548,False,25746,cardiovascular|arrhythmias|SVT,"427.0, I47.1",Other,66,Med-Surg ICU,0
-3780832,226762,True,29825,neurologic|disorders of vasculature|cerebral subdural hematoma,"432.9, I62.9",Other,66,Med-Surg ICU,0
-3424938,216788,False,22,cardiovascular|vascular disorders|hypertension,"401.9, I10",Other,66,Med-Surg ICU,0
-4264036,172489,True,4597,pulmonary|disorders of the airways|acute COPD exacerbation,"491.21, J44.1",Other,66,Med-Surg ICU,0
-3980219,221086,False,22186,renal|disorder of acid base|metabolic acidosis,"276.2, E87.2",Other,66,Med-Surg ICU,0
-3633025,177258,False,6082,pulmonary|disorders of the airways|obstruction of trachea / bronchus,"786.00, R06.1",Major,66,Med-Surg ICU,2
-3590971,184303,False,3,pulmonary|respiratory failure|acute respiratory distress,518.82,Major,66,Med-Surg ICU,2
-3993142,184329,False,4694,pulmonary|disorders of the airways|asthma / bronchospasm,"493.90, J45",Major,66,Med-Surg ICU,2
-3548822,235921,False,39,infectious diseases|systemic/other infections|sepsis,"038.9, A41.9",Primary,66,Med-Surg ICU,1
-4201568,221531,False,1288,infectious diseases|systemic/other infections|hematological effect of infection|leukocytosis,"288.8, D72.829",Other,66,Med-Surg ICU,0
-3620502,194813,True,18,neurologic|misc|Parkinson's disease,"332.0, G20",Other,66,Med-Surg ICU,0
-3481561,176438,False,86,pulmonary|disorders of the airways|upper respiratory obstruction|due to vocal cord paralysis,"478.30, J38.00",Major,66,Med-Surg ICU,2
-3400111,226762,False,25392,pulmonary|respiratory failure|failure to wean,,Other,66,Med-Surg ICU,0
-3986936,197126,True,2329,cardiovascular|ventricular disorders|hypertension,"401.9, I10",Other,66,Med-Surg ICU,0
-3997826,232361,True,3043,cardiovascular|ventricular disorders|congestive heart failure,"428.0, I50.9",Major,66,Med-Surg ICU,2
-4244521,169395,False,6785,gastrointestinal|abdominal/ general|abdominal pain / tenderness,"789.00, R10.9",Major,66,Med-Surg ICU,2
-3765492,226762,False,9697,pulmonary|respiratory failure|acute respiratory failure,"518.81, J96.00",Major,66,Med-Surg ICU,2
-3667753,221086,False,28989,infectious diseases|systemic/other infections|bacteremia,"038.9, R78.81",Other,66,Med-Surg ICU,0
-3671686,164705,True,6472,pulmonary|respiratory failure|hypoxemia,"799.02, J96.91",Other,66,Med-Surg ICU,0
-4041225,176762,False,45,gastrointestinal|biliary disease|cholecystitis,,Other,66,Med-Surg ICU,0
-3966144,233581,False,116,endocrine|glucose metabolism|diabetes mellitus,,Other,66,Med-Surg ICU,0
-3670058,162573,False,1724,cardiovascular|ventricular disorders|hypertension,"401.9, I10",Other,66,Med-Surg ICU,0
-4116360,226551,False,847,renal|disorder of kidney|chronic kidney disease,"585.9, N18.9",Other,66,Med-Surg ICU,0
-3889775,161076,False,2486,renal|disorder of kidney|acute renal failure,"584.9, N17.9",Major,66,Med-Surg ICU,2
-3598555,220834,True,654,endocrine|glucose metabolism|DKA,"250.13, E10.1",Primary,66,Med-Surg ICU,1
-3864535,171294,False,125,cardiovascular|chest pain / ASHD|acute coronary syndrome,,Other,66,Med-Surg ICU,0
-3874045,177655,True,2432,gastrointestinal|abdominal/ general|obesity|morbid,"278.01, E66.01",Other,66,Med-Surg ICU,0
-3866542,148968,False,13,pulmonary|disorders of the airways|epistaxis,"784.7, R04.0",Primary,66,Med-Surg ICU,1
-3494633,206032,False,3586,hematology|bleeding and red blood cell disorders|anemia,,Major,66,Med-Surg ICU,2
-4114034,180360,False,335,pulmonary|respiratory failure|hypoxemia,"799.02, J96.91",Other,66,Med-Surg ICU,0
-3764886,153993,False,4983,cardiovascular|vascular disorders|DVT,,Other,66,Med-Surg ICU,0
-3779277,165548,False,17257,cardiovascular|arrhythmias|SVT,"427.0, I47.1",Other,66,Med-Surg ICU,0
-3453021,211263,True,11390,oncology|GU tumors|prostate CA,"185, C61",Other,66,Med-Surg ICU,0
-3870976,219946,True,21,endocrine|glucose metabolism|diabetes mellitus,,Other,66,Med-Surg ICU,0
-4001618,208869,False,93,pulmonary|pulmonary infections|pneumonia|aspiration,"507.0, J69.0",Major,66,Med-Surg ICU,2
-3553242,231181,True,3673,renal|disorder of kidney|chronic renal insufficiency,"585.9, N18.9",Other,66,Med-Surg ICU,0
-3767648,200226,True,1718,pulmonary|respiratory failure|acute respiratory distress,518.82,Major,66,Med-Surg ICU,2
-3597073,229057,False,1698,neurologic|altered mental status / pain|encephalopathy,"348.30, G93.40",Primary,66,Med-Surg ICU,1
-3458330,165548,True,27871,cardiovascular|ventricular disorders|congestive heart failure,"428.0, I50.9",Other,66,Med-Surg ICU,0
-3939879,181609,True,177,pulmonary|pulmonary infections|pneumonia|community-acquired|bacterial,"486, 486, 486, 486, 486, J18.9",Other,66,Med-Surg ICU,0
-4132283,208869,True,696,oncology|head and neck tumors|neck tumor|laryngeal CA,"161.9, C32.9",Other,66,Med-Surg ICU,0
-4072806,221532,False,54,neurologic|altered mental status / pain|encephalopathy|post-anoxic,"348.1, G93.1",Other,66,Med-Surg ICU,0
-3739530,177875,True,309,cardiovascular|post vascular surgery|s/p thrombectomy,,Primary,66,Med-Surg ICU,1
-3831296,223556,False,1523,renal|disorder of kidney|acute renal failure,"584.9, N17.9",Other,66,Med-Surg ICU,0
-3888035,213500,False,3875,cardiovascular|vascular disorders|DVT,,Primary,66,Med-Surg ICU,1
-3959108,177258,False,2729,cardiovascular|shock / hypotension|hypotension,"458.9, I95.9",Major,66,Med-Surg ICU,2
-4144687,208179,False,1756,cardiovascular|ventricular disorders|cardiomyopathy,,Other,66,Med-Surg ICU,0
-3952197,197275,False,1593,cardiovascular|chest pain / ASHD|acute coronary syndrome,,Other,66,Med-Surg ICU,0
-3440855,150851,True,15,renal|disorder of kidney|chronic kidney disease,"585.9, N18.9",Other,66,Med-Surg ICU,0
-4268569,184329,False,4694,renal|disorder of kidney|chronic kidney disease,"585.9, N18.9",Other,66,Med-Surg ICU,0
-4215277,210343,True,86,pulmonary|disorders of the airways|COPD,"491.20, J44.9",Other,66,Med-Surg ICU,0
-4001584,223556,True,9131,neurologic|altered mental status / pain|change in mental status,"780.09, R41.82",Other,66,Med-Surg ICU,0
-3790659,241211,True,737,pulmonary|disorders of the airways|COPD,"491.20, J44.9",Other,66,Med-Surg ICU,0
-3937837,211041,False,3588,pulmonary|disorders of the airways|COPD,"491.20, J44.9",Major,66,Med-Surg ICU,2
-4088547,165548,False,9878,pulmonary|respiratory failure|failure to wean,,Other,66,Med-Surg ICU,0
-3449451,176762,False,1234,pulmonary|disorders of vasculature|pulmonary hypertension,,Other,66,Med-Surg ICU,0
-3858361,153993,False,4983,gastrointestinal|abdominal/ general|transaminase elevation,"790.4, R74.0",Other,66,Med-Surg ICU,0
-4267030,216788,False,3931,endocrine|glucose metabolism|hypoglycemia,"251.1, E16.2",Major,66,Med-Surg ICU,2
-4069030,156191,False,671,renal|disorder of kidney|chronic kidney disease,"585.9, N18.9",Other,66,Med-Surg ICU,0
-4252335,219266,False,13,pulmonary|disorders of the airways|COPD,"491.20, J44.9",Other,66,Med-Surg ICU,0
-3699297,187016,False,491,cardiovascular|shock / hypotension|septic shock,"785.52, R65.21",Primary,66,Med-Surg ICU,1
-3961726,193424,True,8057,pulmonary|disorders of the airways|COPD,"491.20, J44.9",Other,66,Med-Surg ICU,0
-3399123,174202,False,4460,pulmonary|respiratory failure|acute respiratory failure,"518.81, J96.00",Major,66,Med-Surg ICU,2
-3597547,233058,True,16,cardiovascular|vascular disorders|DVT|right lower extremity,"451.2, I80.3",Primary,66,Med-Surg ICU,1
-3835924,226802,True,803,cardiovascular|vascular disorders|hypertension,"401.9, I10",Other,66,Med-Surg ICU,0
-4244486,176438,False,1105,pulmonary|disorders of the airways|mechanical airway problem,,Other,66,Med-Surg ICU,0
-4067903,221280,False,18,cardiovascular|shock / hypotension|sepsis,"038.9, A41.9",Major,66,Med-Surg ICU,2
-4144384,228627,False,1556,infectious diseases|systemic/other infections|bacteremia,"038.9, R78.81",Other,66,Med-Surg ICU,0
-4228249,146912,False,883,pulmonary|respiratory failure|acute respiratory failure,"518.81, J96.00",Other,66,Med-Surg ICU,0
-3537392,161938,False,572,cardiovascular|shock / hypotension|hypotension,"458.9, I95.9",Major,66,Med-Surg ICU,2
-3415415,193140,False,26,pulmonary|respiratory failure|hypoxemia,"799.02, J96.91",Major,66,Med-Surg ICU,2
-3660401,233581,True,1034,neurologic|altered mental status / pain|change in mental status,"780.09, R41.82",Major,66,Med-Surg ICU,2
-3677634,148056,True,130,cardiovascular|ventricular disorders|hypertension,"401.9, I10",Other,66,Med-Surg ICU,0
-3820516,197253,False,8943,cardiovascular|ventricular disorders|hypertension,"401.9, I10",Other,66,Med-Surg ICU,0
-4253681,230696,False,2453,cardiovascular|shock / hypotension|sepsis,"038.9, A41.9",Primary,66,Med-Surg ICU,1
-3666499,176438,False,1106,pulmonary|disorders of the airways|upper respiratory obstruction|suspected,,Major,66,Med-Surg ICU,2
-3864933,143344,True,857,renal|disorder of kidney|chronic kidney disease,"585.9, N18.9",Other,66,Med-Surg ICU,0
-3679493,208198,False,402,endocrine|glucose metabolism|diabetes mellitus,,Other,66,Med-Surg ICU,0
-3809361,156191,True,672,hematology|coagulation disorders|DIC syndrome,"286.6, D65",Major,66,Med-Surg ICU,2
-3672717,164705,False,4074,renal|disorder of kidney|acute renal failure,"584.9, N17.9",Other,66,Med-Surg ICU,0
-4006321,176760,False,6,renal|disorder of kidney|chronic kidney disease,"585.9, N18.9",Other,66,Med-Surg ICU,0
-3598877,177258,False,2729,cardiovascular|shock / hypotension|sepsis,"038.9, A41.9",Major,66,Med-Surg ICU,2
-3865001,221086,False,582,cardiovascular|shock / hypotension|hypotension,"458.9, I95.9",Other,66,Med-Surg ICU,0
-3423785,163541,False,526,cardiovascular|ventricular disorders|congestive heart failure,"428.0, I50.9",Major,66,Med-Surg ICU,2
-3421832,143389,True,328,toxicology|drug overdose|drug overdose- general|with respiratory depression,,Primary,66,Med-Surg ICU,1
-3848051,164705,True,6472,cardiovascular|shock / hypotension|sepsis,"038.9, A41.9",Primary,66,Med-Surg ICU,1
-3498675,218426,False,1994,gastrointestinal|hepatic disease|hepatic dysfunction|with cirrhosis,"571.5, K74.60",Major,66,Med-Surg ICU,2
-4142566,228627,False,175,cardiovascular|shock / hypotension|sepsis,"038.9, A41.9",Primary,66,Med-Surg ICU,1
-3954890,226762,False,21966,infectious diseases|systemic/other infections|bacteremia|gram postive coccus,"038.9, R78.81",Other,66,Med-Surg ICU,0
-3816121,228627,False,659,renal|disorder of urinary tract / renal system infection|urinary tract infection,"599.0, N39.0",Major,66,Med-Surg ICU,2
-4000516,239559,False,39,pulmonary|respiratory failure|acute respiratory distress,518.82,Major,66,Med-Surg ICU,2
-4129773,221694,False,94,neurologic|post-neurosurgery|post spinal surgery|lumbar,,Primary,66,Med-Surg ICU,1
-3441272,161076,True,4134,gastrointestinal|hepatic disease|viral hepatitis|hepatitis C,"573.1, 070.51, B17.1",Other,66,Med-Surg ICU,0
-3792048,149075,True,20,cardiovascular|vascular disorders|hypertension,"401.9, I10",Other,66,Med-Surg ICU,0
-4083714,196239,False,19,neurologic|seizures|seizures|status epilepticus,"345.3, G40.901",Primary,66,Med-Surg ICU,1
-3912717,209916,True,13,endocrine|glucose metabolism|diabetes mellitus,,Major,66,Med-Surg ICU,2
-4246286,238717,True,12,renal|disorder of kidney|acute renal failure,"584.9, N17.9",Primary,66,Med-Surg ICU,1
-4068222,160347,True,51,renal|disorder of kidney|acute renal failure,"584.9, N17.9",Other,66,Med-Surg ICU,0
-4136141,197116,True,528,gastrointestinal|intestinal disease|diarrhea,"787.91, R19.7",Other,66,Med-Surg ICU,0
-3733653,221694,True,95,neurologic|post-neurosurgery|post spinal surgery|lumbar,,Primary,66,Med-Surg ICU,1
-3465345,200741,True,179,gastrointestinal|abdominal/ general|vomiting,"787.03, R11.10",Other,66,Med-Surg ICU,0
-4210814,241758,True,419,cardiovascular|ventricular disorders|cardiomyopathy,,Other,66,Med-Surg ICU,0
-3683392,174262,True,12,toxicology|drug overdose|drug overdose- general|with decreased mental status,,Primary,66,Med-Surg ICU,1
-4220636,165783,True,363,renal|disorder of kidney|chronic kidney disease,"585.9, N18.9",Other,66,Med-Surg ICU,0
-3545215,208179,False,2086,cardiovascular|ventricular disorders|congestive heart failure,"428.0, I50.9",Other,66,Med-Surg ICU,0
-3834735,184663,True,56,neurologic|seizures|seizures,"345.90, R56.9",Other,66,Med-Surg ICU,0
-3608773,146912,False,883,endocrine|glucose metabolism|diabetes mellitus,,Other,66,Med-Surg ICU,0
+patientunitstayid,patienthealthsystemstayid,gender,age,ethnicity,hospitalid,wardid,apacheadmissiondx,admissionheight,hospitaladmittime24,hospitaladmitoffset,hospitaladmitsource,hospitaldischargeyear,hospitaldischargetime24,hospitaldischargeoffset,hospitaldischargelocation,hospitaldischargestatus,unittype,unitadmittime24,unitadmitsource,unitvisitnumber,unitstaytype,admissionweight,dischargeweight,unitdischargetime24,unitdischargeoffset,unitdischargelocation,unitdischargestatus,uniquepid,mortality,diagnosispriority,diagnosispriority_encoded
+995769,734998,Female,74,Caucasian,188,434,Renal infection/abscess,154.0,23:00:00,-592,Floor,2014,21:47:00,7975,Other,Alive,MICU,08:52:00,Floor,1,admit,47.9,47.9,20:02:00,2110,Floor,Alive,008-13852,0,Other,0
+1035481,766388,Male,89,Caucasian,188,434,"Respiratory - medical, other",160.0,20:43:00,-4400,Emergency Department,2014,19:10:00,24307,Death,Expired,MICU,22:03:00,Step-Down Unit (SDU),3,readmit,68.1,70.0,15:48:00,24105,Death,Expired,008-9845,1,Other,0
+1034312,765460,Male,53,Caucasian,188,464,"Bleeding, GI-location unknown",168.0,03:19:00,-235,Emergency Department,2014,20:59:00,41145,Other,Alive,CCU-CTICU,07:14:00,Emergency Department,2,transfer,76.1,58.8,20:56:00,31062,Step-Down Unit (SDU),Alive,008-24161,0,Primary,1
+1042331,771783,Male,54,African American,188,434,"Cardiovascular medical, other",157.4,03:10:00,-637,Floor,2014,18:22:00,7475,Other,Alive,MICU,13:47:00,Floor,1,admit,61.7,57.0,00:05:00,4938,Floor,Alive,008-14686,0,Other,0
+991206,731405,Male,44,Caucasian,188,434,"Pneumonia, bacterial",180.3,23:24:00,-186,Emergency Department,2014,18:54:00,93144,Other,Alive,MICU,02:30:00,Emergency Department,1,admit,99.6,90.1,04:55:00,69265,Floor,Alive,008-6173,0,Other,0
+1025993,758892,Male,47,African American,188,451,"Hemorrhage/hematoma, intracranial",172.0,07:18:00,-11,Other Hospital,2014,14:41:00,1872,Other,Alive,Neuro ICU,07:29:00,Other Hospital,1,admit,59.0,,21:26:00,837,Floor,Alive,008-18745,0,Other,0
+982873,724874,Male,51,African American,188,464,"Rhythm disturbance (atrial, supraventricular)",180.0,02:17:00,-451,Emergency Department,2015,17:49:00,7681,Other,Alive,CCU-CTICU,09:48:00,Emergency Department,2,transfer,71.9,70.4,21:57:00,3609,Step-Down Unit (SDU),Alive,008-33325,0,Major,2
+981393,723728,Male,78,Caucasian,188,464,"Pneumonia, bacterial",175.3,15:02:00,-902,Step-Down Unit (SDU),2015,17:49:00,35265,Other,Alive,CCU-CTICU,06:04:00,Step-Down Unit (SDU),1,admit,82.5,40.2,01:34:00,14130,Step-Down Unit (SDU),Alive,008-470,0,Other,0
+987850,728783,Female,78,Caucasian,188,451,"Hemorrhage/hematoma, intracranial",155.5,07:12:00,-141,Emergency Department,2014,23:53:00,16700,Other,Alive,Neuro ICU,09:33:00,Emergency Department,1,admit,117.0,,06:23:00,2690,Floor,Alive,008-13811,0,Other,0
+980599,723114,Female,83,Caucasian,188,451,"Neurologic medical, other",170.1,19:14:00,-5491,Emergency Department,2014,18:47:00,14642,Home,Alive,Neuro ICU,14:45:00,Floor,2,readmit,57.2,57.2,00:50:00,7805,Floor,Alive,008-36600,0,Other,0
+1033697,764978,Female,69,African American,188,445,"Cardiovascular medical, other",155.0,01:22:00,-2845,,2014,22:33:00,28666,Home,Alive,Med-Surg ICU,00:47:00,Floor,1,admit,54.1,54.0,22:15:00,28648,Home,Alive,008-30319,0,Other,0
+1046851,775345,Female,67,African American,188,451,Seizures (primary-no structural brain disease),170.0,11:58:00,-65,,2014,21:13:00,30730,Other,Alive,Neuro ICU,13:03:00,Emergency Department,1,admit,55.3,55.3,17:43:00,17560,Floor,Alive,008-37908,0,Other,0
+1033263,764635,Male,60,Caucasian,188,434,"Bleeding, GI from esophageal varices/portal hypertension",180.0,17:10:00,-180,Emergency Department,2014,13:03:00,25493,Other,Alive,MICU,20:10:00,Emergency Department,1,admit,90.4,108.1,12:02:00,25432,Other Hospital,Alive,008-45675,0,Other,0
+1019788,753975,Male,56,Caucasian,188,434,"Pneumonia, aspiration",167.6,19:35:00,-25203,Emergency Department,2015,15:15:00,239497,Other,Alive,MICU,07:38:00,Step-Down Unit (SDU),3,readmit,58.8,59.1,13:37:00,7559,Step-Down Unit (SDU),Alive,008-32124,0,Other,0
+1021173,755095,Female,69,African American,188,434,"Respiratory - medical, other",168.0,03:26:00,-89,Emergency Department,2015,23:36:00,45761,Other,Alive,MICU,04:55:00,Emergency Department,2,transfer,91.9,96.7,15:55:00,23700,Floor,Alive,008-13894,0,Other,0
+1030461,762411,Female,49,African American,188,451,"Neurologic surgery, other",152.4,10:22:00,-665,Operating Room,2014,21:38:00,8651,Home,Alive,Neuro ICU,21:27:00,Operating Room,1,admit,121.3,,09:07:00,5020,Floor,Alive,008-9718,0,Other,0
+1008957,745439,Male,75,Caucasian,188,434,Rhabdomyolysis,164.0,19:39:00,-130,,2015,01:05:00,39076,Other,Alive,MICU,21:49:00,Emergency Department,2,transfer,72.9,80.1,21:14:00,20125,Floor,Alive,008-7924,0,Other,0
+1019294,753588,Female,75,Caucasian,188,434,"Pneumonia, aspiration",153.0,21:35:00,-136,Floor,2015,23:01:00,18670,Other,Alive,MICU,23:51:00,Floor,1,admit,115.0,115.0,01:26:00,4415,Floor,Alive,008-6514,0,Major,2
+1030922,762778,Female,74,Caucasian,188,434,"Pneumonia, other",155.0,15:41:00,-141,,2015,22:49:00,10367,Other,Alive,MICU,18:02:00,Emergency Department,2,transfer,63.2,60.9,03:42:00,6340,Floor,Alive,008-49175,0,Other,0
+1040971,770718,Female,> 89,Caucasian,188,451,"CVA, cerebrovascular accident/stroke",160.0,04:48:00,-8444,Step-Down Unit (SDU),2014,20:45:00,11233,Home,Alive,Neuro ICU,01:32:00,Step-Down Unit (SDU),2,readmit,54.3,51.2,00:07:00,4235,Floor,Alive,008-21768,0,Primary,1
+993098,732879,Female,85,Caucasian,188,451,"Coma/change in level of consciousness (for hepatic see GI, for diabetic see Endocrine, if related to cardiac arrest, see CV)",153.0,00:08:00,-17000,,2015,18:49:00,40281,Other,Alive,Neuro ICU,19:28:00,Step-Down Unit (SDU),4,transfer,53.6,,22:30:00,30422,Floor,Alive,008-3699,0,Other,0
+1020749,754764,Female,78,Caucasian,188,434,"Respiratory - medical, other",145.0,17:39:00,-119,,2014,02:02:00,21984,Other,Alive,MICU,19:38:00,Emergency Department,2,transfer,49.1,60.4,01:31:00,21953,Other,Alive,008-26895,0,Other,0
+980599,723114,Female,83,Caucasian,188,451,"Neurologic medical, other",170.1,19:14:00,-5491,Emergency Department,2014,18:47:00,14642,Home,Alive,Neuro ICU,14:45:00,Floor,2,readmit,57.2,57.2,00:50:00,7805,Floor,Alive,008-36600,0,Major,2
+1024180,757464,Male,63,Caucasian,188,434,"Sepsis, other",177.0,02:48:00,-121,,2015,16:45:00,10796,Other,Alive,MICU,04:49:00,Emergency Department,2,transfer,106.1,109.5,21:09:00,3860,Floor,Alive,008-368,0,Major,2
+1028002,760477,Female,83,Caucasian,188,451,"CVA, cerebrovascular accident/stroke",155.0,05:53:00,-145,Emergency Department,2014,17:25:00,6307,Other,Alive,Neuro ICU,08:18:00,Emergency Department,1,admit,70.4,70.4,23:13:00,2335,Floor,Alive,008-56569,0,Other,0
+1016174,751134,Male,54,Caucasian,188,434,"Sepsis, other",174.0,19:38:00,-18640,Step-Down Unit (SDU),2015,00:50:00,26312,Other,Alive,MICU,18:18:00,Step-Down Unit (SDU),1,admit,173.0,180.0,07:29:00,6551,Floor,Alive,008-55286,0,Other,0
+996126,735285,Female,74,Caucasian,188,434,"Pneumonia, other",154.9,03:00:00,-303,Emergency Department,2014,21:23:00,59840,Other,Alive,MICU,08:03:00,Emergency Department,2,transfer,50.9,64.8,06:43:00,25840,Floor,Alive,008-42880,0,Other,0
+1041045,770774,Female,71,Caucasian,188,434,"Sepsis, pulmonary",157.0,21:29:00,-99,,2014,21:27:00,11419,Death,Expired,MICU,23:08:00,Emergency Department,1,admit,46.0,61.7,19:31:00,11303,Death,Expired,008-50413,1,Other,0
+1035913,766729,Female,37,Caucasian,188,434,Asthma,182.0,12:53:00,-349,,2015,15:48:00,5586,Other,Alive,MICU,18:42:00,Step-Down Unit (SDU),1,admit,36.2,47.4,20:17:00,2975,Floor,Alive,008-8324,0,Primary,1
+1038455,768739,Female,49,Caucasian,188,451,Subarachnoid hemorrhage/intracranial aneurysm,162.0,03:12:00,-88,Emergency Department,2014,13:40:00,7740,Death,Expired,Neuro ICU,04:40:00,Emergency Department,2,transfer,85.0,92.0,13:40:00,7740,Death,Expired,008-50460,1,Major,2
+1051955,779354,Female,68,African American,188,434,Anemia,163.0,03:32:00,-1180,Floor,2014,00:37:00,15925,Other,Alive,MICU,23:12:00,Floor,1,admit,151.5,160.0,08:07:00,9175,Floor,Alive,008-54578,0,Other,0
+1038621,768874,Female,67,Caucasian,188,434,Diabetic ketoacidosis,152.0,17:41:00,-156,,2015,21:16:00,20219,Other,Alive,MICU,20:17:00,Emergency Department,2,transfer,76.8,73.0,17:17:00,11340,Floor,Alive,008-49783,0,Other,0
+1035825,766655,Female,67,Caucasian,188,451,"Hemorrhage/hematoma, intracranial",164.0,15:45:00,-8,,2015,15:55:00,64802,Other,Alive,Neuro ICU,15:53:00,Other Hospital,1,admit,80.4,92.9,20:31:00,33398,Floor,Alive,008-6629,0,Primary,1
+988248,729092,Male,66,Caucasian,188,434,"CHF, congestive heart failure",182.9,04:33:00,-238,Emergency Department,2014,18:37:00,26526,Other,Alive,MICU,08:31:00,Emergency Department,2,transfer,81.8,76.8,05:35:00,4144,Step-Down Unit (SDU),Alive,008-53882,0,Primary,1
+1022442,756099,Male,53,Caucasian,188,434,"Respiratory - medical, other",160.0,18:06:00,-55,,2014,00:01:00,60780,Home,Alive,MICU,19:01:00,Emergency Department,2,transfer,55.6,74.8,20:31:00,28890,Floor,Alive,008-32375,0,Other,0
+1038890,769074,Male,32,Caucasian,188,434,Cardiac arrest (with or without respiratory arrest; for respiratory arrest see Respiratory System),180.0,23:14:00,-148,Emergency Department,2015,17:30:00,13908,Death,Expired,MICU,01:42:00,Emergency Department,2,transfer,102.5,101.5,11:52:00,13570,Floor,Alive,008-18031,1,Other,0
+1009156,745599,Female,51,Caucasian,188,451,Encephalopathies (excluding hepatic),160.0,00:49:00,-1502,Emergency Department,2014,22:43:00,5572,Skilled Nursing Facility,Alive,Neuro ICU,01:51:00,Emergency Department,1,admit,110.5,,22:43:00,5572,Skilled Nursing Facility,Alive,008-38341,0,Major,2
+1010047,746293,Male,80,Caucasian,188,445,"Pneumonia, bacterial",177.8,18:35:00,-44,,2014,16:09:00,11330,Death,Expired,Med-Surg ICU,19:19:00,Emergency Department,1,admit,73.0,71.0,16:09:00,11330,Death,Expired,008-24594,1,Other,0
+999590,738074,Male,50,African American,188,434,GI obstruction,164.0,14:28:00,-225,,2015,16:35:00,51742,Other,Alive,MICU,18:13:00,Emergency Department,2,transfer,73.1,69.2,17:48:00,14375,Floor,Alive,008-39711,0,Other,0
+995007,734398,Male,59,Caucasian,188,464,"Infarction, acute myocardial (MI)",164.0,22:38:00,-97,Emergency Department,2014,16:07:00,59992,Other,Alive,CCU-CTICU,00:15:00,Emergency Department,1,admit,94.0,88.9,17:27:00,22632,Step-Down Unit (SDU),Alive,008-57899,0,Other,0
+1034113,765308,Female,83,Caucasian,188,464,"Bleeding, lower GI",152.0,09:37:00,-32138,Emergency Department,2014,14:02:00,102047,Death,Expired,CCU-CTICU,17:15:00,Floor,5,readmit,46.5,45.5,20:40:00,24685,Step-Down Unit (SDU),Alive,008-58590,1,Major,2
+983524,725381,Female,67,Caucasian,188,434,"Sepsis, other",168.0,19:52:00,-19784,Step-Down Unit (SDU),2014,17:24:00,70788,Home,Alive,MICU,13:36:00,Step-Down Unit (SDU),1,admit,93.9,,18:06:00,3150,Floor,Alive,008-25220,0,Other,0
+1051568,779051,Female,75,Caucasian,188,434,"Sepsis, unknown",165.0,18:59:00,-50,,2015,01:40:00,34911,Death,Expired,MICU,19:49:00,Emergency Department,2,transfer,91.7,103.8,04:24:00,12035,Step-Down Unit (SDU),Alive,008-3735,1,Other,0
+1003870,741420,Female,78,Caucasian,188,434,"CVA, cerebrovascular accident/stroke",162.5,20:31:00,-2768,Floor,2015,21:53:00,11714,Other,Alive,MICU,18:39:00,Floor,1,admit,98.3,101.0,21:23:00,4484,Floor,Alive,008-35021,0,Other,0
+994012,733613,Female,52,African American,188,434,"Respiratory - medical, other",157.5,18:41:00,-9,,2014,18:18:00,11488,Other,Alive,MICU,18:50:00,Emergency Department,2,transfer,147.6,322.0,01:29:00,6159,Floor,Alive,008-55219,0,Other,0
+989429,730019,Female,74,African American,188,434,"Respiratory - medical, other",157.0,08:56:00,-4943,,2014,22:11:00,28972,Home,Alive,MICU,19:19:00,Floor,1,admit,102.5,99.9,21:59:00,7360,Floor,Alive,008-25869,0,Other,0
+990423,730793,Female,62,Caucasian,188,464,"Cardiovascular surgery, other",147.5,11:05:00,-296,Operating Room,2014,22:05:00,6124,Other,Alive,CCU-CTICU,16:01:00,Operating Room,1,admit,123.4,129.0,15:31:00,5730,Floor,Alive,008-13302,0,Other,0
+1037289,767840,Male,59,Other/Unknown,188,434,Drug withdrawal,165.0,02:47:00,-2862,Floor,2015,00:15:00,37306,Other,Alive,MICU,02:29:00,Floor,1,admit,70.9,67.7,21:09:00,22720,Floor,Alive,008-70,0,Other,0
+1036392,767126,Female,64,African American,188,445,"Bleeding, upper GI",154.5,00:51:00,-44,,2014,00:08:00,11433,Other,Alive,Med-Surg ICU,01:35:00,Emergency Department,2,transfer,65.0,63.0,23:22:00,4187,Floor,Alive,008-16464,0,Other,0
+1044505,773495,Male,58,Caucasian,188,434,Emphysema/bronchitis,177.8,06:27:00,-1621,Floor,2014,17:50:00,27862,Other,Alive,MICU,09:28:00,Floor,1,admit,50.8,50.2,18:46:00,19278,Step-Down Unit (SDU),Alive,008-39887,0,Other,0
+1031452,763192,Female,39,Caucasian,188,434,"Overdose, antidepressants (cyclic, lithium)",168.0,04:30:00,-110,Emergency Department,2015,15:55:00,4895,Other,Alive,MICU,06:20:00,Emergency Department,2,transfer,91.4,,23:55:00,1055,Floor,Alive,008-41696,0,Other,0
+996451,735553,Female,45,Caucasian,188,434,"Overdose, street drugs (opiates, cocaine, amphetamine)",150.0,13:14:00,-81,Emergency Department,2014,19:35:00,19020,Other,Alive,MICU,14:35:00,Emergency Department,2,transfer,54.5,61.0,21:10:00,13355,Step-Down Unit (SDU),Alive,008-39365,0,Major,2
+992324,732276,Male,> 89,Caucasian,188,464,Aortic valve replacement (isolated),171.0,23:34:00,-21127,,2015,20:08:00,13227,Other,Alive,CCU-CTICU,15:41:00,Operating Room,1,admit,85.6,90.4,16:05:00,1464,Floor,Alive,008-48501,0,Other,0
+1022020,755772,Male,57,Caucasian,188,464,Cardiomyopathy,183.0,10:21:00,-301,Operating Room,2015,15:08:00,5746,Other,Alive,CCU-CTICU,15:22:00,Operating Room,1,admit,97.2,,14:03:00,5681,Home,Alive,008-44131,0,Other,0
+997221,736173,Male,62,Caucasian,188,464,"Sepsis, other",177.0,04:50:00,-656,,2014,22:24:00,16238,Other,Alive,CCU-CTICU,15:46:00,Recovery Room,1,admit,98.6,96.9,03:48:00,6482,Step-Down Unit (SDU),Alive,008-20443,0,Other,0
+1046870,775361,Male,76,Caucasian,188,451,"Neurologic surgery, other",176.0,16:42:00,-109,,2014,21:09:00,1598,Other,Alive,Neuro ICU,18:31:00,Emergency Department,1,admit,113.4,,20:05:00,1534,Home,Alive,008-15098,0,Other,0
+997692,736559,Male,61,African American,188,464,"Pneumonia, bacterial",184.0,09:29:00,-36530,Emergency Department,2015,00:17:00,7558,Death,Expired,CCU-CTICU,18:19:00,Floor,4,readmit,118.1,120.0,20:04:00,7305,Death,Expired,008-23050,1,Other,0
+1024867,757987,Male,35,African American,188,451,Seizures (primary-no structural brain disease),175.0,13:51:00,-127,,2015,21:16:00,8958,Other,Alive,Neuro ICU,15:58:00,Emergency Department,1,admit,95.9,,16:13:00,2895,Floor,Alive,008-2863,0,Other,0
+999588,738072,Male,67,African American,188,445,"Respiratory - medical, other",180.3,16:44:00,-118,Emergency Department,2015,18:58:00,8656,Death,Expired,Med-Surg ICU,18:42:00,Emergency Department,2,transfer,160.0,124.0,14:58:00,8416,Death,Expired,008-22333,1,Other,0
+1038621,768874,Female,67,Caucasian,188,434,Diabetic ketoacidosis,152.0,17:41:00,-156,,2015,21:16:00,20219,Other,Alive,MICU,20:17:00,Emergency Department,2,transfer,76.8,73.0,17:17:00,11340,Floor,Alive,008-49783,0,Other,0
+1004781,742132,Male,80,African American,188,434,"Respiratory - medical, other",180.0,23:36:00,-1367,Floor,2014,21:03:00,15760,Home,Alive,MICU,22:23:00,Floor,1,admit,90.2,84.4,17:09:00,4006,Floor,Alive,008-51829,0,Primary,1
+1023422,756869,Female,83,Other/Unknown,188,451,"Hemorrhage/hematoma, intracranial",165.1,16:55:00,-279,,2014,19:28:00,12834,Skilled Nursing Facility,Alive,Neuro ICU,21:34:00,Emergency Department,1,admit,66.1,,19:28:00,12834,Skilled Nursing Facility,Alive,008-4619,0,Other,0
+998816,737442,Male,59,Caucasian,188,434,"Respiratory - medical, other",182.0,03:13:00,-57,,2015,20:17:00,8167,Other,Alive,MICU,04:10:00,Emergency Department,2,transfer,113.5,113.5,21:06:00,3896,Floor,Alive,008-44788,0,Other,0
+999590,738074,Male,50,African American,188,434,GI obstruction,164.0,14:28:00,-225,,2015,16:35:00,51742,Other,Alive,MICU,18:13:00,Emergency Department,2,transfer,73.1,69.2,17:48:00,14375,Floor,Alive,008-39711,0,Major,2
+1003354,741019,Male,79,Caucasian,188,434,"Respiratory - medical, other",172.0,02:25:00,-14015,,2015,18:13:00,44533,Other,Alive,MICU,20:00:00,Floor,1,admit,98.8,85.6,02:10:00,32050,Floor,Alive,008-57237,0,Primary,1
+1038762,768979,Male,77,Caucasian,188,434,"Effusions, pleural",177.5,08:46:00,-246,Emergency Department,2015,20:45:00,13433,Other,Alive,MICU,12:52:00,Other ICU,2,transfer,63.9,67.1,17:35:00,4603,Floor,Alive,008-47285,0,Other,0
+1047970,776216,Male,77,Caucasian,188,434,"CHF, congestive heart failure",170.0,18:58:00,-49,,2015,21:08:00,13041,Other,Alive,MICU,19:47:00,Emergency Department,1,admit,111.4,106.4,18:47:00,5700,Floor,Alive,008-57016,0,Primary,1
+992202,732184,Male,86,Caucasian,188,451,"Hematoma, subdural",177.0,00:45:00,-121,,2015,20:58:00,18372,Other,Alive,Neuro ICU,02:46:00,Emergency Department,1,admit,66.6,,03:06:00,8660,Step-Down Unit (SDU),Alive,008-54104,0,Other,0
+1034597,765683,Male,77,Caucasian,188,464,CABG with aortic valve replacement,163.0,14:46:00,-729,,2015,20:40:00,12585,Other,Alive,CCU-CTICU,02:55:00,Operating Room,1,admit,79.5,83.3,18:20:00,925,Floor,Alive,008-815,0,Other,0
+1053693,780713,Male,73,Caucasian,188,464,"CABG alone, coronary artery bypass grafting",171.0,13:53:00,-8804,Operating Room,2015,17:21:00,8684,Other,Alive,CCU-CTICU,16:37:00,Operating Room,1,admit,94.7,95.2,16:37:00,1440,Floor,Alive,008-29301,0,Other,0
+1012459,748188,Female,36,Caucasian,188,464,"Respiratory - medical, other",172.2,14:55:00,-20233,,2015,17:25:00,72077,Other,Alive,CCU-CTICU,16:08:00,Step-Down Unit (SDU),2,readmit,105.0,82.4,20:32:00,18984,Step-Down Unit (SDU),Alive,008-54812,0,Other,0
+1037086,767683,Female,56,Caucasian,188,434,"Respiratory - medical, other",167.6,10:29:00,-430,,2014,19:56:00,10217,Home,Alive,MICU,17:39:00,Emergency Department,2,transfer,139.0,,15:24:00,4185,Floor,Alive,008-8241,0,Primary,1
+1014869,750082,Male,60,African American,188,451,"CVA, cerebrovascular accident/stroke",185.4,17:39:00,-131,,2015,17:29:00,362739,Other,Alive,Neuro ICU,19:50:00,Emergency Department,2,transfer,133.9,,13:00:00,16870,Floor,Alive,008-44008,0,Other,0
+986134,727443,Female,66,African American,188,434,"Sepsis, unknown",160.0,10:28:00,-189374,Emergency Department,2015,16:35:00,58673,Death,Expired,MICU,22:42:00,Floor,3,readmit,62.6,51.7,01:56:00,8834,Floor,Alive,008-50679,1,Other,0
+1052355,779659,Female,58,African American,188,445,"Respiratory - medical, other",150.0,23:29:00,-1368,,2014,23:40:00,11603,Other,Alive,Med-Surg ICU,22:17:00,Emergency Department,1,admit,151.5,138.0,02:44:00,7467,Floor,Alive,008-11928,0,Other,0
+1003624,741226,Male,67,Caucasian,188,434,Acid-base/electrolyte disturbance,180.3,23:55:00,-42,,2015,21:34:00,53097,Other,Alive,MICU,00:37:00,Emergency Department,2,transfer,130.7,137.7,01:42:00,30305,Floor,Alive,008-23850,0,Other,0
+1009653,745989,Female,75,Caucasian,188,464,"Shock, cardiogenic",162.5,01:07:00,-2575,,2014,23:17:00,37635,Other,Alive,CCU-CTICU,20:02:00,Floor,1,admit,68.5,91.1,20:12:00,34570,Floor,Alive,008-2214,0,Other,0
+1005756,742875,Male,> 89,Caucasian,188,451,"Hematoma, subdural",172.7,00:37:00,-305,Recovery Room,2015,20:54:00,12432,Other,Alive,Neuro ICU,05:42:00,Recovery Room,1,admit,68.0,,00:37:00,4015,Floor,Alive,008-45534,0,Other,0
+1030550,762479,Male,69,Caucasian,188,451,"Hemorrhage/hematoma, intracranial",178.0,12:29:00,-71,,2015,00:09:00,59669,Other,Alive,Neuro ICU,13:40:00,Emergency Department,1,admit,118.1,47.3,04:10:00,44070,Floor,Alive,008-7574,0,Other,0
+1052053,779426,Male,53,Caucasian,188,451,"Hemorrhage/hematoma, intracranial",182.9,00:54:00,-67,,2015,14:59:00,31018,Other,Alive,Neuro ICU,02:01:00,Emergency Department,2,transfer,73.6,68.9,22:58:00,21417,Floor,Alive,008-8516,0,Other,0
+1013862,749278,Male,78,Caucasian,188,434,"Bleeding, GI-location unknown",177.8,00:08:00,-38565,,2014,00:24:00,11851,Home,Alive,MICU,18:53:00,Floor,1,admit,55.2,83.5,22:03:00,5950,Step-Down Unit (SDU),Alive,008-14837,0,Primary,1
+1037964,768355,Male,79,African American,188,445,"Respiratory - medical, other",172.7,23:36:00,-6148,Floor,2014,22:10:00,57126,Other,Alive,Med-Surg ICU,06:04:00,Floor,1,admit,73.0,79.0,01:51:00,27107,Step-Down Unit (SDU),Alive,008-7790,0,Other,0
+1014099,749474,Female,25,Caucasian,188,451,"Hematoma, subdural",165.1,06:31:00,-164,Emergency Department,2015,19:50:00,19355,Other,Alive,Neuro ICU,09:15:00,Emergency Department,2,transfer,65.9,,18:01:00,7726,Floor,Alive,008-2755,0,Primary,1
+1032681,764172,Male,53,Caucasian,188,464,Cardiac arrest (with or without respiratory arrest; for respiratory arrest see Respiratory System),166.0,20:11:00,-64,Other Hospital,2014,21:10:00,5755,Death,Expired,CCU-CTICU,21:15:00,Other Hospital,1,admit,85.0,85.0,21:10:00,5755,Death,Expired,008-58498,1,Other,0
+1031977,763620,Male,68,Caucasian,188,434,"Leukemia, chronic myelocytic",165.0,22:31:00,-31,Other Hospital,2014,04:21:00,50719,Home,Alive,MICU,23:02:00,Other Hospital,1,admit,120.4,122.8,13:11:00,16689,Step-Down Unit (SDU),Alive,008-44933,0,Major,2
+1024742,757896,Female,57,African American,188,434,Hypoglycemia,174.2,11:28:00,-1237,Floor,2014,02:14:00,9729,Home,Alive,MICU,08:05:00,Floor,1,admit,86.5,,22:48:00,883,Step-Down Unit (SDU),Alive,008-4394,0,Other,0
+1011787,747668,Male,56,Caucasian,188,434,"Sepsis, other",177.8,06:54:00,-766,,2014,16:39:00,37259,Home,Alive,MICU,19:40:00,Floor,1,admit,92.0,36.9,18:35:00,11455,Floor,Alive,008-23638,0,Major,2
+999550,738038,Female,62,Caucasian,188,464,"Cardiovascular surgery, other",170.1,17:52:00,-383,Emergency Department,2014,15:06:00,41211,Other,Alive,CCU-CTICU,00:15:00,Emergency Department,1,admit,83.4,80.1,22:52:00,24397,Floor,Alive,008-51525,0,Other,0
+1050464,778174,Male,85,Caucasian,188,464,"Aneurysm, thoracic aortic",177.8,20:51:00,-278,,2014,00:57:00,14368,Death,Expired,CCU-CTICU,01:29:00,Emergency Department,1,admit,79.5,89.3,00:44:00,14355,Death,Expired,008-15,1,Other,0
+994643,734108,Female,82,Caucasian,188,445,"Respiratory - medical, other",160.0,09:54:00,-3356,Floor,2014,22:44:00,8934,Home,Alive,Med-Surg ICU,17:50:00,Floor,1,admit,43.0,48.0,22:46:00,3176,Floor,Alive,008-38061,0,Primary,1
+986984,728119,Female,83,African American,188,434,"Pneumonia, other",155.0,06:35:00,-775,,2015,22:59:00,10289,Other,Alive,MICU,19:30:00,Floor,1,admit,73.1,74.7,03:45:00,7695,Floor,Alive,008-4346,0,Other,0
+993056,732848,Male,78,African American,188,434,"Sepsis, other",177.8,01:38:00,-1277,Emergency Department,2014,20:54:00,20039,Home,Alive,MICU,22:55:00,Emergency Department,2,transfer,88.0,90.6,14:21:00,6686,Floor,Alive,008-58988,0,Other,0
+1002395,740274,Male,61,Caucasian,188,464,Rhythm disturbance (conduction defect),188.0,03:18:00,-173,Emergency Department,2014,15:28:00,4877,Other,Alive,CCU-CTICU,06:11:00,Emergency Department,1,admit,78.8,,22:36:00,2425,Floor,Alive,008-47727,0,Other,0
+1048981,777011,Male,89,Caucasian,188,445,"GI surgery, other",183.0,18:47:00,-406,Operating Room,2014,20:08:00,21275,Death,Expired,Med-Surg ICU,01:33:00,Operating Room,1,admit,70.0,66.8,20:08:00,21275,Death,Expired,008-27487,1,Other,0
+1043783,772923,Male,77,Caucasian,188,451,"CVA, cerebrovascular accident/stroke",162.0,21:42:00,-119,,2015,20:57:00,27196,Other,Alive,Neuro ICU,23:41:00,Emergency Department,2,transfer,60.2,,23:22:00,4301,Floor,Alive,008-43969,0,Other,0
+1040798,770587,Female,46,African American,188,445,"Arrest, respiratory (without cardiac arrest)",170.0,21:07:00,-3817,,2014,19:10:00,11906,Home,Alive,Med-Surg ICU,12:44:00,Floor,1,admit,119.1,112.0,02:34:00,5150,Floor,Alive,008-51459,0,Other,0
+1028766,761080,Male,86,Caucasian,188,434,"Bleeding, lower GI",177.8,19:26:00,-17,,2014,16:35:00,9892,Other,Alive,MICU,19:43:00,Other Hospital,1,admit,122.0,128.9,03:14:00,3331,Step-Down Unit (SDU),Alive,008-21211,0,Primary,1
+1005704,742837,Female,67,Caucasian,188,445,"Hepatic failure, acute",175.0,20:49:00,-103,Emergency Department,2014,00:14:00,1542,Other,Alive,Med-Surg ICU,22:32:00,Emergency Department,2,transfer,70.0,71.0,22:46:00,1454,Other Hospital,Alive,008-35154,0,Other,0
+1020149,754266,Male,62,Caucasian,188,464,Cardiac arrest (with or without respiratory arrest; for respiratory arrest see Respiratory System),170.2,21:22:00,-10,Other Hospital,2015,22:51:00,47599,Other,Alive,CCU-CTICU,21:32:00,Other Hospital,1,admit,78.4,66.4,19:17:00,28665,Step-Down Unit (SDU),Alive,008-46251,0,Other,0
+982380,724496,Male,65,Caucasian,188,434,"Sepsis, pulmonary",181.0,17:21:00,-172,,2014,16:06:00,25673,Other,Alive,MICU,20:13:00,Emergency Department,2,transfer,96.6,86.4,19:48:00,8615,Step-Down Unit (SDU),Alive,008-47778,0,Other,0
+1043674,772844,Male,86,Caucasian,188,445,"Sepsis, pulmonary",182.9,17:56:00,-221,Emergency Department,2014,16:05:00,6868,Death,Expired,Med-Surg ICU,21:37:00,Emergency Department,1,admit,76.0,76.8,16:05:00,6868,Death,Expired,008-23146,1,Other,0
+1030900,762761,Male,70,Caucasian,188,464,"Respiratory - medical, other",180.0,03:41:00,-378,Emergency Department,2014,19:42:00,10663,Other,Alive,CCU-CTICU,09:59:00,Emergency Department,2,transfer,72.7,68.2,18:06:00,10567,Skilled Nursing Facility,Alive,008-58023,0,Other,0
+1000217,738559,Female,61,African American,188,434,Anemia,159.0,22:40:00,-4583,,2015,20:59:00,8276,Other,Alive,MICU,03:03:00,Emergency Department,1,admit,57.7,57.2,20:35:00,8252,Other,Alive,008-34959,0,Other,0
+994755,734198,Female,77,African American,188,451,Subarachnoid hemorrhage/arteriovenous malformation,167.6,03:03:00,-106,Emergency Department,2014,19:24:00,22475,Other,Alive,Neuro ICU,04:49:00,Emergency Department,1,admit,66.8,,19:59:00,18190,Step-Down Unit (SDU),Alive,008-36171,0,Major,2
+1030816,762689,Female,64,Caucasian,188,451,"Hemorrhage/hematoma, intracranial",167.6,05:25:00,-22,Other Hospital,2015,17:15:00,23728,Other,Alive,Neuro ICU,05:47:00,Other Hospital,1,admit,57.3,59.7,21:19:00,5252,Floor,Alive,008-38128,0,Other,0
+1030138,762157,Female,88,Caucasian,188,445,"Respiratory - medical, other",149.8,02:16:00,-350,,2015,00:31:00,9625,Death,Expired,Med-Surg ICU,08:06:00,Emergency Department,1,admit,63.0,59.5,00:31:00,9625,Death,Expired,008-20604,1,Other,0
+1020969,754943,Female,85,Caucasian,188,464,"Tamponade, pericardial",171.4,22:32:00,-6,Other Hospital,2015,18:11:00,6933,Other,Alive,CCU-CTICU,22:38:00,Other Hospital,1,admit,68.2,,23:22:00,2924,Floor,Alive,008-26841,0,Other,0
+1000264,738597,Male,43,Caucasian,188,434,Drug withdrawal,193.0,10:34:00,-2531,Floor,2015,15:23:00,48158,Other,Alive,MICU,04:45:00,Floor,1,admit,82.9,66.3,00:23:00,22778,Step-Down Unit (SDU),Alive,008-7764,0,Primary,1
+1019543,753784,Male,65,Caucasian,188,434,"Sepsis, other",177.8,19:31:00,-38,,2014,19:57:00,51828,Other,Alive,MICU,20:09:00,Emergency Department,2,transfer,64.5,61.2,18:14:00,15725,Floor,Alive,008-12932,0,Other,0
+1048882,776932,Female,41,Caucasian,188,451,Subarachnoid hemorrhage/arteriovenous malformation,170.0,21:30:00,-57,,2015,22:13:00,21586,Other,Alive,Neuro ICU,22:27:00,Emergency Department,2,transfer,87.7,86.4,18:49:00,21382,Home,Alive,008-53124,0,Other,0
+1023163,756661,Female,70,Caucasian,188,434,"Overdose, antidepressants (cyclic, lithium)",160.0,18:50:00,28,Emergency Department,2014,18:28:00,2886,Other,Alive,MICU,18:22:00,Emergency Department,1,admit,56.3,69.9,04:10:00,2028,Floor,Alive,008-12458,0,Other,0
+996126,735285,Female,74,Caucasian,188,434,"Pneumonia, other",154.9,03:00:00,-303,Emergency Department,2014,21:23:00,59840,Other,Alive,MICU,08:03:00,Emergency Department,2,transfer,50.9,64.8,06:43:00,25840,Floor,Alive,008-42880,0,Other,0
+988620,729383,Female,64,Caucasian,188,434,"Sepsis, pulmonary",162.5,17:11:00,-72,Emergency Department,2015,20:57:00,10234,Other,Alive,MICU,18:23:00,Emergency Department,2,transfer,94.0,89.1,16:16:00,5633,Floor,Alive,008-35677,0,Other,0
+1008197,744850,Male,40,Caucasian,188,434,"Respiratory - medical, other",180.3,22:02:00,-131,Emergency Department,2015,20:34:00,32901,Skilled Nursing Facility,Alive,MICU,00:13:00,Emergency Department,2,transfer,302.8,272.5,20:34:00,32901,Skilled Nursing Facility,Alive,008-5565,0,Other,0
+1040634,770461,Male,85,Caucasian,188,464,"CABG alone, coronary artery bypass grafting",172.0,16:35:00,-14676,,2015,18:24:00,5593,Death,Expired,CCU-CTICU,21:11:00,Operating Room,1,admit,93.7,116.0,16:01:00,5450,Death,Expired,008-22194,1,Other,0
+1003354,741019,Male,79,Caucasian,188,434,"Respiratory - medical, other",172.0,02:25:00,-14015,,2015,18:13:00,44533,Other,Alive,MICU,20:00:00,Floor,1,admit,98.8,85.6,02:10:00,32050,Floor,Alive,008-57237,0,Other,0
+1006632,743568,Female,63,Caucasian,188,434,"Pneumonia, bacterial",178.0,02:34:00,-140,Emergency Department,2014,20:53:00,18239,Other,Alive,MICU,04:54:00,Emergency Department,1,admit,86.2,85.8,23:47:00,14093,Step-Down Unit (SDU),Alive,008-15916,0,Primary,1
+1025957,758865,Male,79,Caucasian,188,434,"Cardiovascular medical, other",167.0,18:00:00,-452,Floor,2015,20:40:00,18428,Other,Alive,MICU,01:32:00,Floor,1,admit,74.7,77.4,22:30:00,4138,Step-Down Unit (SDU),Alive,008-46795,0,Other,0
+1029558,761687,Male,83,Caucasian,188,434,"Sepsis, pulmonary",163.0,09:03:00,-560,Emergency Department,2014,18:22:00,18719,Other,Alive,MICU,18:23:00,Emergency Department,2,transfer,82.4,87.5,01:39:00,9076,Step-Down Unit (SDU),Alive,008-7513,0,Other,0
+1005137,742398,Male,48,African American,188,451,"Hemorrhage/hematoma, intracranial",177.8,21:29:00,-74,Emergency Department,2014,16:48:00,19805,Home,Alive,Neuro ICU,22:43:00,Emergency Department,1,admit,84.9,,21:18:00,11435,Floor,Alive,008-5740,0,Other,0
+982365,724483,Male,42,Caucasian,188,434,Drug withdrawal,177.8,04:01:00,-93,Emergency Department,2014,19:45:00,15251,Other,Alive,MICU,05:34:00,Emergency Department,1,admit,74.2,76.2,23:09:00,9695,Step-Down Unit (SDU),Alive,008-28697,0,Other,0
+1029873,761942,Female,26,African American,188,451,"Hemorrhage/hematoma, intracranial",173.0,23:48:00,-10,Emergency Department,2015,18:51:00,25613,Other,Alive,Neuro ICU,23:58:00,Emergency Department,1,admit,102.0,100.8,19:22:00,8364,Floor,Alive,008-9911,0,Other,0
+985236,726725,Male,50,Caucasian,188,464,"Aneurysm, dissecting aortic",185.0,14:31:00,-12,Operating Room,2014,23:04:00,23541,Other,Alive,CCU-CTICU,14:43:00,Operating Room,1,admit,127.6,128.8,22:56:00,20653,Floor,Alive,008-26122,0,Other,0
+1030922,762778,Female,74,Caucasian,188,434,"Pneumonia, other",155.0,15:41:00,-141,,2015,22:49:00,10367,Other,Alive,MICU,18:02:00,Emergency Department,2,transfer,63.2,60.9,03:42:00,6340,Floor,Alive,008-49175,0,Major,2
+1019275,753573,Female,59,African American,188,434,"Sepsis, pulmonary",168.0,08:50:00,-284,,2014,22:36:00,27902,Other,Alive,MICU,13:34:00,Emergency Department,2,transfer,81.0,79.4,21:36:00,6242,Step-Down Unit (SDU),Alive,008-216,0,Major,2
+1013508,748993,Female,57,Caucasian,188,434,"Metabolic/endocrine medical, other",160.0,07:28:00,-982,Floor,2014,21:44:00,12834,Other,Alive,MICU,23:50:00,Floor,1,admit,61.9,58.9,21:35:00,1305,Floor,Alive,008-54819,0,Other,0
+1045554,774318,Female,73,Caucasian,188,464,Rhythm disturbance (conduction defect),165.0,16:42:00,-155,Emergency Department,2015,20:58:00,5861,Other,Alive,CCU-CTICU,19:17:00,Emergency Department,1,admit,71.6,,17:50:00,1353,Floor,Alive,008-3581,0,Other,0
+1026596,759358,Female,82,Caucasian,188,464,"Respiratory - medical, other",160.0,10:49:00,-3270,Step-Down Unit (SDU),2014,21:25:00,11766,Home,Alive,CCU-CTICU,17:19:00,Step-Down Unit (SDU),1,admit,74.5,,00:55:00,1896,Step-Down Unit (SDU),Alive,008-39126,0,Other,0
+1012166,747960,Female,65,African American,188,434,Cardiac arrest (with or without respiratory arrest; for respiratory arrest see Respiratory System),160.0,17:21:00,-81,,2014,19:43:00,10141,Other,Alive,MICU,18:42:00,Emergency Department,2,transfer,84.5,84.6,03:17:00,1955,Floor,Alive,008-25302,0,Other,0
+1008563,745142,Male,71,Caucasian,188,434,"Sepsis, GI",170.1,07:21:00,-220,Emergency Department,2015,15:02:00,11761,Death,Expired,MICU,11:01:00,Emergency Department,2,transfer,146.2,143.0,20:45:00,4904,Floor,Alive,008-33409,1,Other,0
+1033263,764635,Male,60,Caucasian,188,434,"Bleeding, GI from esophageal varices/portal hypertension",180.0,17:10:00,-180,Emergency Department,2014,13:03:00,25493,Other,Alive,MICU,20:10:00,Emergency Department,1,admit,90.4,108.1,12:02:00,25432,Other Hospital,Alive,008-45675,0,Other,0
+997692,736559,Male,61,African American,188,464,"Pneumonia, bacterial",184.0,09:29:00,-36530,Emergency Department,2015,00:17:00,7558,Death,Expired,CCU-CTICU,18:19:00,Floor,4,readmit,118.1,120.0,20:04:00,7305,Death,Expired,008-23050,1,Other,0
+1055410,782077,Male,67,African American,188,434,"Pneumonia, other",172.2,21:37:00,-116,Emergency Department,2014,22:03:00,28710,Other,Alive,MICU,23:33:00,Emergency Department,2,transfer,64.3,70.7,23:33:00,7200,Floor,Alive,008-52565,0,Other,0
+1038621,768874,Female,67,Caucasian,188,434,Diabetic ketoacidosis,152.0,17:41:00,-156,,2015,21:16:00,20219,Other,Alive,MICU,20:17:00,Emergency Department,2,transfer,76.8,73.0,17:17:00,11340,Floor,Alive,008-49783,0,Other,0
+1031943,763596,Female,59,African American,188,445,Cardiac arrest (with or without respiratory arrest; for respiratory arrest see Respiratory System),154.0,23:34:00,-29,Emergency Department,2015,02:33:00,27510,Death,Expired,Med-Surg ICU,00:03:00,Emergency Department,1,admit,131.0,139.0,01:56:00,27473,Death,Expired,008-11928,1,Major,2
+996449,735551,Female,51,Caucasian,188,434,"Sepsis, unknown",161.2,01:46:00,-203,Emergency Department,2014,21:39:00,26910,Other,Alive,MICU,05:09:00,Emergency Department,1,admit,70.5,73.1,20:44:00,21095,Floor,Alive,008-31432,0,Other,0
+980811,723276,Male,65,Caucasian,188,434,Hypoglycemia,178.0,02:47:00,-340,,2014,22:08:00,3701,Other,Alive,MICU,08:27:00,Emergency Department,2,transfer,80.0,83.3,15:16:00,1849,Floor,Alive,008-57041,0,Other,0
+1001038,739192,Female,71,Caucasian,188,451,"Hemorrhage/hematoma, intracranial",139.7,00:40:00,0,Emergency Department,2014,19:45:00,11225,Other,Alive,Neuro ICU,00:40:00,Emergency Department,1,admit,63.7,61.4,18:22:00,5382,Floor,Alive,008-14040,0,Other,0
+1009891,746174,Female,72,Caucasian,188,464,"CABG alone, coronary artery bypass grafting",155.0,13:16:00,-10339,,2015,17:07:00,8612,Other,Alive,CCU-CTICU,17:35:00,Operating Room,1,admit,69.5,68.8,00:25:00,1850,Floor,Alive,008-4549,0,Other,0
+987301,728367,Female,66,Caucasian,188,434,Diabetic ketoacidosis,152.0,04:45:00,-54,Emergency Department,2014,20:52:00,6673,Other,Alive,MICU,05:39:00,Emergency Department,2,transfer,66.6,66.6,23:11:00,2492,Floor,Alive,008-49783,0,Other,0
+981024,723436,Female,68,African American,188,434,GI abscess/cyst,165.0,21:53:00,-543,Emergency Department,2015,20:15:00,12319,Other,Alive,MICU,06:56:00,Emergency Department,2,transfer,80.0,80.0,21:25:00,3749,Step-Down Unit (SDU),Alive,008-34293,0,Other,0
+1052889,780074,Male,62,Caucasian,188,434,"Respiratory - medical, other",188.0,23:31:00,-111,,2014,23:45:00,9983,Home,Alive,MICU,01:22:00,Emergency Department,2,transfer,90.1,90.1,17:26:00,964,Floor,Alive,008-49600,0,Other,0
+992422,732352,Female,37,African American,188,451,Subarachnoid hemorrhage/intracranial aneurysm,170.0,05:37:00,-46,,2015,18:54:00,19471,Other,Alive,Neuro ICU,06:23:00,Emergency Department,1,admit,90.7,87.3,03:58:00,18575,Floor,Alive,008-53249,0,Other,0
+1045946,774625,Female,71,Caucasian,188,434,"Respiratory - medical, other",157.5,12:34:00,-9603,Emergency Department,2015,00:37:00,11280,Death,Expired,MICU,04:37:00,Step-Down Unit (SDU),3,readmit,83.4,67.2,21:59:00,11122,Death,Expired,008-40946,1,Major,2
+995890,735095,Male,81,Caucasian,188,464,Rhythm disturbance (conduction defect),171.0,13:31:00,-50,,2014,15:23:00,2942,Other,Alive,CCU-CTICU,14:21:00,Emergency Department,1,admit,106.0,,20:16:00,355,Floor,Alive,008-17100,0,Other,0
+1028643,760980,Female,74,Caucasian,188,464,"CHF, congestive heart failure",160.0,18:51:00,-90,,2015,16:35:00,24254,Other,Alive,CCU-CTICU,20:21:00,Emergency Department,1,admit,50.3,64.0,16:06:00,24225,Other,Alive,008-23379,0,Other,0
+1016448,751343,Female,32,Caucasian,188,434,Cardiac arrest (with or without respiratory arrest; for respiratory arrest see Respiratory System),135.5,06:08:00,-344,,2014,19:26:00,40774,Other,Alive,MICU,11:52:00,Emergency Department,2,transfer,50.6,44.8,19:32:00,30700,Floor,Alive,008-1351,0,Major,2
+1000217,738559,Female,61,African American,188,434,Anemia,159.0,22:40:00,-4583,,2015,20:59:00,8276,Other,Alive,MICU,03:03:00,Emergency Department,1,admit,57.7,57.2,20:35:00,8252,Other,Alive,008-34959,0,Other,0
+1048504,776637,Male,60,Caucasian,188,464,"Cardiovascular surgery, other",176.0,00:58:00,-6821,,2015,17:21:00,14322,Other,Alive,CCU-CTICU,18:39:00,Operating Room,1,admit,87.3,,21:59:00,4520,Floor,Alive,008-14226,0,Other,0
+1049224,777202,Male,68,Caucasian,188,464,"CABG alone, coronary artery bypass grafting",175.0,05:27:00,-6537,Operating Room,2014,20:18:00,5874,Home,Alive,CCU-CTICU,18:24:00,Operating Room,1,admit,89.6,,19:36:00,1512,Floor,Alive,008-4225,0,Other,0
+1009889,746172,Male,82,Caucasian,188,434,"Shock, cardiogenic",172.0,01:40:00,-1369,Emergency Department,2014,20:53:00,27144,Other,Alive,MICU,00:29:00,Emergency Department,1,admit,91.3,94.1,05:09:00,14680,Floor,Alive,008-53952,0,Primary,1
+1044505,773495,Male,58,Caucasian,188,434,Emphysema/bronchitis,177.8,06:27:00,-1621,Floor,2014,17:50:00,27862,Other,Alive,MICU,09:28:00,Floor,1,admit,50.8,50.2,18:46:00,19278,Step-Down Unit (SDU),Alive,008-39887,0,Primary,1
+993056,732848,Male,78,African American,188,434,"Sepsis, other",177.8,01:38:00,-1277,Emergency Department,2014,20:54:00,20039,Home,Alive,MICU,22:55:00,Emergency Department,2,transfer,88.0,90.6,14:21:00,6686,Floor,Alive,008-58988,0,Other,0
+1042441,771874,Male,81,Caucasian,188,434,"Bleeding, lower GI",190.0,23:59:00,-46,Emergency Department,2014,20:48:00,8403,Other,Alive,MICU,00:45:00,Emergency Department,2,transfer,122.6,122.6,12:05:00,2120,Step-Down Unit (SDU),Alive,008-43843,0,Other,0
+1005633,742782,Female,34,African American,188,451,"Hydrocephalus, obstructive",160.5,00:31:00,-9,Other Hospital,2015,15:43:00,13863,Other,Alive,Neuro ICU,00:40:00,Other Hospital,1,admit,55.0,,21:51:00,12791,Step-Down Unit (SDU),Alive,008-50094,0,Other,0
+1048233,776422,Male,65,Caucasian,188,434,"Sepsis, pulmonary",179.0,17:22:00,-556,,2014,20:22:00,54344,Home,Alive,MICU,02:38:00,Emergency Department,2,transfer,92.0,83.6,14:28:00,25190,Floor,Alive,008-58571,0,Other,0
+1017851,752459,Female,88,Caucasian,188,445,"Respiratory - medical, other",149.8,07:01:00,-86,Emergency Department,2014,15:35:00,19148,Other,Alive,Med-Surg ICU,08:27:00,Emergency Department,2,transfer,63.0,60.0,14:57:00,9030,Floor,Alive,008-20604,0,Other,0
+991813,731877,Male,57,African American,188,451,Subarachnoid hemorrhage/intracranial aneurysm,173.0,20:32:00,-99,,2015,17:31:00,80360,Other,Alive,Neuro ICU,22:11:00,Emergency Department,2,transfer,99.6,120.7,19:06:00,53095,Floor,Alive,008-31715,0,Other,0
+1003701,741284,Female,74,Caucasian,188,451,"Neoplasm, neurologic",,12:48:00,-669,Operating Room,2014,17:26:00,16889,Other,Alive,Neuro ICU,23:57:00,Operating Room,1,admit,,,11:26:00,689,Floor,Alive,008-49129,0,Other,0
+981844,724077,Male,62,Caucasian,188,464,"CHF, congestive heart failure",178.0,02:04:00,-6865,Floor,2015,19:46:00,34517,Other,Alive,CCU-CTICU,20:29:00,Other ICU,4,transfer,100.5,100.2,19:35:00,8586,Floor,Alive,008-57878,0,Other,0
+1012151,747949,Male,74,African American,188,434,Cardiac arrest (with or without respiratory arrest; for respiratory arrest see Respiratory System),168.0,06:22:00,-22329,,2014,22:42:00,31931,Other,Alive,MICU,18:31:00,Recovery Room,2,readmit,74.4,68.3,23:36:00,19025,Floor,Alive,008-56972,0,Other,0
+1036209,766979,Male,43,Caucasian,188,445,"Respiratory - medical, other",173.0,00:08:00,-240,Emergency Department,2014,20:53:00,21165,Home,Alive,Med-Surg ICU,04:08:00,Emergency Department,1,admit,103.0,92.7,19:00:00,18172,Floor,Alive,008-7446,0,Other,0
+987214,728298,Female,69,African American,188,434,"Arrest, respiratory (without cardiac arrest)",166.0,08:12:00,-123,Emergency Department,2015,23:19:00,45424,Other,Alive,MICU,10:15:00,Emergency Department,2,transfer,95.3,93.2,19:59:00,7784,Floor,Alive,008-13894,0,Other,0
+1035187,766159,Male,68,Caucasian,188,434,"Sepsis, unknown",172.0,22:03:00,-168,Emergency Department,2014,19:51:00,42900,Other,Alive,MICU,00:51:00,Emergency Department,1,admit,66.6,83.7,19:16:00,24145,Step-Down Unit (SDU),Alive,008-42014,0,Other,0
+1002260,740167,Female,84,Caucasian,188,434,Emphysema/bronchitis,155.0,13:01:00,-89,Emergency Department,2015,03:00:00,6510,Death,Expired,MICU,14:30:00,Emergency Department,1,admit,63.1,63.8,03:35:00,3665,Step-Down Unit (SDU),Alive,008-32633,1,Other,0
+1019543,753784,Male,65,Caucasian,188,434,"Sepsis, other",177.8,19:31:00,-38,,2014,19:57:00,51828,Other,Alive,MICU,20:09:00,Emergency Department,2,transfer,64.5,61.2,18:14:00,15725,Floor,Alive,008-12932,0,Major,2
+1033263,764635,Male,60,Caucasian,188,434,"Bleeding, GI from esophageal varices/portal hypertension",180.0,17:10:00,-180,Emergency Department,2014,13:03:00,25493,Other,Alive,MICU,20:10:00,Emergency Department,1,admit,90.4,108.1,12:02:00,25432,Other Hospital,Alive,008-45675,0,Major,2
+1003354,741019,Male,79,Caucasian,188,434,"Respiratory - medical, other",172.0,02:25:00,-14015,,2015,18:13:00,44533,Other,Alive,MICU,20:00:00,Floor,1,admit,98.8,85.6,02:10:00,32050,Floor,Alive,008-57237,0,Other,0
+1005431,742626,Female,46,Caucasian,188,451,"CVA, cerebrovascular accident/stroke",168.0,14:22:00,-1,Emergency Department,2014,03:55:00,5132,Other,Alive,Neuro ICU,14:23:00,Emergency Department,1,admit,77.5,,00:21:00,4918,Floor,Alive,008-15668,0,Other,0
+1009637,745974,Female,63,Caucasian,188,451,"CVA, cerebrovascular accident/stroke",157.5,14:28:00,-79,,2015,16:55:00,7268,Other,Alive,Neuro ICU,15:47:00,Emergency Department,1,admit,73.2,,20:27:00,3160,Floor,Alive,008-13214,0,Primary,1
+1038621,768874,Female,67,Caucasian,188,434,Diabetic ketoacidosis,152.0,17:41:00,-156,,2015,21:16:00,20219,Other,Alive,MICU,20:17:00,Emergency Department,2,transfer,76.8,73.0,17:17:00,11340,Floor,Alive,008-49783,0,Other,0
+983994,725742,Female,81,Caucasian,188,451,Seizures (primary-no structural brain disease),167.6,23:44:00,-304,Emergency Department,2014,23:09:00,19821,Home,Alive,Neuro ICU,04:48:00,Emergency Department,2,transfer,46.0,46.0,20:47:00,2399,Floor,Alive,008-1940,0,Primary,1
+1054943,781703,Male,87,Caucasian,188,434,"Bleeding, lower GI",182.8,14:38:00,-106,Emergency Department,2014,03:26:00,7862,Death,Expired,MICU,16:24:00,Emergency Department,2,transfer,87.1,90.6,21:14:00,3170,Step-Down Unit (SDU),Alive,008-44318,1,Other,0
+1012743,748405,Female,54,Caucasian,188,434,"Pneumonia, viral",155.0,04:29:00,-184,Emergency Department,2014,15:37:00,20644,Home,Alive,MICU,07:33:00,Emergency Department,2,transfer,79.2,74.2,04:40:00,15667,Floor,Alive,008-42985,0,Major,2
+1035106,766092,Male,52,Caucasian,188,445,Seizures (primary-no structural brain disease),190.5,21:03:00,-35,,2014,16:45:00,2587,Home,Alive,Med-Surg ICU,21:38:00,Emergency Department,2,transfer,128.0,,13:34:00,2396,Home,Alive,008-56847,0,Other,0
+1048981,777011,Male,89,Caucasian,188,445,"GI surgery, other",183.0,18:47:00,-406,Operating Room,2014,20:08:00,21275,Death,Expired,Med-Surg ICU,01:33:00,Operating Room,1,admit,70.0,66.8,20:08:00,21275,Death,Expired,008-27487,1,Other,0
+1019788,753975,Male,56,Caucasian,188,434,"Pneumonia, aspiration",167.6,19:35:00,-25203,Emergency Department,2015,15:15:00,239497,Other,Alive,MICU,07:38:00,Step-Down Unit (SDU),3,readmit,58.8,59.1,13:37:00,7559,Step-Down Unit (SDU),Alive,008-32124,0,Major,2
+987214,728298,Female,69,African American,188,434,"Arrest, respiratory (without cardiac arrest)",166.0,08:12:00,-123,Emergency Department,2015,23:19:00,45424,Other,Alive,MICU,10:15:00,Emergency Department,2,transfer,95.3,93.2,19:59:00,7784,Floor,Alive,008-13894,0,Other,0
+1039204,769318,Female,66,Other/Unknown,188,434,"Pneumonia, other",161.0,23:00:00,-6,Emergency Department,2014,23:13:00,23047,Home,Alive,MICU,23:06:00,Emergency Department,1,admit,140.0,154.0,01:01:00,10195,Floor,Alive,008-2653,0,Other,0
+1020749,754764,Female,78,Caucasian,188,434,"Respiratory - medical, other",145.0,17:39:00,-119,,2014,02:02:00,21984,Other,Alive,MICU,19:38:00,Emergency Department,2,transfer,49.1,60.4,01:31:00,21953,Other,Alive,008-26895,0,Other,0
+1017340,752051,Male,42,African American,188,451,"Coma/change in level of consciousness (for hepatic see GI, for diabetic see Endocrine, if related to cardiac arrest, see CV)",178.0,02:45:00,-122,Emergency Department,2014,15:35:00,20808,Home,Alive,Neuro ICU,04:47:00,Emergency Department,2,transfer,68.5,68.8,17:33:00,16606,Floor,Alive,008-52134,0,Major,2
+1005225,742468,Male,85,Caucasian,188,445,"Sepsis, renal/UTI (including bladder)",167.6,12:11:00,-264,,2014,17:53:00,10158,Death,Expired,Med-Surg ICU,16:35:00,Emergency Department,1,admit,96.0,106.0,17:53:00,10158,Death,Expired,008-33338,1,Other,0
+1019790,753975,Male,56,Caucasian,188,451,Seizures (primary-no structural brain disease),167.6,19:35:00,-220,Emergency Department,2015,15:15:00,264480,Other,Alive,Neuro ICU,23:15:00,Emergency Department,1,admit,51.5,51.5,17:31:00,5416,Floor,Alive,008-32124,0,Major,2
+998905,737515,Male,71,Caucasian,188,434,"Pneumonia, bacterial",170.0,03:17:00,-3,Other Hospital,2014,08:58:00,1778,Death,Expired,MICU,03:20:00,Other Hospital,1,admit,94.2,94.2,05:49:00,1589,Death,Expired,008-47774,1,Other,0
+994960,734360,Male,61,Caucasian,188,445,"Sepsis, unknown",177.8,12:04:00,-32,Emergency Department,2014,21:32:00,16376,Death,Expired,Med-Surg ICU,12:36:00,Emergency Department,1,admit,72.0,76.8,01:44:00,12308,Floor,Alive,008-28931,1,Major,2
+1050546,778242,Female,84,Caucasian,188,445,"Sepsis, other",172.5,07:47:00,-822,Emergency Department,2015,20:56:00,11487,Other,Alive,Med-Surg ICU,21:29:00,Emergency Department,2,transfer,99.0,94.9,20:34:00,11465,Other,Alive,008-30762,0,Other,0
+1032994,764418,Female,57,Asian,188,451,"Neoplasm, neurologic",153.0,11:57:00,-2032,Recovery Room,2014,15:43:00,11154,Other,Alive,Neuro ICU,21:49:00,Recovery Room,1,admit,67.6,,18:59:00,5590,Floor,Alive,008-21723,0,Other,0
+1041454,771096,Male,52,African American,188,445,"Bleeding, lower GI",170.0,01:28:00,-564,,2014,20:53:00,4921,Other,Alive,Med-Surg ICU,10:52:00,Emergency Department,1,admit,83.4,89.0,14:46:00,3114,Floor,Alive,008-10390,0,Other,0
+1043979,773083,Female,16,Caucasian,188,451,"Hemorrhage/hematoma, intracranial",167.6,02:46:00,-119,Emergency Department,2015,03:11:00,11426,Other,Alive,Neuro ICU,04:45:00,Emergency Department,1,admit,68.2,68.2,03:06:00,7101,Step-Down Unit (SDU),Alive,008-53353,0,Other,0
+1025647,758612,Female,72,Caucasian,188,464,Diabetic ketoacidosis,160.0,01:34:00,-121,,2014,22:20:00,12645,Other,Alive,CCU-CTICU,03:35:00,Emergency Department,2,transfer,95.7,,06:26:00,1611,Floor,Alive,008-49092,0,Major,2
+1053671,780694,Female,49,Caucasian,188,434,"Respiratory - medical, other",157.0,23:17:00,-29,Emergency Department,2014,18:27:00,8321,Home,Alive,MICU,23:46:00,Emergency Department,2,transfer,73.3,73.3,19:08:00,4042,Floor,Alive,008-34564,0,Other,0
+1043783,772923,Male,77,Caucasian,188,451,"CVA, cerebrovascular accident/stroke",162.0,21:42:00,-119,,2015,20:57:00,27196,Other,Alive,Neuro ICU,23:41:00,Emergency Department,2,transfer,60.2,,23:22:00,4301,Floor,Alive,008-43969,0,Other,0
+995981,735169,Female,51,Caucasian,188,464,"Sepsis, other",170.0,00:28:00,-3,,2015,18:46:00,54375,Other,Alive,CCU-CTICU,00:31:00,Emergency Department,1,admit,91.0,87.5,18:21:00,2510,Step-Down Unit (SDU),Alive,008-15713,0,Other,0
+1053811,780810,Male,79,Caucasian,188,434,"Sepsis, pulmonary",183.0,19:50:00,-342,,2014,02:01:00,37469,Home,Alive,MICU,01:32:00,Emergency Department,2,transfer,79.3,81.0,03:17:00,4425,Floor,Alive,008-29468,0,Other,0
+985671,727073,Female,69,Caucasian,188,464,CABG with mitral valve replacement,168.9,21:36:00,-16824,Operating Room,2015,21:27:00,9087,Death,Expired,CCU-CTICU,14:00:00,Operating Room,1,admit,120.7,142.3,15:21:00,8721,Floor,Alive,008-37333,1,Other,0
+1020908,754897,Male,72,African American,188,434,"Bleeding, lower GI",173.0,00:21:00,-49,Emergency Department,2015,15:52:00,2322,Other,Alive,MICU,01:10:00,Emergency Department,2,transfer,74.2,,18:11:00,1021,Floor,Alive,008-26550,0,Other,0
+1008230,744873,Male,75,Caucasian,188,464,"CABG alone, coronary artery bypass grafting",163.0,17:31:00,-3,Operating Room,2015,17:07:00,4293,Other,Alive,CCU-CTICU,17:34:00,Operating Room,1,admit,78.3,,14:54:00,1280,Floor,Alive,008-35320,0,Other,0
+996451,735553,Female,45,Caucasian,188,434,"Overdose, street drugs (opiates, cocaine, amphetamine)",150.0,13:14:00,-81,Emergency Department,2014,19:35:00,19020,Other,Alive,MICU,14:35:00,Emergency Department,2,transfer,54.5,61.0,21:10:00,13355,Step-Down Unit (SDU),Alive,008-39365,0,Other,0
+1009906,746187,Male,87,Caucasian,188,464,"Vascular medical, other",168.0,00:13:00,-7,Emergency Department,2014,21:11:00,8451,Home,Alive,CCU-CTICU,00:20:00,Emergency Department,1,admit,80.2,75.2,21:22:00,5582,Floor,Alive,008-14524,0,Other,0
+1013060,748659,Male,76,Caucasian,188,464,"CABG alone, coronary artery bypass grafting",177.8,11:44:00,-445,Operating Room,2015,19:25:00,4336,Other,Alive,CCU-CTICU,19:09:00,Operating Room,1,admit,78.6,81.4,18:44:00,1415,Floor,Alive,008-7908,0,Other,0
+994173,733742,Male,80,African American,188,434,"Respiratory - medical, other",166.0,22:39:00,-226,,2015,17:00:00,10955,Other,Alive,MICU,02:25:00,Emergency Department,2,transfer,79.0,81.1,19:25:00,6780,Floor,Alive,008-51829,0,Other,0
+1007797,744536,Female,30,Other/Unknown,188,451,Subarachnoid hemorrhage/intracranial aneurysm,157.0,21:23:00,-200,Emergency Department,2015,14:23:00,20980,Other,Alive,Neuro ICU,00:43:00,Emergency Department,1,admit,62.0,,21:01:00,15618,Step-Down Unit (SDU),Alive,008-18780,0,Other,0
+1003225,740918,Female,27,Caucasian,188,434,Cardiac arrest (with or without respiratory arrest; for respiratory arrest see Respiratory System),167.0,12:20:00,-197,,2014,23:52:00,9135,Death,Expired,MICU,15:37:00,Emergency Department,2,transfer,63.6,65.0,23:52:00,9135,Death,Expired,008-39356,1,Primary,1
+1004920,742235,Female,89,Caucasian,188,464,"Cardiovascular surgery, other",149.8,10:22:00,-381,Operating Room,2014,16:26:00,1423,Other,Alive,CCU-CTICU,16:43:00,Operating Room,1,admit,65.4,67.1,15:28:00,1365,Home,Alive,008-15941,0,Other,0
+1034559,765654,Female,86,Caucasian,188,451,"Hemorrhage/hematoma, intracranial",129.5,20:15:00,-37,,2015,16:19:00,2607,Other,Alive,Neuro ICU,20:52:00,Emergency Department,2,transfer,56.8,,22:37:00,1545,Floor,Alive,008-6578,0,Other,0
+1054073,781021,Male,59,Caucasian,188,434,"Restrictive lung disease (i.e., Sarcoidosis, pulmonary fibrosis)",172.0,15:29:00,-263,Emergency Department,2015,17:43:00,11391,Other,Alive,MICU,19:52:00,Emergency Department,2,transfer,118.1,113.4,18:22:00,7110,Step-Down Unit (SDU),Alive,008-29960,0,Other,0
+1003833,741387,Female,80,African American,188,434,"Pneumonia, bacterial",164.0,15:45:00,-1454,,2014,02:29:00,45270,Death,Expired,MICU,15:59:00,Emergency Department,1,admit,84.7,90.7,02:29:00,45270,Floor,Alive,008-11323,1,Other,0
+1033461,764793,Female,53,Caucasian,188,464,,149.0,19:27:00,-3000,Emergency Department,2014,17:06:00,5499,Home,Alive,CCU-CTICU,21:27:00,Floor,2,readmit,76.4,79.1,14:54:00,2487,Step-Down Unit (SDU),Alive,008-48321,0,Other,0
+986721,727904,Female,61,African American,188,451,Meningitis,152.4,15:30:00,-556,,2015,18:40:00,24114,Other,Alive,Neuro ICU,00:46:00,Emergency Department,1,admit,103.8,,18:03:00,9677,Floor,Alive,008-58935,0,Other,0
+1048660,776761,Male,66,Caucasian,188,451,Cardiac arrest (with or without respiratory arrest; for respiratory arrest see Respiratory System),172.2,08:06:00,-1033,Other ICU,2015,18:19:00,18300,Other,Alive,Neuro ICU,01:19:00,Other ICU,1,admit,75.0,73.8,18:19:00,18300,Other,Alive,008-28677,0,Other,0
+1029638,761748,Female,71,Caucasian,188,464,"Efffusion, pericardial",184.2,06:39:00,-14,,2015,20:39:00,28186,Other,Alive,CCU-CTICU,06:53:00,Other Hospital,1,admit,183.8,,22:13:00,3800,Floor,Alive,008-6465,0,Other,0
+1020149,754266,Male,62,Caucasian,188,464,Cardiac arrest (with or without respiratory arrest; for respiratory arrest see Respiratory System),170.2,21:22:00,-10,Other Hospital,2015,22:51:00,47599,Other,Alive,CCU-CTICU,21:32:00,Other Hospital,1,admit,78.4,66.4,19:17:00,28665,Step-Down Unit (SDU),Alive,008-46251,0,Other,0
+1023060,756576,Male,25,African American,188,451,"Neoplasm, neurologic",177.8,22:06:00,-35812,Floor,2014,22:12:00,18914,Death,Expired,Neuro ICU,18:58:00,Floor,2,readmit,87.2,98.4,19:43:00,18765,Floor,Alive,008-40794,1,Other,0
+1023603,757021,Male,88,Caucasian,188,434,"Respiratory - medical, other",175.3,22:35:00,-2301,,2014,21:07:00,43691,Other,Alive,MICU,12:56:00,Step-Down Unit (SDU),1,admit,84.6,85.8,18:16:00,11840,Other Internal,Alive,008-18721,0,Other,0
+1016637,751494,Female,74,Caucasian,188,434,"Restrictive lung disease (i.e., Sarcoidosis, pulmonary fibrosis)",167.4,16:37:00,-470,Emergency Department,2014,02:22:00,10195,Other,Alive,MICU,00:27:00,Emergency Department,1,admit,78.0,74.3,01:14:00,10127,Floor,Alive,008-55574,0,Other,0
+1034312,765460,Male,53,Caucasian,188,464,"Bleeding, GI-location unknown",168.0,03:19:00,-235,Emergency Department,2014,20:59:00,41145,Other,Alive,CCU-CTICU,07:14:00,Emergency Department,2,transfer,76.1,58.8,20:56:00,31062,Step-Down Unit (SDU),Alive,008-24161,0,Other,0
+984597,726207,Female,76,Caucasian,188,451,"Neurologic medical, other",152.0,10:17:00,-738,,2015,18:47:00,54492,Other,Alive,Neuro ICU,22:35:00,Recovery Room,1,admit,87.3,89.2,01:00:00,27505,Floor,Alive,008-34960,0,Major,2
+1009790,746103,Male,76,Caucasian,188,434,"Sepsis, unknown",175.0,11:16:00,-13861,Floor,2015,00:00:00,18583,Other,Alive,MICU,02:17:00,Step-Down Unit (SDU),2,readmit,108.4,114.5,00:03:00,4186,Floor,Alive,008-8901,0,Other,0
+1024442,757667,Male,71,African American,188,464,"Aneurysm, thoracic aortic",175.2,10:54:00,-126,,2014,17:20:00,8900,Death,Expired,CCU-CTICU,13:00:00,Operating Room,1,admit,74.5,95.0,17:11:00,8891,Death,Expired,008-12855,1,Other,0
+989938,730414,Female,65,Caucasian,188,434,"Respiratory - medical, other",170.2,06:42:00,-25610,Floor,2014,00:01:00,15749,Home,Alive,MICU,01:32:00,Floor,1,admit,105.5,105.5,06:57:00,7525,Floor,Alive,008-52690,0,Other,0
+1045946,774625,Female,71,Caucasian,188,434,"Respiratory - medical, other",157.5,12:34:00,-9603,Emergency Department,2015,00:37:00,11280,Death,Expired,MICU,04:37:00,Step-Down Unit (SDU),3,readmit,83.4,67.2,21:59:00,11122,Death,Expired,008-40946,1,Other,0
+993829,733469,Male,72,Caucasian,188,464,"CABG alone, coronary artery bypass grafting",182.8,09:47:00,-425,Operating Room,2014,18:54:00,4442,Other,Alive,CCU-CTICU,16:52:00,Operating Room,1,admit,135.0,135.2,18:37:00,1545,Floor,Alive,008-19494,0,Other,0
+990071,730514,Female,45,Caucasian,188,434,"Pneumonia, aspiration",158.0,05:55:00,-5453,Step-Down Unit (SDU),2014,23:49:00,24421,Other,Alive,MICU,00:48:00,Step-Down Unit (SDU),1,admit,65.5,58.0,21:39:00,4131,Floor,Alive,008-50939,0,Other,0
+1054651,781479,Male,54,Caucasian,188,464,"CABG alone, coronary artery bypass grafting",157.0,11:02:00,-8758,Emergency Department,2014,20:17:00,11957,Home,Alive,CCU-CTICU,13:00:00,Operating Room,2,readmit,94.0,,19:31:00,1831,Floor,Alive,008-16186,0,Other,0
+1020749,754764,Female,78,Caucasian,188,434,"Respiratory - medical, other",145.0,17:39:00,-119,,2014,02:02:00,21984,Other,Alive,MICU,19:38:00,Emergency Department,2,transfer,49.1,60.4,01:31:00,21953,Other,Alive,008-26895,0,Other,0
+981249,723615,Female,48,Caucasian,188,434,"Pneumonia, aspiration",170.1,20:58:00,-224,,2015,21:42:00,7020,Other,Alive,MICU,00:42:00,Emergency Department,2,transfer,103.3,46.9,20:45:00,1203,Floor,Alive,008-30546,0,Other,0
+1045398,774190,Female,76,Caucasian,188,434,Acid-base/electrolyte disturbance,173.0,04:49:00,-81,Emergency Department,2014,00:50:00,14080,Other,Alive,MICU,06:10:00,Emergency Department,2,transfer,180.0,180.0,01:10:00,4020,Floor,Alive,008-30331,0,Other,0
+1031867,763533,Female,67,Caucasian,188,434,"Respiratory - medical, other",160.4,18:14:00,-5064,Floor,2015,20:27:00,9469,Other,Alive,MICU,06:38:00,Floor,1,admit,83.4,82.0,04:33:00,2755,Floor,Alive,008-26493,0,Major,2
+1030664,762571,Male,36,Caucasian,188,451,Subarachnoid hemorrhage/intracranial aneurysm,170.0,15:23:00,-101,,2014,21:54:00,65090,Other,Alive,Neuro ICU,17:04:00,Emergency Department,1,admit,90.0,83.0,20:56:00,20392,Step-Down Unit (SDU),Alive,008-15607,0,Other,0
+1050937,778547,Male,77,Other/Unknown,188,451,"CVA, cerebrovascular accident/stroke",142.0,17:35:00,-120,Emergency Department,2015,20:50:00,14475,Other,Alive,Neuro ICU,19:35:00,Emergency Department,2,transfer,59.6,63.2,20:50:00,14475,Other,Alive,008-29151,0,Other,0
+982381,724496,Male,65,Caucasian,188,434,"Sepsis, unknown",181.0,17:21:00,-10476,,2014,16:06:00,15369,Other,Alive,MICU,23:57:00,Step-Down Unit (SDU),3,readmit,89.0,85.9,20:57:00,7020,Floor,Alive,008-47778,0,Other,0
+1046187,774811,Male,66,Caucasian,188,464,Aortic valve replacement (isolated),170.0,23:10:00,-14083,Operating Room,2014,19:49:00,10196,Other,Alive,CCU-CTICU,17:53:00,Operating Room,1,admit,101.7,102.3,00:23:00,3270,Step-Down Unit (SDU),Alive,008-20699,0,Other,0
+1042986,772301,Male,69,Caucasian,188,464,CABG with aortic valve replacement,182.8,09:48:00,-431,Operating Room,2014,20:43:00,3104,Other,Alive,CCU-CTICU,16:59:00,Operating Room,1,admit,93.2,95.2,16:32:00,1413,Step-Down Unit (SDU),Alive,008-9106,0,Other,0
+1051847,779269,Male,54,African American,188,445,"Pneumonia, other",180.0,14:16:00,-34,Emergency Department,2014,20:36:00,11866,Death,Expired,Med-Surg ICU,14:50:00,Emergency Department,1,admit,79.0,80.0,18:12:00,11722,Death,Expired,008-58555,1,Other,0
+1034012,765228,Male,69,Other/Unknown,188,451,"CVA, cerebrovascular accident/stroke",187.0,13:17:00,-25,,2015,16:12:00,128310,Other,Alive,Neuro ICU,13:42:00,Emergency Department,1,admit,70.7,77.5,22:16:00,32194,Step-Down Unit (SDU),Alive,008-8949,0,Other,0
+1008197,744850,Male,40,Caucasian,188,434,"Respiratory - medical, other",180.3,22:02:00,-131,Emergency Department,2015,20:34:00,32901,Skilled Nursing Facility,Alive,MICU,00:13:00,Emergency Department,2,transfer,302.8,272.5,20:34:00,32901,Skilled Nursing Facility,Alive,008-5565,0,Other,0
+1042306,771763,Male,51,African American,188,451,"CVA, cerebrovascular accident/stroke",176.0,08:38:00,-86,Emergency Department,2015,14:52:00,21888,Other,Alive,Neuro ICU,10:04:00,Emergency Department,2,transfer,84.4,74.5,11:03:00,21659,Other,Alive,008-40015,0,Other,0
+1052053,779426,Male,53,Caucasian,188,451,"Hemorrhage/hematoma, intracranial",182.9,00:54:00,-67,,2015,14:59:00,31018,Other,Alive,Neuro ICU,02:01:00,Emergency Department,2,transfer,73.6,68.9,22:58:00,21417,Floor,Alive,008-8516,0,Other,0
+1051067,778653,Male,63,Caucasian,188,464,"Cardiovascular surgery, other",187.9,10:10:00,-513,,2015,00:44:00,19081,Other,Alive,CCU-CTICU,18:43:00,Operating Room,1,admit,168.1,175.5,18:11:00,8608,Floor,Alive,008-39937,0,Other,0
+1034759,765814,Female,66,Caucasian,188,434,"Sepsis, unknown",168.0,17:23:00,-31,Emergency Department,2015,10:41:00,6767,Death,Expired,MICU,17:54:00,Emergency Department,1,admit,72.1,90.0,10:41:00,6767,Death,Expired,008-5305,1,Other,0
+985236,726725,Male,50,Caucasian,188,464,"Aneurysm, dissecting aortic",185.0,14:31:00,-12,Operating Room,2014,23:04:00,23541,Other,Alive,CCU-CTICU,14:43:00,Operating Room,1,admit,127.6,128.8,22:56:00,20653,Floor,Alive,008-26122,0,Other,0
+982167,724320,Female,30,Caucasian,188,434,Diabetic ketoacidosis,157.4,23:09:00,-107,Emergency Department,2014,16:11:00,8115,Other,Alive,MICU,00:56:00,Emergency Department,1,admit,58.7,58.7,23:09:00,2773,Floor,Alive,008-51974,0,Other,0
+1050762,778419,Female,67,Caucasian,188,464,Cardiac arrest (with or without respiratory arrest; for respiratory arrest see Respiratory System),160.4,00:55:00,-119,Emergency Department,2015,15:51:00,16617,Other,Alive,CCU-CTICU,02:54:00,Emergency Department,1,admit,85.9,85.0,03:04:00,10090,Step-Down Unit (SDU),Alive,008-26493,0,Other,0
+1042848,772193,Female,88,Caucasian,188,464,CABG with aortic valve replacement,147.0,10:34:00,-562,,2015,21:19:00,7283,Other,Alive,CCU-CTICU,19:56:00,Operating Room,1,admit,69.5,75.7,10:02:00,3726,Step-Down Unit (SDU),Alive,008-19131,0,Other,0
+995166,734522,Female,38,African American,188,451,"CVA, cerebrovascular accident/stroke",154.0,06:53:00,-1,Other Hospital,2015,20:55:00,36841,Other,Alive,Neuro ICU,06:54:00,Other Hospital,1,admit,65.0,,21:01:00,33967,Floor,Alive,008-50973,0,Other,0
+995255,734594,Female,79,Caucasian,188,451,"Neurologic medical, other",,20:38:00,-4390,Floor,2015,20:07:00,1339,Other,Alive,Neuro ICU,21:48:00,Floor,1,admit,56.1,,19:28:00,1300,Home,Alive,008-41069,0,Primary,1
+1048320,776489,Female,56,Caucasian,188,434,"Renal failure, acute",160.0,05:54:00,-588,,2014,23:36:00,29274,Other,Alive,MICU,15:42:00,Floor,1,admit,72.6,74.8,19:17:00,3095,Floor,Alive,008-56023,0,Other,0
+1046081,774734,Male,80,Caucasian,188,434,Diabetic ketoacidosis,170.2,03:29:00,-16337,Emergency Department,2014,08:13:00,4107,Death,Expired,MICU,11:46:00,Emergency Department,1,admit,74.2,73.8,06:26:00,4000,Death,Expired,008-4215,1,Primary,1
+1049655,777542,Female,56,Asian,188,434,"Arrest, respiratory (without cardiac arrest)",152.4,04:33:00,-876,,2014,06:31:00,7882,Skilled Nursing Facility,Alive,MICU,19:09:00,Floor,1,admit,42.9,49.3,06:19:00,7870,Skilled Nursing Facility,Alive,008-53597,0,Other,0
+1038277,768605,Female,56,Caucasian,188,434,"Sepsis, pulmonary",160.0,01:14:00,-69,Emergency Department,2014,02:14:00,14391,Other,Alive,MICU,02:23:00,Emergency Department,2,transfer,70.2,65.9,19:24:00,11101,Floor,Alive,008-12512,0,Other,0
+991206,731405,Male,44,Caucasian,188,434,"Pneumonia, bacterial",180.3,23:24:00,-186,Emergency Department,2014,18:54:00,93144,Other,Alive,MICU,02:30:00,Emergency Department,1,admit,99.6,90.1,04:55:00,69265,Floor,Alive,008-6173,0,Other,0
+1011925,747774,Female,78,Caucasian,188,434,"Respiratory - medical, other",163.8,05:53:00,-3445,,2014,20:55:00,14737,Other,Alive,MICU,15:18:00,Floor,1,admit,57.3,59.7,21:30:00,7572,Floor,Alive,008-39493,0,Other,0
+987754,728705,Male,72,Caucasian,188,451,"Hemorrhage/hematoma, intracranial",193.0,07:54:00,-76,,2015,18:47:00,59617,Other,Alive,Neuro ICU,09:10:00,Emergency Department,1,admit,125.0,178.0,22:10:00,35340,Floor,Alive,008-14342,0,Primary,1
+1046851,775345,Female,67,African American,188,451,Seizures (primary-no structural brain disease),170.0,11:58:00,-65,,2014,21:13:00,30730,Other,Alive,Neuro ICU,13:03:00,Emergency Department,1,admit,55.3,55.3,17:43:00,17560,Floor,Alive,008-37908,0,Other,0
+983308,725213,Female,78,Caucasian,188,434,Emphysema/bronchitis,157.0,01:34:00,-54,Emergency Department,2014,19:57:00,11129,Other,Alive,MICU,02:28:00,Emergency Department,2,transfer,81.5,84.4,23:28:00,5580,Floor,Alive,008-12441,0,Other,0
+1024576,757767,Male,79,Caucasian,188,464,"CABG alone, coronary artery bypass grafting",180.3,10:40:00,-7620,Operating Room,2014,21:09:00,46289,Home,Alive,CCU-CTICU,17:40:00,Operating Room,1,admit,108.8,112.5,23:50:00,17650,Floor,Alive,008-10618,0,Other,0
+1054106,781048,Male,82,Caucasian,188,434,Weaning from mechanical ventilation (transfer from other unit or hospital only),156.0,22:51:00,-6201,Floor,2014,19:53:00,62741,Home,Alive,MICU,06:12:00,Floor,1,admit,63.0,65.3,14:27:00,14895,Step-Down Unit (SDU),Alive,008-48404,0,Primary,1
+1050442,778159,Female,72,Caucasian,188,434,"Respiratory - medical, other",162.0,23:43:00,-13293,Emergency Department,2014,22:14:00,16858,Home,Alive,MICU,05:16:00,Step-Down Unit (SDU),2,readmit,59.1,60.0,21:36:00,8180,Step-Down Unit (SDU),Alive,008-36240,0,Other,0
+1014787,750019,Male,75,Caucasian,188,434,"Sepsis, pulmonary",167.6,07:07:00,-164,Emergency Department,2015,23:54:00,19563,Other,Alive,MICU,09:51:00,Emergency Department,2,transfer,109.3,110.4,22:16:00,19465,Other,Alive,008-43516,0,Major,2
+1033320,764675,Male,72,Caucasian,188,464,Cardiac arrest (with or without respiratory arrest; for respiratory arrest see Respiratory System),175.3,20:21:00,-2,Other Hospital,2015,19:50:00,44607,Other,Alive,CCU-CTICU,20:23:00,Other Hospital,1,admit,118.5,106.8,18:22:00,15719,Floor,Alive,008-10770,0,Other,0
+1048911,776953,Female,86,Caucasian,188,434,"Respiratory - medical, other",166.0,20:39:00,-41,Emergency Department,2015,17:36:00,11296,Death,Expired,MICU,21:20:00,Emergency Department,2,transfer,62.9,82.3,17:35:00,11295,Death,Expired,008-38136,1,Other,0
+1032681,764172,Male,53,Caucasian,188,464,Cardiac arrest (with or without respiratory arrest; for respiratory arrest see Respiratory System),166.0,20:11:00,-64,Other Hospital,2014,21:10:00,5755,Death,Expired,CCU-CTICU,21:15:00,Other Hospital,1,admit,85.0,85.0,21:10:00,5755,Death,Expired,008-58498,1,Other,0
+1048392,776550,Female,69,Caucasian,188,445,Atelectasis,160.0,23:15:00,-44930,Emergency Department,2014,17:49:00,13784,Home,Alive,Med-Surg ICU,04:05:00,Floor,2,readmit,,,23:50:00,4065,Floor,Alive,008-49824,0,Major,2
+1034115,765308,Female,83,Caucasian,188,434,"Respiratory - medical, other",152.0,09:37:00,-7659,Emergency Department,2014,14:02:00,126526,Death,Expired,MICU,17:16:00,Floor,3,readmit,47.4,47.4,01:32:00,3376,Floor,Alive,008-58590,1,Other,0
+1005225,742468,Male,85,Caucasian,188,445,"Sepsis, renal/UTI (including bladder)",167.6,12:11:00,-264,,2014,17:53:00,10158,Death,Expired,Med-Surg ICU,16:35:00,Emergency Department,1,admit,96.0,106.0,17:53:00,10158,Death,Expired,008-33338,1,Other,0
+1004919,742234,Female,57,African American,188,434,"CHF, congestive heart failure",160.0,21:01:00,-1167,,2014,00:45:00,7697,Other,Alive,MICU,16:28:00,Floor,1,admit,70.0,65.7,02:29:00,4921,Floor,Alive,008-11352,0,Other,0
+998805,737433,Male,57,Caucasian,188,464,"Chest pain, unknown origin",166.0,20:39:00,-113,,2014,14:49:00,2417,Other,Alive,CCU-CTICU,22:32:00,Emergency Department,1,admit,101.9,102.1,17:49:00,1157,Step-Down Unit (SDU),Alive,008-24804,0,Other,0
+1035825,766655,Female,67,Caucasian,188,451,"Hemorrhage/hematoma, intracranial",164.0,15:45:00,-8,,2015,15:55:00,64802,Other,Alive,Neuro ICU,15:53:00,Other Hospital,1,admit,80.4,92.9,20:31:00,33398,Floor,Alive,008-6629,0,Major,2
+1018422,752899,Male,76,Caucasian,188,464,"CHF, congestive heart failure",165.0,20:57:00,-23220,,2014,02:43:00,11686,Home,Alive,CCU-CTICU,23:57:00,Floor,1,admit,80.0,80.3,05:31:00,7534,Floor,Alive,008-24005,0,Other,0
+1005376,742581,Male,55,Caucasian,188,434,Alcohol withdrawal,183.0,17:56:00,-2154,Floor,2015,18:43:00,16613,Death,Expired,MICU,05:50:00,Floor,1,admit,99.3,87.5,14:39:00,16369,Death,Expired,008-54269,1,Other,0
+1004858,742192,Male,50,African American,188,434,Cardiac arrest (with or without respiratory arrest; for respiratory arrest see Respiratory System),183.0,06:42:00,-2644,,2014,12:29:00,219463,Other,Alive,MICU,02:46:00,Emergency Department,2,transfer,75.4,81.9,03:32:00,5806,Floor,Alive,008-59015,0,Major,2
+1053671,780694,Female,49,Caucasian,188,434,"Respiratory - medical, other",157.0,23:17:00,-29,Emergency Department,2014,18:27:00,8321,Home,Alive,MICU,23:46:00,Emergency Department,2,transfer,73.3,73.3,19:08:00,4042,Floor,Alive,008-34564,0,Other,0
+1034312,765460,Male,53,Caucasian,188,464,"Bleeding, GI-location unknown",168.0,03:19:00,-235,Emergency Department,2014,20:59:00,41145,Other,Alive,CCU-CTICU,07:14:00,Emergency Department,2,transfer,76.1,58.8,20:56:00,31062,Step-Down Unit (SDU),Alive,008-24161,0,Other,0
+981945,724152,Male,69,Caucasian,188,445,"Renal failure, acute",173.0,06:14:00,-32,Emergency Department,2014,02:06:00,18440,Home,Alive,Med-Surg ICU,06:46:00,Emergency Department,1,admit,164.0,171.8,16:16:00,7770,Floor,Alive,008-18900,0,Primary,1
+1043299,772544,Male,52,African American,188,464,Cardiac arrest (with or without respiratory arrest; for respiratory arrest see Respiratory System),167.6,00:10:00,-125,Emergency Department,2014,02:06:00,10071,Other Hospital,Alive,CCU-CTICU,02:15:00,Emergency Department,1,admit,74.7,71.6,00:35:00,9980,Other Hospital,Alive,008-55635,0,Other,0
+990969,731217,Female,63,Caucasian,188,434,"Sepsis, pulmonary",163.0,19:03:00,-162,Emergency Department,2014,20:57:00,27312,Home,Alive,MICU,21:45:00,Emergency Department,3,transfer,61.4,59.4,17:15:00,15570,Floor,Alive,008-6304,0,Other,0
+1018838,753227,Male,82,Caucasian,188,434,"Respiratory - medical, other",162.0,00:21:00,-12709,Floor,2014,15:55:00,17025,Other,Alive,MICU,20:10:00,Floor,1,admit,43.6,59.6,15:55:00,17025,Other,Alive,008-57487,0,Other,0
+1033812,765066,Female,73,Caucasian,188,445,"Bleeding, GI-location unknown",155.5,17:46:00,-421,Emergency Department,2014,21:44:00,8457,Other,Alive,Med-Surg ICU,00:47:00,Emergency Department,1,admit,100.0,,22:32:00,1305,Step-Down Unit (SDU),Alive,008-3666,0,Other,0
+1020341,754421,Male,73,Caucasian,188,464,Cardiac arrest (with or without respiratory arrest; for respiratory arrest see Respiratory System),175.2,14:10:00,-95,,2015,21:30:00,3225,Death,Expired,CCU-CTICU,15:45:00,Emergency Department,1,admit,95.9,95.4,18:45:00,3060,Death,Expired,008-7292,1,Other,0
+981453,723775,Female,27,Other/Unknown,188,434,"Sepsis, other",181.0,18:53:00,-41,,2015,03:01:00,22047,Home,Alive,MICU,19:34:00,Emergency Department,2,transfer,180.9,187.2,19:39:00,2885,Floor,Alive,008-5978,0,Other,0
+1013390,748904,Male,74,Caucasian,188,434,Cardiac arrest (with or without respiratory arrest; for respiratory arrest see Respiratory System),168.0,15:13:00,-292,Emergency Department,2015,04:18:00,6253,Death,Expired,MICU,20:05:00,Emergency Department,2,transfer,64.0,68.6,03:15:00,6190,Death,Expired,008-21451,1,Other,0
+1020892,754883,Male,52,Caucasian,188,445,Drug withdrawal,177.0,04:01:00,-2212,Step-Down Unit (SDU),2015,13:28:00,5555,Home,Alive,Med-Surg ICU,16:53:00,Step-Down Unit (SDU),1,admit,85.1,,13:28:00,5555,Home,Alive,008-19098,0,Other,0
+1041922,771467,Male,66,African American,188,451,"Hematoma, subdural",172.0,01:35:00,-11,Other Hospital,2015,18:29:00,9643,Other,Alive,Neuro ICU,01:46:00,Other Hospital,1,admit,101.0,,21:08:00,5482,Step-Down Unit (SDU),Alive,008-19413,0,Primary,1
+1044053,773141,Female,64,Caucasian,188,434,"Respiratory - medical, other",163.0,01:05:00,-103,Emergency Department,2014,18:42:00,5274,Other,Alive,MICU,02:48:00,Emergency Department,2,transfer,67.6,71.6,23:18:00,2670,Floor,Alive,008-28983,0,Other,0
+1034824,765869,Male,62,Caucasian,188,434,Rhythm disturbance (conduction defect),187.9,21:31:00,-35996,,2015,19:06:00,8499,Other,Alive,MICU,21:27:00,Floor,1,admit,94.3,93.4,17:52:00,1225,Floor,Alive,008-25607,0,Other,0
+1044769,773703,Male,72,Caucasian,188,434,"Bleeding, lower GI",170.0,00:32:00,-7,,2015,21:20:00,11321,Other,Alive,MICU,00:39:00,Emergency Department,1,admit,63.8,64.9,18:54:00,2535,Floor,Alive,008-57686,0,Other,0
+1019543,753784,Male,65,Caucasian,188,434,"Sepsis, other",177.8,19:31:00,-38,,2014,19:57:00,51828,Other,Alive,MICU,20:09:00,Emergency Department,2,transfer,64.5,61.2,18:14:00,15725,Floor,Alive,008-12932,0,Major,2
+1025203,758244,Male,54,African American,188,434,Acid-base/electrolyte disturbance,154.9,00:44:00,-165,Emergency Department,2015,19:40:00,8171,Other,Alive,MICU,03:29:00,Emergency Department,2,transfer,,71.1,19:43:00,2414,Floor,Alive,008-16294,0,Other,0
+986883,728035,Female,34,African American,188,451,Encephalopathies (excluding hepatic),160.5,04:18:00,-14,Other Hospital,2015,20:09:00,8137,Other,Alive,Neuro ICU,04:32:00,Other Hospital,1,admit,57.2,,14:09:00,4897,Floor,Alive,008-50094,0,Other,0
+1001689,739713,Male,46,Caucasian,188,445,"Respiratory - medical, other",172.0,13:11:00,-443,Floor,2014,18:30:00,12836,Home,Alive,Med-Surg ICU,20:34:00,Floor,1,admit,79.0,72.0,18:01:00,7047,Step-Down Unit (SDU),Alive,008-49690,0,Other,0
+1004707,742072,Male,72,Caucasian,188,434,"Respiratory - medical, other",178.0,11:18:00,-130,,2015,17:58:00,6030,Other,Alive,MICU,13:28:00,Emergency Department,1,admit,85.0,89.1,16:13:00,4485,Floor,Alive,008-17659,0,Other,0
+1017684,752328,Male,77,Caucasian,188,464,Cardiac arrest (with or without respiratory arrest; for respiratory arrest see Respiratory System),160.0,10:57:00,-4668,Operating Room,2014,23:51:00,47946,Other,Alive,CCU-CTICU,16:45:00,Floor,2,readmit,131.1,167.0,18:50:00,30365,Floor,Alive,008-19354,0,Other,0
+1019535,753778,Male,64,Caucasian,188,451,"CVA, cerebrovascular accident/stroke",190.0,17:18:00,-19,Emergency Department,2014,15:01:00,5604,Home,Alive,Neuro ICU,17:37:00,Emergency Department,1,admit,110.7,,19:52:00,3015,Step-Down Unit (SDU),Alive,008-20926,0,Other,0
+993947,733561,Male,59,Caucasian,188,434,"Respiratory - medical, other",168.0,14:44:00,-70,Emergency Department,2014,23:15:00,13401,Death,Expired,MICU,15:54:00,Emergency Department,2,transfer,58.5,73.1,18:43:00,13129,Floor,Alive,008-3955,1,Other,0
+1016161,751124,Male,64,Caucasian,188,434,"Pneumonia, other",177.8,20:24:00,-111,Emergency Department,2014,19:03:00,11328,Home,Alive,MICU,22:15:00,Emergency Department,2,transfer,116.2,115.3,14:53:00,3878,Floor,Alive,008-33654,0,Other,0
+1054105,781048,Male,82,Caucasian,188,434,"Chest pain, unknown origin",156.0,22:51:00,-46467,Floor,2014,19:53:00,22475,Home,Alive,MICU,05:18:00,Floor,2,readmit,65.8,60.5,21:40:00,3862,Step-Down Unit (SDU),Alive,008-48404,0,Other,0
+1037154,767736,Male,64,Caucasian,188,434,Smoke inhalation,182.0,00:35:00,-1,Other Hospital,2015,15:21:00,23925,Other,Alive,MICU,00:36:00,Other Hospital,1,admit,74.4,74.4,18:57:00,2541,Floor,Alive,008-9787,0,Other,0
+1026674,759424,Female,65,Caucasian,188,464,"Angina, unstable (angina interferes w/quality of life or meds are tolerated poorly)",160.0,18:10:00,-18,,2015,18:25:00,2877,Other,Alive,CCU-CTICU,18:28:00,Other Hospital,1,admit,113.4,,01:33:00,1865,Floor,Alive,008-55582,0,Other,0
+1014854,750072,Female,39,Caucasian,188,445,"Respiratory - medical, other",164.0,23:02:00,-13,Emergency Department,2014,00:59:00,2984,Other,Alive,Med-Surg ICU,23:15:00,Emergency Department,1,admit,63.0,,19:53:00,2678,Home,Alive,008-31549,0,Other,0
+1053395,780482,Female,43,Caucasian,188,434,"Sepsis, renal/UTI (including bladder)",163.0,23:36:00,-58,Emergency Department,2014,22:45:00,47411,Other,Alive,MICU,00:34:00,Emergency Department,1,admit,81.0,,04:52:00,1698,Step-Down Unit (SDU),Alive,008-26223,0,Other,0
+988420,729225,Male,80,Caucasian,188,434,"Respiratory - medical, other",175.0,03:51:00,-15666,Emergency Department,2015,23:17:00,20060,Other,Alive,MICU,00:57:00,Step-Down Unit (SDU),3,readmit,85.3,92.7,17:25:00,8188,Floor,Alive,008-7891,0,Other,0
+1000264,738597,Male,43,Caucasian,188,434,Drug withdrawal,193.0,10:34:00,-2531,Floor,2015,15:23:00,48158,Other,Alive,MICU,04:45:00,Floor,1,admit,82.9,66.3,00:23:00,22778,Step-Down Unit (SDU),Alive,008-7764,0,Other,0
+1022630,756247,Female,81,Caucasian,188,434,"Respiratory - medical, other",157.4,12:47:00,-530,Step-Down Unit (SDU),2014,18:50:00,37273,Other,Alive,MICU,21:37:00,Step-Down Unit (SDU),1,admit,55.6,61.4,01:02:00,14605,Floor,Alive,008-22082,0,Other,0
+986883,728035,Female,34,African American,188,451,Encephalopathies (excluding hepatic),160.5,04:18:00,-14,Other Hospital,2015,20:09:00,8137,Other,Alive,Neuro ICU,04:32:00,Other Hospital,1,admit,57.2,,14:09:00,4897,Floor,Alive,008-50094,0,Other,0
+1001203,739331,Male,59,Caucasian,188,434,"Bleeding, upper GI",170.0,10:34:00,-47,Emergency Department,2014,01:42:00,12381,Other,Alive,MICU,11:21:00,Emergency Department,1,admit,69.0,69.0,21:06:00,2025,Floor,Alive,008-32195,0,Other,0
+1008197,744850,Male,40,Caucasian,188,434,"Respiratory - medical, other",180.3,22:02:00,-131,Emergency Department,2015,20:34:00,32901,Skilled Nursing Facility,Alive,MICU,00:13:00,Emergency Department,2,transfer,302.8,272.5,20:34:00,32901,Skilled Nursing Facility,Alive,008-5565,0,Major,2
+996940,735944,Male,63,African American,188,464,Cardiac arrest (with or without respiratory arrest; for respiratory arrest see Respiratory System),178.0,14:57:00,-143,Emergency Department,2014,00:50:00,4770,Death,Expired,CCU-CTICU,17:20:00,Emergency Department,1,admit,100.0,116.5,21:30:00,4570,Death,Expired,008-10419,1,Other,0
+1024792,757936,Male,54,Caucasian,188,434,"Sepsis, GI",174.0,22:13:00,-211,,2015,20:28:00,18404,Other,Alive,MICU,01:44:00,Emergency Department,2,transfer,97.8,45.4,21:24:00,4060,Floor,Alive,008-19031,0,Other,0
+1020749,754764,Female,78,Caucasian,188,434,"Respiratory - medical, other",145.0,17:39:00,-119,,2014,02:02:00,21984,Other,Alive,MICU,19:38:00,Emergency Department,2,transfer,49.1,60.4,01:31:00,21953,Other,Alive,008-26895,0,Other,0
+996940,735944,Male,63,African American,188,464,Cardiac arrest (with or without respiratory arrest; for respiratory arrest see Respiratory System),178.0,14:57:00,-143,Emergency Department,2014,00:50:00,4770,Death,Expired,CCU-CTICU,17:20:00,Emergency Department,1,admit,100.0,116.5,21:30:00,4570,Death,Expired,008-10419,1,Other,0
+990674,730991,Male,83,Caucasian,188,464,"Chest pain, unknown origin",171.0,22:32:00,-193,,2014,17:32:00,8147,Other,Alive,CCU-CTICU,01:45:00,Emergency Department,1,admit,68.1,,15:04:00,2239,Step-Down Unit (SDU),Alive,008-21559,0,Other,0
+983122,725067,Male,50,Caucasian,188,445,Diabetic ketoacidosis,182.9,03:41:00,-54,Emergency Department,2014,16:52:00,737,Home,Alive,Med-Surg ICU,04:35:00,Emergency Department,1,admit,89.5,91.2,14:01:00,566,Home,Alive,008-28206,0,Other,0
+1031989,763632,Female,82,Caucasian,188,434,"Sepsis, renal/UTI (including bladder)",149.8,08:59:00,-1284,Floor,2014,21:46:00,6683,Skilled Nursing Facility,Alive,MICU,06:23:00,Floor,1,admit,81.5,89.1,21:23:00,6660,Skilled Nursing Facility,Alive,008-49202,0,Other,0
+1001709,739730,Female,54,Caucasian,188,434,Cardiac arrest (with or without respiratory arrest; for respiratory arrest see Respiratory System),155.0,17:31:00,-105,,2015,20:00:00,24524,Other,Alive,MICU,19:16:00,Emergency Department,2,transfer,66.0,69.5,22:22:00,14586,Step-Down Unit (SDU),Alive,008-32579,0,Other,0
+1045127,773976,Female,84,Caucasian,188,464,CABG with mitral valve replacement,160.0,11:20:00,-101,Operating Room,2014,20:25:00,7644,Home,Alive,CCU-CTICU,13:01:00,Operating Room,1,admit,83.6,80.0,23:07:00,2046,Floor,Alive,008-17668,0,Other,0
+995730,734970,Male,51,African American,188,445,Cardiac arrest (with or without respiratory arrest; for respiratory arrest see Respiratory System),177.8,18:56:00,-947,Floor,2015,21:16:00,245433,Other,Alive,Med-Surg ICU,10:43:00,Floor,1,admit,89.3,87.0,12:28:00,15945,Floor,Alive,008-9927,0,Primary,1
+995894,735098,Male,63,African American,188,445,"Respiratory - medical, other",167.0,01:01:00,-18412,,2014,19:00:00,28747,Home,Alive,Med-Surg ICU,19:53:00,Floor,2,readmit,50.0,47.3,03:18:00,6205,Step-Down Unit (SDU),Alive,008-26686,0,Other,0
+1044478,773471,Male,62,Caucasian,188,451,Seizures (primary-no structural brain disease),173.0,21:53:00,-9,,2015,19:37:00,7055,Home,Alive,Neuro ICU,22:02:00,Other Hospital,1,admit,79.3,,19:12:00,7030,Home,Alive,008-28488,0,Other,0
+1024096,757395,Female,73,African American,188,434,"Bleeding, GI-location unknown",155.0,22:30:00,-105,,2014,20:15:00,44400,Other,Alive,MICU,00:15:00,Emergency Department,1,admit,81.4,81.4,19:55:00,1180,Floor,Alive,008-51590,0,Other,0
+1048320,776489,Female,56,Caucasian,188,434,"Renal failure, acute",160.0,05:54:00,-588,,2014,23:36:00,29274,Other,Alive,MICU,15:42:00,Floor,1,admit,72.6,74.8,19:17:00,3095,Floor,Alive,008-56023,0,Other,0
+1023871,757226,Female,51,Caucasian,188,445,Drug withdrawal,167.6,03:24:00,-2350,,2015,23:53:00,7519,Other,Alive,Med-Surg ICU,18:34:00,Floor,1,admit,59.7,,15:06:00,6992,Floor,Alive,008-52728,0,Primary,1
+986424,727674,Male,82,Caucasian,188,445,"CHF, congestive heart failure",171.0,20:48:00,-25,Emergency Department,2014,21:34:00,17301,Other,Alive,Med-Surg ICU,21:13:00,Emergency Department,2,transfer,108.0,102.9,18:18:00,8465,Floor,Alive,008-15289,0,Major,2
+991813,731877,Male,57,African American,188,451,Subarachnoid hemorrhage/intracranial aneurysm,173.0,20:32:00,-99,,2015,17:31:00,80360,Other,Alive,Neuro ICU,22:11:00,Emergency Department,2,transfer,99.6,120.7,19:06:00,53095,Floor,Alive,008-31715,0,Major,2
+1003833,741387,Female,80,African American,188,434,"Pneumonia, bacterial",164.0,15:45:00,-1454,,2014,02:29:00,45270,Death,Expired,MICU,15:59:00,Emergency Department,1,admit,84.7,90.7,02:29:00,45270,Floor,Alive,008-11323,1,Other,0
+1039194,769310,Female,56,Caucasian,188,464,Mitral valve replacement,165.0,11:09:00,-295,Operating Room,2014,17:34:00,5850,Other,Alive,CCU-CTICU,16:04:00,Operating Room,1,admit,66.8,,14:33:00,2789,Floor,Alive,008-42471,0,Other,0
+1052239,779569,Female,75,Other/Unknown,188,464,"CABG alone, coronary artery bypass grafting",157.4,10:22:00,-435,,2014,20:56:00,7399,Other,Alive,CCU-CTICU,17:37:00,Operating Room,1,admit,80.4,83.2,11:35:00,1078,Floor,Alive,008-55974,0,Other,0
+1053368,780460,Female,50,Caucasian,188,434,"Respiratory - medical, other",168.0,21:55:00,-6733,Floor,2014,00:45:00,71197,Home,Alive,MICU,14:08:00,Floor,1,admit,65.9,64.9,03:47:00,25299,Floor,Alive,008-1219,0,Other,0
+1022625,756243,Female,65,Caucasian,188,445,"Pneumonia, aspiration",157.5,21:11:00,-965,Emergency Department,2014,07:51:00,18395,Home,Alive,Med-Surg ICU,13:16:00,Emergency Department,2,transfer,57.8,56.0,04:46:00,12450,Floor,Alive,008-36643,0,Other,0
+987993,728898,Male,62,Caucasian,188,434,"Bleeding, GI-location unknown",172.0,00:39:00,-31345,Emergency Department,2014,21:37:00,34713,Other,Alive,MICU,19:04:00,Step-Down Unit (SDU),3,readmit,91.5,96.0,04:39:00,6335,Step-Down Unit (SDU),Alive,008-57331,0,Major,2
+1032143,763742,Female,79,Caucasian,188,434,"Bleeding, upper GI",154.0,21:44:00,-180,Emergency Department,2014,08:56:00,3372,Death,Expired,MICU,00:44:00,Emergency Department,2,transfer,84.5,91.0,08:52:00,3368,Death,Expired,008-25768,1,Other,0
+985041,726566,Female,84,African American,188,445,"Bleeding, GI-location unknown",157.5,17:52:00,-2757,,2015,23:09:00,6200,Other,Alive,Med-Surg ICU,15:49:00,Floor,1,admit,82.0,,01:49:00,3480,Floor,Alive,008-52958,0,Other,0
+1017633,752289,Male,48,African American,188,464,Cardiomyopathy,188.0,14:46:00,-2849,Floor,2015,00:17:00,16442,Other,Alive,CCU-CTICU,14:15:00,Floor,1,admit,110.4,,20:52:00,6157,Floor,Alive,008-8524,0,Other,0
+1035481,766388,Male,89,Caucasian,188,434,"Respiratory - medical, other",160.0,20:43:00,-4400,Emergency Department,2014,19:10:00,24307,Death,Expired,MICU,22:03:00,Step-Down Unit (SDU),3,readmit,68.1,70.0,15:48:00,24105,Death,Expired,008-9845,1,Major,2
+1008197,744850,Male,40,Caucasian,188,434,"Respiratory - medical, other",180.3,22:02:00,-131,Emergency Department,2015,20:34:00,32901,Skilled Nursing Facility,Alive,MICU,00:13:00,Emergency Department,2,transfer,302.8,272.5,20:34:00,32901,Skilled Nursing Facility,Alive,008-5565,0,Other,0
+1040786,770578,Male,66,Caucasian,188,434,"Pneumonia, bacterial",177.0,21:52:00,-244,Emergency Department,2014,19:41:00,18345,Home,Alive,MICU,01:56:00,Emergency Department,2,transfer,91.5,98.2,18:02:00,8166,Step-Down Unit (SDU),Alive,008-16147,0,Other,0
+1034113,765308,Female,83,Caucasian,188,464,"Bleeding, lower GI",152.0,09:37:00,-32138,Emergency Department,2014,14:02:00,102047,Death,Expired,CCU-CTICU,17:15:00,Floor,5,readmit,46.5,45.5,20:40:00,24685,Step-Down Unit (SDU),Alive,008-58590,1,Other,0
+1019499,753751,Male,63,Caucasian,188,464,"CABG alone, coronary artery bypass grafting",169.0,12:01:00,-393,Operating Room,2014,21:42:00,7388,Other,Alive,CCU-CTICU,18:34:00,Operating Room,1,admit,79.1,77.1,14:54:00,4100,Floor,Alive,008-35065,0,Other,0
+1016718,751555,Female,36,African American,188,451,Subarachnoid hemorrhage/intracranial aneurysm,157.5,00:56:00,-139,Emergency Department,2014,19:30:00,3855,Home,Alive,Neuro ICU,03:15:00,Emergency Department,2,transfer,70.6,,19:30:00,3855,Home,Alive,008-56641,0,Other,0
+1051152,778718,Female,73,African American,188,451,Subarachnoid hemorrhage/arteriovenous malformation,142.0,19:46:00,-59,Emergency Department,2015,20:25:00,50380,Other,Alive,Neuro ICU,20:45:00,Emergency Department,1,admit,101.8,104.2,03:42:00,13377,Step-Down Unit (SDU),Alive,008-51894,0,Other,0
+991198,731398,Male,78,Caucasian,188,464,CABG with aortic valve replacement,180.3,09:43:00,-575,,2015,18:22:00,12904,Other,Alive,CCU-CTICU,19:18:00,Operating Room,1,admit,82.2,41.0,13:38:00,6860,Step-Down Unit (SDU),Alive,008-28670,0,Other,0
+1032028,763662,Male,80,African American,188,434,"Arrest, respiratory (without cardiac arrest)",178.0,16:04:00,-166,,2015,16:20:00,28650,Other,Alive,MICU,18:50:00,Emergency Department,2,transfer,87.0,91.5,21:09:00,8779,Step-Down Unit (SDU),Alive,008-51829,0,Other,0
+1005752,742873,Male,61,Caucasian,188,464,"CHF, congestive heart failure",178.7,12:39:00,-9058,Step-Down Unit (SDU),2015,00:52:00,40635,Other,Alive,CCU-CTICU,19:37:00,Step-Down Unit (SDU),1,admit,98.1,92.9,20:14:00,21637,Floor,Alive,008-14226,0,Other,0
+1033263,764635,Male,60,Caucasian,188,434,"Bleeding, GI from esophageal varices/portal hypertension",180.0,17:10:00,-180,Emergency Department,2014,13:03:00,25493,Other,Alive,MICU,20:10:00,Emergency Department,1,admit,90.4,108.1,12:02:00,25432,Other Hospital,Alive,008-45675,0,Other,0
+1021005,754975,Male,72,Caucasian,188,434,Rhythm disturbance (conduction defect),180.5,22:13:00,-146,Emergency Department,2015,21:34:00,12775,Other,Alive,MICU,00:39:00,Emergency Department,2,transfer,77.3,80.6,01:36:00,5817,Floor,Alive,008-54167,0,Other,0
+1024744,757897,Male,31,Caucasian,188,434,"Pneumonia, parasitic (i.e., Pneumocystic pneumonia)",190.5,02:27:00,-3664,Emergency Department,2014,19:30:00,7439,Home,Alive,MICU,15:31:00,Floor,2,readmit,88.9,68.9,08:45:00,3914,Floor,Alive,008-29876,0,Other,0
+1037331,767871,Male,79,Caucasian,188,464,"CHF, congestive heart failure",177.8,22:17:00,-154,,2015,22:34:00,14263,Death,Expired,CCU-CTICU,00:51:00,Emergency Department,2,transfer,98.2,101.0,18:46:00,14035,Death,Expired,008-47885,1,Major,2
+996127,735286,Male,71,Caucasian,188,451,"CVA, cerebrovascular accident/stroke",178.0,21:21:00,-2969,Floor,2014,22:26:00,33096,Other,Alive,Neuro ICU,22:50:00,Floor,1,admit,91.3,95.7,14:55:00,22565,Floor,Alive,008-35747,0,Other,0
+987994,728898,Male,62,Caucasian,188,434,"Sepsis, GI",172.0,00:39:00,-41,Emergency Department,2014,21:37:00,66017,Other,Alive,MICU,01:20:00,Emergency Department,2,transfer,115.8,111.3,06:16:00,16136,Step-Down Unit (SDU),Alive,008-57331,0,Other,0
+1048233,776422,Male,65,Caucasian,188,434,"Sepsis, pulmonary",179.0,17:22:00,-556,,2014,20:22:00,54344,Home,Alive,MICU,02:38:00,Emergency Department,2,transfer,92.0,83.6,14:28:00,25190,Floor,Alive,008-58571,0,Primary,1
+983088,725044,Female,78,African American,188,451,"Neurologic medical, other",163.0,16:59:00,-155,Recovery Room,2015,17:24:00,1310,Home,Alive,Neuro ICU,19:34:00,Recovery Room,1,admit,65.7,,17:24:00,1310,Floor,Alive,008-36171,0,Primary,1
+1048392,776550,Female,69,Caucasian,188,445,Atelectasis,160.0,23:15:00,-44930,Emergency Department,2014,17:49:00,13784,Home,Alive,Med-Surg ICU,04:05:00,Floor,2,readmit,,,23:50:00,4065,Floor,Alive,008-49824,0,Other,0
+1038499,768774,Female,85,Caucasian,188,464,"Cardiovascular surgery, other",165.0,11:49:00,-371,Operating Room,2015,17:10:00,2830,Other,Alive,CCU-CTICU,18:00:00,Operating Room,1,admit,66.8,71.7,16:20:00,1340,Step-Down Unit (SDU),Alive,008-43635,0,Other,0
+1004374,741812,Male,65,Caucasian,188,434,"Respiratory - medical, other",177.8,04:49:00,-1194,Emergency Department,2014,15:28:00,8085,Other,Alive,MICU,00:43:00,Emergency Department,1,admit,101.1,102.4,16:28:00,5265,Floor,Alive,008-33654,0,Other,0
+991278,731463,Male,45,African American,188,451,Seizures (primary-no structural brain disease),168.0,00:54:00,-262,Emergency Department,2014,19:19:00,12363,Home,Alive,Neuro ICU,05:16:00,Emergency Department,1,admit,98.6,98.6,18:41:00,2245,Floor,Alive,008-46441,0,Major,2
+1000020,738410,Male,84,Caucasian,188,464,"Rhythm disturbance (atrial, supraventricular)",177.8,19:46:00,-3165,Floor,2014,02:53:00,11662,Home,Alive,CCU-CTICU,00:31:00,Floor,1,admit,60.7,67.2,03:36:00,7385,Floor,Alive,008-28034,0,Major,2
+1033248,764623,Female,67,Caucasian,188,434,"Effusions, pleural",173.0,07:18:00,-8854,Floor,2015,20:30:00,32258,Death,Expired,MICU,10:52:00,Floor,1,admit,79.0,88.6,20:30:00,32258,Death,Expired,008-42511,1,Other,0
+1028712,761033,Female,67,Caucasian,188,451,"Coma/change in level of consciousness (for hepatic see GI, for diabetic see Endocrine, if related to cardiac arrest, see CV)",162.5,23:12:00,-41635,Emergency Department,2015,23:38:00,86551,Other,Alive,Neuro ICU,21:07:00,Floor,3,readmit,86.4,,11:13:00,26766,Step-Down Unit (SDU),Alive,008-1570,0,Other,0
+1016440,751339,Female,81,Caucasian,188,464,Cardiac arrest (with or without respiratory arrest; for respiratory arrest see Respiratory System),157.4,04:29:00,-9099,Emergency Department,2014,19:05:00,16257,Other,Alive,CCU-CTICU,12:08:00,Floor,4,transfer,106.1,104.2,13:55:00,7307,Floor,Alive,008-15544,0,Other,0
+991813,731877,Male,57,African American,188,451,Subarachnoid hemorrhage/intracranial aneurysm,173.0,20:32:00,-99,,2015,17:31:00,80360,Other,Alive,Neuro ICU,22:11:00,Emergency Department,2,transfer,99.6,120.7,19:06:00,53095,Floor,Alive,008-31715,0,Other,0
+1000506,738778,Female,79,Caucasian,188,464,Rhythm disturbance (conduction defect),147.0,16:01:00,-1,Emergency Department,2014,00:05:00,1923,Home,Alive,CCU-CTICU,16:02:00,Emergency Department,1,admit,80.3,,15:18:00,1396,Floor,Alive,008-42419,0,Other,0
+1016321,751247,Male,> 89,Caucasian,188,464,"Infarction, acute myocardial (MI)",162.6,00:06:00,-960,,2015,08:41:00,6755,Death,Expired,CCU-CTICU,16:06:00,Floor,1,admit,66.1,67.0,08:41:00,6755,Death,Expired,008-35352,1,Other,0
+1010374,746542,Male,68,African American,188,434,Cardiac arrest (with or without respiratory arrest; for respiratory arrest see Respiratory System),168.0,01:19:00,-12,Other Hospital,2014,18:16:00,8205,Other,Alive,MICU,01:31:00,Other Hospital,1,admit,67.1,64.3,15:41:00,3730,Step-Down Unit (SDU),Alive,008-421,0,Other,0
+990139,730567,Female,81,Caucasian,188,434,"Pneumonia, bacterial",163.0,04:47:00,-115,Emergency Department,2014,19:34:00,23812,Home,Alive,MICU,06:42:00,Emergency Department,2,transfer,69.1,62.7,01:17:00,5435,Step-Down Unit (SDU),Alive,008-37083,0,Other,0
+1048097,776320,Female,48,Caucasian,188,434,"Sepsis, unknown",159.0,03:22:00,-215,Emergency Department,2014,01:21:00,12624,Other Hospital,Alive,MICU,06:57:00,Emergency Department,2,transfer,111.4,114.1,01:02:00,12605,Other Hospital,Alive,008-31284,0,Other,0
+996932,735938,Male,58,Asian,188,434,"Sepsis, other",168.0,22:16:00,-11281,Emergency Department,2015,19:50:00,15933,Other,Alive,MICU,18:17:00,Step-Down Unit (SDU),4,readmit,88.4,91.1,19:52:00,5855,Floor,Alive,008-49031,0,Other,0
+1005752,742873,Male,61,Caucasian,188,464,"CHF, congestive heart failure",178.7,12:39:00,-9058,Step-Down Unit (SDU),2015,00:52:00,40635,Other,Alive,CCU-CTICU,19:37:00,Step-Down Unit (SDU),1,admit,98.1,92.9,20:14:00,21637,Floor,Alive,008-14226,0,Other,0
+1052169,779512,Female,81,Caucasian,188,445,"Neurologic medical, other",165.1,01:29:00,-777,Emergency Department,2014,19:29:00,19023,Other,Alive,Med-Surg ICU,14:26:00,Emergency Department,2,transfer,72.2,86.6,14:21:00,5755,Step-Down Unit (SDU),Alive,008-26918,0,Major,2
+989981,730445,Male,57,Caucasian,188,451,"CVA, cerebrovascular accident/stroke",170.2,17:31:00,-21,,2014,18:32:00,28840,Other,Alive,Neuro ICU,17:52:00,Emergency Department,1,admit,94.0,88.9,21:56:00,23284,Floor,Alive,008-45114,0,Other,0
+1005376,742581,Male,55,Caucasian,188,434,Alcohol withdrawal,183.0,17:56:00,-2154,Floor,2015,18:43:00,16613,Death,Expired,MICU,05:50:00,Floor,1,admit,99.3,87.5,14:39:00,16369,Death,Expired,008-54269,1,Primary,1
+1031164,762964,Female,33,Caucasian,188,464,GI abscess/cyst,65.0,09:15:00,-82,Emergency Department,2014,00:49:00,6612,Home,Alive,CCU-CTICU,10:37:00,Emergency Department,1,admit,68.6,68.6,20:42:00,3485,Step-Down Unit (SDU),Alive,008-51428,0,Primary,1
+1016448,751343,Female,32,Caucasian,188,434,Cardiac arrest (with or without respiratory arrest; for respiratory arrest see Respiratory System),135.5,06:08:00,-344,,2014,19:26:00,40774,Other,Alive,MICU,11:52:00,Emergency Department,2,transfer,50.6,44.8,19:32:00,30700,Floor,Alive,008-1351,0,Major,2
+1022020,755772,Male,57,Caucasian,188,464,Cardiomyopathy,183.0,10:21:00,-301,Operating Room,2015,15:08:00,5746,Other,Alive,CCU-CTICU,15:22:00,Operating Room,1,admit,97.2,,14:03:00,5681,Home,Alive,008-44131,0,Other,0
+998692,737346,Female,78,Caucasian,188,464,"CHF, congestive heart failure",154.9,19:47:00,-32782,,2015,18:55:00,4606,Death,Expired,CCU-CTICU,14:09:00,Step-Down Unit (SDU),3,readmit,85.4,84.0,18:55:00,4606,Death,Expired,008-870,1,Other,0
+1023060,756576,Male,25,African American,188,451,"Neoplasm, neurologic",177.8,22:06:00,-35812,Floor,2014,22:12:00,18914,Death,Expired,Neuro ICU,18:58:00,Floor,2,readmit,87.2,98.4,19:43:00,18765,Floor,Alive,008-40794,1,Other,0
+1028703,761029,Female,53,Caucasian,188,434,"Bleeding, upper GI",158.0,02:07:00,-72,,2014,15:44:00,13705,Home,Alive,MICU,03:19:00,Emergency Department,2,transfer,105.0,111.4,18:44:00,8125,Floor,Alive,008-53323,0,Other,0
+1048654,776757,Female,61,African American,188,451,Seizures (primary-no structural brain disease),152.4,16:30:00,-824,Emergency Department,2015,23:57:00,58663,Other,Alive,Neuro ICU,06:14:00,Emergency Department,3,transfer,98.1,99.0,17:18:00,20824,Floor,Alive,008-58935,0,Other,0
+1038277,768605,Female,56,Caucasian,188,434,"Sepsis, pulmonary",160.0,01:14:00,-69,Emergency Department,2014,02:14:00,14391,Other,Alive,MICU,02:23:00,Emergency Department,2,transfer,70.2,65.9,19:24:00,11101,Floor,Alive,008-12512,0,Other,0
+990969,731217,Female,63,Caucasian,188,434,"Sepsis, pulmonary",163.0,19:03:00,-162,Emergency Department,2014,20:57:00,27312,Home,Alive,MICU,21:45:00,Emergency Department,3,transfer,61.4,59.4,17:15:00,15570,Floor,Alive,008-6304,0,Other,0
+1038110,768472,Male,18,Other/Unknown,188,434,"Overdose, alcohols (bethanol, methanol, ethylene glycol)",175.0,11:07:00,-111,,2014,20:31:00,7653,Home,Alive,MICU,12:58:00,Emergency Department,2,transfer,82.1,,01:00:00,5042,Step-Down Unit (SDU),Alive,008-6179,0,Other,0
+1049958,777777,Male,78,Caucasian,188,464,Rhythm disturbance (ventricular),182.8,19:53:00,-150,Emergency Department,2014,20:12:00,25789,Other,Alive,CCU-CTICU,22:23:00,Emergency Department,1,admit,71.8,69.7,18:51:00,17068,Floor,Alive,008-20992,0,Other,0
+1034255,765414,Female,87,Caucasian,188,434,"Sepsis, renal/UTI (including bladder)",162.0,10:20:00,-87,,2015,17:06:00,10399,Other,Alive,MICU,11:47:00,Other ICU,2,transfer,77.3,67.8,19:51:00,1924,Floor,Alive,008-2069,0,Other,0
+1034312,765460,Male,53,Caucasian,188,464,"Bleeding, GI-location unknown",168.0,03:19:00,-235,Emergency Department,2014,20:59:00,41145,Other,Alive,CCU-CTICU,07:14:00,Emergency Department,2,transfer,76.1,58.8,20:56:00,31062,Step-Down Unit (SDU),Alive,008-24161,0,Primary,1
+1032461,763994,Female,62,Caucasian,188,464,"CABG alone, coronary artery bypass grafting",155.0,11:24:00,-6192,Operating Room,2014,18:26:00,8630,Home,Alive,CCU-CTICU,18:36:00,Operating Room,1,admit,69.7,76.5,22:05:00,3089,Floor,Alive,008-15992,0,Other,0
+994012,733613,Female,52,African American,188,434,"Respiratory - medical, other",157.5,18:41:00,-9,,2014,18:18:00,11488,Other,Alive,MICU,18:50:00,Emergency Department,2,transfer,147.6,322.0,01:29:00,6159,Floor,Alive,008-55219,0,Other,0
+1019315,753606,Male,50,Caucasian,188,445,Acid-base/electrolyte disturbance,188.0,12:50:00,-7,,2014,15:29:00,31832,Other,Alive,Med-Surg ICU,12:57:00,Emergency Department,1,admit,103.0,101.8,02:17:00,19520,Floor,Alive,008-57634,0,Other,0
+1026040,758928,Female,58,Caucasian,188,434,"Overdose, other toxin, poison or drug",158.0,00:37:00,-38,Emergency Department,2014,01:24:00,77769,Home,Alive,MICU,01:15:00,Emergency Department,1,admit,71.4,73.6,22:49:00,27214,Floor,Alive,008-38652,0,Other,0
+1004484,741897,Male,80,Caucasian,188,434,"Sepsis, pulmonary",183.0,14:51:00,-678,Emergency Department,2014,18:55:00,12526,Death,Expired,MICU,02:09:00,Emergency Department,2,transfer,73.5,68.3,01:01:00,11452,Floor,Alive,008-29468,1,Other,0
+1003833,741387,Female,80,African American,188,434,"Pneumonia, bacterial",164.0,15:45:00,-1454,,2014,02:29:00,45270,Death,Expired,MICU,15:59:00,Emergency Department,1,admit,84.7,90.7,02:29:00,45270,Floor,Alive,008-11323,1,Other,0
+1012151,747949,Male,74,African American,188,434,Cardiac arrest (with or without respiratory arrest; for respiratory arrest see Respiratory System),168.0,06:22:00,-22329,,2014,22:42:00,31931,Other,Alive,MICU,18:31:00,Recovery Room,2,readmit,74.4,68.3,23:36:00,19025,Floor,Alive,008-56972,0,Other,0
+1038527,768797,Female,75,Caucasian,188,451,"CVA, cerebrovascular accident/stroke",158.0,11:47:00,-72,Emergency Department,2014,19:20:00,26301,Other,Alive,Neuro ICU,12:59:00,Emergency Department,1,admit,72.3,72.6,03:39:00,21040,Floor,Alive,008-25673,0,Other,0
+991119,731334,Female,75,African American,188,434,"Respiratory - medical, other",155.0,04:33:00,-13738,,2014,23:35:00,83884,Other,Alive,MICU,17:31:00,Floor,2,readmit,85.8,86.8,21:05:00,3094,Floor,Alive,008-16999,0,Other,0
+983091,725047,Male,51,Caucasian,188,434,"Encephalopathy, hepatic",170.0,22:37:00,-42,,2015,19:04:00,42945,Other,Alive,MICU,23:19:00,Direct Admit,1,admit,66.1,65.7,00:19:00,8700,Floor,Alive,008-46777,0,Other,0
+1007676,744435,Female,69,Native American,188,445,"Renal failure, acute",165.1,23:41:00,-5,Emergency Department,2014,19:31:00,12705,Home,Alive,Med-Surg ICU,23:46:00,Emergency Department,1,admit,96.2,98.0,19:34:00,2628,Floor,Alive,008-5152,0,Other,0
+1034312,765460,Male,53,Caucasian,188,464,"Bleeding, GI-location unknown",168.0,03:19:00,-235,Emergency Department,2014,20:59:00,41145,Other,Alive,CCU-CTICU,07:14:00,Emergency Department,2,transfer,76.1,58.8,20:56:00,31062,Step-Down Unit (SDU),Alive,008-24161,0,Other,0
+1034473,765585,Female,79,African American,188,464,"ARDS-adult respiratory distress syndrome, non-cardiogenic pulmonary edema",155.0,18:03:00,-5097,Step-Down Unit (SDU),2014,03:28:00,28588,Home,Alive,CCU-CTICU,07:00:00,Step-Down Unit (SDU),1,admit,50.4,48.1,23:19:00,28339,Skilled Nursing Facility,Alive,008-977,0,Other,0
+991206,731405,Male,44,Caucasian,188,434,"Pneumonia, bacterial",180.3,23:24:00,-186,Emergency Department,2014,18:54:00,93144,Other,Alive,MICU,02:30:00,Emergency Department,1,admit,99.6,90.1,04:55:00,69265,Floor,Alive,008-6173,0,Other,0
+996451,735553,Female,45,Caucasian,188,434,"Overdose, street drugs (opiates, cocaine, amphetamine)",150.0,13:14:00,-81,Emergency Department,2014,19:35:00,19020,Other,Alive,MICU,14:35:00,Emergency Department,2,transfer,54.5,61.0,21:10:00,13355,Step-Down Unit (SDU),Alive,008-39365,0,Other,0
+1022442,756099,Male,53,Caucasian,188,434,"Respiratory - medical, other",160.0,18:06:00,-55,,2014,00:01:00,60780,Home,Alive,MICU,19:01:00,Emergency Department,2,transfer,55.6,74.8,20:31:00,28890,Floor,Alive,008-32375,0,Other,0
+1036039,766830,Male,66,Caucasian,188,464,"Angina, unstable (angina interferes w/quality of life or meds are tolerated poorly)",163.0,20:28:00,-3005,Emergency Department,2015,22:44:00,8651,Other,Alive,CCU-CTICU,22:33:00,Emergency Department,1,admit,84.3,88.0,17:43:00,5470,Step-Down Unit (SDU),Alive,008-15285,0,Other,0
+1048504,776637,Male,60,Caucasian,188,464,"Cardiovascular surgery, other",176.0,00:58:00,-6821,,2015,17:21:00,14322,Other,Alive,CCU-CTICU,18:39:00,Operating Room,1,admit,87.3,,21:59:00,4520,Floor,Alive,008-14226,0,Other,0
+1030177,762192,Male,77,Caucasian,188,464,Rhythm disturbance (conduction defect),162.0,20:52:00,-74,Emergency Department,2014,14:00:00,5274,Home,Alive,CCU-CTICU,22:06:00,Emergency Department,1,admit,90.6,91.1,14:06:00,3840,Floor,Alive,008-56387,0,Primary,1
+1028749,761067,Female,> 89,Caucasian,188,451,"CVA, cerebrovascular accident/stroke",157.5,18:09:00,-16,Emergency Department,2015,22:05:00,4540,Other,Alive,Neuro ICU,18:25:00,Emergency Department,1,admit,55.9,,02:23:00,1918,Floor,Alive,008-41316,0,Other,0
+1015112,750281,Female,33,African American,188,451,"Neoplasm-cranial, surgery for (excluding transphenoidal)",168.0,11:18:00,-484,Recovery Room,2015,15:39:00,12737,Other,Alive,Neuro ICU,19:22:00,Recovery Room,1,admit,59.6,,21:43:00,3021,Floor,Alive,008-41716,0,Other,0
+1017633,752289,Male,48,African American,188,464,Cardiomyopathy,188.0,14:46:00,-2849,Floor,2015,00:17:00,16442,Other,Alive,CCU-CTICU,14:15:00,Floor,1,admit,110.4,,20:52:00,6157,Floor,Alive,008-8524,0,Other,0
+995894,735098,Male,63,African American,188,445,"Respiratory - medical, other",167.0,01:01:00,-18412,,2014,19:00:00,28747,Home,Alive,Med-Surg ICU,19:53:00,Floor,2,readmit,50.0,47.3,03:18:00,6205,Step-Down Unit (SDU),Alive,008-26686,0,Other,0
+1041721,771303,Female,59,African American,188,434,"Sepsis, pulmonary",168.0,15:47:00,-470,,2014,22:06:00,45989,Home,Alive,MICU,23:37:00,Emergency Department,2,transfer,77.9,89.8,21:46:00,14289,Step-Down Unit (SDU),Alive,008-216,0,Other,0
+990969,731217,Female,63,Caucasian,188,434,"Sepsis, pulmonary",163.0,19:03:00,-162,Emergency Department,2014,20:57:00,27312,Home,Alive,MICU,21:45:00,Emergency Department,3,transfer,61.4,59.4,17:15:00,15570,Floor,Alive,008-6304,0,Other,0
+1049979,777791,Male,63,Caucasian,188,434,"Sepsis, renal/UTI (including bladder)",110.0,06:18:00,-237,Emergency Department,2014,23:28:00,15193,Home,Alive,MICU,10:15:00,Emergency Department,2,transfer,73.7,76.3,05:50:00,12695,Floor,Alive,008-47788,0,Major,2
+1006632,743568,Female,63,Caucasian,188,434,"Pneumonia, bacterial",178.0,02:34:00,-140,Emergency Department,2014,20:53:00,18239,Other,Alive,MICU,04:54:00,Emergency Department,1,admit,86.2,85.8,23:47:00,14093,Step-Down Unit (SDU),Alive,008-15916,0,Major,2
+1009790,746103,Male,76,Caucasian,188,434,"Sepsis, unknown",175.0,11:16:00,-13861,Floor,2015,00:00:00,18583,Other,Alive,MICU,02:17:00,Step-Down Unit (SDU),2,readmit,108.4,114.5,00:03:00,4186,Floor,Alive,008-8901,0,Major,2
+1015452,750552,Female,71,African American,188,434,"Cardiovascular medical, other",149.0,00:48:00,-59,Emergency Department,2015,17:15:00,5248,Other,Alive,MICU,01:47:00,Emergency Department,2,transfer,51.3,48.3,23:07:00,4160,Floor,Alive,008-16023,0,Primary,1
+1012190,747978,Female,54,African American,188,445,Cardiac arrest (with or without respiratory arrest; for respiratory arrest see Respiratory System),160.0,03:09:00,14,Emergency Department,2014,22:18:00,18443,Other,Alive,Med-Surg ICU,02:55:00,Emergency Department,2,transfer,113.0,116.0,23:44:00,8449,Floor,Alive,008-58917,0,Other,0
+1000967,739141,Male,79,Caucasian,188,464,"Cardiovascular surgery, other",158.0,14:38:00,-5951,Operating Room,2015,19:25:00,4416,Other,Alive,CCU-CTICU,17:49:00,Operating Room,1,admit,54.2,,02:23:00,1954,Floor,Alive,008-51938,0,Other,0
+1043418,772640,Female,83,Caucasian,188,464,Cardiac arrest (with or without respiratory arrest; for respiratory arrest see Respiratory System),156.0,03:43:00,-4682,Floor,2014,11:31:00,27466,Death,Expired,CCU-CTICU,09:45:00,Floor,1,admit,57.3,57.8,18:49:00,17824,Floor,Alive,008-13983,1,Major,2
+1048460,776600,Female,58,African American,188,451,"Neoplasm-cranial, surgery for (excluding transphenoidal)",178.0,09:40:00,-439,,2014,17:50:00,4371,Home,Alive,Neuro ICU,16:59:00,Operating Room,1,admit,75.8,,01:53:00,3414,Step-Down Unit (SDU),Alive,008-53058,0,Primary,1
+1008957,745439,Male,75,Caucasian,188,434,Rhabdomyolysis,164.0,19:39:00,-130,,2015,01:05:00,39076,Other,Alive,MICU,21:49:00,Emergency Department,2,transfer,72.9,80.1,21:14:00,20125,Floor,Alive,008-7924,0,Other,0
+1024266,757528,Female,47,Caucasian,188,434,"Respiratory - medical, other",152.0,15:33:00,-311,Emergency Department,2014,19:11:00,33027,Other,Alive,MICU,20:44:00,Emergency Department,2,transfer,54.1,51.8,18:59:00,21495,Floor,Alive,008-35502,0,Other,0
+1052535,779802,Female,55,African American,188,434,Drug withdrawal,170.0,22:39:00,-1976,Floor,2014,20:17:00,10842,Other,Alive,MICU,07:35:00,Floor,1,admit,85.1,,00:20:00,2445,Floor,Alive,008-13204,0,Other,0
+1052458,779743,Female,63,African American,188,445,"Respiratory - medical, other",160.0,04:10:00,-47,Emergency Department,2014,19:58:00,10981,Other,Alive,Med-Surg ICU,04:57:00,Emergency Department,2,transfer,104.0,96.7,01:42:00,5565,Step-Down Unit (SDU),Alive,008-49130,0,Other,0
+1046542,775099,Male,87,Caucasian,188,434,"Sepsis, pulmonary",183.0,04:11:00,-116,Emergency Department,2014,22:15:00,18248,Home,Alive,MICU,06:07:00,Emergency Department,2,transfer,92.0,91.2,22:15:00,18248,Home,Alive,008-7930,0,Major,2
+991206,731405,Male,44,Caucasian,188,434,"Pneumonia, bacterial",180.3,23:24:00,-186,Emergency Department,2014,18:54:00,93144,Other,Alive,MICU,02:30:00,Emergency Department,1,admit,99.6,90.1,04:55:00,69265,Floor,Alive,008-6173,0,Other,0
+1048320,776489,Female,56,Caucasian,188,434,"Renal failure, acute",160.0,05:54:00,-588,,2014,23:36:00,29274,Other,Alive,MICU,15:42:00,Floor,1,admit,72.6,74.8,19:17:00,3095,Floor,Alive,008-56023,0,Other,0
+1000189,738536,Female,52,Caucasian,188,451,Seizures (primary-no structural brain disease),168.0,02:01:00,-12576,,2015,17:24:00,162587,Other,Alive,Neuro ICU,19:37:00,Step-Down Unit (SDU),3,readmit,54.5,68.9,03:22:00,35025,Step-Down Unit (SDU),Alive,008-51164,0,Other,0
+1052345,779652,Female,79,Other/Unknown,188,445,"Pneumonia, aspiration",162.0,02:28:00,-41,,2015,22:22:00,27073,Other Hospital,Alive,Med-Surg ICU,03:09:00,Emergency Department,2,transfer,72.0,69.8,22:22:00,27073,Other Hospital,Alive,008-13691,0,Major,2
+1024566,757760,Male,56,Other/Unknown,188,464,Cardiac arrest (with or without respiratory arrest; for respiratory arrest see Respiratory System),183.0,02:45:00,-107,Emergency Department,2015,18:07:00,48335,Other,Alive,CCU-CTICU,04:32:00,Emergency Department,2,transfer,94.5,81.0,20:07:00,35495,Step-Down Unit (SDU),Alive,008-2846,0,Other,0
+996451,735553,Female,45,Caucasian,188,434,"Overdose, street drugs (opiates, cocaine, amphetamine)",150.0,13:14:00,-81,Emergency Department,2014,19:35:00,19020,Other,Alive,MICU,14:35:00,Emergency Department,2,transfer,54.5,61.0,21:10:00,13355,Step-Down Unit (SDU),Alive,008-39365,0,Major,2
+1048233,776422,Male,65,Caucasian,188,434,"Sepsis, pulmonary",179.0,17:22:00,-556,,2014,20:22:00,54344,Home,Alive,MICU,02:38:00,Emergency Department,2,transfer,92.0,83.6,14:28:00,25190,Floor,Alive,008-58571,0,Major,2
+1035187,766159,Male,68,Caucasian,188,434,"Sepsis, unknown",172.0,22:03:00,-168,Emergency Department,2014,19:51:00,42900,Other,Alive,MICU,00:51:00,Emergency Department,1,admit,66.6,83.7,19:16:00,24145,Step-Down Unit (SDU),Alive,008-42014,0,Major,2
+1005624,742775,Male,52,Caucasian,188,434,"Respiratory - medical, other",193.0,04:28:00,-200,Emergency Department,2014,21:45:00,18117,Home,Alive,MICU,07:48:00,Emergency Department,2,transfer,110.9,114.0,20:31:00,12283,Floor,Alive,008-26014,0,Other,0
+993285,733030,Female,73,African American,188,434,"Bleeding, upper GI",152.4,18:05:00,-48807,,2014,21:48:00,19096,Other,Alive,MICU,15:32:00,Step-Down Unit (SDU),2,readmit,42.9,45.8,22:16:00,3284,Step-Down Unit (SDU),Alive,008-48349,0,Major,2
+1044505,773495,Male,58,Caucasian,188,434,Emphysema/bronchitis,177.8,06:27:00,-1621,Floor,2014,17:50:00,27862,Other,Alive,MICU,09:28:00,Floor,1,admit,50.8,50.2,18:46:00,19278,Step-Down Unit (SDU),Alive,008-39887,0,Other,0
+1003678,741267,Female,55,Caucasian,188,434,"Bleeding, upper GI",165.0,19:58:00,-174,Emergency Department,2015,18:25:00,5493,Home,Alive,MICU,22:52:00,Emergency Department,1,admit,84.5,90.1,18:25:00,5493,Home,Alive,008-15443,0,Other,0
+1027445,760038,Female,55,Other/Unknown,188,434,"Respiratory - medical, other",152.4,13:53:00,-811,Floor,2015,13:20:00,6356,Other,Alive,MICU,03:24:00,Floor,1,admit,75.7,79.3,08:39:00,4635,Floor,Alive,008-41472,0,Other,0
+1027951,760445,Male,69,African American,188,434,Cardiac arrest (with or without respiratory arrest; for respiratory arrest see Respiratory System),174.0,10:32:00,-1798,Floor,2014,21:51:00,23361,Other,Alive,MICU,16:30:00,Floor,1,admit,99.4,99.8,21:25:00,7495,Step-Down Unit (SDU),Alive,008-53053,0,Other,0
+1036548,767258,Female,23,African American,188,434,"Respiratory - medical, other",129.5,21:21:00,-5705,Floor,2014,17:20:00,28614,Home,Alive,MICU,20:26:00,Floor,1,admit,63.2,54.8,23:47:00,14601,Step-Down Unit (SDU),Alive,008-31226,0,Other,0
+1025550,758529,Female,46,African American,188,434,Hypoglycemia,155.0,23:51:00,-3,Emergency Department,2015,21:59:00,5645,Other,Alive,MICU,23:54:00,Emergency Department,2,transfer,61.1,61.1,20:56:00,1262,Floor,Alive,008-48291,0,Other,0
+1004860,742192,Male,50,African American,188,434,Cardiac arrest (with or without respiratory arrest; for respiratory arrest see Respiratory System),183.0,06:42:00,-36194,,2014,12:29:00,185913,Other,Alive,MICU,09:56:00,Floor,3,readmit,69.8,69.2,01:50:00,2394,Floor,Alive,008-59015,0,Other,0
+1013407,748918,Female,48,Caucasian,188,434,"Respiratory - medical, other",152.0,18:25:00,-99,Step-Down Unit (SDU),2015,22:31:00,21747,Other,Alive,MICU,20:04:00,Step-Down Unit (SDU),1,admit,47.6,51.3,22:31:00,21747,Other,Alive,008-35502,0,Major,2
+1055333,782015,Male,79,Caucasian,188,464,"CABG alone, coronary artery bypass grafting",178.0,07:02:00,-6737,Operating Room,2014,16:56:00,3937,Home,Alive,CCU-CTICU,23:19:00,Operating Room,1,admit,59.6,63.1,22:39:00,1400,Floor,Alive,008-47,0,Other,0
+1034457,765574,Male,53,Caucasian,188,434,Renal bleeding,175.0,03:11:00,-266,Emergency Department,2015,00:16:00,13959,Other,Alive,MICU,07:37:00,Emergency Department,2,transfer,82.7,89.3,23:49:00,3852,Step-Down Unit (SDU),Alive,008-18775,0,Major,2
+1009790,746103,Male,76,Caucasian,188,434,"Sepsis, unknown",175.0,11:16:00,-13861,Floor,2015,00:00:00,18583,Other,Alive,MICU,02:17:00,Step-Down Unit (SDU),2,readmit,108.4,114.5,00:03:00,4186,Floor,Alive,008-8901,0,Other,0
+996774,735819,Female,53,Caucasian,188,434,"Overdose, sedatives, hypnotics, antipsychotics, benzodiazepines",165.1,01:10:00,-229,,2014,20:02:00,3783,Other,Alive,MICU,04:59:00,Emergency Department,2,transfer,84.7,84.7,18:55:00,2276,Floor,Alive,008-35998,0,Other,0
+1032028,763662,Male,80,African American,188,434,"Arrest, respiratory (without cardiac arrest)",178.0,16:04:00,-166,,2015,16:20:00,28650,Other,Alive,MICU,18:50:00,Emergency Department,2,transfer,87.0,91.5,21:09:00,8779,Step-Down Unit (SDU),Alive,008-51829,0,Other,0
+1003324,740995,Female,40,African American,188,434,"Embolus, pulmonary",168.0,23:36:00,-8624,Emergency Department,2014,15:41:00,18261,Home,Alive,MICU,23:20:00,Floor,3,readmit,114.0,111.9,19:15:00,4075,Floor,Alive,008-30133,0,Other,0
+1042946,772271,Female,73,Caucasian,188,434,"Respiratory - medical, other",167.6,23:39:00,-62,,2015,21:40:00,67499,Other,Alive,MICU,00:41:00,Emergency Department,2,transfer,93.2,93.4,23:16:00,20075,Floor,Alive,008-291,0,Other,0
+1005376,742581,Male,55,Caucasian,188,434,Alcohol withdrawal,183.0,17:56:00,-2154,Floor,2015,18:43:00,16613,Death,Expired,MICU,05:50:00,Floor,1,admit,99.3,87.5,14:39:00,16369,Death,Expired,008-54269,1,Other,0
+1053812,780810,Male,79,Caucasian,188,434,"Pneumonia, other",183.0,19:50:00,-7519,,2014,02:01:00,30292,Home,Alive,MICU,01:09:00,Floor,3,readmit,79.3,90.1,23:19:00,9970,Step-Down Unit (SDU),Alive,008-29468,0,Other,0
+1048981,777011,Male,89,Caucasian,188,445,"GI surgery, other",183.0,18:47:00,-406,Operating Room,2014,20:08:00,21275,Death,Expired,Med-Surg ICU,01:33:00,Operating Room,1,admit,70.0,66.8,20:08:00,21275,Death,Expired,008-27487,1,Other,0
+1022442,756099,Male,53,Caucasian,188,434,"Respiratory - medical, other",160.0,18:06:00,-55,,2014,00:01:00,60780,Home,Alive,MICU,19:01:00,Emergency Department,2,transfer,55.6,74.8,20:31:00,28890,Floor,Alive,008-32375,0,Major,2
+1014787,750019,Male,75,Caucasian,188,434,"Sepsis, pulmonary",167.6,07:07:00,-164,Emergency Department,2015,23:54:00,19563,Other,Alive,MICU,09:51:00,Emergency Department,2,transfer,109.3,110.4,22:16:00,19465,Other,Alive,008-43516,0,Primary,1
+991457,731609,Male,81,Caucasian,188,445,"Pneumonia, other",172.0,17:05:00,-5166,Floor,2014,03:30:00,12739,Death,Expired,Med-Surg ICU,07:11:00,Floor,1,admit,54.0,58.2,11:17:00,11766,Floor,Alive,008-1849,1,Primary,1
+993448,733164,Male,68,Caucasian,188,464,"CHF, congestive heart failure",161.0,14:15:00,-41,Emergency Department,2014,19:30:00,21874,Other,Alive,CCU-CTICU,14:56:00,Emergency Department,1,admit,121.0,123.0,21:22:00,10466,Step-Down Unit (SDU),Alive,008-10913,0,Other,0
+1039140,769266,Male,48,Caucasian,188,434,"Respiratory - medical, other",170.1,23:05:00,-77,,2015,19:56:00,18454,Other,Alive,MICU,00:22:00,Emergency Department,2,transfer,86.0,82.2,00:03:00,14381,Floor,Alive,008-28127,0,Primary,1
+1015836,750862,Male,58,African American,188,451,"Hemorrhage/hematoma, intracranial",190.5,13:02:00,-12,Other Hospital,2015,01:03:00,12229,Other,Alive,Neuro ICU,13:14:00,Other Hospital,1,admit,62.6,66.1,13:39:00,5785,Floor,Alive,008-6154,0,Primary,1
+991206,731405,Male,44,Caucasian,188,434,"Pneumonia, bacterial",180.3,23:24:00,-186,Emergency Department,2014,18:54:00,93144,Other,Alive,MICU,02:30:00,Emergency Department,1,admit,99.6,90.1,04:55:00,69265,Floor,Alive,008-6173,0,Other,0
+1034680,765750,Male,> 89,African American,188,464,Rhythm disturbance (ventricular),173.0,20:27:00,-254,Floor,2014,11:35:00,9294,Death,Expired,CCU-CTICU,00:41:00,Floor,1,admit,56.1,57.3,17:18:00,3877,Step-Down Unit (SDU),Alive,008-18333,1,Other,0
+991206,731405,Male,44,Caucasian,188,434,"Pneumonia, bacterial",180.3,23:24:00,-186,Emergency Department,2014,18:54:00,93144,Other,Alive,MICU,02:30:00,Emergency Department,1,admit,99.6,90.1,04:55:00,69265,Floor,Alive,008-6173,0,Other,0
+1020749,754764,Female,78,Caucasian,188,434,"Respiratory - medical, other",145.0,17:39:00,-119,,2014,02:02:00,21984,Other,Alive,MICU,19:38:00,Emergency Department,2,transfer,49.1,60.4,01:31:00,21953,Other,Alive,008-26895,0,Other,0
+1009792,746104,Female,74,Caucasian,188,451,"CVA, cerebrovascular accident/stroke",152.4,20:08:00,-7,Emergency Department,2015,19:25:00,35950,Other,Alive,Neuro ICU,20:15:00,Emergency Department,1,admit,48.6,56.1,16:05:00,24230,Floor,Alive,008-51039,0,Other,0
+991582,731701,Female,61,Caucasian,188,464,"Angina, unstable (angina interferes w/quality of life or meds are tolerated poorly)",155.0,21:42:00,-5,Other Hospital,2014,22:53:00,13026,Other,Alive,CCU-CTICU,21:47:00,Other Hospital,1,admit,75.8,79.5,17:22:00,6935,Step-Down Unit (SDU),Alive,008-45329,0,Other,0
+1019543,753784,Male,65,Caucasian,188,434,"Sepsis, other",177.8,19:31:00,-38,,2014,19:57:00,51828,Other,Alive,MICU,20:09:00,Emergency Department,2,transfer,64.5,61.2,18:14:00,15725,Floor,Alive,008-12932,0,Other,0
+992747,732611,Male,62,African American,188,434,"Sepsis, other",175.0,18:38:00,-194,Emergency Department,2014,22:31:00,11559,Other,Alive,MICU,21:52:00,Emergency Department,2,transfer,84.0,83.8,01:27:00,1655,Floor,Alive,008-52505,0,Other,0
+1033248,764623,Female,67,Caucasian,188,434,"Effusions, pleural",173.0,07:18:00,-8854,Floor,2015,20:30:00,32258,Death,Expired,MICU,10:52:00,Floor,1,admit,79.0,88.6,20:30:00,32258,Death,Expired,008-42511,1,Primary,1
+1003324,740995,Female,40,African American,188,434,"Embolus, pulmonary",168.0,23:36:00,-8624,Emergency Department,2014,15:41:00,18261,Home,Alive,MICU,23:20:00,Floor,3,readmit,114.0,111.9,19:15:00,4075,Floor,Alive,008-30133,0,Other,0
+1041721,771303,Female,59,African American,188,434,"Sepsis, pulmonary",168.0,15:47:00,-470,,2014,22:06:00,45989,Home,Alive,MICU,23:37:00,Emergency Department,2,transfer,77.9,89.8,21:46:00,14289,Step-Down Unit (SDU),Alive,008-216,0,Other,0
+1053112,780253,Female,66,Caucasian,188,464,"Cardiovascular surgery, other",147.0,15:07:00,-5946,Operating Room,2015,18:50:00,10117,Other,Alive,CCU-CTICU,18:13:00,Operating Room,1,admit,85.5,89.2,02:23:00,4810,Floor,Alive,008-17924,0,Other,0
+1008916,745413,Female,68,Caucasian,188,434,"Sepsis, pulmonary",161.0,22:27:00,-300,Emergency Department,2014,19:12:00,5265,Home,Alive,MICU,03:27:00,Emergency Department,2,transfer,85.3,82.7,20:31:00,3904,Floor,Alive,008-34530,0,Other,0
+1022630,756247,Female,81,Caucasian,188,434,"Respiratory - medical, other",157.4,12:47:00,-530,Step-Down Unit (SDU),2014,18:50:00,37273,Other,Alive,MICU,21:37:00,Step-Down Unit (SDU),1,admit,55.6,61.4,01:02:00,14605,Floor,Alive,008-22082,0,Other,0
+993098,732879,Female,85,Caucasian,188,451,"Coma/change in level of consciousness (for hepatic see GI, for diabetic see Endocrine, if related to cardiac arrest, see CV)",153.0,00:08:00,-17000,,2015,18:49:00,40281,Other,Alive,Neuro ICU,19:28:00,Step-Down Unit (SDU),4,transfer,53.6,,22:30:00,30422,Floor,Alive,008-3699,0,Other,0
+1023786,757159,Female,71,Other/Unknown,188,434,"Respiratory - medical, other",157.5,21:08:00,-12026,Step-Down Unit (SDU),2014,08:54:00,4520,Other,Alive,MICU,05:34:00,Step-Down Unit (SDU),1,admit,56.3,48.4,08:22:00,4488,Other,Alive,008-22686,0,Other,0
+1049928,777753,Female,81,Caucasian,188,464,"CABG alone, coronary artery bypass grafting",166.0,16:31:00,-327,,2015,19:04:00,7026,Other,Alive,CCU-CTICU,21:58:00,Operating Room,1,admit,94.8,,22:19:00,2901,Floor,Alive,008-1880,0,Other,0
+1040786,770578,Male,66,Caucasian,188,434,"Pneumonia, bacterial",177.0,21:52:00,-244,Emergency Department,2014,19:41:00,18345,Home,Alive,MICU,01:56:00,Emergency Department,2,transfer,91.5,98.2,18:02:00,8166,Step-Down Unit (SDU),Alive,008-16147,0,Other,0
+1033263,764635,Male,60,Caucasian,188,434,"Bleeding, GI from esophageal varices/portal hypertension",180.0,17:10:00,-180,Emergency Department,2014,13:03:00,25493,Other,Alive,MICU,20:10:00,Emergency Department,1,admit,90.4,108.1,12:02:00,25432,Other Hospital,Alive,008-45675,0,Major,2
+1003354,741019,Male,79,Caucasian,188,434,"Respiratory - medical, other",172.0,02:25:00,-14015,,2015,18:13:00,44533,Other,Alive,MICU,20:00:00,Floor,1,admit,98.8,85.6,02:10:00,32050,Floor,Alive,008-57237,0,Other,0
+1005633,742782,Female,34,African American,188,451,"Hydrocephalus, obstructive",160.5,00:31:00,-9,Other Hospital,2015,15:43:00,13863,Other,Alive,Neuro ICU,00:40:00,Other Hospital,1,admit,55.0,,21:51:00,12791,Step-Down Unit (SDU),Alive,008-50094,0,Other,0
+1034011,765227,Female,34,Caucasian,188,434,"Pneumonia, other",160.0,00:41:00,-904,Emergency Department,2014,20:59:00,7514,Other,Alive,MICU,15:45:00,Emergency Department,1,admit,103.0,101.8,09:05:00,1040,Step-Down Unit (SDU),Alive,008-26267,0,Other,0
+1045923,774607,Male,76,Asian,188,434,"Sepsis, unknown",168.0,17:14:00,-179,,2014,20:16:00,11523,Home,Alive,MICU,20:13:00,Emergency Department,1,admit,94.0,94.3,19:58:00,7185,Floor,Alive,008-17086,0,Other,0
+1031201,762993,Female,57,African American,188,451,"Hemorrhage/hematoma, intracranial",178.0,00:33:00,-77,Emergency Department,2015,22:16:00,45866,Other,Alive,Neuro ICU,01:50:00,Emergency Department,1,admit,70.5,75.7,01:36:00,24466,Step-Down Unit (SDU),Alive,008-34200,0,Primary,1
+1000701,738937,Male,49,African American,188,434,"Restrictive lung disease (i.e., Sarcoidosis, pulmonary fibrosis)",180.0,21:42:00,-26611,,2014,22:20:00,15187,Other,Alive,MICU,09:13:00,Floor,1,admit,131.2,98.5,21:36:00,9383,Floor,Alive,008-27427,0,Other,0
+1028712,761033,Female,67,Caucasian,188,451,"Coma/change in level of consciousness (for hepatic see GI, for diabetic see Endocrine, if related to cardiac arrest, see CV)",162.5,23:12:00,-41635,Emergency Department,2015,23:38:00,86551,Other,Alive,Neuro ICU,21:07:00,Floor,3,readmit,86.4,,11:13:00,26766,Step-Down Unit (SDU),Alive,008-1570,0,Major,2
+1001203,739331,Male,59,Caucasian,188,434,"Bleeding, upper GI",170.0,10:34:00,-47,Emergency Department,2014,01:42:00,12381,Other,Alive,MICU,11:21:00,Emergency Department,1,admit,69.0,69.0,21:06:00,2025,Floor,Alive,008-32195,0,Major,2
+1002016,739973,Female,61,Caucasian,188,445,Cardiac arrest (with or without respiratory arrest; for respiratory arrest see Respiratory System),162.5,09:09:00,-70,Emergency Department,2014,21:17:00,32338,Other,Alive,Med-Surg ICU,10:19:00,Emergency Department,1,admit,106.0,97.0,19:42:00,19283,Floor,Alive,008-41196,0,Primary,1
+1034312,765460,Male,53,Caucasian,188,464,"Bleeding, GI-location unknown",168.0,03:19:00,-235,Emergency Department,2014,20:59:00,41145,Other,Alive,CCU-CTICU,07:14:00,Emergency Department,2,transfer,76.1,58.8,20:56:00,31062,Step-Down Unit (SDU),Alive,008-24161,0,Other,0
+1055108,781833,Male,60,Caucasian,188,451,"CVA, cerebrovascular accident/stroke",185.0,12:43:00,-105,Emergency Department,2014,19:14:00,4606,Other,Alive,Neuro ICU,14:28:00,Emergency Department,1,admit,97.2,,18:48:00,4580,Home,Alive,008-9958,0,Other,0
+1034751,765808,Male,57,Caucasian,188,434,"Respiratory - medical, other",177.0,22:29:00,-6752,Step-Down Unit (SDU),2015,21:53:00,50812,Other,Alive,MICU,15:01:00,Step-Down Unit (SDU),1,admit,97.1,93.9,08:56:00,16915,Floor,Alive,008-23638,0,Other,0
+1001183,739315,Female,50,Caucasian,188,434,Cardiac arrest (with or without respiratory arrest; for respiratory arrest see Respiratory System),156.0,14:59:00,-68,Emergency Department,2015,08:30:00,5303,Death,Expired,MICU,16:07:00,Emergency Department,2,transfer,93.7,97.1,08:29:00,5302,Death,Expired,008-43560,1,Other,0
+1020525,754580,Male,66,Caucasian,188,464,Rhythm disturbance (ventricular),162.5,19:24:00,-7034,Emergency Department,2015,23:51:00,7633,Other,Alive,CCU-CTICU,16:38:00,Emergency Department,1,admit,75.9,,02:33:00,595,Floor,Alive,008-44089,0,Other,0
+1003678,741267,Female,55,Caucasian,188,434,"Bleeding, upper GI",165.0,19:58:00,-174,Emergency Department,2015,18:25:00,5493,Home,Alive,MICU,22:52:00,Emergency Department,1,admit,84.5,90.1,18:25:00,5493,Home,Alive,008-15443,0,Other,0
+1020245,754341,Female,75,Caucasian,188,434,"Pneumonia, bacterial",156.0,00:31:00,-76,Emergency Department,2014,15:16:00,9449,Home,Alive,MICU,01:47:00,Emergency Department,1,admit,50.0,50.0,23:10:00,7043,Floor,Alive,008-2777,0,Other,0
+1024266,757528,Female,47,Caucasian,188,434,"Respiratory - medical, other",152.0,15:33:00,-311,Emergency Department,2014,19:11:00,33027,Other,Alive,MICU,20:44:00,Emergency Department,2,transfer,54.1,51.8,18:59:00,21495,Floor,Alive,008-35502,0,Primary,1
+1027509,760093,Female,73,African American,188,464,"Respiratory - medical, other",164.0,05:07:00,-2053,Floor,2014,19:13:00,10313,Other,Alive,CCU-CTICU,15:20:00,Floor,1,admit,64.3,62.8,20:39:00,6079,Floor,Alive,008-4347,0,Other,0
+991206,731405,Male,44,Caucasian,188,434,"Pneumonia, bacterial",180.3,23:24:00,-186,Emergency Department,2014,18:54:00,93144,Other,Alive,MICU,02:30:00,Emergency Department,1,admit,99.6,90.1,04:55:00,69265,Floor,Alive,008-6173,0,Other,0
+1021445,755311,Female,29,Asian,188,451,Subarachnoid hemorrhage/arteriovenous malformation,134.6,14:10:00,-84,Emergency Department,2014,20:07:00,43473,Other,Alive,Neuro ICU,15:34:00,Emergency Department,1,admit,80.1,69.5,18:19:00,31845,Floor,Alive,008-33554,0,Other,0
+1033361,764711,Female,63,Caucasian,188,464,Aortic valve replacement (isolated),158.7,11:00:00,-453,Operating Room,2015,19:17:00,4364,Other,Alive,CCU-CTICU,18:33:00,Operating Room,1,admit,94.6,97.4,13:57:00,1164,Floor,Alive,008-6546,0,Other,0
+1011319,747277,Female,81,Caucasian,188,464,"Cardiovascular surgery, other",152.5,12:11:00,-409,Operating Room,2014,21:39:00,11679,Other,Alive,CCU-CTICU,19:00:00,Operating Room,1,admit,49.6,60.6,01:38:00,4718,Floor,Alive,008-22,0,Other,0
+1053779,780786,Male,73,African American,188,464,"CHF, congestive heart failure",177.8,04:04:00,-238,Emergency Department,2014,19:44:00,5022,Other,Alive,CCU-CTICU,08:02:00,Emergency Department,2,transfer,70.8,69.3,22:06:00,2284,Step-Down Unit (SDU),Alive,008-56812,0,Other,0
+1050509,778212,Male,61,Caucasian,188,464,"Angina, unstable (angina interferes w/quality of life or meds are tolerated poorly)",177.8,17:57:00,-30,,2014,18:17:00,14390,Other,Alive,CCU-CTICU,18:27:00,Other Hospital,1,admit,67.7,81.1,14:02:00,5495,Step-Down Unit (SDU),Alive,008-29860,0,Other,0
+1051989,779378,Female,42,Caucasian,188,464,Cardiac arrest (with or without respiratory arrest; for respiratory arrest see Respiratory System),167.6,20:18:00,-175,,2015,22:20:00,8587,Other,Alive,CCU-CTICU,23:13:00,Emergency Department,2,transfer,155.7,155.7,22:44:00,7171,Floor,Alive,008-34885,0,Other,0
+1028643,760980,Female,74,Caucasian,188,464,"CHF, congestive heart failure",160.0,18:51:00,-90,,2015,16:35:00,24254,Other,Alive,CCU-CTICU,20:21:00,Emergency Department,1,admit,50.3,64.0,16:06:00,24225,Other,Alive,008-23379,0,Major,2
+1031943,763596,Female,59,African American,188,445,Cardiac arrest (with or without respiratory arrest; for respiratory arrest see Respiratory System),154.0,23:34:00,-29,Emergency Department,2015,02:33:00,27510,Death,Expired,Med-Surg ICU,00:03:00,Emergency Department,1,admit,131.0,139.0,01:56:00,27473,Death,Expired,008-11928,1,Major,2
