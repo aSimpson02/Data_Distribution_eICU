@@ -1,5 +1,19 @@
-eicu-collaborative-research-database-2.0/
-cohorts/train.csv
-cohorts/test.csv
-cohorts/train_temporal.csv
-cohorts/test_temporal.csv
+echo "# Python
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+
+# Results + artifacts
+results/
+artifacts/
+
+# Generated splits
+data/csv_splits/
+*.parquet
+*.csv.gz
+
+# Logs/checkpoints
+*.log
+*.ckpt
+" > .gitignore
