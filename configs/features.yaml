@@ -1,0 +1,26 @@
+id_col: "patientunitstayid"
+target_col: "hospital_mortality"    
+
+meta_cols:
+  hospital: "hospitalid"
+  sex: "gender"
+  age: "age"
+  time: "admissionoffset"           
+
+
+categorical:
+  - gender
+  - diagnosisstring
+
+numeric:
+  - age
+  - apachescore
+  - heartrate
+  - systemicsystolic
+  - systemicdiastolic
+  - spo2
+  - albumin
+  - bun
+  - glucose
+  - lactate
+  - bilirubin
