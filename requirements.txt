@@ -1,0 +1,26 @@
+# Core scientific stack
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib
+seaborn
+
+# ML models
+xgboost
+lightgbm
+
+# Calibration / plotting helpers
+statsmodels
+
+# Progress / logging
+tqdm
+rich
+
+# For saving/loading results
+joblib
+pyarrow
+
+# Optional but useful
+jupyter
+ipykernel
