@@ -11,7 +11,7 @@ SEED=42
 LABEL="hospital_mortality"
 
 # ★★★★ TabFM options (used by eval_tabfm.py) ★★★★
-TABFM_DEVICE="cpu"                       # set "cuda" on GPU box!
+TABFM_DEVICE="cuda"                       # set "cuda" on GPU box![cpu on laptop]
 TABFM_CAP_TRAIN=4000
 TABFM_FEAT_SELECT="vif_rfe"
 TABFM_VIF=5
