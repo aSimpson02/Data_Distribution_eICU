@@ -5,32 +5,32 @@ set -euo pipefail
 # ★★★★ Config (edit as needed) ★★★★
 
 SCENARIOS=("random" "temporal" "hospital")
-MODELS=("lr" "rf" "xgb" "lgbm")          # lgbm will be skipped if not installed
-CALIBS=("none" "platt" "isotonic")
+MODELS=("lr" "rf" "xgb" "lgbm")
+CALIBS=("none" "platt")   # drop isotonic here to speed up; it's heavy but optional
 SEED=42
 LABEL="hospital_mortality"
 
 # ★★★★ TabFM options (used by eval_tabfm.py) ★★★★
-TABFM_DEVICE="cuda"                       # set "cuda" on GPU box![cpu on laptop]
-TABFM_CAP_TRAIN=4000
-TABFM_FEAT_SELECT="vif_rfe"
-TABFM_VIF=5
-TABFM_RFE_KEEP=64
-TABFM_ENSEMBLES=4
-TABFM_POSTERIOR=4
-TABFM_CALIB="isotonic"
+# leave these commented; we’re disabling TabFM below
+# TABFM_DEVICE="cpu"
+# TABFM_CAP_TRAIN=4000
+# TABFM_FEAT_SELECT="vif_rfe"
+# TABFM_VIF=5
+# TABFM_RFE_KEEP=64
+# TABFM_ENSEMBLES=4
+# TABFM_POSTERIOR=4
+# TABFM_CALIB="isotonic"
 
 # ★★★★ Switches — turn steps on/off ★★★★
-DO_EXPORT_SPLITS=1
+DO_EXPORT_SPLITS=0   # you already flattened CSVs; skip noisy warnings
 DO_AUDIT=1
 DO_EVAL_NOTUNE=1
 DO_TUNE_VAL=1
-DO_TABFM=1
-DO_UQ_ENSEMBLES=1
+DO_TABFM=0           # <— disable TabPFN (this was causing the OOM)
+DO_UQ_ENSEMBLES=0    # <— deep ensembles are heavy; turn off unless you need them
 DO_SUMMARIES=1
-DO_PLOTS=0           # requires make_calibration_plots.py
-DO_CONFORMAL=0       # optional conformal stage
-
+DO_PLOTS=0
+DO_CONFORMAL=0
 
 # ★★★★ Prep & logging ★★★★
 
