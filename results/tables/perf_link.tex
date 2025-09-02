@@ -1,34 +1,34 @@
 \begin{table}
-\caption{Shift magnitude and performance deltas by split/model/calibrator.}
+\caption{Shift magnitude and performance deltas by split, model, and calibrator.}
 \label{tab:perf-link}
-\begin{tabular}{lrrrrrrrr}
+\begin{tabular}{lllrrrrrr}
 \toprule
-model & calibrator & split & delta\_auroc\_notuned & delta\_ece\_notuned & delta\_auroc\_random & delta\_ece\_random & mean\_js & mean\_ks \\
+Split & Model & Cal. & Mean JS & Mean KS & \$\textbackslash Delta\$AUROC (rnd) & \$\textbackslash Delta\$ECE (rnd) & \$\textbackslash Delta\$AUROC (\$-\$notuned) & \$\textbackslash Delta\$ECE (\$-\$notuned) \\
 \midrule
-lgbm & none & hospital & 0.0000 & 0.0000 & -0.0125 & 0.0054 & 0.0090 & 0.0847 \\
-lgbm & platt & hospital & 0.0000 & 0.0104 & -0.0125 & -0.0019 & 0.0090 & 0.0847 \\
-lr & none & hospital & 0.0000 & 0.0000 & -0.0106 & -0.0144 & 0.0090 & 0.0847 \\
-lr & platt & hospital & 0.0000 & -0.2121 & -0.0106 & 0.0095 & 0.0090 & 0.0847 \\
-rf & none & hospital & 0.0000 & 0.0000 & -0.0194 & 0.0046 & 0.0090 & 0.0847 \\
-rf & platt & hospital & 0.0000 & -0.0133 & -0.0194 & -0.0045 & 0.0090 & 0.0847 \\
-xgb & none & hospital & 0.0000 & 0.0000 & -0.0099 & 0.0069 & 0.0090 & 0.0847 \\
-xgb & platt & hospital & 0.0000 & 0.0114 & -0.0099 & -0.0026 & 0.0090 & 0.0847 \\
-lgbm & none & random & 0.0000 & 0.0000 & NaN & NaN & 0.0000 & 0.0037 \\
-lgbm & platt & random & 0.0000 & 0.0177 & NaN & NaN & 0.0000 & 0.0037 \\
-lr & none & random & 0.0000 & 0.0000 & NaN & NaN & 0.0000 & 0.0037 \\
-lr & platt & random & 0.0000 & -0.2360 & NaN & NaN & 0.0000 & 0.0037 \\
-rf & none & random & 0.0000 & 0.0000 & NaN & NaN & 0.0000 & 0.0037 \\
-rf & platt & random & 0.0000 & -0.0042 & NaN & NaN & 0.0000 & 0.0037 \\
-xgb & none & random & 0.0000 & 0.0000 & NaN & NaN & 0.0000 & 0.0037 \\
-xgb & platt & random & 0.0000 & 0.0209 & NaN & NaN & 0.0000 & 0.0037 \\
-lgbm & none & temporal & 0.0000 & 0.0000 & 0.0058 & 0.0006 & 0.0002 & 0.0081 \\
-lgbm & platt & temporal & 0.0000 & 0.0273 & 0.0058 & 0.0103 & 0.0002 & 0.0081 \\
-lr & none & temporal & 0.0000 & 0.0000 & 0.0032 & -0.0009 & 0.0002 & 0.0081 \\
-lr & platt & temporal & 0.0000 & -0.2372 & 0.0032 & -0.0021 & 0.0002 & 0.0081 \\
-rf & none & temporal & 0.0000 & 0.0000 & 0.0054 & 0.0005 & 0.0002 & 0.0081 \\
-rf & platt & temporal & 0.0000 & -0.0035 & 0.0054 & 0.0013 & 0.0002 & 0.0081 \\
-xgb & none & temporal & 0.0000 & 0.0000 & 0.0058 & 0.0018 & 0.0002 & 0.0081 \\
-xgb & platt & temporal & 0.0000 & 0.0290 & 0.0058 & 0.0099 & 0.0002 & 0.0081 \\
+Hospital & lgbm & none & 0.009 & 0.085 & -0.013 & 0.005 & 0.000 & 0.000 \\
+Hospital & lgbm & platt & 0.009 & 0.085 & -0.013 & -0.002 & 0.000 & 0.010 \\
+Hospital & lr & none & 0.009 & 0.085 & -0.011 & -0.014 & 0.000 & 0.000 \\
+Hospital & lr & platt & 0.009 & 0.085 & -0.011 & 0.010 & 0.000 & -0.212 \\
+Hospital & rf & none & 0.009 & 0.085 & -0.019 & 0.005 & 0.000 & 0.000 \\
+Hospital & rf & platt & 0.009 & 0.085 & -0.019 & -0.005 & 0.000 & -0.013 \\
+Hospital & xgb & none & 0.009 & 0.085 & -0.010 & 0.007 & 0.000 & 0.000 \\
+Hospital & xgb & platt & 0.009 & 0.085 & -0.010 & -0.003 & 0.000 & 0.011 \\
+Random & lgbm & none & 3.069e-05 & 0.004 &  &  & 0.000 & 0.000 \\
+Random & lgbm & platt & 3.069e-05 & 0.004 &  &  & 0.000 & 0.018 \\
+Random & lr & none & 3.069e-05 & 0.004 &  &  & 0.000 & 0.000 \\
+Random & lr & platt & 3.069e-05 & 0.004 &  &  & 0.000 & -0.236 \\
+Random & rf & none & 3.069e-05 & 0.004 &  &  & 0.000 & 9.714e-17 \\
+Random & rf & platt & 3.069e-05 & 0.004 &  &  & 0.000 & -0.004 \\
+Random & xgb & none & 3.069e-05 & 0.004 &  &  & 0.000 & 0.000 \\
+Random & xgb & platt & 3.069e-05 & 0.004 &  &  & 0.000 & 0.021 \\
+Temporal & lgbm & none & 0.000 & 0.008 & 0.006 & 0.001 & 0.000 & 0.000 \\
+Temporal & lgbm & platt & 0.000 & 0.008 & 0.006 & 0.010 & 0.000 & 0.027 \\
+Temporal & lr & none & 0.000 & 0.008 & 0.003 & -0.001 & 0.000 & 0.000 \\
+Temporal & lr & platt & 0.000 & 0.008 & 0.003 & -0.002 & 0.000 & -0.237 \\
+Temporal & rf & none & 0.000 & 0.008 & 0.005 & 0.001 & 0.000 & 0.000 \\
+Temporal & rf & platt & 0.000 & 0.008 & 0.005 & 0.001 & 0.000 & -0.003 \\
+Temporal & xgb & none & 0.000 & 0.008 & 0.006 & 0.002 & 0.000 & 0.000 \\
+Temporal & xgb & platt & 0.000 & 0.008 & 0.006 & 0.010 & 0.000 & 0.029 \\
 \bottomrule
 \end{tabular}
 \end{table}

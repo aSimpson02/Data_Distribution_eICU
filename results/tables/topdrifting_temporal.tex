@@ -1,25 +1,20 @@
 \begin{table}
-\caption{Top drifting features (by JS) on temporal split.}
+\caption{Top drifting features (by JS) on the Temporal split.}
 \label{tab:topdrifting-temporal}
-\begin{tabular}{lrrrrrrrrr}
+\begin{tabular}{lrrrrrrr}
 \toprule
-feature & type & KS & KS\_p & JS & Wasserstein & chi2 & chi2\_p & KS\_sig\_FDR & CHI2\_sig\_FDR \\
+Feature & Type & JS & KS & \$\textbackslash chi\textasciicircum 2\$ & Wasserstein & KS (FDR) & \$\textbackslash chi\textasciicircum 2\$ (FDR) \\
 \midrule
-diagnosis\_bucket\_None & cat & NaN & NaN & 0.0066 & NaN & 1808.3560 & 0.0000 & False & True \\
-respiration\_\_missing & cat & NaN & NaN & 0.0020 & NaN & 553.2344 & 0.0000 & False & True \\
-diagnosis\_bucket\_OTHER & cat & NaN & NaN & 0.0007 & NaN & 205.0098 & 0.0000 & False & True \\
-respiration & cont & 0.0260 & 0.0000 & 0.0006 & 0.0219 & NaN & NaN & True & False \\
-age & cont & 0.0068 & 0.0199 & 0.0003 & 0.0107 & NaN & NaN & True & False \\
-temperature & cont & 0.0035 & 0.5789 & 0.0002 & 0.0243 & NaN & NaN & True & False \\
-spo2 & cont & 0.0136 & 0.0000 & 0.0002 & 0.0228 & NaN & NaN & True & False \\
-apachescore & cont & 0.0090 & 0.0006 & 0.0002 & 0.0198 & NaN & NaN & True & False \\
-lactate & cont & 0.0100 & 0.0001 & 0.0002 & 0.0146 & NaN & NaN & True & False \\
-systemicmean & cont & 0.0056 & 0.0842 & 0.0002 & 0.0118 & NaN & NaN & True & False \\
-unittype\_CCU-CTICU & cat & NaN & NaN & 0.0002 & NaN & 44.2328 & 0.0000 & False & True \\
-diagnosis\_bucket\_endocrine|glucose metabolism|diabetes mellitus & cat & NaN & NaN & 0.0002 & NaN & 43.2912 & 0.0000 & False & True \\
-glucose & cont & 0.0092 & 0.0004 & 0.0002 & 0.0112 & NaN & NaN & True & False \\
-albumin & cont & 0.0037 & 0.4909 & 0.0001 & 0.0049 & NaN & NaN & True & False \\
-systemicsystolic & cont & 0.0051 & 0.1480 & 0.0001 & 0.0141 & NaN & NaN & True & False \\
+diagnosis\_bucket\_None & cat & 0.007 &  & 1808.356 &  &  & \$\textbackslash checkmark\$ \\
+respiration\_\_missing & cat & 0.002 &  & 553.234 &  &  & \$\textbackslash checkmark\$ \\
+diagnosis\_bucket\_OTHER & cat & 0.001 &  & 205.010 &  &  & \$\textbackslash checkmark\$ \\
+respiration & cont & 0.001 & 0.026 &  & 0.022 & \$\textbackslash checkmark\$ &  \\
+age & cont & 0.000 & 0.007 &  & 0.011 & \$\textbackslash checkmark\$ &  \\
+temperature & cont & 0.000 & 0.003 &  & 0.024 & \$\textbackslash checkmark\$ &  \\
+spo2 & cont & 0.000 & 0.014 &  & 0.023 & \$\textbackslash checkmark\$ &  \\
+apachescore & cont & 0.000 & 0.009 &  & 0.020 & \$\textbackslash checkmark\$ &  \\
+lactate & cont & 0.000 & 0.010 &  & 0.015 & \$\textbackslash checkmark\$ &  \\
+systemicmean & cont & 0.000 & 0.006 &  & 0.012 & \$\textbackslash checkmark\$ &  \\
 \bottomrule
 \end{tabular}
 \end{table}

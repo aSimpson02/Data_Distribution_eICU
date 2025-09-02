@@ -1,13 +1,13 @@
 \begin{table}
 \caption{Shift signatures across splits.}
 \label{tab:shift-signature}
-\begin{tabular}{lrrrrrrrr}
+\begin{tabular}{lrrrrrrr}
 \toprule
-split & scenario & mean\_JS & mean\_KS\_cont & mean\_Wasserstein & label\_p\_src & label\_p\_tgt & label\_delta & label\_pval \\
+Split & Mean JS & Mean KS (cont.) & Mean Wasserstein & Label p(src) & Label p(tgt) & Δ label & p-value \\
 \midrule
-hospital & hospital & 0.0090 & 0.0847 & 0.1590 & 0.0895 & 0.0946 & 0.0052 & 0.1347 \\
-random & random & 0.0000 & 0.0037 & 0.0073 & 0.0896 & 0.0896 & 0.0000 & 0.9972 \\
-temporal & temporal & 0.0002 & 0.0081 & 0.0131 & 0.0887 & 0.0905 & 0.0018 & 0.1532 \\
+Hospital & 0.009 & 0.085 & 0.159 & 8.945\textbackslash \% & 9.463\textbackslash \% & 0.518\textbackslash \% & 0.135 \\
+Random & 3.069e-05 & 0.004 & 0.007 & 8.963\textbackslash \% & 8.964\textbackslash \% & 0.001\textbackslash \% & 0.997 \\
+Temporal & 0.000 & 0.008 & 0.013 & 8.868\textbackslash \% & 9.050\textbackslash \% & 0.182\textbackslash \% & 0.153 \\
 \bottomrule
 \end{tabular}
 \end{table}
