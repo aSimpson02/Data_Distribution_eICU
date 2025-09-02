@@ -1,38 +1,24 @@
 #!/usr/bin/env python3
 from pathlib import Path
-import argparse
-import numpy as np
-import pandas as pd
-import matplotlib.pyplot as plt
+import argparse, numpy as np, pandas as pd, matplotlib.pyplot as plt
 
-# Where per-example predictions are written by eval_no_tune.py / tune_with_val.py
-PREDS_DIR = Path("results/preds")
-OUT_DIR   = Path("results/figs/calibration")
-
-# What to try by default
-SPLITS = ["random", "temporal", "hospital"]
-MODELS = ["lr", "rf", "xgb", "lgbm"]
-TAGS   = ["notuned", "none", "platt", "isotonic"]  # any subset may exist
-
-def reliability_curve(probs, y, n_bins=15):
+def reliability_curve(probs: np.ndarray, y: np.ndarray, n_bins: int = 15):
     bins = np.linspace(0, 1, n_bins + 1)
-    idx = np.clip(np.digitize(probs, bins) - 1, 0, n_bins - 1)
+    idx  = np.clip(np.digitize(probs, bins) - 1, 0, n_bins - 1)
     confs, accs = [], []
     for b in range(n_bins):
         m = idx == b
-        if m.any():
-            confs.append(probs[m].mean()); accs.append(y[m].mean())
+        if m.any(): confs.append(probs[m].mean()); accs.append(y[m].mean())
     return np.array(confs), np.array(accs)
 
-def find_pred_file(split, model, tag):
-    # Prefer seed42, else first available seed
-    cand = list(PREDS_DIR.glob(f"{split}_{model}_{tag}_seed42.csv"))
+def find_pred_file(preds_dir: Path, split: str, model: str, tag: str):
+    cand = list((preds_dir).glob(f"{split}_{model}_{tag}_seed42.csv"))
     if not cand:
-        cand = sorted(PREDS_DIR.glob(f"{split}_{model}_{tag}_seed*.csv"))
+        cand = sorted((preds_dir).glob(f"{split}_{model}_{tag}_seed*.csv"))
     return cand[0] if cand else None
 
-def plot_one(split, model, tag):
-    f = find_pred_file(split, model, tag)
+def plot_one(preds_dir: Path, out_dir: Path, split: str, model: str, tag: str) -> bool:
+    f = find_pred_file(preds_dir, split, model, tag)
     if f is None:
         print(f"[SKIP] {split}/{model}/{tag} (no preds)"); return False
     df = pd.read_csv(f)
@@ -42,7 +28,6 @@ def plot_one(split, model, tag):
     p = pd.to_numeric(df["p"], errors="coerce").values
     conf, acc = reliability_curve(p, y)
 
-    out_dir = OUT_DIR / split / model
     out_dir.mkdir(parents=True, exist_ok=True)
     out = out_dir / f"calibration_{split}_{model}_{tag}.png"
 
@@ -58,29 +43,23 @@ def plot_one(split, model, tag):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--all", action="store_true",
-        help="Plot for all splits/models/tags discovered in results/preds/")
-    ap.add_argument("--splits", nargs="*", default=["all"])
-    ap.add_argument("--models", nargs="*", default=["all"])
-    ap.add_argument("--tags",   nargs="*", default=["all"])
+    ap.add_argument("--all", action="store_true", help="Plot for all splits/models/tags.")
+    ap.add_argument("--splits", nargs="*", default=["random","temporal","hospital"])
+    ap.add_argument("--models", nargs="*", default=["lr","rf","xgb","lgbm","tabpfn","protoicl"])
+    ap.add_argument("--tags",   nargs="*", default=["notuned","none","platt","isotonic","icl"])
+    ap.add_argument("--preds_dir", default="results/preds")
+    ap.add_argument("--outdir",    default="results/figs/calibration")
     args = ap.parse_args()
 
-    splits = SPLITS if args.all or args.splits == ["all"] else args.splits
-    models = MODELS if args.all or args.models == ["all"] else args.models
-    tags   = TAGS   if args.all or args.tags   == ["all"] else args.tags
-
-    OUT_DIR.mkdir(parents=True, exist_ok=True)
-
-    any_ok = False
-    for s in splits:
-        for m in models:
-            for t in tags:
-                ok = plot_one(s, m, t)
-                any_ok = any_ok or ok
-
+    preds_dir = Path(args.preds_dir)
+    outdir = Path(args.outdir)
+    any_ok=False
+    for s in args.splits:
+        for m in args.models:
+            for t in args.tags:
+                any_ok |= plot_one(preds_dir, outdir / s / m, s, m, t)
     if not any_ok:
-        print("[WARN] No plots produced. Ensure per-example preds exist in results/preds/ "
-              "(y_true,p). Re-run eval_no_tune/tune_with_val if needed.")
+        print(f"[WARN] No plots produced. Check {preds_dir}.")
 
 if __name__ == "__main__":
     main()

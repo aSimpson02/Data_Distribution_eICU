@@ -1,21 +1,5 @@
 #!/usr/bin/env python3
-"""
-Deep Ensembles for tabular ICU mortality with uncertainty & abstention.
 
-- Members: multiple seeds of the same base model (lr, rf, xgb, lgbm)
-- Calibration: none | platt | isotonic (per-member, using validation set)
-- Uncertainty: variance (across members) or entropy (of ensemble mean)
-- Abstention: keep least-uncertain fraction (--target_abstain) or threshold (--unc_tau)
-- Sweep: evaluate multiple keep rates for curves
-
-Outputs
--------
-Per-patient:
-  results/preds_ensembles/<scenario>_<model>_<rule>_M<M>[_keepXX|_tau...].csv
-
-Summary (appended):
-  results/uq_summary_<scenario>.csv
-"""
 from __future__ import annotations
 import argparse
 from pathlib import Path

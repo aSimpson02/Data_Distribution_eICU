@@ -1,147 +1,224 @@
 #!/usr/bin/env python3
 from __future__ import annotations
-import sys, glob
+import argparse
 from pathlib import Path
-import pandas as pd
+import re
 import numpy as np
+import pandas as pd
 
-# Columns we care about (if missing, we’ll fill with NaN)
-CORE_COLS = [
-    "scenario","model","seed","calib","feat_select","n_features",
-    "auroc","auprc","brier","nll","ece","tau"
-]
+REQUIRED_METRIC_COLS = {
+    "scenario", "model", "seed", "auroc", "auprc", "brier", "nll", "ece"
+}
 
-def load_csvs(patterns):
-    frames = []
-    for pat in patterns:
-        for fp in glob.glob(pat):
-            try:
-                df = pd.read_csv(fp)
-                df["__src__"] = Path(fp).name
-                frames.append(df)
-            except Exception as e:
-                print(f"[WARN] failed to read {fp}: {e}")
-    if not frames:
-        return pd.DataFrame()
-    out = pd.concat(frames, ignore_index=True)
-    # Normalize column names to lower
-    out.columns = [c.lower() for c in out.columns]
-    # Add any missing expected cols
-    for c in CORE_COLS:
-        if c not in out.columns:
-            out[c] = np.nan
-    # Derive scenario/model from filename if absent
-    if out["scenario"].isna().all():
-        # try to parse from filename pattern like: random_lr_platt_none_seed42.csv
-        def parse_scenario(name):
-            return name.split("_")[0]
-        out["scenario"] = out["__src__"].apply(parse_scenario)
-    if out["model"].isna().all():
-        def parse_model(name):
-            # examples: random_lr_platt_none_seed42.csv | random_xgb_notuned_seed42.csv
-            parts = name.split("_")
-            return parts[1] if len(parts) > 1 else np.nan
-        out["model"] = out["__src__"].apply(parse_model)
+# ----- filename helpers -------------------------------------------------------
+
+_FN_RE = re.compile(r"^([a-z0-9_]+)_([a-z0-9]+)_(.+?)_seed(\d+)\.csv$", re.I)
+
+def parse_from_filename(name: str) -> dict:
+    """
+    Accepts e.g.
+      random_lr_notuned_seed42.csv
+      hospital_xgb_platt_none_seed42.csv
+      temporal_lgbm_none_none_seed42.csv
+    Returns dict with scenario, model, seed, calib_tag (best-effort).
+    """
+    m = _FN_RE.match(name)
+    out = {"scenario": np.nan, "model": np.nan, "seed": np.nan, "calib_tag": np.nan}
+    if not m:
+        return out
+    scenario, model, mid, seed = m.groups()
+    out.update({"scenario": scenario, "model": model, "seed": int(seed)})
+
+    # Derive calibration tag from mid / notuned
+    mid_l = mid.lower()
+    if "notuned" in mid_l:
+        out["calib_tag"] = "notuned"
+    else:
+        # common encodings: "platt_none", "none_none", "isotonic_none"
+        out["calib_tag"] = mid_l.split("_")[0]
     return out
 
+# ----- IO + normalization -----------------------------------------------------
+
+def is_metrics_csv(p: Path) -> bool:
+    """Only 1-row metrics in results/ (exclude preds/, figs/, summaries)."""
+    if p.parent.name != "results": return False
+    if p.suffix.lower() != ".csv": return False
+    name = p.name.lower()
+    if name in {"results_summary.csv", "compare_no_tune_vs_tuned.csv", "all_scores.csv"}:
+        return False
+    if name.startswith("preds_"):  # just in case
+        return False
+    if "seed" not in name:  # summaries without seed → skip
+        return False
+    return True
+
+def load_metrics_csv(p: Path) -> pd.DataFrame | None:
+    try:
+        df = pd.read_csv(p)
+    except Exception as e:
+        print(f"[WARN] read error {p.name}: {e}")
+        return None
+
+    # Lowercase columns for consistency
+    df.columns = [c.lower() for c in df.columns]
+
+    # Must contain metric columns; otherwise skip
+    if not REQUIRED_METRIC_COLS.issubset(set(df.columns)):
+        return None
+
+    # Best-effort fill for scenario/model/seed/calib_tag if missing/NaN
+    # (prefer values from inside the CSV; fall back to filename)
+    fn_info = parse_from_filename(p.name)
+    for k in ("scenario", "model", "seed"):
+        if k not in df.columns or df[k].isna().all():
+            df[k] = fn_info[k]
+
+    # Identify source: notuned vs tuned
+    #  - Files with "notuned" in filename are NOTUNED
+    #  - Everything else (with calib none/platt/isotonic) is TUNED
+    source = "notuned" if "notuned" in p.name.lower() else "tuned"
+    df["source"] = source
+
+    # Add calib_tag if we can
+    if "calib" in df.columns and pd.notna(df.loc[0, "calib"]):
+        df["calib_tag"] = df["calib"].astype(str).str.lower()
+    else:
+        df["calib_tag"] = fn_info["calib_tag"]
+
+    # Keep useful columns; add file name
+    df["file"] = p.name
+    return df
+
+def collect_all(results_dir: Path) -> pd.DataFrame:
+    rows = []
+    for p in results_dir.iterdir():
+        if not is_metrics_csv(p):
+            continue
+        df = load_metrics_csv(p)
+        if df is not None:
+            rows.append(df)
+    if not rows:
+        return pd.DataFrame()
+    out = pd.concat(rows, ignore_index=True)
+
+    # Ensure optional columns exist
+    for c in ["feat", "feat_select", "n_features", "tau", "htgt"]:
+        if c not in out.columns:
+            out[c] = np.nan
+    # Normalize scenario casing
+    out["scenario"] = out["scenario"].astype(str).str.lower()
+    out["model"] = out["model"].astype(str).str.lower()
+    return out
+
+# ----- ranking helpers --------------------------------------------------------
+
+def best_by(df: pd.DataFrame, group_cols: list[str], metric: str,
+            ascending: bool, tie_breaker: tuple[str, bool]) -> pd.DataFrame:
+    """
+    Pick one row per group maximizing/minimizing 'metric'.
+    Tie-breaker is a (col, ascending) pair.
+    """
+    outs = []
+    for _, g in df.groupby(group_cols, dropna=False):
+        g = g.copy()
+        # main metric
+        g["_rk1"] = g[metric].rank(method="min", ascending=ascending)
+        g1 = g[g["_rk1"] == g["_rk1"].min()].copy()
+        # tie-breaker
+        tb_col, tb_asc = tie_breaker
+        g1["_rk2"] = g1[tb_col].rank(method="min", ascending=tb_asc)
+        outs.append(g1.loc[g1["_rk2"].idxmin()])
+    out = pd.DataFrame(outs).drop(columns=[c for c in ["_rk1", "_rk2"] if c in outs[0].index])
+    return out.reset_index(drop=True)
+
+# ----- main -------------------------------------------------------------------
+
 def main():
-    results_dir = Path("results")
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--results-dir", default="results", help="Directory with result CSVs.")
+    args = ap.parse_args()
+
+    results_dir = Path(args.results_dir)
     if not results_dir.exists():
         print("No results/ directory found.")
-        sys.exit(0)
+        return
 
-    # Load tuned (val-calibrated) runs and no-tune runs
-    tuned = load_csvs([str(results_dir / "*_*_*_*_seed*.csv")])
-    notuned = load_csvs([str(results_dir / "*_*_notuned_seed*.csv")])
+    all_scores = collect_all(results_dir)
+    if all_scores.empty:
+        print("No metrics CSVs found in results/.")
+        return
 
-    if tuned.empty and notuned.empty:
-        print("No metrics found.")
-        sys.exit(0)
+    # Save all scores table (long form)
+    out_all = results_dir / "all_scores.csv"
+    # Order columns nicely
+    cols_order = [
+        "scenario","htgt","model","seed","source","calib","calib_tag","feat","feat_select","n_features",
+        "auroc","auprc","brier","nll","ece","tau","file"
+    ]
+    cols_present = [c for c in cols_order if c in all_scores.columns]
+    other_cols = [c for c in all_scores.columns if c not in cols_present]
+    all_scores[cols_present + other_cols].to_csv(out_all, index=False)
+    print(f"[OK] wrote {out_all} ({len(all_scores)} rows)")
 
-    # Mark sources
+    # Build side-by-side compare: best tuned vs best notuned per (scenario, model)
+    tuned = all_scores[all_scores["source"] == "tuned"].copy()
+    notuned = all_scores[all_scores["source"] == "notuned"].copy()
+
+    # Choose best rows:
+    #  - tuned: maximize AUROC (tie-break lower ECE)
+    #  - notuned: maximize AUROC (tie-break lower ECE)
+    tuned_best = pd.DataFrame()
     if not tuned.empty:
-        tuned["source"] = "tuned"
+        tuned_best = best_by(tuned, ["scenario","model"], metric="auroc",
+                             ascending=False, tie_breaker=("ece", True))
+    notuned_best = pd.DataFrame()
     if not notuned.empty:
-        notuned["source"] = "notuned"
+        notuned_best = best_by(notuned, ["scenario","model"], metric="auroc",
+                               ascending=False, tie_breaker=("ece", True))
 
-    # Concatenate for optional overview (not strictly needed)
-    all_df = pd.concat([df for df in [tuned, notuned] if not df.empty], ignore_index=True)
-
-    # --- Pick best tuned per (scenario, model) by AUROC ---
-    if not tuned.empty:
-        tuned_best = tuned.sort_values(["scenario","model","auroc"], ascending=[True, True, False]) \
-                         .groupby(["scenario","model"], as_index=False).head(1)
-        tuned_best = tuned_best[CORE_COLS + ["source","__src__"]]
-    else:
-        tuned_best = pd.DataFrame(columns=CORE_COLS + ["source","__src__"])
-
-    # --- Pick corresponding no-tune rows (tau=0.5 fixed) ---
-    if not notuned.empty:
-        # If multiple seeds exist, keep the first per (scenario, model)
-        nt_best = notuned.sort_values(["scenario","model","auroc"], ascending=[True, True, False]) \
-                         .groupby(["scenario","model"], as_index=False).head(1)
-        nt_best = nt_best[CORE_COLS + ["source","__src__"]]
-    else:
-        nt_best = pd.DataFrame(columns=CORE_COLS + ["source","__src__"])
-
-    # --- Merge for side-by-side comparison ---
-    comp = nt_best.merge(
+    # Merge side-by-side
+    comp = notuned_best.merge(
         tuned_best,
         on=["scenario","model"],
         how="outer",
         suffixes=("_no_tune","_tuned")
     )
 
-    # Compute deltas where we have both rows
-    comp["delta_auroc"] = comp["auroc_tuned"] - comp["auroc_no_tune"]
-    comp["delta_ece"]   = comp["ece_tuned"]   - comp["ece_no_tune"]
-    comp["delta_brier"] = comp["brier_tuned"] - comp["brier_no_tune"]
-    comp["delta_nll"]   = comp["nll_tuned"]   - comp["nll_no_tune"]
+    # Compute deltas (tuned - no_tune)
+    for m in ["auroc","ece","brier","nll"]:
+        comp[f"delta_{m}"] = comp.get(f"{m}_tuned") - comp.get(f"{m}_no_tune")
 
-    # Select tidy output columns
+    # Select tidy view
     view_cols = [
         "scenario","model",
         "auroc_no_tune","ece_no_tune","brier_no_tune","nll_no_tune",
         "auroc_tuned","ece_tuned","brier_tuned","nll_tuned",
         "delta_auroc","delta_ece","delta_brier","delta_nll",
         "calib_tuned","feat_select_tuned","n_features_tuned",
-        "__src___no_tune","__src___tuned"
+        "file_no_tune","file_tuned"
     ]
-    # Rename columns for clarity
-    comp = comp.rename(columns={
-        "__src___no_tune":"file_no_tune",
-        "__src___tuned":"file_tuned",
-        "calib_tuned":"calib",
-        "feat_select_tuned":"feat_select",
-        "n_features_tuned":"n_features"
-    })
-
-    # Ensure columns exist even if some side missing
     for c in view_cols:
         if c not in comp.columns:
             comp[c] = np.nan
+    comp = comp[view_cols].sort_values(["scenario","model"]).reset_index(drop=True)
 
-    comp = comp[["scenario","model",
-                 "auroc_no_tune","ece_no_tune","brier_no_tune","nll_no_tune",
-                 "auroc_tuned","ece_tuned","brier_tuned","nll_tuned",
-                 "delta_auroc","delta_ece","delta_brier","delta_nll",
-                 "calib","feat_select","n_features",
-                 "file_no_tune","file_tuned"]]
+    # Save compare CSV
+    out_comp = results_dir / "compare_no_tune_vs_tuned.csv"
+    comp.to_csv(out_comp, index=False)
+    print(f"[OK] wrote {out_comp} ({len(comp)} rows)")
 
-    # Sort for readability
-    comp = comp.sort_values(["scenario","model"]).reset_index(drop=True)
-
-    # Print to terminal
+    # Pretty print
     with pd.option_context("display.max_columns", None, "display.width", 160):
         if comp.empty:
             print("No comparable rows found (did you run both no-tune and tuned steps?).")
         else:
-            print(comp.to_string(index=False, float_format=lambda x: f"{x:.4f}" if isinstance(x,float) else str(x)))
-
-    # Save
-    outp = results_dir / "compare_no_tune_vs_tuned.csv"
-    comp.to_csv(outp, index=False)
-    print(f"\nSaved {outp}")
+            def ff(x):
+                try:
+                    return f"{x:.4f}"
+                except Exception:
+                    return str(x)
+            print(comp.to_string(index=False, formatters={c: ff for c in comp.columns}))
 
 if __name__ == "__main__":
     main()

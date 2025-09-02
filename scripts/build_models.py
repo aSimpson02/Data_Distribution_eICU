@@ -1,9 +1,5 @@
 #!/usr/bin/env python3
-"""
-Central model factory for tabular mortality experiments.
-Returns unfitted sklearn/xgboost/lightgbm classifiers with sensible defaults.
-Safe-imports boosters so callers can request them without crashing if missing.
-"""
+
 from __future__ import annotations
 from dataclasses import dataclass
 from typing import Dict, Callable
