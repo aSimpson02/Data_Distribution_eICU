@@ -1,50 +1,70 @@
 #!/usr/bin/env python3
 from __future__ import annotations
-import argparse, sys
+
+import argparse
+import sys
 from pathlib import Path
+
 import numpy as np
 import pandas as pd
+from sklearn.metrics import (
+    roc_auc_score,
+    average_precision_score,
+    brier_score_loss,
+    log_loss,
+    balanced_accuracy_score,
+    f1_score,
+)
 
 # repo root for imports (so src/... works)
 from pathlib import Path as _Path
 sys.path.insert(0, str(_Path(__file__).resolve().parents[1]))
 
-from sklearn.metrics import (
-    roc_auc_score, average_precision_score, brier_score_loss, log_loss,
-    balanced_accuracy_score, f1_score
-)
 from src.feats.selector import FeaturePolicy
 from scripts.build_models import build_model, get_model_names
 
+
+# Columns that must NEVER be used as predictors (leakage / IDs)
 PREDICTOR_DROP = {
-    "patientunitstayid","hospitalid","hospitaldischargeyear",
-    "apachescore","predictedhospitalmortality","admissionoffset"
+    "patientunitstayid",
+    "hospitalid",
+    "hospitaldischargeyear",
+    "apachescore",
+    "predictedhospitalmortality",
+    "admissionoffset",
 }
 
+# Map user-facing "scenario" to file stems used in data/csv_splits
 STEM_MAP = {
-    "iid":"random","random":"random",
-    "hospital":"hospital","hospital_ood":"hospital",
-    "temporal":"temporal","temporal_ood":"temporal"
+    "iid": "random",
+    "random": "random",
+    "hospital": "hospital",
+    "hospital_ood": "hospital",
+    "temporal": "temporal",
+    "temporal_ood": "temporal",
 }
+
 
 def parse_args():
     p = argparse.ArgumentParser()
     p.add_argument("--scenario", required=True, choices=list(STEM_MAP.keys()))
-    p.add_argument("--models", nargs="+", default=["lr","rf"], choices=get_model_names())
+    p.add_argument("--models", nargs="+", default=["lr", "rf"], choices=get_model_names())
     p.add_argument("--seeds", nargs="+", type=int, default=[42])
     p.add_argument("--label_col", required=True)
     p.add_argument("--splits_dir", default="data/csv_splits")
     p.add_argument("--results_dir", default="results")
     return p.parse_args()
 
+
 def load_three(stem: str, d: Path):
     tr = pd.read_csv(d / f"{stem}_train.csv")
-    va = pd.read_csv(d / f"{stem}_val.csv")   # not used, but keep for symmetry
+    va = pd.read_csv(d / f"{stem}_val.csv")   # kept for symmetry; not used
     te = pd.read_csv(d / f"{stem}_test.csv")
     return tr, va, te
 
+
 def choose_features(df: pd.DataFrame, label_col: str):
-    keep=[]
+    keep = []
     for c in df.columns:
         if c == label_col or c in PREDICTOR_DROP:
             continue
@@ -52,15 +72,28 @@ def choose_features(df: pd.DataFrame, label_col: str):
             keep.append(c)
     return keep
 
+
 def ece(y, p, bins=20):
-    y = np.asarray(y).astype(int); p = np.asarray(p)
-    edges = np.linspace(0,1,bins+1); out=0.0
+    y = np.asarray(y).astype(int)
+    p = np.asarray(p)
+    edges = np.linspace(0, 1, bins + 1)
+    out = 0.0
     for i in range(bins):
-        lo,hi = edges[i], edges[i+1]
-        m = (p>=lo)&(p<(hi if i<bins-1 else hi))
+        lo, hi = edges[i], edges[i + 1]
+        m = (p >= lo) & (p < (hi if i < bins - 1 else hi))
         if m.any():
             out += (m.mean()) * abs(y[m].mean() - p[m].mean())
     return float(out)
+
+
+# === NEW: per-example prediction dump for plotting ===
+def _dump_preds(split: str, model: str, seed: int, calib_tag: str, y_true, p, results_dir: Path):
+    preds_dir = Path(results_dir) / "preds"
+    preds_dir.mkdir(parents=True, exist_ok=True)
+    out = preds_dir / f"{split}_{model}_{calib_tag}_seed{seed}.csv"
+    pd.DataFrame({"y_true": y_true, "p": p}).to_csv(out, index=False)
+    print(f"[preds] wrote {out}")
+
 
 def main():
     a = parse_args()
@@ -71,7 +104,7 @@ def main():
     ytr = tr[a.label_col].astype(int).values
     yte = te[a.label_col].astype(int).values
 
-    # simple feature “policy” (no selection; just cleaning & missing handling)
+    # Simple feature policy (clean + missing handling; no selection)
     start = choose_features(tr, a.label_col)
     policy = FeaturePolicy(feat_select="none", missing_thresh=0.40).fit(
         tr[[a.label_col] + start], label_col=a.label_col
@@ -79,17 +112,18 @@ def main():
     Xtr = policy.transform(tr)
     Xte = policy.transform(te)
 
-    out_dir = Path(a.results_dir); out_dir.mkdir(parents=True, exist_ok=True)
+    results_dir = Path(a.results_dir)
+    results_dir.mkdir(parents=True, exist_ok=True)
 
     for m in a.models:
         for s in a.seeds:
             try:
                 clf = build_model(m, s)
             except RuntimeError as e:
-                print(f"[SKIP] {a.scenario} | {m} | notuned | seed={s} → {e}")
+                print(f"[SKIP] {a.scenario} | {m} | notuned | seed={s} -> {e}")
                 continue
 
-            # === XGBoost name-safety: use NumPy to drop column names with [,],<,> ===
+            # XGBoost name-safety: drop column names with special chars by using NumPy
             is_xgb = (m == "xgb")
             Xtr_in = Xtr.to_numpy() if is_xgb else Xtr
             Xte_in = Xte.to_numpy() if is_xgb else Xte
@@ -98,22 +132,35 @@ def main():
             p = clf.predict_proba(Xte_in)[:, 1]
             yhat = (p >= 0.5).astype(int)
 
+            # NEW: write per-example predictions (for calibration plots etc.)
+            _dump_preds(a.scenario, m, s, "notuned", yte, p, results_dir)
+
+            # One-row metrics summary (kept for backward compatibility)
             row = dict(
-                scenario=a.scenario, Htgt=a.scenario, model=m, seed=s,
-                calib="none", feat="notuned", feat_select="none",
+                scenario=a.scenario,
+                Htgt=a.scenario,
+                model=m,
+                seed=s,
+                calib="none",
+                feat="notuned",
+                feat_select="none",
                 n_features=len(policy.selected_features_),
                 auroc=roc_auc_score(yte, p),
                 auprc=average_precision_score(yte, p),
                 brier=brier_score_loss(yte, p),
-                nll=log_loss(yte, p, labels=[0,1]),
+                nll=log_loss(yte, p, labels=[0, 1]),
                 ece=ece(yte, p),
                 tau=0.5,
                 f1_at_tau=f1_score(yte, yhat),
                 balacc_at_tau=balanced_accuracy_score(yte, yhat),
             )
-            out = out_dir / f"{a.scenario}_{m}_notuned_seed{s}.csv"
+            out = results_dir / f"{a.scenario}_{m}_notuned_seed{s}.csv"
             pd.DataFrame([row]).to_csv(out, index=False)
-            print(f"[OK][no-tune] {a.scenario} | {m} | seed={s} → AUROC={row['auroc']:.4f}, ECE={row['ece']:.4f}")
+            print(
+                f"[OK][no-tune] {a.scenario} | {m} | seed={s} -> "
+                f"AUROC={row['auroc']:.4f}, ECE={row['ece']:.4f}"
+            )
+
 
 if __name__ == "__main__":
     main()
