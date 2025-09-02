@@ -1,0 +1,92 @@
+age
+heartrate
+systemicsystolic
+systemicdiastolic
+systemicmean
+respiration
+temperature
+spo2
+albumin
+bun
+glucose
+lactate
+creatinine
+age__missing
+apachescore__missing
+predictedhospitalmortality__missing
+heartrate__missing
+systemicsystolic__missing
+systemicdiastolic__missing
+systemicmean__missing
+respiration__missing
+temperature__missing
+spo2__missing
+albumin__missing
+bun__missing
+glucose__missing
+lactate__missing
+creatinine__missing
+gender_Female
+gender_Male
+gender_Other
+gender_Unknown
+gender_None
+unittype_CCU-CTICU
+unittype_CSICU
+unittype_CTICU
+unittype_Cardiac ICU
+unittype_MICU
+unittype_Med-Surg ICU
+unittype_Neuro ICU
+unittype_SICU
+diagnosis_bucket_None
+diagnosis_bucket_OTHER
+diagnosis_bucket_cardiovascular|arrhythmias|atrial fibrillation
+diagnosis_bucket_cardiovascular|arrhythmias|atrial fibrillation|with rapid ventricular response
+diagnosis_bucket_cardiovascular|cardiac arrest|cardiac arrest
+diagnosis_bucket_cardiovascular|cardiac surgery|CABG < 7days
+diagnosis_bucket_cardiovascular|cardiac surgery|s/p CABG < 7 days
+diagnosis_bucket_cardiovascular|cardiac surgery|valve replacement < 7days
+diagnosis_bucket_cardiovascular|cardiac surgery|valve replacement < 7days|aortic
+diagnosis_bucket_cardiovascular|chest pain / ASHD|acute coronary syndrome
+diagnosis_bucket_cardiovascular|chest pain / ASHD|acute coronary syndrome|acute myocardial infarction (no ST elevation)
+diagnosis_bucket_cardiovascular|chest pain / ASHD|acute coronary syndrome|acute myocardial infarction (with ST elevation)
+diagnosis_bucket_cardiovascular|chest pain / ASHD|chest pain
+diagnosis_bucket_cardiovascular|chest pain / ASHD|coronary artery disease
+diagnosis_bucket_cardiovascular|chest pain / ASHD|hyperlipidemia
+diagnosis_bucket_cardiovascular|post vascular surgery|s/p cartoid endarterectomy
+diagnosis_bucket_cardiovascular|shock / hypotension|hypotension
+diagnosis_bucket_cardiovascular|shock / hypotension|hypotension / pressor dependent
+diagnosis_bucket_cardiovascular|shock / hypotension|sepsis
+diagnosis_bucket_cardiovascular|shock / hypotension|sepsis|severe
+diagnosis_bucket_cardiovascular|shock / hypotension|septic shock
+diagnosis_bucket_cardiovascular|vascular disorders|hypertension
+diagnosis_bucket_cardiovascular|ventricular disorders|congestive heart failure
+diagnosis_bucket_cardiovascular|ventricular disorders|hypertension
+diagnosis_bucket_endocrine|glucose metabolism|DKA
+diagnosis_bucket_endocrine|glucose metabolism|diabetes mellitus
+diagnosis_bucket_endocrine|glucose metabolism|hyperglycemia
+diagnosis_bucket_gastrointestinal|GI bleeding / PUD|GI bleeding
+diagnosis_bucket_gastrointestinal|GI bleeding / PUD|lower GI bleeding
+diagnosis_bucket_gastrointestinal|GI bleeding / PUD|upper GI bleeding
+diagnosis_bucket_gastrointestinal|abdominal/ general|abdominal pain / tenderness
+diagnosis_bucket_gastrointestinal|post-GI surgery|s/p exploratory laparotomy
+diagnosis_bucket_hematology|bleeding and red blood cell disorders|anemia
+diagnosis_bucket_neurologic|altered mental status / pain|change in mental status
+diagnosis_bucket_neurologic|disorders of vasculature|stroke
+diagnosis_bucket_neurologic|disorders of vasculature|stroke|hemorrhagic stroke
+diagnosis_bucket_neurologic|disorders of vasculature|stroke|ischemic stroke
+diagnosis_bucket_neurologic|seizures|seizures
+diagnosis_bucket_pulmonary|disorders of the airways|COPD
+diagnosis_bucket_pulmonary|disorders of the airways|acute COPD exacerbation
+diagnosis_bucket_pulmonary|disorders of the airways|asthma / bronchospasm
+diagnosis_bucket_pulmonary|disorders of vasculature|pulmonary embolism
+diagnosis_bucket_pulmonary|pulmonary infections|pneumonia
+diagnosis_bucket_pulmonary|respiratory failure|acute respiratory distress
+diagnosis_bucket_pulmonary|respiratory failure|acute respiratory failure
+diagnosis_bucket_pulmonary|respiratory failure|hypoxemia
+diagnosis_bucket_renal|disorder of kidney|ESRD (end stage renal disease)
+diagnosis_bucket_renal|disorder of kidney|acute renal failure
+diagnosis_bucket_renal|disorder of kidney|chronic kidney disease
+diagnosis_bucket_renal|disorder of urinary tract / renal system infection|urinary tract infection
+diagnosis_bucket_toxicology|drug overdose|drug overdose- general

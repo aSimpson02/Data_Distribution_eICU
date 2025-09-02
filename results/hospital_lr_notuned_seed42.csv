@@ -1,0 +1,2 @@
+scenario,Htgt,model,seed,source,calib,calib_tag,feat,feat_select,n_features,auroc,auprc,brier,nll,ece,tau,f1_at_tau,balacc_at_tau
+hospital,hospital,lr,42,notuned,none,notuned,notuned,none,92,0.8813362166294855,0.572790990688103,0.1309507229917835,0.4181090795430132,0.229220137951862,0.5,0.4458818456231134,0.7982575374989342
