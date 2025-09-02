@@ -1,0 +1,95 @@
+feature,type,KS,KS_p,JS,Wasserstein,chi2,chi2_p,KS_sig_FDR,CHI2_sig_FDR
+age,cont,0.006781456409361841,0.019863699287465383,0.0003225987962033834,0.010673544976175587,,,True,False
+apachescore,cont,0.008966059386615821,0.000631713906829005,0.00018736373386289443,0.019832249659435988,,,True,False
+predictedhospitalmortality,cont,0.009748682769751493,0.0001455400169644401,0.0001161957024524989,0.012439363256357226,,,True,False
+heartrate,cont,0.0030218851541438108,0.748953917797437,6.387302694504746e-05,0.004174460944823414,,,False,False
+systemicsystolic,cont,0.005094142093780674,0.1479967270000515,0.0001422818765067883,0.014148589219556716,,,True,False
+systemicdiastolic,cont,0.005615982847319678,0.08453951610199373,0.00010898942230743049,0.009595877250057148,,,True,False
+systemicmean,cont,0.0056191998301753365,0.08423382598976292,0.00016358369738400392,0.011759255027286938,,,True,False
+respiration,cont,0.025979485117959333,8.358497976846819e-30,0.0005633496087574743,0.0218553057632067,,,True,False
+temperature,cont,0.0034765837018512213,0.5788855751246862,0.00022492600109793486,0.024298935450899624,,,True,False
+spo2,cont,0.013642383495909405,1.5802635491532662e-08,0.00021425419606895183,0.02283185949977088,,,True,False
+albumin,cont,0.003720281309089135,0.4908677493298058,0.00014452634602686771,0.00488427249425577,,,True,False
+bun,cont,0.004984804132412202,0.1652587856939456,0.00010219475809379856,0.005930412757655849,,,True,False
+glucose,cont,0.009183910317086097,0.00042502011344742113,0.00015442891715126254,0.011191637393912126,,,True,False
+lactate,cont,0.010022445337309782,8.460305302511378e-05,0.00017244328884842672,0.01460016134969541,,,True,False
+creatinine,cont,0.005431687565446763,0.10367553015135,8.427343621798944e-05,0.007645589831750634,,,True,False
+age__missing,cat,,,3.344856259845058e-05,,8.665515382293393,0.0032428827288028188,False,True
+apachescore__missing,cat,,,1.2044931713626332e-05,,3.326526949935243,0.06817068452633314,False,True
+predictedhospitalmortality__missing,cat,,,1.2044931713626332e-05,,3.326526949935243,0.06817068452633314,False,True
+heartrate__missing,cat,,,2.011710049355837e-05,,5.529020166860395,0.018703576656510092,False,True
+systemicsystolic__missing,cat,,,5.242022926759882e-05,,14.528306131861228,0.00013806932924377563,False,True
+systemicdiastolic__missing,cat,,,5.2092235008551934e-05,,14.437254525849575,0.00014490717239604384,False,True
+systemicmean__missing,cat,,,5.707360932233571e-05,,15.820172884736323,6.965589381541229e-05,False,True
+respiration__missing,cat,,,0.0020119463907597433,,553.2343909307582,2.4910497021298726e-122,False,True
+temperature__missing,cat,,,5.464162682710516e-05,,15.135645034143069,0.00010005617046913033,False,True
+spo2__missing,cat,,,4.625495413327918e-05,,12.757536969498691,0.0003545774955290125,False,True
+albumin__missing,cat,,,1.941073827981589e-05,,5.370290252581609,0.020482568919432013,False,True
+bun__missing,cat,,,3.9673877357404566e-05,,10.937122076577634,0.000942564648657768,False,True
+glucose__missing,cat,,,7.470376836021332e-05,,20.616910161591488,5.6098414582814024e-06,False,True
+lactate__missing,cat,,,0.00011922375732423615,,33.050891985708745,8.977785171977128e-09,False,True
+creatinine__missing,cat,,,3.158278925556607e-05,,8.701197550218504,0.00318001063836479,False,True
+gender_Female,cat,,,8.878271671276926e-06,,2.4520944519173553,0.11736816898864288,False,True
+gender_Male,cat,,,7.529272427745323e-06,,2.0784994291436765,0.14938697086634825,False,True
+gender_Other,cat,,,1.6384812323296927e-05,,2.6611083964932507,0.10282905630155344,False,True
+gender_Unknown,cat,,,1.67440455821515e-05,,3.9302197115340034,0.04742574779505134,False,True
+gender_None,cat,,,1.1350331198943377e-05,,2.863926803277096,0.09058611263580989,False,True
+unittype_CCU-CTICU,cat,,,0.00015933401776931924,,44.23280508642853,2.915541473989627e-11,False,True
+unittype_CSICU,cat,,,2.5312358443509978e-06,,0.6859638874677787,0.407540614407057,False,True
+unittype_CTICU,cat,,,0.00012106217513681036,,33.334388355718396,7.75982565639232e-09,False,True
+unittype_Cardiac ICU,cat,,,0.00010431741791338898,,28.80629952435083,7.999051320135176e-08,False,True
+unittype_MICU,cat,,,9.66484200109122e-05,,26.80394548510615,2.2517713146267913e-07,False,True
+unittype_Med-Surg ICU,cat,,,1.7154703692778212e-06,,0.47033754739220485,0.4928319219482058,False,True
+unittype_Neuro ICU,cat,,,3.719746304954394e-06,,1.0153907088928908,0.3136148465824014,False,True
+unittype_SICU,cat,,,1.622014211949933e-05,,4.461945146766576,0.03465801000697364,False,True
+diagnosis_bucket_None,cat,,,0.006632319356457616,,1808.3559748914904,0.0,False,True
+diagnosis_bucket_OTHER,cat,,,0.000738386154405583,,205.0097839287896,1.6851968663761943e-46,False,True
+diagnosis_bucket_cardiovascular|arrhythmias|atrial fibrillation,cat,,,1.856003374127621e-05,,5.065386487753173,0.024408262202096402,False,True
+diagnosis_bucket_cardiovascular|arrhythmias|atrial fibrillation|with rapid ventricular response,cat,,,1.057625658018346e-07,,0.022014805725248568,0.8820477193895091,False,False
+diagnosis_bucket_cardiovascular|cardiac arrest|cardiac arrest,cat,,,1.823909057441486e-06,,0.46747425114706154,0.4941514316273973,False,True
+diagnosis_bucket_cardiovascular|cardiac surgery|CABG < 7days,cat,,,1.468527865259379e-06,,0.36729132941511017,0.5444844403577033,False,True
+diagnosis_bucket_cardiovascular|cardiac surgery|s/p CABG < 7 days,cat,,,8.198256151508102e-05,,22.619828944853868,1.9743636267332676e-06,False,True
+diagnosis_bucket_cardiovascular|cardiac surgery|valve replacement < 7days,cat,,,2.369721755770253e-07,,0.04742247818894431,0.8276106363947333,False,False
+diagnosis_bucket_cardiovascular|cardiac surgery|valve replacement < 7days|aortic,cat,,,2.312252633419706e-06,,0.5926682551036894,0.4413891719339035,False,True
+diagnosis_bucket_cardiovascular|chest pain / ASHD|acute coronary syndrome,cat,,,2.054956431646923e-05,,5.5906884299923245,0.018056198384756753,False,True
+diagnosis_bucket_cardiovascular|chest pain / ASHD|acute coronary syndrome|acute myocardial infarction (no ST elevation),cat,,,3.5213697274775604e-06,,0.9327142439155489,0.33415862228772303,False,True
+diagnosis_bucket_cardiovascular|chest pain / ASHD|acute coronary syndrome|acute myocardial infarction (with ST elevation),cat,,,3.498654446655349e-05,,9.584283475260651,0.0019625001163813727,False,True
+diagnosis_bucket_cardiovascular|chest pain / ASHD|chest pain,cat,,,9.935812121127587e-06,,2.688839807289637,0.10105336882312017,False,True
+diagnosis_bucket_cardiovascular|chest pain / ASHD|coronary artery disease,cat,,,7.676867093898564e-05,,21.153305940175134,4.239692575203837e-06,False,True
+diagnosis_bucket_cardiovascular|chest pain / ASHD|hyperlipidemia,cat,,,3.9266693249071375e-05,,10.710001072148492,0.0010655796743919092,False,True
+diagnosis_bucket_cardiovascular|post vascular surgery|s/p cartoid endarterectomy,cat,,,4.485402246463769e-05,,12.288877926666359,0.000455665607893808,False,True
+diagnosis_bucket_cardiovascular|shock / hypotension|hypotension,cat,,,6.762978283718853e-05,,18.662291145160452,1.5603810912375744e-05,False,True
+diagnosis_bucket_cardiovascular|shock / hypotension|hypotension / pressor dependent,cat,,,2.5742449615180015e-06,,0.6569286234242661,0.41764635332024047,False,True
+diagnosis_bucket_cardiovascular|shock / hypotension|sepsis,cat,,,1.1506704893746227e-09,,0.0,1.0,False,False
+diagnosis_bucket_cardiovascular|shock / hypotension|sepsis|severe,cat,,,1.5456971538039046e-06,,0.39173741359605907,0.5313875544337878,False,True
+diagnosis_bucket_cardiovascular|shock / hypotension|septic shock,cat,,,7.641816441883477e-06,,2.015296490589825,0.1557208484482762,False,True
+diagnosis_bucket_cardiovascular|vascular disorders|hypertension,cat,,,3.9787478275657086e-05,,10.949458503708886,0.0009363097389935011,False,True
+diagnosis_bucket_cardiovascular|ventricular disorders|congestive heart failure,cat,,,1.1467657116902681e-06,,0.299504592505047,0.5841931635459959,False,True
+diagnosis_bucket_cardiovascular|ventricular disorders|hypertension,cat,,,2.1397767721215222e-05,,5.837221788237587,0.015690582765765498,False,True
+diagnosis_bucket_endocrine|glucose metabolism|DKA,cat,,,5.532416079911297e-06,,1.4932761674941724,0.2217088389192903,False,True
+diagnosis_bucket_endocrine|glucose metabolism|diabetes mellitus,cat,,,0.00015618918642622062,,43.29124781558403,4.716886473136324e-11,False,True
+diagnosis_bucket_endocrine|glucose metabolism|hyperglycemia,cat,,,2.622172753069641e-05,,7.1190493867276174,0.007626913629103284,False,True
+diagnosis_bucket_gastrointestinal|GI bleeding / PUD|GI bleeding,cat,,,1.4842659270253135e-05,,4.02525502526622,0.044823842529404974,False,True
+diagnosis_bucket_gastrointestinal|GI bleeding / PUD|lower GI bleeding,cat,,,8.110302567828806e-07,,0.19890385592605433,0.6556070804536743,False,True
+diagnosis_bucket_gastrointestinal|GI bleeding / PUD|upper GI bleeding,cat,,,3.939706841242717e-05,,10.812094920853754,0.0010083913182984247,False,True
+diagnosis_bucket_gastrointestinal|abdominal/ general|abdominal pain / tenderness,cat,,,9.617697150268652e-06,,2.5591467233627583,0.1096577547989536,False,True
+diagnosis_bucket_gastrointestinal|post-GI surgery|s/p exploratory laparotomy,cat,,,2.043374554983285e-05,,5.547449170743139,0.018507639810073414,False,True
+diagnosis_bucket_hematology|bleeding and red blood cell disorders|anemia,cat,,,5.498050857507569e-05,,15.084306081942273,0.00010281452027175514,False,True
+diagnosis_bucket_neurologic|altered mental status / pain|change in mental status,cat,,,2.849501800906092e-05,,7.831552245802911,0.005134198976006442,False,True
+diagnosis_bucket_neurologic|disorders of vasculature|stroke,cat,,,2.737780421542153e-06,,0.7226253305117254,0.3952841010857202,False,True
+diagnosis_bucket_neurologic|disorders of vasculature|stroke|hemorrhagic stroke,cat,,,3.255255427382287e-06,,0.8468817792962587,0.3574359665501743,False,True
+diagnosis_bucket_neurologic|disorders of vasculature|stroke|ischemic stroke,cat,,,2.220315435976492e-08,,0.0028770740483885816,0.9572232907693111,False,False
+diagnosis_bucket_neurologic|seizures|seizures,cat,,,1.672398438397911e-07,,0.03634436014044064,0.8488061070872088,False,False
+diagnosis_bucket_pulmonary|disorders of the airways|COPD,cat,,,0.00011588092257786838,,32.01612299052118,1.528982986440628e-08,False,True
+diagnosis_bucket_pulmonary|disorders of the airways|acute COPD exacerbation,cat,,,7.750052559927504e-06,,2.0776696375651524,0.14946821596476564,False,True
+diagnosis_bucket_pulmonary|disorders of the airways|asthma / bronchospasm,cat,,,4.878963514379517e-05,,13.323055782367216,0.00026216259238691706,False,True
+diagnosis_bucket_pulmonary|disorders of vasculature|pulmonary embolism,cat,,,4.880649985371347e-07,,0.10849164611633878,0.7418679531567873,False,True
+diagnosis_bucket_pulmonary|pulmonary infections|pneumonia,cat,,,9.901438241143008e-06,,2.6991608908969376,0.10040107564876335,False,True
+diagnosis_bucket_pulmonary|respiratory failure|acute respiratory distress,cat,,,1.1928304141720191e-05,,3.2507793446391933,0.07138950624604083,False,True
+diagnosis_bucket_pulmonary|respiratory failure|acute respiratory failure,cat,,,3.0036356515514022e-05,,8.276471537595057,0.004016209956566115,False,True
+diagnosis_bucket_pulmonary|respiratory failure|hypoxemia,cat,,,3.195354075199292e-05,,8.717361669546964,0.0031519384377369747,False,True
+diagnosis_bucket_renal|disorder of kidney|ESRD (end stage renal disease),cat,,,1.015017257852798e-06,,0.2511482405869143,0.616267723989479,False,True
+diagnosis_bucket_renal|disorder of kidney|acute renal failure,cat,,,7.189010629855761e-06,,1.9407101141077154,0.16359145176829837,False,True
+diagnosis_bucket_renal|disorder of kidney|chronic kidney disease,cat,,,5.297924594266851e-06,,1.3816039786070862,0.23982812030683087,False,True
+diagnosis_bucket_renal|disorder of urinary tract / renal system infection|urinary tract infection,cat,,,8.530672443691036e-07,,0.20414116321225267,0.6513987793499313,False,True
+diagnosis_bucket_toxicology|drug overdose|drug overdose- general,cat,,,9.922420208417444e-06,,2.6362558914841143,0.10444943823788774,False,True

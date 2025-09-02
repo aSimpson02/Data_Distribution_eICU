@@ -1,0 +1,25 @@
+\begin{table}
+\caption{Top drifting features (by JS) on hospital split.}
+\label{tab:topdrifting-hospital}
+\begin{tabular}{lrrrrrrrrr}
+\toprule
+feature & type & KS & KS\_p & JS & Wasserstein & chi2 & chi2\_p & KS\_sig\_FDR & CHI2\_sig\_FDR \\
+\midrule
+unittype\_Med-Surg ICU & cat & NaN & NaN & 0.1384 & NaN & 4745.9981 & 0.0000 & False & True \\
+diagnosis\_bucket\_None & cat & NaN & NaN & 0.1023 & NaN & 6428.3891 & 0.0000 & False & True \\
+unittype\_CTICU & cat & NaN & NaN & 0.0591 & NaN & 6500.6784 & 0.0000 & False & True \\
+diagnosis\_bucket\_OTHER & cat & NaN & NaN & 0.0413 & NaN & 1404.8157 & 0.0000 & False & True \\
+unittype\_Cardiac ICU & cat & NaN & NaN & 0.0329 & NaN & 483.0459 & 0.0000 & False & True \\
+unittype\_Neuro ICU & cat & NaN & NaN & 0.0329 & NaN & 2136.2160 & 0.0000 & False & True \\
+unittype\_CCU-CTICU & cat & NaN & NaN & 0.0313 & NaN & 1973.0052 & 0.0000 & False & True \\
+systemicsystolic\_\_missing & cat & NaN & NaN & 0.0288 & NaN & 1309.8849 & 0.0000 & False & True \\
+systemicdiastolic\_\_missing & cat & NaN & NaN & 0.0288 & NaN & 1308.3638 & 0.0000 & False & True \\
+creatinine & cont & 0.1721 & 0.0000 & 0.0286 & 0.1031 & NaN & NaN & True & False \\
+systemicmean\_\_missing & cat & NaN & NaN & 0.0285 & NaN & 1289.8308 & 0.0000 & False & True \\
+systemicsystolic & cont & 0.1260 & 0.0000 & 0.0268 & 0.3220 & NaN & NaN & True & False \\
+unittype\_CSICU & cat & NaN & NaN & 0.0253 & NaN & 367.1398 & 0.0000 & False & True \\
+systemicdiastolic & cont & 0.0991 & 0.0000 & 0.0249 & 0.3280 & NaN & NaN & True & False \\
+systemicmean & cont & 0.1114 & 0.0000 & 0.0230 & 0.2482 & NaN & NaN & True & False \\
+\bottomrule
+\end{tabular}
+\end{table}

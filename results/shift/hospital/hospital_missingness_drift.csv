@@ -1,0 +1,95 @@
+feature,train_missing,test_missing,delta_missing
+age,0.0,0.0,0.0
+apachescore,0.0,0.0,0.0
+predictedhospitalmortality,0.0,0.0,0.0
+heartrate,0.0,0.0,0.0
+systemicsystolic,0.0,0.0,0.0
+systemicdiastolic,0.0,0.0,0.0
+systemicmean,0.0,0.0,0.0
+respiration,0.0,0.0,0.0
+temperature,0.0,0.0,0.0
+spo2,0.0,0.0,0.0
+albumin,0.0,0.0,0.0
+bun,0.0,0.0,0.0
+glucose,0.0,0.0,0.0
+lactate,0.0,0.0,0.0
+creatinine,0.0,0.0,0.0
+age__missing,0.0,0.0,0.0
+apachescore__missing,0.0,0.0,0.0
+predictedhospitalmortality__missing,0.0,0.0,0.0
+heartrate__missing,0.0,0.0,0.0
+systemicsystolic__missing,0.0,0.0,0.0
+systemicdiastolic__missing,0.0,0.0,0.0
+systemicmean__missing,0.0,0.0,0.0
+respiration__missing,0.0,0.0,0.0
+temperature__missing,0.0,0.0,0.0
+spo2__missing,0.0,0.0,0.0
+albumin__missing,0.0,0.0,0.0
+bun__missing,0.0,0.0,0.0
+glucose__missing,0.0,0.0,0.0
+lactate__missing,0.0,0.0,0.0
+creatinine__missing,0.0,0.0,0.0
+gender_Female,0.0,0.0,0.0
+gender_Male,0.0,0.0,0.0
+gender_Other,0.0,0.0,0.0
+gender_Unknown,0.0,0.0,0.0
+gender_None,0.0,0.0,0.0
+unittype_CCU-CTICU,0.0,0.0,0.0
+unittype_CSICU,0.0,0.0,0.0
+unittype_CTICU,0.0,0.0,0.0
+unittype_Cardiac ICU,0.0,0.0,0.0
+unittype_MICU,0.0,0.0,0.0
+unittype_Med-Surg ICU,0.0,0.0,0.0
+unittype_Neuro ICU,0.0,0.0,0.0
+unittype_SICU,0.0,0.0,0.0
+diagnosis_bucket_None,0.0,0.0,0.0
+diagnosis_bucket_OTHER,0.0,0.0,0.0
+diagnosis_bucket_cardiovascular|arrhythmias|atrial fibrillation,0.0,0.0,0.0
+diagnosis_bucket_cardiovascular|arrhythmias|atrial fibrillation|with rapid ventricular response,0.0,0.0,0.0
+diagnosis_bucket_cardiovascular|cardiac arrest|cardiac arrest,0.0,0.0,0.0
+diagnosis_bucket_cardiovascular|cardiac surgery|CABG < 7days,0.0,0.0,0.0
+diagnosis_bucket_cardiovascular|cardiac surgery|s/p CABG < 7 days,0.0,0.0,0.0
+diagnosis_bucket_cardiovascular|cardiac surgery|valve replacement < 7days,0.0,0.0,0.0
+diagnosis_bucket_cardiovascular|cardiac surgery|valve replacement < 7days|aortic,0.0,0.0,0.0
+diagnosis_bucket_cardiovascular|chest pain / ASHD|acute coronary syndrome,0.0,0.0,0.0
+diagnosis_bucket_cardiovascular|chest pain / ASHD|acute coronary syndrome|acute myocardial infarction (no ST elevation),0.0,0.0,0.0
+diagnosis_bucket_cardiovascular|chest pain / ASHD|acute coronary syndrome|acute myocardial infarction (with ST elevation),0.0,0.0,0.0
+diagnosis_bucket_cardiovascular|chest pain / ASHD|chest pain,0.0,0.0,0.0
+diagnosis_bucket_cardiovascular|chest pain / ASHD|coronary artery disease,0.0,0.0,0.0
+diagnosis_bucket_cardiovascular|chest pain / ASHD|hyperlipidemia,0.0,0.0,0.0
+diagnosis_bucket_cardiovascular|post vascular surgery|s/p cartoid endarterectomy,0.0,0.0,0.0
+diagnosis_bucket_cardiovascular|shock / hypotension|hypotension,0.0,0.0,0.0
+diagnosis_bucket_cardiovascular|shock / hypotension|hypotension / pressor dependent,0.0,0.0,0.0
+diagnosis_bucket_cardiovascular|shock / hypotension|sepsis,0.0,0.0,0.0
+diagnosis_bucket_cardiovascular|shock / hypotension|sepsis|severe,0.0,0.0,0.0
+diagnosis_bucket_cardiovascular|shock / hypotension|septic shock,0.0,0.0,0.0
+diagnosis_bucket_cardiovascular|vascular disorders|hypertension,0.0,0.0,0.0
+diagnosis_bucket_cardiovascular|ventricular disorders|congestive heart failure,0.0,0.0,0.0
+diagnosis_bucket_cardiovascular|ventricular disorders|hypertension,0.0,0.0,0.0
+diagnosis_bucket_endocrine|glucose metabolism|DKA,0.0,0.0,0.0
+diagnosis_bucket_endocrine|glucose metabolism|diabetes mellitus,0.0,0.0,0.0
+diagnosis_bucket_endocrine|glucose metabolism|hyperglycemia,0.0,0.0,0.0
+diagnosis_bucket_gastrointestinal|GI bleeding / PUD|GI bleeding,0.0,0.0,0.0
+diagnosis_bucket_gastrointestinal|GI bleeding / PUD|lower GI bleeding,0.0,0.0,0.0
+diagnosis_bucket_gastrointestinal|GI bleeding / PUD|upper GI bleeding,0.0,0.0,0.0
+diagnosis_bucket_gastrointestinal|abdominal/ general|abdominal pain / tenderness,0.0,0.0,0.0
+diagnosis_bucket_gastrointestinal|post-GI surgery|s/p exploratory laparotomy,0.0,0.0,0.0
+diagnosis_bucket_hematology|bleeding and red blood cell disorders|anemia,0.0,0.0,0.0
+diagnosis_bucket_neurologic|altered mental status / pain|change in mental status,0.0,0.0,0.0
+diagnosis_bucket_neurologic|disorders of vasculature|stroke,0.0,0.0,0.0
+diagnosis_bucket_neurologic|disorders of vasculature|stroke|hemorrhagic stroke,0.0,0.0,0.0
+diagnosis_bucket_neurologic|disorders of vasculature|stroke|ischemic stroke,0.0,0.0,0.0
+diagnosis_bucket_neurologic|seizures|seizures,0.0,0.0,0.0
+diagnosis_bucket_pulmonary|disorders of the airways|COPD,0.0,0.0,0.0
+diagnosis_bucket_pulmonary|disorders of the airways|acute COPD exacerbation,0.0,0.0,0.0
+diagnosis_bucket_pulmonary|disorders of the airways|asthma / bronchospasm,0.0,0.0,0.0
+diagnosis_bucket_pulmonary|disorders of vasculature|pulmonary embolism,0.0,0.0,0.0
+diagnosis_bucket_pulmonary|pulmonary infections|pneumonia,0.0,0.0,0.0
+diagnosis_bucket_pulmonary|respiratory failure|acute respiratory distress,0.0,0.0,0.0
+diagnosis_bucket_pulmonary|respiratory failure|acute respiratory failure,0.0,0.0,0.0
+diagnosis_bucket_pulmonary|respiratory failure|hypoxemia,0.0,0.0,0.0
+diagnosis_bucket_renal|disorder of kidney|ESRD (end stage renal disease),0.0,0.0,0.0
+diagnosis_bucket_renal|disorder of kidney|acute renal failure,0.0,0.0,0.0
+diagnosis_bucket_renal|disorder of kidney|chronic kidney disease,0.0,0.0,0.0
+diagnosis_bucket_renal|disorder of urinary tract / renal system infection|urinary tract infection,0.0,0.0,0.0
+diagnosis_bucket_toxicology|drug overdose|drug overdose- general,0.0,0.0,0.0
