@@ -1,20 +1,16 @@
-\begin{table}
-\caption{Top drifting features (by JS) on the Temporal split.}
-\label{tab:topdrifting-temporal}
-\begin{tabular}{lrrrrrrr}
+\begin{tabular}{lrrrrrr}
 \toprule
-Feature & Type & JS & KS & \$\textbackslash chi\textasciicircum 2\$ & Wasserstein & KS (FDR) & \$\textbackslash chi\textasciicircum 2\$ (FDR) \\
+Feature & Type & JS & KS & Wasserstein & KS (FDR) & $\chi^2$ (FDR) \\
 \midrule
-diagnosis\_bucket\_None & cat & 0.007 &  & 1808.356 &  &  & \$\textbackslash checkmark\$ \\
-respiration\_\_missing & cat & 0.002 &  & 553.234 &  &  & \$\textbackslash checkmark\$ \\
-diagnosis\_bucket\_OTHER & cat & 0.001 &  & 205.010 &  &  & \$\textbackslash checkmark\$ \\
-respiration & cont & 0.001 & 0.026 &  & 0.022 & \$\textbackslash checkmark\$ &  \\
-age & cont & 0.000 & 0.007 &  & 0.011 & \$\textbackslash checkmark\$ &  \\
-temperature & cont & 0.000 & 0.003 &  & 0.024 & \$\textbackslash checkmark\$ &  \\
-spo2 & cont & 0.000 & 0.014 &  & 0.023 & \$\textbackslash checkmark\$ &  \\
-apachescore & cont & 0.000 & 0.009 &  & 0.020 & \$\textbackslash checkmark\$ &  \\
-lactate & cont & 0.000 & 0.010 &  & 0.015 & \$\textbackslash checkmark\$ &  \\
-systemicmean & cont & 0.000 & 0.006 &  & 0.012 & \$\textbackslash checkmark\$ &  \\
+diagnosis_bucket_None & cat & 0.007 &  &  &  & $\checkmark$ \\
+respiration__missing & cat & 0.002 &  &  &  & $\checkmark$ \\
+diagnosis_bucket_OTHER & cat & 0.001 &  &  &  & $\checkmark$ \\
+respiration & cont & 0.001 & 0.026 & 0.022 & $\checkmark$ &  \\
+age & cont & 0.000 & 0.007 & 0.011 & $\checkmark$ &  \\
+temperature & cont & 0.000 & 0.003 & 0.024 & $\checkmark$ &  \\
+spo2 & cont & 0.000 & 0.014 & 0.023 & $\checkmark$ &  \\
+apachescore & cont & 0.000 & 0.009 & 0.020 & $\checkmark$ &  \\
+lactate & cont & 0.000 & 0.010 & 0.015 & $\checkmark$ &  \\
+systemicmean & cont & 0.000 & 0.006 & 0.012 & $\checkmark$ &  \\
 \bottomrule
 \end{tabular}
-\end{table}

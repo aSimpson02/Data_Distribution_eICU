@@ -1,20 +1,16 @@
-\begin{table}
-\caption{Top drifting features (by JS) on the Hospital split.}
-\label{tab:topdrifting-hospital}
-\begin{tabular}{lrrrrrrr}
+\begin{tabular}{lrrrrrr}
 \toprule
-Feature & Type & JS & KS & \$\textbackslash chi\textasciicircum 2\$ & Wasserstein & KS (FDR) & \$\textbackslash chi\textasciicircum 2\$ (FDR) \\
+Feature & Type & JS & KS & Wasserstein & KS (FDR) & $\chi^2$ (FDR) \\
 \midrule
-unittype\_Med-Surg ICU & cat & 0.138 &  & 4745.998 &  &  & \$\textbackslash checkmark\$ \\
-diagnosis\_bucket\_None & cat & 0.102 &  & 6428.389 &  &  & \$\textbackslash checkmark\$ \\
-unittype\_CTICU & cat & 0.059 &  & 6500.678 &  &  & \$\textbackslash checkmark\$ \\
-diagnosis\_bucket\_OTHER & cat & 0.041 &  & 1404.816 &  &  & \$\textbackslash checkmark\$ \\
-unittype\_Cardiac ICU & cat & 0.033 &  & 483.046 &  &  & \$\textbackslash checkmark\$ \\
-unittype\_Neuro ICU & cat & 0.033 &  & 2136.216 &  &  & \$\textbackslash checkmark\$ \\
-unittype\_CCU-CTICU & cat & 0.031 &  & 1973.005 &  &  & \$\textbackslash checkmark\$ \\
-systemicsystolic\_\_missing & cat & 0.029 &  & 1309.885 &  &  & \$\textbackslash checkmark\$ \\
-systemicdiastolic\_\_missing & cat & 0.029 &  & 1308.364 &  &  & \$\textbackslash checkmark\$ \\
-creatinine & cont & 0.029 & 0.172 &  & 0.103 & \$\textbackslash checkmark\$ &  \\
+unittype_Med-Surg ICU & cat & 0.138 &  &  &  & $\checkmark$ \\
+diagnosis_bucket_None & cat & 0.102 &  &  &  & $\checkmark$ \\
+unittype_CTICU & cat & 0.059 &  &  &  & $\checkmark$ \\
+diagnosis_bucket_OTHER & cat & 0.041 &  &  &  & $\checkmark$ \\
+unittype_Cardiac ICU & cat & 0.033 &  &  &  & $\checkmark$ \\
+unittype_Neuro ICU & cat & 0.033 &  &  &  & $\checkmark$ \\
+unittype_CCU-CTICU & cat & 0.031 &  &  &  & $\checkmark$ \\
+systemicsystolic__missing & cat & 0.029 &  &  &  & $\checkmark$ \\
+systemicdiastolic__missing & cat & 0.029 &  &  &  & $\checkmark$ \\
+creatinine & cont & 0.029 & 0.172 & 0.103 & $\checkmark$ &  \\
 \bottomrule
 \end{tabular}
-\end{table}
