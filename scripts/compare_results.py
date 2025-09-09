@@ -10,7 +10,6 @@ REQUIRED_METRIC_COLS = {
     "scenario", "model", "seed", "auroc", "auprc", "brier", "nll", "ece"
 }
 
-# ----- filename helpers -------------------------------------------------------
 
 _FN_RE = re.compile(r"^([a-z0-9_]+)_([a-z0-9]+)_(.+?)_seed(\d+)\.csv$", re.I)
 
@@ -38,7 +37,7 @@ def parse_from_filename(name: str) -> dict:
         out["calib_tag"] = mid_l.split("_")[0]
     return out
 
-# ----- IO + normalization -----------------------------------------------------
+
 
 def is_metrics_csv(p: Path) -> bool:
     """Only 1-row metrics in results/ (exclude preds/, figs/, summaries)."""
@@ -111,7 +110,7 @@ def collect_all(results_dir: Path) -> pd.DataFrame:
     out["model"] = out["model"].astype(str).str.lower()
     return out
 
-# ----- ranking helpers --------------------------------------------------------
+
 
 def best_by(df: pd.DataFrame, group_cols: list[str], metric: str,
             ascending: bool, tie_breaker: tuple[str, bool]) -> pd.DataFrame:
@@ -132,7 +131,7 @@ def best_by(df: pd.DataFrame, group_cols: list[str], metric: str,
     out = pd.DataFrame(outs).drop(columns=[c for c in ["_rk1", "_rk2"] if c in outs[0].index])
     return out.reset_index(drop=True)
 
-# ----- main -------------------------------------------------------------------
+
 
 def main():
     ap = argparse.ArgumentParser()

@@ -64,7 +64,7 @@ def main():
     ap.add_argument("--n_ensembles", type=int, default=8)
     args = ap.parse_args()
 
-    # --- TabPFN import + version-robust constructor (v1 vs v2)
+    # TabPFN import + version-robust constructor (v1 vs v2)
     from tabpfn import TabPFNClassifier
     def build_tabpfn(n_ens: int, device: str):
         try:
@@ -75,7 +75,7 @@ def main():
             except TypeError:
                 return TabPFNClassifier(device=device)
 
-    # --- Monkey-patch the *utils* function that fit() calls
+
     import tabpfn.utils as _tpu
 
     def _safe_validate_Xy_fit(estimator, X, y, *args, **kwargs):
@@ -91,7 +91,7 @@ def main():
     # install our safe function
     _tpu.validate_Xy_fit = _safe_validate_Xy_fit
 
-    # --- Load data
+    # Load data
     tr, va, te = load_three(args.scenario, args.splits_dir)
     tr = drop_leaky(tr, args.label_col)
     va = drop_leaky(va, args.label_col)
@@ -113,7 +113,7 @@ def main():
     # cap training set for TabPFN
     Xtr_c, ytr_c = strat_cap(Xtr, ytr, n=args.cap_train, seed=args.seed)
 
-    # --- Build + fit
+    # Build + fit
     clf = build_tabpfn(args.n_ensembles, args.device)
     clf.fit(Xtr_c.to_numpy(), ytr_c)
 

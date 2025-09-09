@@ -22,7 +22,7 @@ from src.feats.selector import FeaturePolicy
 from scripts.build_models import build_model
 
 
-# --- constants / helpers ---
+
 DROP = {
     "patientunitstayid","hospitalid","hospitaldischargeyear",
     "apachescore","predictedhospitalmortality","admissionoffset"
@@ -64,7 +64,7 @@ def choose_features(df: pd.DataFrame, label_col: str):
     return keep
 
 
-# --- arg parsing ---
+
 def parse_args():
     p = argparse.ArgumentParser()
     p.add_argument("--scenario", required=True, choices=list(STEM.keys()))
@@ -107,7 +107,7 @@ def parse_args():
     return p.parse_args()
 
 
-# --- main ---
+
 def main():
     args = parse_args()
     stem = STEM[args.scenario]
@@ -270,12 +270,11 @@ def main():
               f"| keep={single_keep:.2f} → AUROC(all)={met_all['auroc']:.4f}"
               + (f", AUROC(keep)={met_keep['auroc']:.4f}" if met_keep else ""))
 
-    # Optional sweep over keep rates for plotting
+    # optional sweep over keep rates for plotting
     if args.sweep:
         sweep_fracs = [1.0, 0.9, 0.8, 0.6, 0.4]  # kept fractions
         rows = []
         for kf in sweep_fracs:
-            # convert to abstain fraction for reuse
             target_abstain = 1.0 - kf
             keep_mask, tau_used = apply_abstention(unc, target_abstain, None)
             met_keep = pack_metrics(yte[keep_mask], p_mean[keep_mask]) if keep_mask.any() else {}
@@ -289,7 +288,7 @@ def main():
         df_sweep.to_csv(out_pred_dir / f"{stemname}.csv", index=False)
         print(f"[UQ] sweep saved → {out_pred_dir / (stemname + '.csv')}")
 
-    # Also save the full-test per-patient outputs (no abstention), handy for post-hoc plots
+    
     df_all = pd.DataFrame({
         "idx": np.arange(len(p_mean)),
         "y": yte,

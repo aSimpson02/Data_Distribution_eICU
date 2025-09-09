@@ -26,7 +26,7 @@ from src.data.io import load_three, drop_leaky
 from src.feats.selector import FeaturePolicy
 
 
-# ----------------------------- helpers -----------------------------
+
 
 def strat_cap(X: pd.DataFrame, y: np.ndarray, n: int, seed: int = 42):
     if len(X) <= n:
@@ -118,7 +118,7 @@ def ece(y, p, bins=20) -> float:
     return float(out)
 
 
-# ------------------------------- main ------------------------------
+
 
 def main():
     ap = argparse.ArgumentParser()

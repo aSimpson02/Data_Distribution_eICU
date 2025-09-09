@@ -37,14 +37,13 @@ def guess_label(df: pd.DataFrame) -> str:
 def read_any_one(paths: list[Path]) -> pd.DataFrame:
     if not paths:
         raise FileNotFoundError("No candidate files found.")
-    # prefer shortest name (often the canonical export)
     p = sorted(paths, key=lambda x: len(x.name))[0]
     return pd.read_parquet(p), p
 
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--yaib_dir", required=True)
-    ap.add_argument("--stem", default="yaib")  # file stem, e.g. random/temporal/hospital
+    ap.add_argument("--stem", default="yaib")  
     ap.add_argument("--label_out", default="hospital_mortality")
     ap.add_argument("--outdir", default="data/csv_splits")
     args = ap.parse_args()
