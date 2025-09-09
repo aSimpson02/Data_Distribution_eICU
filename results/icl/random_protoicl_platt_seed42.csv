@@ -1,0 +1,2 @@
+scenario,model,seed,source,calib,calib_tag,feat,feat_select,n_features,auroc,auprc,brier,nll,ece,tau,f1_at_tau,balacc_at_tau,file
+random,protoicl,42,icl,platt,platt,none,none,92,0.8029658308237624,0.4021513780488667,0.0674711999114848,0.24788051090254926,0.022136849768021247,0.5,0.27770419426048565,0.5832352403090082,random_protoicl_platt_seed42.csv

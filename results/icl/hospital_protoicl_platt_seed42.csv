@@ -1,0 +1,2 @@
+scenario,model,seed,source,calib,calib_tag,feat,feat_select,n_features,auroc,auprc,brier,nll,ece,tau,f1_at_tau,balacc_at_tau,file
+hospital,protoicl,42,icl,platt,platt,none,none,92,0.8055456915928744,0.46843385495697554,0.06772222968936648,0.24744672959015948,0.02200198594829407,0.5,0.3075060532687651,0.5926345946817053,hospital_protoicl_platt_seed42.csv

@@ -1,0 +1,2 @@
+scenario,model,seed,auprc_none,auroc_none,brier_none,ece_none,nll_none
+hospital,tabfm,42,0.4880090350818793,0.8528441474116389,0.068854160300283,0.0333149068480781,0.2402832414427569

@@ -1,0 +1,2 @@
+scenario,model,seed,source,calib,calib_tag,feat,feat_select,n_features,auroc,auprc,brier,nll,ece,tau,f1_at_tau,balacc_at_tau,file
+temporal,protoicl,42,icl,platt,platt,none,none,92,0.8069694104822139,0.396760968156089,0.06883509419531668,0.2508311989405506,0.025218122464360664,0.5,0.26188462189138895,0.5773214048268482,temporal_protoicl_platt_seed42.csv
