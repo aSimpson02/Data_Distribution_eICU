@@ -1,0 +1,2 @@
+scenario,Htgt,model,seed,source,calib,calib_tag,feat,feat_select,n_features,auroc,auprc,brier,nll,ece,tau,f1_at_tau,balacc_at_tau
+hospital,hospital,xgb,42,tuned,platt,platt,vif_rfe,vif_rfe,64,0.9058486063391914,0.6457337788702008,0.055262298761928196,0.20233533737478718,0.02321844443152176,0.5,0.5589600742804085,0.716850019254247
