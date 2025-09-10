@@ -12,7 +12,6 @@ from scipy.spatial.distance import jensenshannon
 from sklearn.decomposition import PCA
 from sklearn.preprocessing import StandardScaler
 
-# ---------- discovery ----------
 
 def find_candidate_split_dirs(root: str):
     rootp = Path(root)
@@ -47,7 +46,6 @@ def pick_split_files(split_dir: Path):
         raise FileNotFoundError(f"No train/test CSV under {split_dir}")
     return {"train": train, "val": val, "test": test}
 
-# ---------- stats ----------
 
 def _safe_hist(a, b, bins=30, eps=1e-12):
     p, edges = np.histogram(a, bins=bins, density=True)
@@ -103,7 +101,7 @@ def bh_fdr(pvals, q=0.05):
         disc = np.zeros_like(p, dtype=bool)
     return disc
 
-# ---------- computations ----------
+
 
 POSSIBLE_LABELS = [
     "label","y","y_true","target","mortality","hospital_mortality",
@@ -210,7 +208,7 @@ def pca_plot(train_X, test_X, outpath, title):
     plt.legend(); plt.title(title); plt.tight_layout()
     plt.savefig(outpath, dpi=220); plt.close()
 
-# ---------- one split ----------
+
 
 def run_one_split(split_name: str, split_dir: Path, preds_csv: str, outdir: Path, label_col="label", ignore_cols=("id",)):
     outdir.mkdir(parents=True, exist_ok=True)
@@ -273,7 +271,7 @@ def run_one_split(split_name: str, split_dir: Path, preds_csv: str, outdir: Path
             f"PCA: {split_name} (source vs target)"
         )
 
-# ---------- CLI ----------
+
 
 def main():
     ap = argparse.ArgumentParser()

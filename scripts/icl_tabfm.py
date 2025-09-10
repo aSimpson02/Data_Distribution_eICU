@@ -1,153 +1,125 @@
 #!/usr/bin/env python3
 from __future__ import annotations
-from pathlib import Path
+
+import os
+os.environ["TABPFN_ALLOW_CPU_LARGE_DATASET"] = "1"  # must be set before import
+
 import argparse
+from pathlib import Path
 import numpy as np
 import pandas as pd
-from sklearn.calibration import CalibratedClassifierCV
-from sklearn.metrics import (
-    roc_auc_score, average_precision_score, brier_score_loss, log_loss,
-    f1_score, balanced_accuracy_score
-)
+
+from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import StratifiedShuffleSplit
+from sklearn.metrics import roc_auc_score, brier_score_loss, log_loss, accuracy_score
 
-# local imports
-from pathlib import Path as _Path
-import sys as _sys
-_sys.path.insert(0, str(_Path(__file__).resolve().parents[1]))
-from src.data.io import load_three, drop_leaky
-from src.feats.selector import FeaturePolicy
+from tabpfn import TabPFNClassifier
 
 
-def strat_cap(X: pd.DataFrame, y: np.ndarray, n: int, seed: int = 42):
-    """Stratified cap to at most n rows, preserving class balance."""
-    if len(X) <= n:
+def parse_args():
+    p = argparse.ArgumentParser("ICL TabPFN (CPU-safe, val-calibrated)")
+    p.add_argument("--scenario", required=True, choices=["random", "temporal", "hospital"])
+    p.add_argument("--label_col", required=True)
+    p.add_argument("--splits_dir", default="data/csv_splits")
+    p.add_argument("--results_dir", default="results")
+    p.add_argument("--cap", type=int, default=600, help="Max support samples for CPU (<=1000)")
+    p.add_argument("--seed", type=int, default=42)
+    return p.parse_args()
+
+
+LEAK = {"apachescore", "predictedhospitalmortality"}
+STEM = {"random": "random", "temporal": "temporal", "hospital": "hospital"}
+
+def ece(y, p, bins=20):
+    y = np.asarray(y).astype(int); p = np.asarray(p)
+    edges = np.linspace(0, 1, bins + 1); e = 0.0
+    for i in range(bins):
+        lo, hi = edges[i], edges[i+1]
+        m = (p >= lo) & (p < (hi if i < bins-1 else hi + 1e-12))
+        if m.any():
+            e += m.mean() * abs(y[m].mean() - p[m].mean())
+    return float(e)
+
+def load_three(stem: str, splits_dir: str, label_col: str):
+    d = Path(splits_dir)
+    tr = pd.read_csv(d / f"{stem}_train.csv")
+    va = pd.read_csv(d / f"{stem}_val.csv")
+    te = pd.read_csv(d / f"{stem}_test.csv")
+    # drop obvious leakage + IDs (kept simple and consistent with your pipeline)
+    def prep(df: pd.DataFrame):
+        df = df.copy()
+        num = df.select_dtypes(include=[np.number])
+        drop = {label_col} | LEAK | {c for c in num.columns if "id" in c.lower()}
+        keep_num = [c for c in num.columns if c not in drop]
+        # allow diagnosis_bucket_* engineered dummies (if present)
+        diag = [c for c in df.columns if str(c).startswith("diagnosis_bucket_")]
+        X = pd.concat([df[keep_num], df[diag]], axis=1)
+        y = df[label_col].astype(int).to_numpy()
         return X, y
-    sss = StratifiedShuffleSplit(n_splits=1, train_size=n, random_state=seed)
+    Xtr, ytr = prep(tr); Xva, yva = prep(va); Xte, yte = prep(te)
+    return Xtr, ytr, Xva, yva, Xte, yte
+
+def cap_stratified(X, y, n_max=600, seed=42):
+    if len(y) <= n_max:
+        return X, y
+    sss = StratifiedShuffleSplit(n_splits=1, train_size=n_max, random_state=seed)
     idx, _ = next(sss.split(X, y))
     return X.iloc[idx], y[idx]
 
 
-def chunked_predict_proba(model, X, batch=1024) -> np.ndarray:
-    """Predict in batches to avoid RAM spikes."""
-    Xv = X.values if hasattr(X, "values") else X
-    outs = []
-    for i in range(0, len(Xv), batch):
-        outs.append(model.predict_proba(Xv[i:i + batch]))
-    return np.vstack(outs)
-
-
-def ece(y, p, bins=20) -> float:
-    y = np.asarray(y).astype(int)
-    p = np.asarray(p)
-    edges = np.linspace(0, 1, bins + 1)
-    out = 0.0
-    for i in range(bins):
-        lo, hi = edges[i], edges[i + 1]
-        m = (p >= lo) & (p < (hi if i < bins - 1 else hi))
-        if m.any():
-            out += m.mean() * abs(y[m].mean() - p[m].mean())
-    return float(out)
-
-
 def main():
-    ap = argparse.ArgumentParser()
-    ap.add_argument("--scenario", required=True, choices=["random", "temporal", "hospital"])
-    ap.add_argument("--label_col", default="hospital_mortality")
-    ap.add_argument("--splits_dir", default="data/csv_splits")
-    ap.add_argument("--results_dir", default="results/icl")
-    ap.add_argument("--device", default="cpu", choices=["cpu", "cuda"])
-    ap.add_argument("--cap_train", type=int, default=4000)
-    ap.add_argument("--calib", nargs="+", default=["none", "platt"], choices=["none", "platt"])
-    ap.add_argument("--seed", type=int, default=42)
-    ap.add_argument("--batch", type=int, default=1024)
-    ap.add_argument("--n_ensembles", type=int, default=8)
-    args = ap.parse_args()
+    a = parse_args()
+    stem = STEM[a.scenario]
 
-    # TabPFN import + version-robust constructor (v1 vs v2)
-    from tabpfn import TabPFNClassifier
-    def build_tabpfn(n_ens: int, device: str):
-        try:
-            return TabPFNClassifier(n_estimators=n_ens, device=device)                      # v2+
-        except TypeError:
-            try:
-                return TabPFNClassifier(N_ensemble_configurations=n_ens, device=device)     # v1
-            except TypeError:
-                return TabPFNClassifier(device=device)
+    # load
+    Xtr, ytr, Xva, yva, Xte, yte = load_three(stem, a.splits_dir, a.label_col)
 
+    # CPU-safe cap (<=1000) and float32 arrays
+    Xtr_c, ytr_c = cap_stratified(Xtr, ytr, n_max=a.cap, seed=a.seed)
+    Xtr_np = Xtr_c.to_numpy(dtype=np.float32, copy=False)
+    Xva_np = Xva.to_numpy(dtype=np.float32, copy=False)
+    Xte_np = Xte.to_numpy(dtype=np.float32, copy=False)
 
-    import tabpfn.utils as _tpu
+    # TabPFN (CPU) with limits disabled
+    clf = TabPFNClassifier(device="cpu", ignore_pretraining_limits=True)
+    clf.fit(Xtr_np, ytr_c)
 
-    def _safe_validate_Xy_fit(estimator, X, y, *args, **kwargs):
-        """
-        Replacement for tabpfn.utils.validate_Xy_fit that *does not* call
-        estimator._validate_data (which some wheels don't define).
-        Returns the 4-tuple expected by classifier.fit():
-            (X, y, feature_names_in, n_features_in)
-        """
-        Xv = np.asarray(X)
-        return (Xv, y, None, Xv.shape[1])
+    # probs on VAL (for calibration) and TEST
+    pv = clf.predict_proba(Xva_np)[:, 1]
+    pt = clf.predict_proba(Xte_np)[:, 1]
 
-    # install our safe function
-    _tpu.validate_Xy_fit = _safe_validate_Xy_fit
+    # Platt on VAL (no sklearn CalibratedCV to avoid warnings)
+    pl = LogisticRegression(solver="lbfgs", max_iter=1000, random_state=a.seed)
+    pl.fit(pv.reshape(-1, 1), yva)
+    pt_pl = pl.predict_proba(pt.reshape(-1, 1))[:, 1]
 
-    # Load data
-    tr, va, te = load_three(args.scenario, args.splits_dir)
-    tr = drop_leaky(tr, args.label_col)
-    va = drop_leaky(va, args.label_col)
-    te = drop_leaky(te, args.label_col)
-
-    ytr = tr[args.label_col].astype(int).values
-    yva = va[args.label_col].astype(int).values
-    yte = te[args.label_col].astype(int).values
-
-    # feature policy (same as baseline)
-    start = [c for c in tr.columns if c != args.label_col]
-    policy = FeaturePolicy(feat_select="none", missing_thresh=0.40).fit(
-        tr[[args.label_col] + start], label_col=args.label_col
+    # metrics (base)
+    base = dict(
+        auroc=float(roc_auc_score(yte, pt)),
+        ece=float(ece(yte, pt)),
+        brier=float(brier_score_loss(yte, pt)),
+        nll=float(log_loss(yte, pt, labels=[0, 1])),
+        acc=float(accuracy_score(yte, (pt >= 0.5).astype(int))),
     )
-    Xtr = policy.transform(tr)
-    Xva = policy.transform(va)
-    Xte = policy.transform(te)
+    # metrics (platt)
+    pl_m = dict(
+        auroc=float(roc_auc_score(yte, pt_pl)),
+        ece=float(ece(yte, pt_pl)),
+        brier=float(brier_score_loss(yte, pt_pl)),
+        nll=float(log_loss(yte, pt_pl, labels=[0, 1])),
+        acc=float(accuracy_score(yte, (pt_pl >= 0.5).astype(int))),
+    )
 
-    # cap training set for TabPFN
-    Xtr_c, ytr_c = strat_cap(Xtr, ytr, n=args.cap_train, seed=args.seed)
-
-    # Build + fit
-    clf = build_tabpfn(args.n_ensembles, args.device)
-    clf.fit(Xtr_c.to_numpy(), ytr_c)
-
-    results_dir = Path(args.results_dir); results_dir.mkdir(parents=True, exist_ok=True)
+    # write preds where your plotting expects them
+    results_dir = Path(a.results_dir); results_dir.mkdir(parents=True, exist_ok=True)
     preds_dir = results_dir / "preds"; preds_dir.mkdir(parents=True, exist_ok=True)
 
-    for calib in args.calib:
-        if calib == "none":
-            p = chunked_predict_proba(clf, Xte, batch=args.batch)[:, 1]
-        else:
-            cal = CalibratedClassifierCV(clf, method="sigmoid", cv="prefit")
-            cal.fit(Xva.to_numpy(), yva)
-            p = chunked_predict_proba(cal, Xte, batch=args.batch)[:, 1]
+    pd.DataFrame({"y_true": yte, "p": pt}).to_csv(preds_dir / f"{stem}_tabpfn_none_seed{a.seed}.csv", index=False)
+    pd.DataFrame({"y_true": yte, "p": pt_pl}).to_csv(preds_dir / f"{stem}_tabpfn_platt_seed{a.seed}.csv", index=False)
 
-        yhat = (p >= 0.5).astype(int)
-        pred_path = preds_dir / f"{args.scenario}_tabpfn_{calib}_seed{args.seed}.csv"
-        pd.DataFrame({"y_true": yte, "p": p}).to_csv(pred_path, index=False)
-
-        row = dict(
-            scenario=args.scenario, model="tabpfn", seed=args.seed, source="icl",
-            calib=calib, calib_tag=calib, feat="none", feat_select="none",
-            n_features=len(policy.selected_features_),
-            auroc=roc_auc_score(yte, p), auprc=average_precision_score(yte, p),
-            brier=brier_score_loss(yte, p), nll=log_loss(yte, p, labels=[0, 1]),
-            ece=ece(yte, p), tau=0.5, f1_at_tau=f1_score(yte, yhat),
-            balacc_at_tau=balanced_accuracy_score(yte, yhat),
-            file=pred_path.name
-        )
-        pd.DataFrame([row]).to_csv(
-            results_dir / f"{args.scenario}_tabpfn_{calib}_seed{args.seed}.csv",
-            index=False
-        )
-        print(f"[OK][ICL-TabPFN] {args.scenario} | {calib} -> AUROC={row['auroc']:.4f}, ECE={row['ece']:.4f}")
-
+    print(f"[ICL][TabPFN][{a.scenario}] cap={len(ytr_c)}  "
+          f"BASE AUC={base['auroc']:.4f} ECE={base['ece']:.4f} | "
+          f"PLATT AUC={pl_m['auroc']:.4f} ECE={pl_m['ece']:.4f}")
 
 if __name__ == "__main__":
     main()

@@ -1,0 +1,2 @@
+scenario,model,seed,source,calib,calib_tag,feat,feat_select,n_features,auroc,auprc,brier,nll,ece,tau,f1_at_tau,balacc_at_tau,file
+hospital,tabpfn,42,icl,none,none,none,none,92,0.85687816980653,0.4968115149824709,0.06782298006447528,0.23574944685987065,0.029480736128503535,0.5,0.1876675603217158,0.551769329436886,hospital_tabpfn_none_seed42.csv
