@@ -1,66 +1,94 @@
 #!/usr/bin/env bash
+set -Eeuo pipefail
+
+# --- Config (override via env) ---
+PY="${VENV_PY:-./.venv/Scripts/python.exe}"
+SCENARIOS="${SCENARIOS:-random temporal hospital}"
+LABEL_COL="${LABEL_COL:-hospital_mortality}"
+SPLITS_DIR="${SPLITS_DIR:-data/csv_splits}"
+RESULTS_DIR="${RESULTS_DIR:-results}"
+FEAT_SELECT="${FEAT_SELECT:-none}"    # none | vif | rfe | vif_rfe
+VIF_THRESH="${VIF_THRESH:-10.0}"
+RFE_KEEP="${RFE_KEEP:-64}"
+RUN_PLOTS="${RUN_PLOTS:-1}"
+RUN_SHIFT="${RUN_SHIFT:-1}"
+# ----------------------------------
+
+# UTF-8 + make src importable
+export PYTHONUTF8=1 PYTHONIOENCODING=utf-8 LANG=C.UTF-8 LC_ALL=C.UTF-8
 export PYTHONPATH="$(pwd):${PYTHONPATH:-}"
-set -euo pipefail
+[ -f src/__init__.py ] || : > src/__init__.py
+[ -f src/feats/__init__.py ] || : > src/feats/__init__.py
 
-# Make Windows terminals behave
-export PYTHONUTF8=1
-export PYTHONIOENCODING=utf-8
-export LANG=C.UTF-8
-export LC_ALL=C.UTF-8
+say(){ echo -e "\n>>> $*\n"; }
+exists(){ [[ -f "$1" ]]; }
 
-# ----------------- Config -----------------
-SCENARIOS=("random" "temporal" "hospital")
-MODELS=("lr" "rf" "xgb" "lgbm")
-CALIBS=("none" "platt")
-SEEDS=(42)
-LABEL="hospital_mortality"
-SPLITS_DIR="data/csv_splits"
-RESULTS_DIR="results"
-# ------------------------------------------
+say "Python sanity"
+"$PY" - <<'PY'
+import sys, importlib
+print("python:", sys.version)
+print("exe    :", sys.executable)
+for m in ("numpy","pandas","sklearn","lightgbm"):
+    try: importlib.import_module(m); print(m,"OK")
+    except Exception as e: print(m,"MISSING:",e)
+PY
 
-echo "[1/6] Evaluating (no-tune) ..."
-for s in "${SCENARIOS[@]}"; do
-  python scripts/eval_no_tune.py \
-    --scenario "$s" \
-    --models "${MODELS[@]}" \
-    --seeds "${SEEDS[@]}" \
-    --label_col "$LABEL" \
-    --splits_dir "$SPLITS_DIR" \
-    --results_dir "$RESULTS_DIR"
-done
+# 1) No-tune
+if exists scripts/eval_no_tune.py; then
+  for S in $SCENARIOS; do
+    say "eval_no_tune.py --scenario $S"
+    "$PY" scripts/eval_no_tune.py \
+      --scenario "$S" \
+      --label_col "$LABEL_COL" \
+      --splits_dir "$SPLITS_DIR" \
+      --results_dir "$RESULTS_DIR" \
+      --feat_select "$FEAT_SELECT" \
+      --vif_thresh "$VIF_THRESH" \
+      --rfe_keep "$RFE_KEEP"
+  done
+else
+  echo "SKIP: scripts/eval_no_tune.py not found"
+fi
 
-echo "[2/6] Tuning + calibration (val) ..."
-for s in "${SCENARIOS[@]}"; do
-  python scripts/tune_with_val.py \
-    --scenario "$s" \
-    --models "${MODELS[@]}" \
-    --calib "${CALIBS[@]}" \
-    --seeds "${SEEDS[@]}" \
-    --label_col "$LABEL" \
-    --splits_dir "$SPLITS_DIR" \
-    --results_dir "$RESULTS_DIR"
-done
+# 2) Calibrated (train→val→test)
+if exists scripts/tune_with_val.py; then
+  for S in $SCENARIOS; do
+    say "tune_with_val.py --scenario $S"
+    "$PY" scripts/tune_with_val.py \
+      --scenario "$S" \
+      --label_col "$LABEL_COL" \
+      --splits_dir "$SPLITS_DIR" \
+      --results_dir "$RESULTS_DIR" \
+      --feat_select "$FEAT_SELECT" \
+      --vif_thresh "$VIF_THRESH" \
+      --rfe_keep "$RFE_KEEP"
+  done
+else
+  echo "SKIP: scripts/tune_with_val.py not found"
+fi
 
-echo "[3/6] Consolidating results ..."
-python scripts/compare_results.py || true
-python scripts/make_compare_all_scores.py
+# 3) Consolidate & plots (if present)
+if exists scripts/compare_results.py; then
+  say "compare_results.py"
+  "$PY" scripts/compare_results.py
+fi
 
-echo "[4/6] Calibration plots from per-example predictions ..."
-python scripts/make_calibration_plots.py --all
+if [[ "$RUN_PLOTS" == "1" ]]; then
+  if exists scripts/make_compare_all_scores.py; then
+    say "make_compare_all_scores.py"; "$PY" scripts/make_compare_all_scores.py
+  fi
+  if exists scripts/plot_compare_all_scores.py; then
+    say "plot_compare_all_scores.py"; "$PY" scripts/plot_compare_all_scores.py
+  fi
+  if exists scripts/make_calibration_plots.py; then
+    say "make_calibration_plots.py"; "$PY" scripts/make_calibration_plots.py
+  fi
+fi
 
-echo "[5/6] Score comparison plots (grouped + deltas) ..."
-python scripts/plot_compare_all_scores.py --metrics auroc ece brier nll auprc
+# 4) Shift diagnostics (optional)
+if [[ "$RUN_SHIFT" == "1" ]] && exists scripts/shift_diagnostics.py; then
+  say "shift_diagnostics.py"
+  "$PY" scripts/shift_diagnostics.py || echo "shift_diagnostics.py returned non-zero (continuing)"
+fi
 
-echo "[6/6] Shift diagnostics + LaTeX tables ..."
-python scripts/shift_diagnostics.py --split random   --label_col "$LABEL" --splits_dir "$SPLITS_DIR"
-python scripts/shift_diagnostics.py --split temporal --label_col "$LABEL" --splits_dir "$SPLITS_DIR"
-python scripts/shift_diagnostics.py --split hospital --label_col "$LABEL" --splits_dir "$SPLITS_DIR"
-python scripts/make_latex_tables.py
-
-echo "All done. See:"
-echo " - results/ (CSV metrics)"
-echo " - results/preds/ (per-example preds)"
-echo " - results/figs/calibration/ (reliability curves)"
-echo " - results/figs/compare/ (grouped + delta charts)"
-echo " - results/shift/ (*.csv shift diagnostics)"
-echo " - results/tables/ (LaTeX tables to \\input)"
+say "DONE. Outputs in $RESULTS_DIR/"

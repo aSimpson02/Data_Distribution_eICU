@@ -1,0 +1,2 @@
+scenario,Htgt,model,seed,source,calib,calib_tag,feat,feat_select,n_features,auroc,auprc,brier,nll,ece,tau,f1_at_tau,balacc_at_tau
+random,random,xgb,42,tuned,none,none,vif_rfe,vif_rfe,64,0.8916908583730463,0.5753544324751094,0.05480314718294081,0.19372860836806188,0.005098741300477146,0.5,0.46533713200379867,0.6640896177495623

@@ -23,6 +23,8 @@ sys.path.insert(0, str(_Path(__file__).resolve().parents[1]))
 from src.data.io import load_three, drop_leaky
 from src.feats.selector import FeaturePolicy
 from scripts.build_models import build_model, get_model_names
+# NEW: VIF/RFE hooks
+from src.feature_select import apply_vif, apply_rfe
 
 PREDICTOR_DROP = set()  # now handled in drop_leaky
 
@@ -43,12 +45,16 @@ def parse_args():
     p.add_argument("--label_col", required=True)
     p.add_argument("--splits_dir", default="data/csv_splits")
     p.add_argument("--results_dir", default="results")
+    # NEW: feature selection flags (default = off / none)
+    p.add_argument("--feat_select", choices=["none","vif","rfe","vif_rfe"], default="none")
+    p.add_argument("--vif_thresh", type=float, default=10.0)
+    p.add_argument("--rfe_keep", type=int, default=64)
     return p.parse_args()
 
 def choose_features(df: pd.DataFrame, label_col: str):
     keep=[]
     for c in df.columns:
-        if c == label_col: 
+        if c == label_col:
             continue
         if pd.api.types.is_numeric_dtype(df[c]) or str(c).startswith("diagnosis_bucket_"):
             keep.append(c)
@@ -84,12 +90,26 @@ def main():
     ytr = tr[a.label_col].astype(int).values
     yte = te[a.label_col].astype(int).values
 
+    # base feature policy (missingness etc.) -> numeric frame
     start = choose_features(tr, a.label_col)
     policy = FeaturePolicy(feat_select="none", missing_thresh=0.40).fit(
         tr[[a.label_col] + start], label_col=a.label_col
     )
     Xtr = policy.transform(tr)
     Xte = policy.transform(te)
+
+    # VIF → RFE (train-only)
+    kept_cols = list(Xtr.columns)
+    if a.feat_select in ("vif", "vif_rfe"):
+        Xtr, kept_cols, _ = apply_vif(Xtr, thresh=a.vif_thresh)
+        Xte = Xte[kept_cols]
+        print(f"[VIF] kept {len(kept_cols)} features (thresh={a.vif_thresh})")
+    if a.feat_select in ("rfe", "vif_rfe"):
+        Xtr, kept_cols, _ = apply_rfe(Xtr, ytr, n_out=a.rfe_keep, standardize=True)
+        Xte = Xte[kept_cols]
+        print(f"[RFE] kept {len(kept_cols)} features (n_out={a.rfe_keep})")
+    # no val set in no-tune; selection is train-only then applied to test
+    
 
     results_dir = Path(a.results_dir); results_dir.mkdir(parents=True, exist_ok=True)
 
@@ -121,8 +141,8 @@ def main():
                 calib="none",
                 calib_tag="notuned",
                 feat="notuned",
-                feat_select="none",
-                n_features=len(policy.selected_features_),
+                feat_select=a.feat_select,
+                n_features=len(kept_cols),
                 auroc=roc_auc_score(yte, p),
                 auprc=average_precision_score(yte, p),
                 brier=brier_score_loss(yte, p),
