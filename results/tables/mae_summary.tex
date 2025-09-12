@@ -1,0 +1,23 @@
+\begin{table}[H]
+\centering
+\caption{MAE (probability error) across splits and headline configurations. Lower is better.}
+\label{tab:mae-summary}
+\begin{tabular}{l l l r}
+\toprule
+Split & Model & Calib & MAE \\
+\midrule
+Hospital & LGBM & None & 0.1074 \\
+Hospital & LR & Platt & 0.1142 \\
+Hospital & RF & None & 0.1557 \\
+Hospital & XGB & None & 0.1055 \\
+Random & LGBM & None & 0.1082 \\
+Random & LR & Platt & 0.1169 \\
+Random & RF & None & 0.1554 \\
+Random & XGB & None & 0.1066 \\
+Temporal & LGBM & None & 0.1088 \\
+Temporal & LR & Platt & 0.1181 \\
+Temporal & RF & None & 0.1589 \\
+Temporal & XGB & None & 0.1071 \\
+\bottomrule
+\end{tabular}
+\end{table}

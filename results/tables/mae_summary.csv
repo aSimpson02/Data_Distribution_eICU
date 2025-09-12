@@ -1,0 +1,13 @@
+split,model,calib,mae
+hospital,lgbm,none,0.10735092665445865
+hospital,lr,platt,0.11419632882773964
+hospital,rf,none,0.15567219833084653
+hospital,xgb,none,0.10550602982910046
+random,lgbm,none,0.10820516938521983
+random,lr,platt,0.11687785033469551
+random,rf,none,0.15544822840432748
+random,xgb,none,0.10658779164191158
+temporal,lgbm,none,0.10879627891784655
+temporal,lr,platt,0.11805065285294607
+temporal,rf,none,0.1589134510756921
+temporal,xgb,none,0.10713682387720173
