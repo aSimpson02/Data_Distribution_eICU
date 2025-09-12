@@ -1,0 +1,9 @@
+split,model,calib,w_pred,js_pred,delta_entropy
+temporal,lr,none,0.0,0.0,0.0
+temporal,lr,platt,0.0,0.0,0.0
+temporal,rf,none,0.0,0.0,0.0
+temporal,rf,platt,0.0,0.0,0.0
+temporal,xgb,none,0.0,0.0,0.0
+temporal,xgb,platt,0.0,0.0,0.0
+temporal,lgbm,none,0.0,0.0,0.0
+temporal,lgbm,platt,0.0,0.0,0.0
